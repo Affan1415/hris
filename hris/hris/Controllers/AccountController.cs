@@ -2,7 +2,7 @@
 using System.Linq;
 using hris.Models.Authenticaton.login;
 using Microsoft.AspNetCore.Mvc;
-using hris.Controllers;
+using hris.Models;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Logging;
 
@@ -28,24 +28,29 @@ public class AccountController : Controller
     [HttpPost]
     public IActionResult Login(loginmodel model)
     {
-        return RedirectToAction("admindashboard", "HR");
+       // return RedirectToAction("admindashboard", "HR");
         if (ModelState.IsValid)
         {
 
-            var user = _context.LoginTable.Where(u => u.Email == model.Email && u.PasswordHash == model.PasswordHash).FirstOrDefault(); 
-			
+            var user = _context.LoginTable.Where(u => u.Email == model.Email && u.PasswordHash == model.PasswordHash).FirstOrDefault();
 
-			if (user != null)
+
+            if (user != null)
             {
-                // Authentication successful
-                // Redirect to dashboard or perform necessary actions
-                //Response.Redirect("./Views/HR/admindashboard.cshtml");
-                //Response.WriteAsync("<script>alert('Error in login')</script>");
-                //return View(admindashboard);
-                //return View("Views/HR/");
-                
+                if (user._type == "hr")
+                {
+                    return RedirectToAction("admindashboard", "HR", new { employeeId = user.employeeid });
+                }
+                else if (user._type == "emp")
+                {
+                    return RedirectToAction("employeedashboard", "employee", new { employeeId = user.employeeid });
+                }
+                else if (user._type == "pm")
+                {
+                    return RedirectToAction("projectManagerdashboard", "projectManager", new { employeeId = user.employeeid });
+                }
             }
-			else
+            else
             {
                 ModelState.AddModelError(string.Empty, "Invalid login attempt");
                 return View();

@@ -1,4 +1,5 @@
 ﻿using hris.Models.Authenticaton.login;
+using hris.Models;
 using Microsoft.EntityFrameworkCore;
 
 public class ApplicationDbContext : DbContext
@@ -7,5 +8,6 @@ public class ApplicationDbContext : DbContext
 
 
     public DbSet<loginmodel> LoginTable { get; set; }
+    public DbSet<EmployeeData> EmployeeData { get; set; }
 
 }

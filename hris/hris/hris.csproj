@@ -8,6 +8,7 @@
 
   <ItemGroup>
     <Content Remove="Views\HR\admindashboard.cshtml" />
+    <Content Remove="Views\projectManager\projectManagerdashboard.cshtml" />
   </ItemGroup>
 
   <ItemGroup>
@@ -22,11 +23,11 @@
 
   <ItemGroup>
     <Folder Include="Views\employee\" />
-    <Folder Include="Views\projectManager\" />
   </ItemGroup>
 
   <ItemGroup>
     <None Include="Views\HR\admindashboard.cshtml" />
+    <None Include="Views\projectManager\projectManagerdashboard.cshtml" />
   </ItemGroup>
 
 </Project>
