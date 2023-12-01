@@ -12,7 +12,7 @@ build_property.RootNamespace = hris
 build_property.ProjectDir = D:\git projects\hris\hris\hris\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
-build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = true
 build_property.MSBuildProjectDirectory = D:\git projects\hris\hris\hris
 build_property._RazorSourceGeneratorDebug = 
 
