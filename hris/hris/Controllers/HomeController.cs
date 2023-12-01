@@ -1,7 +1,6 @@
 ﻿using hris.Models;
 using Microsoft.AspNetCore.Mvc;
 using System.Diagnostics;
-
 namespace hris.Controllers
 {
     public class HomeController : Controller
@@ -20,12 +19,9 @@ namespace hris.Controllers
             string[] myArray = { "Item1", "Item2", "Item3" };
 
             // Create an instance of your model and assign the array
-            var model = new MyViewModel
-            {
-                MyArray = myArray
-            };
+            
 
-            return View(model);
+            return View();
         }
 
         public IActionResult Privacy()
