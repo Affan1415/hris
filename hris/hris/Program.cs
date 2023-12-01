@@ -5,7 +5,7 @@ using System;
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
-builder.Services.AddControllersWithViews();
+builder.Services.AddControllersWithViews().AddRazorRuntimeCompilation();
 
 builder.Services.AddDbContext<ApplicationDbContext>(options =>
            options.UseSqlServer("Data Source = (localdb)\\local; Initial Catalog = hris.codexia; Integrated Security = True")
@@ -28,8 +28,20 @@ app.UseRouting();
 
 app.UseAuthorization();
 
-app.MapControllerRoute(
-    name: "default",
-    pattern: "{controller=Home}/{action=Index}/{id?}");
+app.UseEndpoints(endpoints =>
+{
+    endpoints.MapControllerRoute(
+        name: "HRRoute",
+        pattern: "HR/admindashboard", // Define the route pattern
+        defaults: new { controller = "HR", action = "admindashboard" }
+    );
+
+    // Other routes...
+
+    endpoints.MapControllerRoute(
+        name: "default",
+        pattern: "{controller=Home}/{action=Index}/{id?}");
+});
+
 
 app.Run();

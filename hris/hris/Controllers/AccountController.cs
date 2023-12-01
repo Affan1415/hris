@@ -28,7 +28,7 @@ public class AccountController : Controller
     [HttpPost]
     public IActionResult Login(loginmodel model)
     {
-				return RedirectToAction("admindashboard","HR");
+        return RedirectToAction("admindashboard", "HR");
         if (ModelState.IsValid)
         {
 
@@ -37,14 +37,14 @@ public class AccountController : Controller
 
 			if (user != null)
             {
-				// Authentication successful
-				// Redirect to dashboard or perform necessary actions
-				//Response.Redirect("./Views/HR/admindashboard.cshtml");
-				//Response.WriteAsync("<script>alert('Error in login')</script>");
-				//return View(admindashboard);
-				//return View("Views/HR/");
-
-			}
+                // Authentication successful
+                // Redirect to dashboard or perform necessary actions
+                //Response.Redirect("./Views/HR/admindashboard.cshtml");
+                //Response.WriteAsync("<script>alert('Error in login')</script>");
+                //return View(admindashboard);
+                //return View("Views/HR/");
+                
+            }
 			else
             {
                 ModelState.AddModelError(string.Empty, "Invalid login attempt");

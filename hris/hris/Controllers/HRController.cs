@@ -4,7 +4,8 @@ using Microsoft.AspNetCore.Mvc;
 public class HRController : Controller
 {
 	[HttpGet]
-	public IActionResult admindashboard()
+    [Route("HR/admindashboard")]
+    public IActionResult admindashboard()
 	{
 		// Add any necessary logic for the admin dashboard
 		return View();
