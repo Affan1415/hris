@@ -1,16 +1,31 @@
-﻿namespace hris.Controllers
+﻿using Microsoft.AspNetCore.Mvc;
+
+namespace hris.Controllers
 {
-    public class profileController
-    {
-        private readonly ILogger<profileController> _logger;
-        private readonly ApplicationDbContext _context;
+	public class ProfileController : Controller
+	{
+		private readonly ApplicationDbContext _context;
 
-        public profileController(ILogger<profileController> logger, ApplicationDbContext context)
-        {
-            _logger = logger;
-            _context = context;
-        }
+		public ProfileController(ApplicationDbContext context)
+		{
+			_context = context;
+		}
 
-        public 
-    }
+		public IActionResult DisplayProfile()
+		{
+			int employeeId = HttpContext.Session.GetInt32("EmployeeID") ?? 0;
+
+			// Retrieve employee data based on the employeeId
+			var employee = _context.EmployeeData.FirstOrDefault(e => e.EmployeeID == employeeId);
+
+			if (employee == null)
+			{
+				// Handle the case where employee data is not found
+				return NotFound();
+			}
+
+			return View(employee);
+		}
+	}
+
 }
