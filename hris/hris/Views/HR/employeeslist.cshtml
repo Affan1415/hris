@@ -1,6 +1,5 @@
 @model hris.Models.EmployeeRegistrationViewModel
 
-@model List<hris.Models.EmployeeData>
 @{
 	ViewData["Title"] = "Register Employee";
 }
@@ -318,8 +317,6 @@
 									</tr>
 								</thead>
 								<tbody>
-						@foreach (var employee in Model)
-						{
 									<tr>
 										<td>
 											<h2 class="table-avatar">
@@ -360,7 +357,6 @@
 											</div>
 										</td>
 									</tr>
-									}
 								</tbody>
 							</table>
 						</div>
