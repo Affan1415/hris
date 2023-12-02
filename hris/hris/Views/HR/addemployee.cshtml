@@ -1,0 +1,397 @@
+
+@model hris.Models.EmployeeRegistrationViewModel
+
+<!DOCTYPE html>
+<html lang="en" data-layout="vertical" data-topbar="light" data-sidebar="dark" data-sidebar-size="lg"
+	  data-sidebar-image="none">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="Smarthr - Bootstrap Admin Template">
+	<meta name="keywords"
+		  content="admin, estimates, bootstrap, business, corporate, creative, management, minimal, modern, accounts, invoice, html5, responsive, CRM, Projects">
+	<meta name="author" content="Dreamguys - Bootstrap Admin Template">
+	<title>Dashboard - HRMS admin template</title>
+
+	<!-- Favicon -->
+	<link rel="shortcut icon" type="image/x-icon" href="~/assets/img/favicon.png">
+
+	<!-- Bootstrap CSS -->
+	<link rel="stylesheet" href="~/assets/css/bootstrap.min.css">
+
+	<!-- Fontawesome CSS -->
+	<link rel="stylesheet" href="~/assets/plugins/fontawesome/css/fontawesome.min.css">
+	<link rel="stylesheet" href="~/assets/plugins/fontawesome/css/all.min.css">
+
+	<!-- Lineawesome CSS -->
+	<link rel="stylesheet" href="~/assets/css/line-awesome.min.css">
+	<link rel="stylesheet" href="~/assets/css/material.css">
+
+	<!-- Chart CSS -->
+	<link rel="stylesheet" href="~/assets/plugins/morris/morris.css">
+
+	<!-- Main CSS -->
+	<link rel="stylesheet" href="~/assets/css/style.css">
+
+</head>
+
+<body>
+	<!-- Main Wrapper -->
+	<div class="main-wrapper">
+
+		<!-- Header -->
+		<div class="header">
+
+			<!-- Logo -->
+			<div class="header-left">
+				<a href="admindashboard.cshtml" class="logo">
+					<img src="~/assets/img/logo.png" width="40" height="40" alt="Logo">
+				</a>
+				<a href="admindashboard.cshtml" class="logo2">
+					<img src="~/assets/img/logo2.png" width="40" height="40" alt="Logo">
+				</a>
+			</div>
+			<!-- /Logo -->
+
+			<a id="toggle_btn" href="javascript:void(0);">
+				<span class="bar-icon">
+					<span></span>
+					<span></span>
+					<span></span>
+				</span>
+			</a>
+
+			<!-- Header Title -->
+			<div class="page-title-box">
+				<h3>Codexia Technoligies</h3>
+			</div>
+			<!-- /Header Title -->
+
+			<a id="mobile_btn" class="mobile_btn" href="#sidebar"><i class="fa-solid fa-bars"></i></a>
+
+			<!-- Header Menu -->
+			<ul class="nav user-menu">
+
+
+
+				<!-- Flag -->
+				<li class="nav-item dropdown has-arrow flag-nav">
+					<a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button">
+						<img src="~/assets/img/flags/us.png" alt="Flag" height="20"> <span>English</span>
+					</a>
+					<div class="dropdown-menu dropdown-menu-right">
+						<a href="javascript:void(0);" class="dropdown-item">
+							<img src="~/assets/img/flags/us.png" alt="Flag" height="16"> English
+						</a>
+						<a href="javascript:void(0);" class="dropdown-item">
+							<img src="~/assets/img/flags/fr.png" alt="Flag" height="16"> French
+						</a>
+						<a href="javascript:void(0);" class="dropdown-item">
+							<img src="~/assets/img/flags/es.png" alt="Flag" height="16"> Spanish
+						</a>
+						<a href="javascript:void(0);" class="dropdown-item">
+							<img src="~/assets/img/flags/de.png" alt="Flag" height="16"> German
+						</a>
+					</div>
+				</li>
+				<!-- /Flag -->
+				<!-- Notifications -->
+				<li class="nav-item dropdown">
+					<a href="#" class="dropdown-toggle nav-link" data-bs-toggle="dropdown">
+						<i class="fa-regular fa-bell"></i> <span class="badge rounded-pill">3</span>
+					</a>
+					<div class="dropdown-menu notifications">
+						<div class="topnav-dropdown-header">
+							<span class="notification-title">Notifications</span>
+							<a href="javascript:void(0)" class="clear-noti"> Clear All </a>
+						</div>
+
+
+					</div>
+				</li>
+				<!-- /Notifications -->
+
+
+
+				<li class="nav-item dropdown has-arrow main-drop">
+					<a href="#" class="dropdown-toggle nav-link" data-bs-toggle="dropdown">
+						<span class="user-img">
+							<img src="~/assets/img/profiles/avatar-21.jpg" alt="User Image">
+							<span class="status online"></span>
+						</span>
+					</a>
+					<div class="dropdown-menu">
+						
+						<a class="dropdown-item" href="index.cshtml">Logout</a>
+					</div>
+
+				</li>
+			</ul>
+			<!-- /Header Menu -->
+			<!-- Mobile Menu -->
+			<div class="dropdown mobile-user-menu">
+				<a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+					<i class="fa-solid fa-ellipsis-vertical"></i>
+				</a>
+				<div class="dropdown-menu dropdown-menu-right">
+					
+					<a class="dropdown-item" href="index.cshtml">Logout</a>
+				</div>
+			</div>
+			<!-- /Mobile Menu -->
+
+		</div>
+		<!-- /Header -->
+		<!-- Sidebar -->
+		<div class="sidebar" id="sidebar">
+			<div class="sidebar-inner slimscroll">
+				<div id="sidebar-menu" class="sidebar-menu">
+					<nav class="greedys sidebar-horizantal">
+						<ul class="list-inline-item list-unstyled links">
+							<li class="menu-title">
+								<span>Main</span>
+							</li>
+							<li class="submenu">
+								<a href="admindashboard.cshtml">
+									<i class="la la-dashboard"></i> <span> Dashboard</span>
+									<span class="menu-arrow"></span>
+								</a>
+							</li>
+							<li class="submenu">
+								<a href="#" class="noti-dot">
+									<i class="la la-user"></i> <span> HR </span> <span class="menu-arrow"></span>
+								</a>
+								<ul>
+									<li><a asp-controller="HR" asp-action="employeeslist">All employees</a></li>
+									<li><a asp-controller="HR" asp-action="addemployee">Add Employee</a></li>
+									<li>
+										<a href="leaves.cshtml">
+											Leaves (Admin) <span class="badge rounded-pill bg-primary float-end">1</span>
+										</a>
+									</li>
+									<li><a href="attendance.cshtml">Attendance (Admin)</a></li>
+									<li><a href="departments.cshtml">Departments</a></li>
+								</ul>
+							</li>
+							<li>
+								<a href="clients.cshtml"><i class="la la-users"></i> <span>Clients</span></a>
+							</li>
+							<li>
+								<a href="projects.cshtml"><i class="la la-users"></i> <span>Projects</span></a>
+							</li>
+							<li>
+								<a href="expenses.cshtml"><i class="la la-users"></i> <span>Expenses</span></a>
+							</li>
+						</ul>
+						<button class="viewmoremenu">More Menu</button>
+						<ul class="hidden-links hidden">
+							<li>
+								<a href="salary.cshtml"><i class="la la-users"></i> <span>Employee Salary</span></a>
+							</li>
+							<li>
+								<a href="salaryview.cshtml"><i class="la la-users"></i> <span>Payslip</span></a>
+							</li>
+							<li>
+								<a href="resignation.cshtml">
+									<i class="la la-external-link-square"></i>
+									<span>Resignation</span>
+								</a>
+							</li>
+						</ul>
+					</nav>
+					<!-- veritical hai bhaiiiiiii-->
+					<ul class="sidebar-vertical">
+						<li class="menu-title">
+							<span>Main</span>
+						</li>
+						<li class="submenu">
+							<a href="admindashboard.cshtml">
+								<i class="la la-dashboard"></i> <span>
+									Admin
+									Dashboard
+								</span>
+							</a>
+						</li>
+						<li class="submenu">
+							<a href="#" class="noti-dot">
+								<i class="la la-user"></i> <span> HR</span> <span class="menu-arrow"></span>
+							</a>
+							<ul>
+								<li><a asp-controller="HR" asp-action="employeeslist">All employees</a></li>
+								<li><a asp-controller="HR" asp-action="addemployee">Add Employee</a></li>
+
+
+								<li>
+									<a href="leaves.cshtml">
+										Leaves (Admin) <span class="badge rounded-pill bg-primary float-end">1</span>
+									</a>
+								</li>
+								<li><a href="attendance.cshtml">Attendance (Admin)</a></li>
+								<li><a href="departments.cshtml">Departments</a></li>
+							</ul>
+						</li>
+						<li>
+							<a href="clients.cshtml"><i class="la la-users"></i> <span>Clients</span></a>
+						</li>
+						<li>
+							<a href="projects.cshtml"><i class="la la-users"></i> <span>Projects</span></a>
+						</li>
+						<li>
+							<a href="expenses.cshtml"><i class="la la-users"></i> <span>Expenses</span></a>
+						</li>
+						<li>
+							<a href="salary.cshtml"><i class="la la-users"></i> <span>Employee Salary</span></a>
+						</li>
+						<li>
+							<a href="salaryview.cshtml"><i class="la la-users"></i> <span>Payslip</span></a>
+						</li>
+						<li>
+							<a href="resignation.cshtml">
+								<i class="la la-external-link-square"></i>
+								<span>Resignation</span>
+							</a>
+						</li>
+					</ul>
+
+				</div>
+			</div>
+		</div>
+
+		<!-- /Sidebar -->
+
+		<div class="modal-body">
+			<form asp-action="RegisterEmployee" asp-controller="HR" method="post">
+				<div class="row">
+					<div class="col-md-6 offset-md-2">
+						<div class="input-block mb-3">
+							<label class="col-form-label">Username <span class="text-danger">*</span></label>
+							<input asp-for="user" class="form-control" />
+							<span asp-validation-for="user" class="text-danger"></span>
+						</div>
+					</div>
+					<div class="col-md-6 offset-md-2">
+						<div class="input-block mb-3">
+							<label class="col-form-label">Password <span class="text-danger">*</span></label>
+							<input asp-for="Password" class="form-control" />
+							<span asp-validation-for="Password" class="text-danger"></span>
+						</div>
+					</div>
+					<div class="col-md-6 offset-md-2">
+						<div class="input-block mb-3">
+							<label class="col-form-label">Email <span class="text-danger">*</span></label>
+							<input asp-for="Email" class="form-control" />
+							<span asp-validation-for="Email" class="text-danger"></span>
+						</div>
+					</div>
+					<div class="col-md-6 offset-md-2">
+						<div class="input-block mb-3">
+							<label class="col-form-label">Type<span class="text-danger">*</span></label>
+							<select asp-for="UserType" class="select">
+								<option>hr</option>
+								<option>pm</option>
+								<option>emp</option>
+							</select>
+							<span asp-validation-for="UserType" class="text-danger"></span>
+						</div>
+					</div>
+					<!-- Add the remaining form fields using asp-for tag helpers -->
+					<!-- ... -->
+					<div class="col-md-6 offset-md-2">
+						<div class="input-block mb-3">
+							<label class="col-form-label">Name <span class="text-danger">*</span></label>
+							<input asp-for="Name" class="form-control" />
+							<span asp-validation-for="Name" class="text-danger"></span>
+						</div>
+					</div>
+					<div class="col-md-6 offset-md-2">
+						<div class="input-block mb-3">
+							<label class="col-form-label">Designation <span class="text-danger">*</span></label>
+							<input asp-for="Designation" class="form-control" />
+							<span asp-validation-for="Designation" class="text-danger"></span>
+						</div>
+					</div>
+					<div class="col-md-6 offset-md-2">
+						<div class="input-block mb-3">
+							<label class="col-form-label">Contact <span class="text-danger">*</span></label>
+							<input asp-for="ContactNumber" class="form-control" />
+							<span asp-validation-for="ContactNumber" class="text-danger"></span>
+						</div>
+					</div>
+					<div class="col-md-6 offset-md-2">
+						<div class="input-block mb-3">
+							<label class="col-form-label">Joinning Date <span class="text-danger">*</span></label>
+							<input asp-for="JoiningDate" class="form-control" />
+							<span asp-validation-for="JoiningDate" class="text-danger"></span>
+						</div>
+					</div>
+
+
+
+					<div class="col-md-6 offset-md-2">
+						<div class="input-block mb-3">
+							<label class="col-form-label">Date Of Birth <span class="text-danger">*</span></label>
+							<input asp-for="DateOfBirth" class="form-control" />
+							<span asp-validation-for="DateOfBirth" class="text-danger"></span>
+						</div>
+					</div>
+					<div class="col-md-6 offset-md-2">
+					<div class="input-block mb-3">
+						<label class="col-form-label">Gender<span class="text-danger">*</span></label>
+						<select asp-for="Gender" class="select">
+							<option>Male</option>
+							<option>Female</option>
+						</select>
+						<span asp-validation-for="Gender" class="text-danger"></span>
+					</div>
+					</div>
+					<div class="col-md-6 offset-md-2">
+						<div class="input-block mb-3">
+							<label class="col-form-label">Salary <span class="text-danger">*</span></label>
+							<input asp-for="Salary" class="form-control"  />
+							<span asp-validation-for="Salary" class="text-danger"></span>
+						</div>
+					</div>
+				</div>
+
+				<div class="submit-section">
+					<button type="submit" class="btn btn-primary submit-btn">Submit</button>
+				</div>
+			</form>
+		</div>
+		<div class="offcanvas-footer border-top p-3 text-center">
+			<div class="row">
+			</div>
+		</div>
+	</div> 
+	<!-- jQuery -->
+	<script src="~/assets/js/jquery-3.7.0.min.js"></script>
+
+	<!-- Bootstrap Core JS -->
+	<script src="~/assets/js/bootstrap.bundle.min.js"></script>
+
+	<!-- Slimscroll JS -->
+	<script src="~/assets/js/jquery.slimscroll.min.js"></script>
+
+	<!-- Select2 JS -->
+	<script src="~/assets/js/select2.min.js"></script>
+
+	<!-- Datetimepicker JS -->
+	<script src="~/assets/js/moment.min.js"></script>
+	<script src="~/assets/js/bootstrap-datetimepicker.min.js"></script>
+
+	<!-- Datatable JS -->
+	<script src="~/assets/js/jquery.dataTables.min.js"></script>
+	<script src="~/assets/js/dataTables.bootstrap4.min.js"></script>
+
+	<!-- Theme Settings JS -->
+	<script src="~/assets/js/layout.js"></script>
+	<script src="~/assets/js/theme-settings.js"></script>
+	<script src="~/assets/js/greedynav.js"></script>
+	<!-- Custom JS -->
+	<script src="~/assets/js/app.js"></script>
+
+		
+</body>
+
+</html>

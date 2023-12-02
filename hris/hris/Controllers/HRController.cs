@@ -101,5 +101,10 @@ public class HRController : Controller
 
 		return View(viewModel);
 	}
-
+	[HttpGet]
+	[Route("HR/addemployee")]
+	public IActionResult addemployee()
+	{
+		return View();
+	}
 }
