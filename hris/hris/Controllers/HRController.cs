@@ -52,25 +52,9 @@ public class HRController : Controller
 		{
 			try
 			{
-				// Create a new LoginModel
-				var loginModel = new loginmodel
-				{
-					Email = viewModel.Email,
-					PasswordHash =viewModel.Password,
-					_type = viewModel.UserType
-				};
 
-				// Add the LoginModel to the database
-				_context.LoginTable.Add(loginModel);
-				_context.SaveChanges();
-
-				// Retrieve the newly created LoginModel's ID
-				var loginId = loginModel.employeeid;
-
-				// Create a new EmployeeDataModel
 				var employeeDataModel = new EmployeeData
 				{
-					EmployeeID = loginId.Value,
 					_type = viewModel.UserType,
 					_Name = viewModel.Name,
 					Designation = viewModel.Designation,
@@ -87,6 +71,25 @@ public class HRController : Controller
 				_context.EmployeeData.Add(employeeDataModel);
 				_context.SaveChanges();
 
+				var loginId = employeeDataModel.EmployeeID;
+
+				// Create a new LoginModel
+				var loginModel = new loginmodel
+				{
+					employeeid = loginId,
+					Email = viewModel.Email,
+					PasswordHash = viewModel.Password, 
+					_type = viewModel.UserType
+				};
+
+				// Add the LoginModel to the database
+				_context.LoginTable.Add(loginModel);
+				_context.SaveChanges();
+
+				// Retrieve the newly created LoginModel's ID
+
+				// Create a new EmployeeDataModel
+
 				return RedirectToAction("employeeslist");
 			}
 			catch (Exception ex)
@@ -98,4 +101,5 @@ public class HRController : Controller
 
 		return View(viewModel);
 	}
+
 }
