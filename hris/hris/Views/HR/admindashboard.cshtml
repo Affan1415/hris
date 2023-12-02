@@ -1,4 +1,5 @@
 
+@model hris.Models.EmployeeData
 <!DOCTYPE html>
 <html lang="en" data-layout="vertical" data-topbar="light" data-sidebar="dark" data-sidebar-size="lg"
 	  data-sidebar-image="none">
@@ -118,12 +119,15 @@
 							<img src="~/assets/img/profiles/avatar-21.jpg" alt="User Image">
 							<span class="status online"></span>
 						</span>
-						<span>Admin</span>
+						<span>@Model._Name</span>
 					</a>
 					<div class="dropdown-menu">
-						<a class="dropdown-item" href="profile.cshtml">My Profile</a>
+						<ul>
+							<li><a class ="dropdown-item" asp-controller="HR" asp-action="profile" asp-route-employeeId="@Model.EmployeeID">My Profile</a></li>
+						</ul>
 						<a class="dropdown-item" href="index.cshtml">Logout</a>
 					</div>
+
 				</li>
 			</ul>
 			<!-- /Header Menu -->
@@ -133,7 +137,9 @@
 					<i class="fa-solid fa-ellipsis-vertical"></i>
 				</a>
 				<div class="dropdown-menu dropdown-menu-right">
-					<a class="dropdown-item" href="profile.cshtml">My Profile</a>
+					<ul>
+						<li><a class="dropdown-item" asp-controller="HR" asp-action="profile" asp-route-employeeId="@Model.EmployeeID">My Profile</a></li>
+					</ul>
 					<a class="dropdown-item" href="index.cshtml">Logout</a>
 				</div>
 			</div>
@@ -263,7 +269,7 @@
 				<div class="page-header">
 					<div class="row">
 						<div class="col-sm-12">
-							<h3 class="page-title">Welcome Admin!</h3>
+							<h3 class="page-title">Welcome @Model._Name!</h3>
 							<ul class="breadcrumb">
 								<li class="breadcrumb-item active">Dashboard</li>
 							</ul>
