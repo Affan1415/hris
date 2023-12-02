@@ -11,9 +11,9 @@ namespace hris.Controllers
 			_context = context;
 		}
 
-		public IActionResult DisplayProfile()
+		public IActionResult profile(int employeeId)
 		{
-			int employeeId = HttpContext.Session.GetInt32("EmployeeID") ?? 0;
+
 
 			// Retrieve employee data based on the employeeId
 			var employee = _context.EmployeeData.FirstOrDefault(e => e.EmployeeID == employeeId);

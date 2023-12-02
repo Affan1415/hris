@@ -14,22 +14,27 @@ public class employeeController : Controller
     }
     [HttpGet]
     [Route("employee/employeedashboard")]
-    public IActionResult employeedashboard()
+    public IActionResult employeedashboard(int employeeId)
     {
+        var employee = _context.EmployeeData.FirstOrDefault(e => e.EmployeeID == employeeId);
         // Add any necessary logic for the admin dashboard
-        return View();
+        return View(employee);
         //return View("admindashboard");
     }
     [HttpGet]
-    public IActionResult DisplayProfile(int employeeId)
-    {
-        // Retrieve employee data based on the employeeId
-        var employee = _context.EmployeeData.FirstOrDefault(e => e.EmployeeID == employeeId);
+	public IActionResult profile(int employeeId)
+	{
 
-        // Your logic to display the employee data in the profile view
-        // ...
+		// Retrieve employee data based on the employeeId
+		var employee = _context.EmployeeData.FirstOrDefault(e => e.EmployeeID == employeeId);
 
-        return View(employee);
-    }
-    
+		if (employee == null)
+		{
+			// Handle the case where employee data is not found
+			return NotFound();
+		}
+
+		return View(employee);
+	}
+
 }

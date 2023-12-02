@@ -268,13 +268,12 @@
 							<li class="menu-title">
 								<span>Pages</span>
 							</li>
-							<li class="submenu">
-								<a href="#"><i class="la la-user"></i> <span> Profile </span> <span
-										class="menu-arrow"></span></a>
-								<ul>
-									<li><a href="profile.cshtml"> Employee Profile </a></li>
-								</ul>
-							</li>
+						<li class="submenu">
+							<a href="#"><i class="la la-user"></i> <span> Profile </span> <span class="menu-arrow"></span></a>
+							<ul>
+								<li><a asp-controller="employee" asp-action="profile" asp-route-employeeId="@Model.EmployeeID">Employee Profile</a></li>>
+						</li>
+
 						</ul>
 					</div>
 				</div>
@@ -296,7 +295,7 @@
 									<img src="~/assets/img/profiles/avatar-02.jpg" alt="User Image">
 								</div>
 								<div class="welcome-det">
-									<h3>Welcome, John Doe</h3>
+									<h3>Welcome, @Model._Name</h3>
 									<p>Monday, 20 May 2019</p>
 								</div>
 							</div>

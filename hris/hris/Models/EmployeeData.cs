@@ -25,6 +25,6 @@ namespace hris.Models
 
         public String ? Gender { get; set; }
 
-        public float ? Salary { get; set; }
+        public int ? Salary { get; set; }
     }
 }
