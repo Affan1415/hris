@@ -22,28 +22,28 @@
     <link
       rel="shortcut icon"
       type="image/x-icon"
-      href="assets/img/favicon.png"
+      href="~/assets/img/favicon.png"
     />
 
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/assets/css/bootstrap.min.css" />
 
     <!-- Fontawesome CSS -->
     <link
       rel="stylesheet"
-      href="assets/plugins/fontawesome/css/fontawesome.min.css"
+      href="~/assets/plugins/fontawesome/css/fontawesome.min.css"
     />
-    <link rel="stylesheet" href="assets/plugins/fontawesome/css/all.min.css" />
+    <link rel="stylesheet" href="~/assets/plugins/fontawesome/css/all.min.css" />
 
     <!-- Lineawesome CSS -->
-    <link rel="stylesheet" href="assets/css/line-awesome.min.css" />
-    <link rel="stylesheet" href="assets/css/material.css" />
+    <link rel="stylesheet" href="~/assets/css/line-awesome.min.css" />
+    <link rel="stylesheet" href="~/assets/css/material.css" />
 
     <!-- Chart CSS -->
-    <link rel="stylesheet" href="assets/plugins/morris/morris.css" />
+    <link rel="stylesheet" href="~/assets/plugins/morris/morris.css" />
 
     <!-- Main CSS -->
-    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="stylesheet" href="~/assets/css/style.css" />
   </head>
 
   <body>
@@ -53,11 +53,11 @@
       <div class="header">
         <!-- Logo -->
         <div class="header-left">
-          <a href="admin-dashboard.html" class="logo">
-            <img src="assets/img/logo.png" width="40" height="40" alt="Logo" />
+          <a href="projectManagerdashboard.cshtml"class="logo">
+            <img src="~/assets/img/logo.png" width="40" height="40" alt="Logo" />
           </a>
-          <a href="admin-dashboard.html" class="logo2">
-            <img src="assets/img/logo2.png" width="40" height="40" alt="Logo" />
+          <a href="projectManagerdashboard.cshtml"class="logo2">
+            <img src="~/assets/img/logo2.png" width="40" height="40" alt="Logo" />
           </a>
         </div>
         <!-- /Logo -->
@@ -82,25 +82,7 @@
 
         <!-- Header Menu -->
         <ul class="nav user-menu">
-          <!-- Search -->
-          <li class="nav-item">
-            <div class="top-nav-search">
-              <a href="javascript:void(0);" class="responsive-search">
-                <i class="fa-solid fa-magnifying-glass"></i>
-              </a>
-              <form action="search.html">
-                <input
-                  class="form-control"
-                  type="text"
-                  placeholder="Search here"
-                />
-                <button class="btn" type="submit">
-                  <i class="fa-solid fa-magnifying-glass"></i>
-                </button>
-              </form>
-            </div>
-          </li>
-          <!-- /Search -->
+          
 
           <!-- Flag -->
           <li class="nav-item dropdown has-arrow flag-nav">
@@ -110,24 +92,24 @@
               href="#"
               role="button"
             >
-              <img src="assets/img/flags/us.png" alt="Flag" height="20" />
+              <img src="~/assets/img/flags/us.png" alt="Flag" height="20" />
               <span>English</span>
             </a>
             <div class="dropdown-menu dropdown-menu-right">
               <a href="javascript:void(0);" class="dropdown-item">
-                <img src="assets/img/flags/us.png" alt="Flag" height="16" />
+                <img src="~/assets/img/flags/us.png" alt="Flag" height="16" />
                 English
               </a>
               <a href="javascript:void(0);" class="dropdown-item">
-                <img src="assets/img/flags/fr.png" alt="Flag" height="16" />
+                <img src="~/assets/img/flags/fr.png" alt="Flag" height="16" />
                 French
               </a>
               <a href="javascript:void(0);" class="dropdown-item">
-                <img src="assets/img/flags/es.png" alt="Flag" height="16" />
+                <img src="~/assets/img/flags/es.png" alt="Flag" height="16" />
                 Spanish
               </a>
               <a href="javascript:void(0);" class="dropdown-item">
-                <img src="assets/img/flags/de.png" alt="Flag" height="16" />
+                <img src="~/assets/img/flags/de.png" alt="Flag" height="16" />
                 German
               </a>
             </div>
@@ -149,279 +131,14 @@
                 <span class="notification-title">Notifications</span>
                 <a href="javascript:void(0)" class="clear-noti"> Clear All </a>
               </div>
-              <div class="noti-content">
-                <ul class="notification-list">
-                  <li class="notification-message">
-                    <a href="activities.html">
-                      <div class="chat-block d-flex">
-                        <span class="avatar flex-shrink-0">
-                          <img
-                            src="assets/img/profiles/avatar-02.jpg"
-                            alt="User Image"
-                          />
-                        </span>
-                        <div class="media-body flex-grow-1">
-                          <p class="noti-details">
-                            <span class="noti-title">John Doe</span> added new
-                            task
-                            <span class="noti-title"
-                              >Patient appointment booking</span
-                            >
-                          </p>
-                          <p class="noti-time">
-                            <span class="notification-time">4 mins ago</span>
-                          </p>
-                        </div>
-                      </div>
-                    </a>
-                  </li>
-                  <li class="notification-message">
-                    <a href="activities.html">
-                      <div class="chat-block d-flex">
-                        <span class="avatar flex-shrink-0">
-                          <img
-                            src="assets/img/profiles/avatar-03.jpg"
-                            alt="User Image"
-                          />
-                        </span>
-                        <div class="media-body flex-grow-1">
-                          <p class="noti-details">
-                            <span class="noti-title">Tarah Shropshire</span>
-                            changed the task name
-                            <span class="noti-title"
-                              >Appointment booking with payment gateway</span
-                            >
-                          </p>
-                          <p class="noti-time">
-                            <span class="notification-time">6 mins ago</span>
-                          </p>
-                        </div>
-                      </div>
-                    </a>
-                  </li>
-                  <li class="notification-message">
-                    <a href="activities.html">
-                      <div class="chat-block d-flex">
-                        <span class="avatar flex-shrink-0">
-                          <img
-                            src="assets/img/profiles/avatar-06.jpg"
-                            alt="User Image"
-                          />
-                        </span>
-                        <div class="media-body flex-grow-1">
-                          <p class="noti-details">
-                            <span class="noti-title">Misty Tison</span> added
-                            <span class="noti-title">Domenic Houston</span> and
-                            <span class="noti-title">Claire Mapes</span> to
-                            project
-                            <span class="noti-title"
-                              >Doctor available module</span
-                            >
-                          </p>
-                          <p class="noti-time">
-                            <span class="notification-time">8 mins ago</span>
-                          </p>
-                        </div>
-                      </div>
-                    </a>
-                  </li>
-                  <li class="notification-message">
-                    <a href="activities.html">
-                      <div class="chat-block d-flex">
-                        <span class="avatar flex-shrink-0">
-                          <img
-                            src="assets/img/profiles/avatar-17.jpg"
-                            alt="User Image"
-                          />
-                        </span>
-                        <div class="media-body flex-grow-1">
-                          <p class="noti-details">
-                            <span class="noti-title">Rolland Webber</span>
-                            completed task
-                            <span class="noti-title"
-                              >Patient and Doctor video conferencing</span
-                            >
-                          </p>
-                          <p class="noti-time">
-                            <span class="notification-time">12 mins ago</span>
-                          </p>
-                        </div>
-                      </div>
-                    </a>
-                  </li>
-                  <li class="notification-message">
-                    <a href="activities.html">
-                      <div class="chat-block d-flex">
-                        <span class="avatar flex-shrink-0">
-                          <img
-                            src="assets/img/profiles/avatar-13.jpg"
-                            alt="User Image"
-                          />
-                        </span>
-                        <div class="media-body flex-grow-1">
-                          <p class="noti-details">
-                            <span class="noti-title">Bernardo Galaviz</span>
-                            added new task
-                            <span class="noti-title">Private chat module</span>
-                          </p>
-                          <p class="noti-time">
-                            <span class="notification-time">2 days ago</span>
-                          </p>
-                        </div>
-                      </div>
-                    </a>
-                  </li>
-                </ul>
-              </div>
+              
               <div class="topnav-dropdown-footer">
-                <a href="activities.html">View all Notifications</a>
               </div>
             </div>
           </li>
           <!-- /Notifications -->
 
-          <!-- Message Notifications -->
-          <li class="nav-item dropdown">
-            <a
-              href="#"
-              class="dropdown-toggle nav-link"
-              data-bs-toggle="dropdown"
-            >
-              <i class="fa-regular fa-comment"></i
-              ><span class="badge rounded-pill">8</span>
-            </a>
-            <div class="dropdown-menu notifications">
-              <div class="topnav-dropdown-header">
-                <span class="notification-title">Messages</span>
-                <a href="javascript:void(0)" class="clear-noti"> Clear All </a>
-              </div>
-              <div class="noti-content">
-                <ul class="notification-list">
-                  <li class="notification-message">
-                    <a href="chat.html">
-                      <div class="list-item">
-                        <div class="list-left">
-                          <span class="avatar">
-                            <img
-                              src="assets/img/profiles/avatar-09.jpg"
-                              alt="User Image"
-                            />
-                          </span>
-                        </div>
-                        <div class="list-body">
-                          <span class="message-author">Richard Miles </span>
-                          <span class="message-time">12:28 AM</span>
-                          <div class="clearfix"></div>
-                          <span class="message-content"
-                            >Lorem ipsum dolor sit amet, consectetur
-                            adipiscing</span
-                          >
-                        </div>
-                      </div>
-                    </a>
-                  </li>
-                  <li class="notification-message">
-                    <a href="chat.html">
-                      <div class="list-item">
-                        <div class="list-left">
-                          <span class="avatar">
-                            <img
-                              src="assets/img/profiles/avatar-02.jpg"
-                              alt="User Image"
-                            />
-                          </span>
-                        </div>
-                        <div class="list-body">
-                          <span class="message-author">John Doe</span>
-                          <span class="message-time">6 Mar</span>
-                          <div class="clearfix"></div>
-                          <span class="message-content"
-                            >Lorem ipsum dolor sit amet, consectetur
-                            adipiscing</span
-                          >
-                        </div>
-                      </div>
-                    </a>
-                  </li>
-                  <li class="notification-message">
-                    <a href="chat.html">
-                      <div class="list-item">
-                        <div class="list-left">
-                          <span class="avatar">
-                            <img
-                              src="assets/img/profiles/avatar-03.jpg"
-                              alt="User Image"
-                            />
-                          </span>
-                        </div>
-                        <div class="list-body">
-                          <span class="message-author"> Tarah Shropshire </span>
-                          <span class="message-time">5 Mar</span>
-                          <div class="clearfix"></div>
-                          <span class="message-content"
-                            >Lorem ipsum dolor sit amet, consectetur
-                            adipiscing</span
-                          >
-                        </div>
-                      </div>
-                    </a>
-                  </li>
-                  <li class="notification-message">
-                    <a href="chat.html">
-                      <div class="list-item">
-                        <div class="list-left">
-                          <span class="avatar">
-                            <img
-                              src="assets/img/profiles/avatar-05.jpg"
-                              alt="User Image"
-                            />
-                          </span>
-                        </div>
-                        <div class="list-body">
-                          <span class="message-author">Mike Litorus</span>
-                          <span class="message-time">3 Mar</span>
-                          <div class="clearfix"></div>
-                          <span class="message-content"
-                            >Lorem ipsum dolor sit amet, consectetur
-                            adipiscing</span
-                          >
-                        </div>
-                      </div>
-                    </a>
-                  </li>
-                  <li class="notification-message">
-                    <a href="chat.html">
-                      <div class="list-item">
-                        <div class="list-left">
-                          <span class="avatar">
-                            <img
-                              src="assets/img/profiles/avatar-08.jpg"
-                              alt="User Image"
-                            />
-                          </span>
-                        </div>
-                        <div class="list-body">
-                          <span class="message-author">
-                            Catherine Manseau
-                          </span>
-                          <span class="message-time">27 Feb</span>
-                          <div class="clearfix"></div>
-                          <span class="message-content"
-                            >Lorem ipsum dolor sit amet, consectetur
-                            adipiscing</span
-                          >
-                        </div>
-                      </div>
-                    </a>
-                  </li>
-                </ul>
-              </div>
-              <div class="topnav-dropdown-footer">
-                <a href="chat.html">View all Messages</a>
-              </div>
-            </div>
-          </li>
-          <!-- /Message Notifications -->
+          
 
           <li class="nav-item dropdown has-arrow main-drop">
             <a
@@ -431,16 +148,15 @@
             >
               <span class="user-img"
                 ><img
-                  src="assets/img/profiles/avatar-21.jpg"
+                  src="~/assets/img/profiles/avatar-21.jpg"
                   alt="User Image" />
                 <span class="status online"></span
               ></span>
               <span>Admin</span>
             </a>
             <div class="dropdown-menu">
-              <a class="dropdown-item" href="profile.html">My Profile</a>
-              <a class="dropdown-item" href="settings.html">Settings</a>
-              <a class="dropdown-item" href="index.html">Logout</a>
+              <a class="dropdown-item" href="profile.cshtml">My Profile</a>
+              <a class="dropdown-item" href="index.cshtml">Logout</a>
             </div>
           </li>
         </ul>
@@ -456,9 +172,8 @@
             ><i class="fa-solid fa-ellipsis-vertical"></i
           ></a>
           <div class="dropdown-menu dropdown-menu-right">
-            <a class="dropdown-item" href="profile.html">My Profile</a>
-            <a class="dropdown-item" href="settings.html">Settings</a>
-            <a class="dropdown-item" href="index.html">Logout</a>
+            <a class="dropdown-item" href="profile.cshtml">My Profile</a>
+            <a class="dropdown-item" href="index.cshtml">Logout</a>
           </div>
         </div>
         <!-- /Mobile Menu -->
@@ -480,7 +195,7 @@
                     <span class="menu-arrow"></span
                   ></a>
                   <ul>
-                    <li><a href="admin-dashboard.html">Admin Dashboard</a></li>
+                    <li><a href="projectManagerdashboard.cshtml">Project Manager Dashboard</a></li>
                   </ul>
                 </li>
                 <li class="menu-title">
@@ -493,12 +208,12 @@
                   ></a>
                   <ul>
                     <li>
-                      <a href="attendance-employee.html"
+                      <a href="attendanceemployee.cshtml"
                         >Attendance (Employee)</a
                       >
                     </li>
                 <li>
-                  <a href="clients.html"
+                  <a href="clients.cshtml"
                     ><i class="la la-users"></i> <span>Clients</span></a
                   >
                 </li>
@@ -508,7 +223,7 @@
                     <span class="menu-arrow"></span
                   ></a>
                   <ul>
-                    <li><a href="projects.html">Projects</a></li>
+                    <li><a href="projects.cshtml">Projects</a></li>
                   </ul>
                 </li>
                 <li class="menu-title">
@@ -520,7 +235,7 @@
                     <span class="menu-arrow"></span
                   ></a>
                   <ul>
-                    <li><a href="expenses.html">Expenses</a></li>
+                    <li><a href="expenses.cshtml">Expenses</a></li>
                   </ul>
                 </li> 
                 <li class="submenu">
@@ -529,7 +244,7 @@
                     <span class="menu-arrow"></span
                   ></a>
                   <ul>
-                    <li><a href="budgets.html">Budgets</a></li>
+                    <li><a href="budgets.cshtml">Budgets</a></li>
                   </ul>
                 </li>
                 <li class="menu-title">
@@ -541,8 +256,8 @@
                     <span class="menu-arrow"></span
                   ></a>
                   <ul>
-                    <li><a href="profile.html"> Employee Profile </a></li>
-                    <li><a href="client-profile.html"> Client Profile </a></li>
+                    <li><a href="profile.cshtml"> Employee Profile </a></li>
+                    <li><a href="clientprofile.cshtml"> Client Profile </a></li>
                   </ul>
                 </li>
               </ul>
@@ -558,7 +273,7 @@
                 ></a>
                 <ul>
                   <li>
-                    <a class="active" href="admin-dashboard.html"
+                    <a class="active" href="projectManagerdashboard.cshtml"
                       >Admin Dashboard</a
                     >
                   </li>
@@ -574,12 +289,12 @@
                 ></a>
                 <ul>
                   <li>
-                    <a href="attendance-employee.html">Attendance (Employee)</a>
+                    <a href="attendanceemployee.cshtml">Attendance (Employee)</a>
                   </li>
                 </ul>
               </li>
               <li>
-                <a href="clients.html"
+                <a href="clients.cshtml"
                   ><i class="la la-users"></i> <span>Clients</span></a
                 >
               </li>
@@ -589,7 +304,7 @@
                   <span class="menu-arrow"></span
                 ></a>
                 <ul>
-                  <li><a href="projects.html">Projects</a></li>
+                  <li><a href="projects.cshtml">Projects</a></li>
                 </ul>
               </li>
               <li class="menu-title">
@@ -601,7 +316,7 @@
                   <span class="menu-arrow"></span
                 ></a>
                 <ul>
-                  <li><a href="expenses.html">Expenses</a></li>
+                  <li><a href="expenses.cshtml">Expenses</a></li>
                 </ul>
               </li> 
                <li class="submenu">
@@ -610,7 +325,7 @@
                   <span class="menu-arrow"></span
                 ></a>
                 <ul>
-                  <li><a href="budgets.html">Budgets</a></li>
+                  <li><a href="budgets.cshtml">Budgets</a></li>
                 </ul>
               </li>
               <li class="menu-title">
@@ -622,8 +337,8 @@
                   <span class="menu-arrow"></span
                 ></a>
                 <ul>
-                  <li><a href="profile.html"> Employee Profile </a></li>
-                  <li><a href="client-profile.html"> Client Profile </a></li>
+                  <li><a href="profile.cshtml"> Employee Profile </a></li>
+                  <li><a href="clientprofile.cshtml"> Client Profile </a></li>
                 </ul>
               </li>
             </ul>
@@ -870,12 +585,12 @@
               </a>
               <a
                 class="nav-link"
-                id="v-pills-assets-tab"
+                id="v-pills-~/assets-tab"
                 title="Assets"
                 data-bs-toggle="pill"
-                href="#v-pills-assets"
+                href="#v-pills-~/assets"
                 role="tab"
-                aria-controls="v-pills-assets"
+                aria-controls="v-pills-~/assets"
                 aria-selected="false"
               >
                 <span class="material-icons-outlined"> web_asset </span>
@@ -1076,12 +791,12 @@
                 <p>Dashboard</p>
                 <ul>
                   <li>
-                    <a href="admin-dashboard.html" class="active"
+                    <a href="projectManagerdashboard.cshtml" class="active"
                       >Admin Dashboard</a
                     >
                   </li>
                   <li>
-                    <a href="employee-dashboard.html">Employee Dashboard</a>
+                    <a href="projectManagerdashboard.cshtml">Employee Dashboard</a>
                   </li>
                 </ul>
               </div>
@@ -1094,28 +809,28 @@
                 <p>App</p>
                 <ul>
                   <li>
-                    <a href="chat.html">Chat</a>
+                    <a href="chat.cshtml">Chat</a>
                   </li>
                   <li class="sub-menu">
                     <a href="#">Calls <span class="menu-arrow"></span></a>
                     <ul>
-                      <li><a href="voice-call.html">Voice Call</a></li>
-                      <li><a href="video-call.html">Video Call</a></li>
-                      <li><a href="outgoing-call.html">Outgoing Call</a></li>
-                      <li><a href="incoming-call.html">Incoming Call</a></li>
+                      <li><a href="voice-call.cshtml">Voice Call</a></li>
+                      <li><a href="video-call.cshtml">Video Call</a></li>
+                      <li><a href="outgoing-call.cshtml">Outgoing Call</a></li>
+                      <li><a href="incoming-call.cshtml">Incoming Call</a></li>
                     </ul>
                   </li>
                   <li>
-                    <a href="calender.html">Calendar</a>
+                    <a href="calender.cshtml">Calendar</a>
                   </li>
                   <li>
-                    <a href="contacts.html">Contacts</a>
+                    <a href="contacts.cshtml">Contacts</a>
                   </li>
                   <li>
-                    <a href="inbox.html">Email</a>
+                    <a href="inbox.cshtml">Email</a>
                   </li>
                   <li>
-                    <a href="file-manager.html">File Manager</a>
+                    <a href="file-manager.cshtml">File Manager</a>
                   </li>
                 </ul>
               </div>
@@ -1127,27 +842,27 @@
               >
                 <p>Employees</p>
                 <ul>
-                  <li><a href="employees.html">All Employees</a></li>
-                  <li><a href="holidays.html">Holidays</a></li>
+                  <li><a href="employees.cshtml">All Employees</a></li>
+                  <li><a href="holidays.cshtml">Holidays</a></li>
                   <li>
-                    <a href="leaves.html"
+                    <a href="leaves.cshtml"
                       >Leaves (Admin)
                       <span class="badge rounded-pill bg-primary float-end"
                         >1</span
                       ></a
                     >
                   </li>
-                  <li><a href="leaves-employee.html">Leaves (Employee)</a></li>
-                  <li><a href="leave-settings.html">Leave Settings</a></li>
-                  <li><a href="attendance.html">Attendance (Admin)</a></li>
+                  <li><a href="leavesemployee.cshtml">Leaves (Employee)</a></li>
+                  <li><a href="leave-settings.cshtml">Leave Settings</a></li>
+                  <li><a href="attendance.cshtml">Attendance (Admin)</a></li>
                   <li>
-                    <a href="attendance-employee.html">Attendance (Employee)</a>
+                    <a href="attendanceemployee.cshtml">Attendance (Employee)</a>
                   </li>
-                  <li><a href="departments.html">Departments</a></li>
-                  <li><a href="designations.html">Designations</a></li>
-                  <li><a href="timesheet.html">Timesheet</a></li>
-                  <li><a href="shift-scheduling.html">Shift & Schedule</a></li>
-                  <li><a href="overtime.html">Overtime</a></li>
+                  <li><a href="departments.cshtml">Departments</a></li>
+                  <li><a href="designations.cshtml">Designations</a></li>
+                  <li><a href="timesheet.cshtml">Timesheet</a></li>
+                  <li><a href="shift-scheduling.cshtml">Shift & Schedule</a></li>
+                  <li><a href="overtime.cshtml">Overtime</a></li>
                 </ul>
               </div>
               <div
@@ -1158,7 +873,7 @@
               >
                 <p>Clients</p>
                 <ul>
-                  <li><a href="clients.html">Clients</a></li>
+                  <li><a href="clients.cshtml">Clients</a></li>
                 </ul>
               </div>
               <div
@@ -1169,9 +884,9 @@
               >
                 <p>Projects</p>
                 <ul>
-                  <li><a href="projects.html">Projects</a></li>
-                  <li><a href="tasks.html">Tasks</a></li>
-                  <li><a href="task-board.html">Task Board</a></li>
+                  <li><a href="projects.cshtml">Projects</a></li>
+                  <li><a href="tasks.cshtml">Tasks</a></li>
+                  <li><a href="task-board.cshtml">Task Board</a></li>
                 </ul>
               </div>
               <div
@@ -1182,7 +897,7 @@
               >
                 <p>Leads</p>
                 <ul>
-                  <li><a href="leads.html">Leads</a></li>
+                  <li><a href="leads.cshtml">Leads</a></li>
                 </ul>
               </div>
               <div
@@ -1193,7 +908,7 @@
               >
                 <p>Tickets</p>
                 <ul>
-                  <li><a href="tickets.html">Tickets</a></li>
+                  <li><a href="tickets.cshtml">Tickets</a></li>
                 </ul>
               </div>
               <div
@@ -1204,12 +919,12 @@
               >
                 <p>Sales</p>
                 <ul>
-                  <li><a href="estimates.html">Estimates</a></li>
-                  <li><a href="invoices.html">Invoices</a></li>
-                  <li><a href="payments.html">Payments</a></li>
-                  <li><a href="expenses.html">Expenses</a></li>
-                  <li><a href="provident-fund.html">Provident Fund</a></li>
-                  <li><a href="taxes.html">Taxes</a></li>
+                  <li><a href="estimates.cshtml">Estimates</a></li>
+                  <li><a href="invoices.cshtml">Invoices</a></li>
+                  <li><a href="payments.cshtml">Payments</a></li>
+                  <li><a href="expenses.cshtml">Expenses</a></li>
+                  <li><a href="provident-fund.cshtml">Provident Fund</a></li>
+                  <li><a href="taxes.cshtml">Taxes</a></li>
                 </ul>
               </div>
               <div
@@ -1220,10 +935,10 @@
               >
                 <p>Accounting</p>
                 <ul>
-                  <li><a href="categories.html">Categories</a></li>
-                  <li><a href="budgets.html">Budgets</a></li>
-                  <li><a href="budget-expenses.html">Budget Expenses</a></li>
-                  <li><a href="budget-revenues.html">Budget Revenues</a></li>
+                  <li><a href="categories.cshtml">Categories</a></li>
+                  <li><a href="budgets.cshtml">Budgets</a></li>
+                  <li><a href="budget-expenses.cshtml">Budget Expenses</a></li>
+                  <li><a href="budget-revenues.cshtml">Budget Revenues</a></li>
                 </ul>
               </div>
               <div
@@ -1234,9 +949,9 @@
               >
                 <p>Payroll</p>
                 <ul>
-                  <li><a href="salary.html"> Employee Salary </a></li>
-                  <li><a href="salary-view.html"> Payslip </a></li>
-                  <li><a href="payroll-items.html"> Payroll Items </a></li>
+                  <li><a href="salary.cshtml"> Employee Salary </a></li>
+                  <li><a href="salaryview.cshtml"> Payslip </a></li>
+                  <li><a href="payroll-items.cshtml"> Payroll Items </a></li>
                 </ul>
               </div>
               <div
@@ -1247,7 +962,7 @@
               >
                 <p>Policies</p>
                 <ul>
-                  <li><a href="policies.html"> Policies </a></li>
+                  <li><a href="policies.cshtml"> Policies </a></li>
                 </ul>
               </div>
               <div
@@ -1258,19 +973,19 @@
               >
                 <p>Reports</p>
                 <ul>
-                  <li><a href="expense-reports.html"> Expense Report </a></li>
-                  <li><a href="invoice-reports.html"> Invoice Report </a></li>
-                  <li><a href="payments-reports.html"> Payments Report </a></li>
-                  <li><a href="project-reports.html"> Project Report </a></li>
-                  <li><a href="task-reports.html"> Task Report </a></li>
-                  <li><a href="user-reports.html"> User Report </a></li>
-                  <li><a href="employee-reports.html"> Employee Report </a></li>
-                  <li><a href="payslip-reports.html"> Payslip Report </a></li>
+                  <li><a href="expense-reports.cshtml"> Expense Report </a></li>
+                  <li><a href="invoice-reports.cshtml"> Invoice Report </a></li>
+                  <li><a href="payments-reports.cshtml"> Payments Report </a></li>
+                  <li><a href="project-reports.cshtml"> Project Report </a></li>
+                  <li><a href="task-reports.cshtml"> Task Report </a></li>
+                  <li><a href="user-reports.cshtml"> User Report </a></li>
+                  <li><a href="employee-reports.cshtml"> Employee Report </a></li>
+                  <li><a href="payslip-reports.cshtml"> Payslip Report </a></li>
                   <li>
-                    <a href="attendance-reports.html"> Attendance Report </a>
+                    <a href="attendance-reports.cshtml"> Attendance Report </a>
                   </li>
-                  <li><a href="leave-reports.html"> Leave Report </a></li>
-                  <li><a href="daily-reports.html"> Daily Report </a></li>
+                  <li><a href="leave-reports.cshtml"> Leave Report </a></li>
+                  <li><a href="daily-reports.cshtml"> Daily Report </a></li>
                 </ul>
               </div>
               <div
@@ -1282,13 +997,13 @@
                 <p>Performance</p>
                 <ul>
                   <li>
-                    <a href="performance-indicator.html">
+                    <a href="performance-indicator.cshtml">
                       Performance Indicator
                     </a>
                   </li>
-                  <li><a href="performance.html"> Performance Review </a></li>
+                  <li><a href="performance.cshtml"> Performance Review </a></li>
                   <li>
-                    <a href="performance-appraisal.html">
+                    <a href="performance-appraisal.cshtml">
                       Performance Appraisal
                     </a>
                   </li>
@@ -1302,8 +1017,8 @@
               >
                 <p>Goals</p>
                 <ul>
-                  <li><a href="goal-tracking.html"> Goal List </a></li>
-                  <li><a href="goal-type.html"> Goal Type </a></li>
+                  <li><a href="goal-tracking.cshtml"> Goal List </a></li>
+                  <li><a href="goal-type.cshtml"> Goal Type </a></li>
                 </ul>
               </div>
               <div
@@ -1314,9 +1029,9 @@
               >
                 <p>Training</p>
                 <ul>
-                  <li><a href="training.html"> Training List </a></li>
-                  <li><a href="trainers.html"> Trainers</a></li>
-                  <li><a href="training-type.html"> Training Type </a></li>
+                  <li><a href="training.cshtml"> Training List </a></li>
+                  <li><a href="trainers.cshtml"> Trainers</a></li>
+                  <li><a href="training-type.cshtml"> Training Type </a></li>
                 </ul>
               </div>
               <div
@@ -1327,7 +1042,7 @@
               >
                 <p>Promotion</p>
                 <ul>
-                  <li><a href="promotion.html"> Promotion </a></li>
+                  <li><a href="promotion.cshtml"> Promotion </a></li>
                 </ul>
               </div>
               <div
@@ -1338,7 +1053,7 @@
               >
                 <p>Resignation</p>
                 <ul>
-                  <li><a href="resignation.html"> Resignation </a></li>
+                  <li><a href="resignation.cshtml"> Resignation </a></li>
                 </ul>
               </div>
               <div
@@ -1349,18 +1064,18 @@
               >
                 <p>Termination</p>
                 <ul>
-                  <li><a href="termination.html"> Termination </a></li>
+                  <li><a href="termination.cshtml"> Termination </a></li>
                 </ul>
               </div>
               <div
                 class="tab-pane fade"
-                id="v-pills-assets"
+                id="v-pills-~/assets"
                 role="tabpanel"
-                aria-labelledby="v-pills-assets-tab"
+                aria-labelledby="v-pills-~/assets-tab"
               >
                 <p>Assets</p>
                 <ul>
-                  <li><a href="assets.html"> Assets </a></li>
+                  <li><a href="~/assets.cshtml"> Assets </a></li>
                 </ul>
               </div>
               <div
@@ -1372,30 +1087,30 @@
                 <p>Jobs</p>
                 <ul>
                   <li>
-                    <a href="user-dashboard.html" class="active">
+                    <a href="user-dashboard.cshtml" class="active">
                       User Dasboard
                     </a>
                   </li>
-                  <li><a href="jobs-dashboard.html"> Jobs Dasboard </a></li>
-                  <li><a href="jobs.html"> Manage Jobs </a></li>
-                  <li><a href="job-applicants.html"> Applied Jobs </a></li>
-                  <li><a href="manage-resumes.html"> Manage Resumes </a></li>
+                  <li><a href="jobs-dashboard.cshtml"> Jobs Dasboard </a></li>
+                  <li><a href="jobs.cshtml"> Manage Jobs </a></li>
+                  <li><a href="job-applicants.cshtml"> Applied Jobs </a></li>
+                  <li><a href="manage-resumes.cshtml"> Manage Resumes </a></li>
                   <li>
-                    <a href="shortlist-candidates.html">
+                    <a href="shortlist-candidates.cshtml">
                       Shortlist Candidates
                     </a>
                   </li>
                   <li>
-                    <a href="interview-questions.html"> Interview Questions </a>
+                    <a href="interview-questions.cshtml"> Interview Questions </a>
                   </li>
-                  <li><a href="offer_approvals.html"> Offer Approvals </a></li>
+                  <li><a href="offer_approvals.cshtml"> Offer Approvals </a></li>
                   <li>
-                    <a href="experiance-level.html"> Experience Level </a>
+                    <a href="experiance-level.cshtml"> Experience Level </a>
                   </li>
-                  <li><a href="candidates.html"> Candidates List </a></li>
-                  <li><a href="schedule-timing.html"> Schedule timing </a></li>
+                  <li><a href="candidates.cshtml"> Candidates List </a></li>
+                  <li><a href="schedule-timing.cshtml"> Schedule timing </a></li>
                   <li>
-                    <a href="apptitude-result.html"> Aptitude Results </a>
+                    <a href="apptitude-result.cshtml"> Aptitude Results </a>
                   </li>
                 </ul>
               </div>
@@ -1407,7 +1122,7 @@
               >
                 <p>Knowledgebase</p>
                 <ul>
-                  <li><a href="knowledgebase.html"> Knowledgebase </a></li>
+                  <li><a href="knowledgebase.cshtml"> Knowledgebase </a></li>
                 </ul>
               </div>
               <div
@@ -1418,7 +1133,7 @@
               >
                 <p>Activities</p>
                 <ul>
-                  <li><a href="activities.html"> Activities </a></li>
+                  <li><a href="activities.cshtml"> Activities </a></li>
                 </ul>
               </div>
               <div
@@ -1429,7 +1144,7 @@
               >
                 <p>Users</p>
                 <ul>
-                  <li><a href="users.html"> Users </a></li>
+                  <li><a href="users.cshtml"> Users </a></li>
                 </ul>
               </div>
               <div
@@ -1440,7 +1155,7 @@
               >
                 <p>Settings</p>
                 <ul>
-                  <li><a href="settings.html"> Settings </a></li>
+                  <li><a href="settings.cshtml"> Settings </a></li>
                 </ul>
               </div>
               <div
@@ -1451,8 +1166,8 @@
               >
                 <p>Profile</p>
                 <ul>
-                  <li><a href="profile.html"> Employee Profile </a></li>
-                  <li><a href="client-profile.html"> Client Profile </a></li>
+                  <li><a href="profile.cshtml"> Employee Profile </a></li>
+                  <li><a href="clientprofile.cshtml"> Client Profile </a></li>
                 </ul>
               </div>
               <div
@@ -1463,11 +1178,11 @@
               >
                 <p>Authentication</p>
                 <ul>
-                  <li><a href="index.html"> Login </a></li>
-                  <li><a href="register.html"> Register </a></li>
-                  <li><a href="forgot-password.html"> Forgot Password </a></li>
-                  <li><a href="otp.html"> OTP </a></li>
-                  <li><a href="lock-screen.html"> Lock Screen </a></li>
+                  <li><a href="index.cshtml"> Login </a></li>
+                  <li><a href="register.cshtml"> Register </a></li>
+                  <li><a href="forgot-password.cshtml"> Forgot Password </a></li>
+                  <li><a href="otp.cshtml"> OTP </a></li>
+                  <li><a href="lock-screen.cshtml"> Lock Screen </a></li>
                 </ul>
               </div>
               <div
@@ -1478,8 +1193,8 @@
               >
                 <p>Error Pages</p>
                 <ul>
-                  <li><a href="error-404.html">404 Error </a></li>
-                  <li><a href="error-500.html">500 Error </a></li>
+                  <li><a href="error-404.cshtml">404 Error </a></li>
+                  <li><a href="error-500.cshtml">500 Error </a></li>
                 </ul>
               </div>
               <div
@@ -1491,15 +1206,15 @@
                 <p>Subscriptions</p>
                 <ul>
                   <li>
-                    <a href="subscriptions.html"> Subscriptions (Admin) </a>
+                    <a href="subscriptions.cshtml"> Subscriptions (Admin) </a>
                   </li>
                   <li>
-                    <a href="subscriptions-company.html">
+                    <a href="subscriptions-company.cshtml">
                       Subscriptions (Company)
                     </a>
                   </li>
                   <li>
-                    <a href="subscribed-companies.html">
+                    <a href="subscribed-companies.cshtml">
                       Subscribed Companies</a
                     >
                   </li>
@@ -1513,11 +1228,11 @@
               >
                 <p>Pages</p>
                 <ul>
-                  <li><a href="search.html"> Search </a></li>
-                  <li><a href="faq.html"> FAQ </a></li>
-                  <li><a href="terms.html"> Terms </a></li>
-                  <li><a href="privacy-policy.html"> Privacy Policy </a></li>
-                  <li><a href="blank-page.html"> Blank Page </a></li>
+                  <li><a href="search.cshtml"> Search </a></li>
+                  <li><a href="faq.cshtml"> FAQ </a></li>
+                  <li><a href="terms.cshtml"> Terms </a></li>
+                  <li><a href="privacy-policy.cshtml"> Privacy Policy </a></li>
+                  <li><a href="blank-page.cshtml"> Blank Page </a></li>
                 </ul>
               </div>
               <div
@@ -1528,12 +1243,12 @@
               >
                 <p>Forms</p>
                 <ul>
-                  <li><a href="form-basic-inputs.html">Basic Inputs </a></li>
-                  <li><a href="form-input-groups.html">Input Groups </a></li>
-                  <li><a href="form-horizontal.html">Horizontal Form </a></li>
-                  <li><a href="form-vertical.html"> Vertical Form </a></li>
-                  <li><a href="form-mask.html"> Form Mask </a></li>
-                  <li><a href="form-validation.html"> Form Validation </a></li>
+                  <li><a href="form-basic-inputs.cshtml">Basic Inputs </a></li>
+                  <li><a href="form-input-groups.cshtml">Input Groups </a></li>
+                  <li><a href="form-horizontal.cshtml">Horizontal Form </a></li>
+                  <li><a href="form-vertical.cshtml"> Vertical Form </a></li>
+                  <li><a href="form-mask.cshtml"> Form Mask </a></li>
+                  <li><a href="form-validation.cshtml"> Form Validation </a></li>
                 </ul>
               </div>
               <div
@@ -1544,8 +1259,8 @@
               >
                 <p>Tables</p>
                 <ul>
-                  <li><a href="tables-basic.html">Basic Tables </a></li>
-                  <li><a href="data-tables.html">Data Table </a></li>
+                  <li><a href="tables-basic.cshtml">Basic Tables </a></li>
+                  <li><a href="data-tables.cshtml">Data Table </a></li>
                 </ul>
               </div>
               <div
@@ -1997,8 +1712,8 @@
                   </h4>
                   <div class="leave-info-box">
                     <div class="media d-flex align-items-center">
-                      <a href="profile.html" class="avatar"
-                        ><img src="assets/img/user.jpg" alt="User Image"
+                      <a href="profile.cshtml" class="avatar"
+                        ><img src="~/assets/img/user.jpg" alt="User Image"
                       /></a>
                       <div class="media-body flex-grow-1">
                         <div class="text-sm my-0">Martin Lewis</div>
@@ -2016,8 +1731,8 @@
                   </div>
                   <div class="leave-info-box">
                     <div class="media d-flex align-items-center">
-                      <a href="profile.html" class="avatar"
-                        ><img src="assets/img/user.jpg" alt="User Image"
+                      <a href="profile.cshtml" class="avatar"
+                        ><img src="~/assets/img/user.jpg" alt="User Image"
                       /></a>
                       <div class="media-body flex-grow-1">
                         <div class="text-sm my-0">Martin Lewis</div>
@@ -2064,7 +1779,7 @@
                       </thead>
                       <tbody>
                         <tr>
-                          <td><a href="invoice-view.html">#INV-0001</a></td>
+                          <td><a href="invoice-view.cshtml">#INV-0001</a></td>
                           <td>
                             <h2><a href="#">Global Technologies</a></h2>
                           </td>
@@ -2077,7 +1792,7 @@
                           </td>
                         </tr>
                         <tr>
-                          <td><a href="invoice-view.html">#INV-0002</a></td>
+                          <td><a href="invoice-view.cshtml">#INV-0002</a></td>
                           <td>
                             <h2><a href="#">Delta Infotech</a></h2>
                           </td>
@@ -2088,7 +1803,7 @@
                           </td>
                         </tr>
                         <tr>
-                          <td><a href="invoice-view.html">#INV-0003</a></td>
+                          <td><a href="invoice-view.cshtml">#INV-0003</a></td>
                           <td>
                             <h2><a href="#">Cream Inc</a></h2>
                           </td>
@@ -2103,7 +1818,7 @@
                   </div>
                 </div>
                 <div class="card-footer">
-                  <a href="invoices.html">View all invoices</a>
+                  <a href="invoices.cshtml">View all invoices</a>
                 </div>
               </div>
             </div>
@@ -2126,7 +1841,7 @@
                       </thead>
                       <tbody>
                         <tr>
-                          <td><a href="invoice-view.html">#INV-0001</a></td>
+                          <td><a href="invoice-view.cshtml">#INV-0001</a></td>
                           <td>
                             <h2><a href="#">Global Technologies</a></h2>
                           </td>
@@ -2135,7 +1850,7 @@
                           <td>$380</td>
                         </tr>
                         <tr>
-                          <td><a href="invoice-view.html">#INV-0002</a></td>
+                          <td><a href="invoice-view.cshtml">#INV-0002</a></td>
                           <td>
                             <h2><a href="#">Delta Infotech</a></h2>
                           </td>
@@ -2144,7 +1859,7 @@
                           <td>$500</td>
                         </tr>
                         <tr>
-                          <td><a href="invoice-view.html">#INV-0003</a></td>
+                          <td><a href="invoice-view.cshtml">#INV-0003</a></td>
                           <td>
                             <h2><a href="#">Cream Inc</a></h2>
                           </td>
@@ -2157,7 +1872,7 @@
                   </div>
                 </div>
                 <div class="card-footer">
-                  <a href="payments.html">View all payments</a>
+                  <a href="payments.cshtml">View all payments</a>
                 </div>
               </div>
             </div>
@@ -2186,10 +1901,10 @@
                             <h2 class="table-avatar">
                               <a href="#" class="avatar"
                                 ><img
-                                  src="assets/img/profiles/avatar-19.jpg"
+                                  src="~/assets/img/profiles/avatar-19.jpg"
                                   alt="User Image"
                               /></a>
-                              <a href="client-profile.html"
+                              <a href="clientprofile.cshtml"
                                 >Barry Cuda <span>CEO</span></a
                               >
                             </h2>
@@ -2255,10 +1970,10 @@
                             <h2 class="table-avatar">
                               <a href="#" class="avatar"
                                 ><img
-                                  src="assets/img/profiles/avatar-19.jpg"
+                                  src="~/assets/img/profiles/avatar-19.jpg"
                                   alt="User Image"
                               /></a>
-                              <a href="client-profile.html"
+                              <a href="clientprofile.cshtml"
                                 >Tressa Wexler <span>Manager</span></a
                               >
                             </h2>
@@ -2322,12 +2037,12 @@
                         <tr>
                           <td>
                             <h2 class="table-avatar">
-                              <a href="client-profile.html" class="avatar"
+                              <a href="clientprofile.cshtml" class="avatar"
                                 ><img
-                                  src="assets/img/profiles/avatar-07.jpg"
+                                  src="~/assets/img/profiles/avatar-07.jpg"
                                   alt="User Image"
                               /></a>
-                              <a href="client-profile.html"
+                              <a href="clientprofile.cshtml"
                                 >Ruby Bartlett <span>CEO</span></a
                               >
                             </h2>
@@ -2391,12 +2106,12 @@
                         <tr>
                           <td>
                             <h2 class="table-avatar">
-                              <a href="client-profile.html" class="avatar"
+                              <a href="clientprofile.cshtml" class="avatar"
                                 ><img
-                                  src="assets/img/profiles/avatar-06.jpg"
+                                  src="~/assets/img/profiles/avatar-06.jpg"
                                   alt="User Image"
                               /></a>
-                              <a href="client-profile.html">
+                              <a href="clientprofile.cshtml">
                                 Misty Tison <span>CEO</span></a
                               >
                             </h2>
@@ -2460,12 +2175,12 @@
                         <tr>
                           <td>
                             <h2 class="table-avatar">
-                              <a href="client-profile.html" class="avatar"
+                              <a href="clientprofile.cshtml" class="avatar"
                                 ><img
-                                  src="assets/img/profiles/avatar-14.jpg"
+                                  src="~/assets/img/profiles/avatar-14.jpg"
                                   alt="User Image"
                               /></a>
-                              <a href="client-profile.html">
+                              <a href="clientprofile.cshtml">
                                 Daniel Deacon <span>CEO</span></a
                               >
                             </h2>
@@ -2531,7 +2246,7 @@
                   </div>
                 </div>
                 <div class="card-footer">
-                  <a href="clients.html">View all clients</a>
+                  <a href="clients.cshtml">View all clients</a>
                 </div>
               </div>
             </div>
@@ -2554,7 +2269,7 @@
                         <tr>
                           <td>
                             <h2>
-                              <a href="project-view.html">Office Management</a>
+                              <a href="project-view.cshtml">Office Management</a>
                             </h2>
                             <small class="block text-ellipsis">
                               <span>1</span>
@@ -2602,7 +2317,7 @@
                         <tr>
                           <td>
                             <h2>
-                              <a href="project-view.html">Project Management</a>
+                              <a href="project-view.cshtml">Project Management</a>
                             </h2>
                             <small class="block text-ellipsis">
                               <span>2</span>
@@ -2650,7 +2365,7 @@
                         <tr>
                           <td>
                             <h2>
-                              <a href="project-view.html">Video Calling App</a>
+                              <a href="project-view.cshtml">Video Calling App</a>
                             </h2>
                             <small class="block text-ellipsis">
                               <span>3</span>
@@ -2698,7 +2413,7 @@
                         <tr>
                           <td>
                             <h2>
-                              <a href="project-view.html"
+                              <a href="project-view.cshtml"
                                 >Hospital Administration</a
                               >
                             </h2>
@@ -2748,7 +2463,7 @@
                         <tr>
                           <td>
                             <h2>
-                              <a href="project-view.html"
+                              <a href="project-view.cshtml"
                                 >Digital Marketplace</a
                               >
                             </h2>
@@ -2800,7 +2515,7 @@
                   </div>
                 </div>
                 <div class="card-footer">
-                  <a href="projects.html">View all projects</a>
+                  <a href="projects.cshtml">View all projects</a>
                 </div>
               </div>
             </div>
@@ -2832,7 +2547,7 @@
         </div>
         <div class="sidebar-headerclose">
           <a data-bs-dismiss="offcanvas" aria-label="Close"
-            ><img src="assets/img/close.png" alt="Close Icon"
+            ><img src="~/assets/img/close.png" alt="Close Icon"
           /></a>
         </div>
       </div>
@@ -2857,7 +2572,7 @@
                     class="form-check-label avatar-md w-100"
                     for="customizer-layout01"
                   >
-                    <img src="assets/img/vertical.png" alt="Layout Image" />
+                    <img src="~/assets/img/vertical.png" alt="Layout Image" />
                   </label>
                 </div>
                 <h5 class="fs-13 text-center mt-2">Vertical</h5>
@@ -2875,7 +2590,7 @@
                     class="form-check-label avatar-md w-100"
                     for="customizer-layout02"
                   >
-                    <img src="assets/img/horizontal.png" alt="Layout Image" />
+                    <img src="~/assets/img/horizontal.png" alt="Layout Image" />
                   </label>
                 </div>
                 <h5 class="fs-13 text-center mt-2">Horizontal</h5>
@@ -2893,7 +2608,7 @@
                     class="form-check-label avatar-md w-100"
                     for="customizer-layout03"
                   >
-                    <img src="assets/img/two-col.png" alt="Layout Image" />
+                    <img src="~/assets/img/two-col.png" alt="Layout Image" />
                   </label>
                 </div>
                 <h5 class="fs-13 text-center mt-2">Two Column</h5>
@@ -2918,7 +2633,7 @@
                       class="form-check-label avatar-md w-100"
                       for="layout-mode-orange"
                     >
-                      <img src="assets/img/vertical.png" alt="Layout Image" />
+                      <img src="~/assets/img/vertical.png" alt="Layout Image" />
                     </label>
                   </div>
                   <h5 class="fs-13 text-center mt-2">Orange</h5>
@@ -2936,7 +2651,7 @@
                       class="form-check-label avatar-md w-100"
                       for="layout-mode-light"
                     >
-                      <img src="assets/img/vertical.png" alt="Layout Image" />
+                      <img src="~/assets/img/vertical.png" alt="Layout Image" />
                     </label>
                   </div>
                   <h5 class="fs-13 text-center mt-2">Light</h5>
@@ -2954,7 +2669,7 @@
                       class="form-check-label avatar-md w-100"
                       for="layout-mode-dark"
                     >
-                      <img src="assets/img/vertical.png" alt="Layout Image" />
+                      <img src="~/assets/img/vertical.png" alt="Layout Image" />
                     </label>
                   </div>
                   <h5 class="fs-13 text-center mt-2">Dark</h5>
@@ -2972,7 +2687,7 @@
                       class="form-check-label avatar-md w-100"
                       for="layout-mode-blue"
                     >
-                      <img src="assets/img/vertical.png" alt="Layout Image" />
+                      <img src="~/assets/img/vertical.png" alt="Layout Image" />
                     </label>
                   </div>
                   <h5 class="fs-13 text-center mt-2">Blue</h5>
@@ -2990,7 +2705,7 @@
                       class="form-check-label avatar-md w-100"
                       for="layout-mode-maroon"
                     >
-                      <img src="assets/img/vertical.png" alt="Layout Image" />
+                      <img src="~/assets/img/vertical.png" alt="Layout Image" />
                     </label>
                   </div>
                   <h5 class="fs-13 text-center mt-2">Maroon</h5>
@@ -3008,7 +2723,7 @@
                       class="form-check-label avatar-md w-100"
                       for="layout-mode-purple"
                     >
-                      <img src="assets/img/vertical.png" alt="Layout Image" />
+                      <img src="~/assets/img/vertical.png" alt="Layout Image" />
                     </label>
                   </div>
                   <h5 class="fs-13 text-center mt-2">Purple</h5>
@@ -3035,7 +2750,7 @@
                       class="form-check-label avatar-md w-100"
                       for="layout-width-fluid"
                     >
-                      <img src="assets/img/vertical.png" alt="Layout Image" />
+                      <img src="~/assets/img/vertical.png" alt="Layout Image" />
                     </label>
                   </div>
                   <h5 class="fs-13 text-center mt-2">Fluid</h5>
@@ -3053,7 +2768,7 @@
                       class="form-check-label avatar-md w-100 px-2"
                       for="layout-width-boxed"
                     >
-                      <img src="assets/img/boxed.png" alt="Layout Image" />
+                      <img src="~/assets/img/boxed.png" alt="Layout Image" />
                     </label>
                   </div>
                   <h5 class="fs-13 text-center mt-2">Boxed</h5>
@@ -3113,7 +2828,7 @@
                     class="form-check-label avatar-md w-100"
                     for="topbar-color-light"
                   >
-                    <img src="assets/img/vertical.png" alt="Layout Image" />
+                    <img src="~/assets/img/vertical.png" alt="Layout Image" />
                   </label>
                 </div>
                 <h5 class="fs-13 text-center mt-2">Light</h5>
@@ -3131,7 +2846,7 @@
                     class="form-check-label avatar-md w-100"
                     for="topbar-color-dark"
                   >
-                    <img src="assets/img/dark.png" alt="Layout Image" />
+                    <img src="~/assets/img/dark.png" alt="Layout Image" />
                   </label>
                 </div>
                 <h5 class="fs-13 text-center mt-2">Dark</h5>
@@ -3157,7 +2872,7 @@
                       class="form-check-label avatar-md w-100"
                       for="sidebar-size-default"
                     >
-                      <img src="assets/img/vertical.png" alt="Layout Image" />
+                      <img src="~/assets/img/vertical.png" alt="Layout Image" />
                     </label>
                   </div>
                   <h5 class="fs-13 text-center mt-2">Default</h5>
@@ -3176,7 +2891,7 @@
                       class="form-check-label avatar-md w-100"
                       for="sidebar-size-compact"
                     >
-                      <img src="assets/img/compact.png" alt="Layout Image" />
+                      <img src="~/assets/img/compact.png" alt="Layout Image" />
                     </label>
                   </div>
                   <h5 class="fs-13 text-center mt-2">Compact</h5>
@@ -3196,7 +2911,7 @@
                       for="sidebar-size-small-hover"
                     >
                       <img
-                        src="assets/img/small-hover.png"
+                        src="~/assets/img/small-hover.png"
                         alt="Layout Image"
                       />
                     </label>
@@ -3225,7 +2940,7 @@
                       class="form-check-label avatar-md w-100"
                       for="sidebar-view-default"
                     >
-                      <img src="assets/img/compact.png" alt="Layout Image" />
+                      <img src="~/assets/img/compact.png" alt="Layout Image" />
                     </label>
                   </div>
                   <h5 class="fs-13 text-center mt-2">Default</h5>
@@ -3243,7 +2958,7 @@
                       class="form-check-label avatar-md w-100"
                       for="sidebar-view-detached"
                     >
-                      <img src="assets/img/detached.png" alt="Layout Image" />
+                      <img src="~/assets/img/detached.png" alt="Layout Image" />
                     </label>
                   </div>
                   <h5 class="fs-13 text-center mt-2">Detached</h5>
@@ -3384,25 +3099,25 @@
     </div>
 
     <!-- jQuery -->
-    <script src="assets/js/jquery-3.7.0.min.js"></script>
+    <script src="~/assets/js/jquery-3.7.0.min.js"></script>
 
     <!-- Bootstrap Core JS -->
-    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <script src="~/assets/js/bootstrap.bundle.min.js"></script>
 
     <!-- Slimscroll JS -->
-    <script src="assets/js/jquery.slimscroll.min.js"></script>
+    <script src="~/assets/js/jquery.slimscroll.min.js"></script>
 
     <!-- Chart JS -->
-    <script src="assets/plugins/morris/morris.min.js"></script>
-    <script src="assets/plugins/raphael/raphael.min.js"></script>
-    <script src="assets/js/chart.js"></script>
-    <script src="assets/js/greedynav.js"></script>
+    <script src="~/assets/plugins/morris/morris.min.js"></script>
+    <script src="~/assets/plugins/raphael/raphael.min.js"></script>
+    <script src="~/assets/js/chart.js"></script>
+    <script src="~/assets/js/greedynav.js"></script>
 
     <!-- Theme Settings JS -->
-    <script src="assets/js/layout.js"></script>
-    <script src="assets/js/theme-settings.js"></script>
+    <script src="~/assets/js/layout.js"></script>
+    <script src="~/assets/js/theme-settings.js"></script>
 
     <!-- Custom JS -->
-    <script src="assets/js/app.js"></script>
+    <script src="~/assets/js/app.js"></script>
   </body>
 </html>

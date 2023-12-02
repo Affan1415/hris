@@ -12,30 +12,30 @@
 	<title>Employees - HRMS admin template</title>
 
 	<!-- Favicon -->
-	<link rel="shortcut icon" type="image/x-icon" href="assets/img/favicon.png">
+	<link rel="shortcut icon" type="image/x-icon" href="~/assets/img/favicon.png">
 
 	<!-- Bootstrap CSS -->
-	<link rel="stylesheet" href="assets/css/bootstrap.min.css">
+	<link rel="stylesheet" href="~/assets/css/bootstrap.min.css">
 
 	<!-- Fontawesome CSS -->
-	<link rel="stylesheet" href="assets/plugins/fontawesome/css/fontawesome.min.css">
-	<link rel="stylesheet" href="assets/plugins/fontawesome/css/all.min.css">
+	<link rel="stylesheet" href="~/assets/plugins/fontawesome/css/fontawesome.min.css">
+	<link rel="stylesheet" href="~/assets/plugins/fontawesome/css/all.min.css">
 
 	<!-- Lineawesome CSS -->
-	<link rel="stylesheet" href="assets/css/line-awesome.min.css">
-	<link rel="stylesheet" href="assets/css/material.css">
+	<link rel="stylesheet" href="~/assets/css/line-awesome.min.css">
+	<link rel="stylesheet" href="~/assets/css/material.css">
 
 	<!-- Datatable CSS -->
-	<link rel="stylesheet" href="assets/css/dataTables.bootstrap4.min.css">
+	<link rel="stylesheet" href="~/assets/css/dataTables.bootstrap4.min.css">
 
 	<!-- Select2 CSS -->
-	<link rel="stylesheet" href="assets/css/select2.min.css">
+	<link rel="stylesheet" href="~/assets/css/select2.min.css">
 
 	<!-- Datetimepicker CSS -->
-	<link rel="stylesheet" href="assets/css/bootstrap-datetimepicker.min.css">
+	<link rel="stylesheet" href="~/assets/css/bootstrap-datetimepicker.min.css">
 
 	<!-- Main CSS -->
-	<link rel="stylesheet" href="assets/css/style.css">
+	<link rel="stylesheet" href="~/assets/css/style.css">
 
 
 </head>
@@ -49,11 +49,11 @@
 
 			<!-- Logo -->
 			<div class="header-left">
-				<a href="admin-dashboard.html" class="logo">
-					<img src="assets/img/logo.png" width="40" height="40" alt="Logo">
+				<a href="admindashboard.cshtml" class="logo">
+					<img src="~/assets/img/logo.png" width="40" height="40" alt="Logo">
 				</a>
-				<a href="admin-dashboard.html" class="logo2">
-					<img src="assets/img/logo2.png" width="40" height="40" alt="Logo">
+				<a href="admindashboard.cshtml" class="logo2">
+					<img src="~/assets/img/logo2.png" width="40" height="40" alt="Logo">
 				</a>
 			</div>
 			<!-- /Logo -->
@@ -81,20 +81,20 @@
 				<!-- Flag -->
 				<li class="nav-item dropdown has-arrow flag-nav">
 					<a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button">
-						<img src="assets/img/flags/us.png" alt="Flag" height="20"> <span>English</span>
+						<img src="~/assets/img/flags/us.png" alt="Flag" height="20"> <span>English</span>
 					</a>
 					<div class="dropdown-menu dropdown-menu-right">
 						<a href="javascript:void(0);" class="dropdown-item">
-							<img src="assets/img/flags/us.png" alt="Flag" height="16"> English
+							<img src="~/assets/img/flags/us.png" alt="Flag" height="16"> English
 						</a>
 						<a href="javascript:void(0);" class="dropdown-item">
-							<img src="assets/img/flags/fr.png" alt="Flag" height="16"> French
+							<img src="~/assets/img/flags/fr.png" alt="Flag" height="16"> French
 						</a>
 						<a href="javascript:void(0);" class="dropdown-item">
-							<img src="assets/img/flags/es.png" alt="Flag" height="16"> Spanish
+							<img src="~/assets/img/flags/es.png" alt="Flag" height="16"> Spanish
 						</a>
 						<a href="javascript:void(0);" class="dropdown-item">
-							<img src="assets/img/flags/de.png" alt="Flag" height="16"> German
+							<img src="~/assets/img/flags/de.png" alt="Flag" height="16"> German
 						</a>
 					</div>
 				</li>
@@ -119,13 +119,13 @@
 
 				<li class="nav-item dropdown has-arrow main-drop">
 					<a href="#" class="dropdown-toggle nav-link" data-bs-toggle="dropdown">
-						<span class="user-img"><img src="assets/img/profiles/avatar-21.jpg" alt="User Image">
+						<span class="user-img"><img src="~/assets/img/profiles/avatar-21.jpg" alt="User Image">
 							<span class="status online"></span></span>
 						<span>Admin</span>
 					</a>
 					<div class="dropdown-menu">
-						<a class="dropdown-item" href="profile.html">My Profile</a>
-						<a class="dropdown-item" href="index.html">Logout</a>
+						<a class="dropdown-item" href="profile.cshtml">My Profile</a>
+						<a class="dropdown-item" href="index.cshtml">Logout</a>
 					</div>
 				</li>
 			</ul>
@@ -136,8 +136,8 @@
 				<a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false"><i
 						class="fa-solid fa-ellipsis-vertical"></i></a>
 				<div class="dropdown-menu dropdown-menu-right">
-					<a class="dropdown-item" href="profile.html">My Profile</a>
-					<a class="dropdown-item" href="index.html">Logout</a>
+					<a class="dropdown-item" href="profile.cshtml">My Profile</a>
+					<a class="dropdown-item" href="index.cshtml">Logout</a>
 				</div>
 			</div>
 			<!-- /Mobile Menu -->
@@ -155,39 +155,39 @@
 								<span>Main</span>
 							</li>
 							<li class="submenu">
-								<a href="admin-dashboard.html"><i class="la la-dashboard"></i> <span> Dashboard</span> <span
+								<a href="admindashboard.cshtml"><i class="la la-dashboard"></i> <span> Dashboard</span> <span
 										class="menu-arrow"></span></a>
 							</li>
 							<li class="submenu">
 								<a href="#" class="noti-dot"><i class="la la-user"></i> <span> HR </span> <span
 										class="menu-arrow"></span></a>
 								<ul>
-									<li><a href="employees.html">All Employees</a></li>
-									<li><a href="leaves.html">Leaves (Admin) <span
+									<li><a href="employees.cshtml">All Employees</a></li>
+									<li><a href="leaves.cshtml">Leaves (Admin) <span
 												class="badge rounded-pill bg-primary float-end">1</span></a></li>
-									<li><a href="attendance.html">Attendance (Admin)</a></li>
-									<li><a href="departments.html">Departments</a></li>
+									<li><a href="attendance.cshtml">Attendance (Admin)</a></li>
+									<li><a href="departments.cshtml">Departments</a></li>
 								</ul>
 							</li>
 							<li>
-								<a href="clients.html"><i class="la la-users"></i> <span>Clients</span></a>
+								<a href="clients.cshtml"><i class="la la-users"></i> <span>Clients</span></a>
 							</li>
 							<li>
-								<a href="projects.html"><i class="la la-users"></i> <span>Projects</span></a>
+								<a href="projects.cshtml"><i class="la la-users"></i> <span>Projects</span></a>
 							</li>
 							<li>
-								<a href="expenses.html"><i class="la la-users"></i> <span>Expenses</span></a>
+								<a href="expenses.cshtml"><i class="la la-users"></i> <span>Expenses</span></a>
 							</li>
 						</ul>
 						<button class="viewmoremenu">More Menu</button>
 						<ul class="hidden-links hidden">
 							<li>
-								<a href="salary.html"><i class="la la-users"></i> <span>Employee Salary</span></a>
+								<a href="salary.cshtml"><i class="la la-users"></i> <span>Employee Salary</span></a>
 							</li>
 							<li>
-								<a href="salary-view.html"><i class="la la-users"></i> <span>Payslip</span></a>
+								<a href="salaryview.cshtml"><i class="la la-users"></i> <span>Payslip</span></a>
 							</li>
-							<li><a href="resignation.html"><i class="la la-external-link-square"></i>
+							<li><a href="resignation.cshtml"><i class="la la-external-link-square"></i>
 									<span>Resignation</span></a></li>
 						</ul>
 					</nav>
@@ -197,35 +197,35 @@
 							<span>Main</span>
 						</li>
 						<li class="submenu">
-							<a href="admin-dashboard.html"><i class="la la-dashboard"></i> <span>Admin Dashboard</span></a>
+							<a href="admindashboard.cshtml"><i class="la la-dashboard"></i> <span>Admin Dashboard</span></a>
 						</li>
 						<li class="submenu">
 							<a href="#" class="noti-dot"><i class="la la-user"></i> <span> HR</span> <span
 									class="menu-arrow"></span></a>
 							<ul>
-								<li><a href="employees.html">All Employees</a></li>
-								<li><a href="leaves.html">Leaves (Admin) <span
+								<li><a href="employees.cshtml">All Employees</a></li>
+								<li><a href="leaves.cshtml">Leaves (Admin) <span
 											class="badge rounded-pill bg-primary float-end">1</span></a></li>
-								<li><a href="attendance.html">Attendance (Admin)</a></li>
-								<li><a href="departments.html">Departments</a></li>
+								<li><a href="attendance.cshtml">Attendance (Admin)</a></li>
+								<li><a href="departments.cshtml">Departments</a></li>
 							</ul>
 						</li>
 						<li>
-							<a href="clients.html"><i class="la la-users"></i> <span>Clients</span></a>
+							<a href="clients.cshtml"><i class="la la-users"></i> <span>Clients</span></a>
 						</li>
 						<li>
-							<a href="projects.html"><i class="la la-users"></i> <span>Projects</span></a>
+							<a href="projects.cshtml"><i class="la la-users"></i> <span>Projects</span></a>
 						</li>
 						<li>
-							<a href="expenses.html"><i class="la la-users"></i> <span>Expenses</span></a>
+							<a href="expenses.cshtml"><i class="la la-users"></i> <span>Expenses</span></a>
 						</li>
 						<li>
-							<a href="salary.html"><i class="la la-users"></i> <span>Employee Salary</span></a>
+							<a href="salary.cshtml"><i class="la la-users"></i> <span>Employee Salary</span></a>
 						</li>
 						<li>
-							<a href="salary-view.html"><i class="la la-users"></i> <span>Payslip</span></a>
+							<a href="salaryview.cshtml"><i class="la la-users"></i> <span>Payslip</span></a>
 						</li>
-						<li><a href="resignation.html"><i class="la la-external-link-square"></i>
+						<li><a href="resignation.cshtml"><i class="la la-external-link-square"></i>
 								<span>Resignation</span></a></li>
 					</ul>
 	
@@ -247,7 +247,7 @@
 						<div class="col">
 							<h3 class="page-title">Employee</h3>
 							<ul class="breadcrumb">
-								<li class="breadcrumb-item"><a href="admin-dashboard.html">Dashboard</a></li>
+								<li class="breadcrumb-item"><a href="admindashboard.cshtml">Dashboard</a></li>
 								<li class="breadcrumb-item active">Employee</li>
 							</ul>
 						</div>
@@ -255,8 +255,8 @@
 							<a href="#" class="btn add-btn" data-bs-toggle="modal" data-bs-target="#add_employee"><i
 									class="fa-solid fa-plus"></i> Add Employee</a>
 							<div class="view-icons">
-								<a href="employees.html" class="grid-view btn btn-link"><i class="fa fa-th"></i></a>
-								<a href="employees-list.html" class="list-view btn btn-link active"><i
+								<a href="employees.cshtml" class="grid-view btn btn-link"><i class="fa fa-th"></i></a>
+								<a href="employeeslist.cshtml" class="list-view btn btn-link active"><i
 										class="fa-solid fa-bars"></i></a>
 							</div>
 						</div>
@@ -315,9 +315,9 @@
 									<tr>
 										<td>
 											<h2 class="table-avatar">
-												<a href="profile.html" class="avatar"><img
-														src="assets/img/profiles/avatar-02.jpg" alt="User Image"></a>
-												<a href="profile.html">John Doe <span>Web Designer</span></a>
+												<a href="profile.cshtml" class="avatar"><img
+														src="~/assets/img/profiles/avatar-02.jpg" alt="User Image"></a>
+												<a href="profile.cshtml">John Doe <span>Web Designer</span></a>
 											</h2>
 										</td>
 										<td>FT-0001</td>
@@ -355,9 +355,9 @@
 									<tr>
 										<td>
 											<h2 class="table-avatar">
-												<a href="profile.html" class="avatar"><img
-														src="assets/img/profiles/avatar-09.jpg" alt="User Image"></a>
-												<a href="profile.html">Richard Miles <span>Web Developer</span></a>
+												<a href="profile.cshtml" class="avatar"><img
+														src="~/assets/img/profiles/avatar-09.jpg" alt="User Image"></a>
+												<a href="profile.cshtml">Richard Miles <span>Web Developer</span></a>
 											</h2>
 										</td>
 										<td>FT-0002</td>
@@ -395,9 +395,9 @@
 									<tr>
 										<td>
 											<h2 class="table-avatar">
-												<a href="profile.html" class="avatar"><img
-														src="assets/img/profiles/avatar-10.jpg" alt="User Image"></a>
-												<a href="profile.html">John Smith <span>Android Developer</span></a>
+												<a href="profile.cshtml" class="avatar"><img
+														src="~/assets/img/profiles/avatar-10.jpg" alt="User Image"></a>
+												<a href="profile.cshtml">John Smith <span>Android Developer</span></a>
 											</h2>
 										</td>
 										<td>FT-0003</td>
@@ -435,9 +435,9 @@
 									<tr>
 										<td>
 											<h2 class="table-avatar">
-												<a href="profile.html" class="avatar"><img
-														src="assets/img/profiles/avatar-05.jpg" alt="User Image"></a>
-												<a href="profile.html">Mike Litorus <span>IOS Developer</span></a>
+												<a href="profile.cshtml" class="avatar"><img
+														src="~/assets/img/profiles/avatar-05.jpg" alt="User Image"></a>
+												<a href="profile.cshtml">Mike Litorus <span>IOS Developer</span></a>
 											</h2>
 										</td>
 										<td>FT-0004</td>
@@ -475,9 +475,9 @@
 									<tr>
 										<td>
 											<h2 class="table-avatar">
-												<a href="profile.html" class="avatar"><img
-														src="assets/img/profiles/avatar-11.jpg" alt="User Image"></a>
-												<a href="profile.html">Wilmer Deluna <span>Team Leader</span></a>
+												<a href="profile.cshtml" class="avatar"><img
+														src="~/assets/img/profiles/avatar-11.jpg" alt="User Image"></a>
+												<a href="profile.cshtml">Wilmer Deluna <span>Team Leader</span></a>
 											</h2>
 										</td>
 										<td>FT-0005</td>
@@ -515,9 +515,9 @@
 									<tr>
 										<td>
 											<h2 class="table-avatar">
-												<a href="profile.html" class="avatar"><img
-														src="assets/img/profiles/avatar-12.jpg" alt="User Image"></a>
-												<a href="profile.html">Jeffrey Warden <span>Web Developer</span></a>
+												<a href="profile.cshtml" class="avatar"><img
+														src="~/assets/img/profiles/avatar-12.jpg" alt="User Image"></a>
+												<a href="profile.cshtml">Jeffrey Warden <span>Web Developer</span></a>
 											</h2>
 										</td>
 										<td>FT-0006</td>
@@ -555,9 +555,9 @@
 									<tr>
 										<td>
 											<h2 class="table-avatar">
-												<a href="profile.html" class="avatar"><img
-														src="assets/img/profiles/avatar-13.jpg" alt="User Image"></a>
-												<a href="profile.html">Bernardo Galaviz <span>Web Developer</span></a>
+												<a href="profile.cshtml" class="avatar"><img
+														src="~/assets/img/profiles/avatar-13.jpg" alt="User Image"></a>
+												<a href="profile.cshtml">Bernardo Galaviz <span>Web Developer</span></a>
 											</h2>
 										</td>
 										<td>FT-0007</td>
@@ -1536,7 +1536,7 @@
 				<h3>Customize your overview Page layout</h3>
 			</div>
 			<div class="sidebar-headerclose">
-				<a data-bs-dismiss="offcanvas" aria-label="Close"><img src="assets/img/close.png" alt="Close Icon"></a>
+				<a data-bs-dismiss="offcanvas" aria-label="Close"><img src="~/assets/img/close.png" alt="Close Icon"></a>
 			</div>
 		</div>
 		<div class="offcanvas-body p-0">
@@ -1552,7 +1552,7 @@
 								<input id="customizer-layout01" name="data-layout" type="radio" value="vertical"
 									class="form-check-input">
 								<label class="form-check-label avatar-md w-100" for="customizer-layout01">
-									<img src="assets/img/vertical.png" alt="Layout Image">
+									<img src="~/assets/img/vertical.png" alt="Layout Image">
 								</label>
 							</div>
 							<h5 class="fs-13 text-center mt-2">Vertical</h5>
@@ -1562,7 +1562,7 @@
 								<input id="customizer-layout02" name="data-layout" type="radio" value="horizontal"
 									class="form-check-input">
 								<label class="form-check-label  avatar-md w-100" for="customizer-layout02">
-									<img src="assets/img/horizontal.png" alt="Layout Image">
+									<img src="~/assets/img/horizontal.png" alt="Layout Image">
 								</label>
 							</div>
 							<h5 class="fs-13 text-center mt-2">Horizontal</h5>
@@ -1572,7 +1572,7 @@
 								<input id="customizer-layout03" name="data-layout" type="radio" value="twocolumn"
 									class="form-check-input">
 								<label class="form-check-label  avatar-md w-100" for="customizer-layout03">
-									<img src="assets/img/two-col.png" alt="Layout Image">
+									<img src="~/assets/img/two-col.png" alt="Layout Image">
 								</label>
 							</div>
 							<h5 class="fs-13 text-center mt-2">Two Column</h5>
@@ -1589,7 +1589,7 @@
 									<input class="form-check-input" type="radio" name="data-layout-mode"
 										id="layout-mode-orange" value="orange">
 									<label class="form-check-label  avatar-md w-100 " for="layout-mode-orange">
-										<img src="assets/img/vertical.png" alt="Layout Image">
+										<img src="~/assets/img/vertical.png" alt="Layout Image">
 									</label>
 								</div>
 								<h5 class="fs-13 text-center mt-2">Orange</h5>
@@ -1599,7 +1599,7 @@
 									<input class="form-check-input" type="radio" name="data-layout-mode"
 										id="layout-mode-light" value="light">
 									<label class="form-check-label  avatar-md w-100" for="layout-mode-light">
-										<img src="assets/img/vertical.png" alt="Layout Image">
+										<img src="~/assets/img/vertical.png" alt="Layout Image">
 									</label>
 								</div>
 								<h5 class="fs-13 text-center mt-2">Light</h5>
@@ -1609,7 +1609,7 @@
 									<input class="form-check-input" type="radio" name="data-layout-mode"
 										id="layout-mode-dark" value="dark">
 									<label class="form-check-label avatar-md w-100 " for="layout-mode-dark">
-										<img src="assets/img/vertical.png" alt="Layout Image">
+										<img src="~/assets/img/vertical.png" alt="Layout Image">
 									</label>
 								</div>
 								<h5 class="fs-13 text-center mt-2">Dark</h5>
@@ -1619,7 +1619,7 @@
 									<input class="form-check-input" type="radio" name="data-layout-mode"
 										id="layout-mode-blue" value="blue">
 									<label class="form-check-label  avatar-md w-100" for="layout-mode-blue">
-										<img src="assets/img/vertical.png" alt="Layout Image">
+										<img src="~/assets/img/vertical.png" alt="Layout Image">
 									</label>
 								</div>
 								<h5 class="fs-13 text-center mt-2">Blue</h5>
@@ -1629,7 +1629,7 @@
 									<input class="form-check-input" type="radio" name="data-layout-mode"
 										id="layout-mode-maroon" value="maroon">
 									<label class="form-check-label  avatar-md w-100 " for="layout-mode-maroon">
-										<img src="assets/img/vertical.png" alt="Layout Image">
+										<img src="~/assets/img/vertical.png" alt="Layout Image">
 									</label>
 								</div>
 								<h5 class="fs-13 text-center mt-2">Maroon</h5>
@@ -1639,7 +1639,7 @@
 									<input class="form-check-input" type="radio" name="data-layout-mode"
 										id="layout-mode-purple" value="purple">
 									<label class="form-check-label  avatar-md w-100 " for="layout-mode-purple">
-										<img src="assets/img/vertical.png" alt="Layout Image">
+										<img src="~/assets/img/vertical.png" alt="Layout Image">
 									</label>
 								</div>
 								<h5 class="fs-13 text-center mt-2">Purple</h5>
@@ -1658,7 +1658,7 @@
 									<input class="form-check-input" type="radio" name="data-layout-width"
 										id="layout-width-fluid" value="fluid">
 									<label class="form-check-label avatar-md w-100" for="layout-width-fluid">
-										<img src="assets/img/vertical.png" alt="Layout Image">
+										<img src="~/assets/img/vertical.png" alt="Layout Image">
 									</label>
 								</div>
 								<h5 class="fs-13 text-center mt-2">Fluid</h5>
@@ -1668,7 +1668,7 @@
 									<input class="form-check-input" type="radio" name="data-layout-width"
 										id="layout-width-boxed" value="boxed">
 									<label class="form-check-label avatar-md w-100 px-2" for="layout-width-boxed">
-										<img src="assets/img/boxed.png" alt="Layout Image">
+										<img src="~/assets/img/boxed.png" alt="Layout Image">
 									</label>
 								</div>
 								<h5 class="fs-13 text-center mt-2">Boxed</h5>
@@ -1701,7 +1701,7 @@
 								<input class="form-check-input" type="radio" name="data-topbar" id="topbar-color-light"
 									value="light">
 								<label class="form-check-label avatar-md w-100" for="topbar-color-light">
-									<img src="assets/img/vertical.png" alt="Layout Image">
+									<img src="~/assets/img/vertical.png" alt="Layout Image">
 								</label>
 							</div>
 							<h5 class="fs-13 text-center mt-2">Light</h5>
@@ -1711,7 +1711,7 @@
 								<input class="form-check-input" type="radio" name="data-topbar" id="topbar-color-dark"
 									value="dark">
 								<label class="form-check-label  avatar-md w-100" for="topbar-color-dark">
-									<img src="assets/img/dark.png" alt="Layout Image">
+									<img src="~/assets/img/dark.png" alt="Layout Image">
 								</label>
 							</div>
 							<h5 class="fs-13 text-center mt-2">Dark</h5>
@@ -1729,7 +1729,7 @@
 									<input class="form-check-input" type="radio" name="data-sidebar-size"
 										id="sidebar-size-default" value="lg">
 									<label class="form-check-label avatar-md w-100" for="sidebar-size-default">
-										<img src="assets/img/vertical.png" alt="Layout Image">
+										<img src="~/assets/img/vertical.png" alt="Layout Image">
 									</label>
 								</div>
 								<h5 class="fs-13 text-center mt-2">Default</h5>
@@ -1740,7 +1740,7 @@
 									<input class="form-check-input" type="radio" name="data-sidebar-size"
 										id="sidebar-size-compact" value="md">
 									<label class="form-check-label  avatar-md w-100" for="sidebar-size-compact">
-										<img src="assets/img/compact.png" alt="Layout Image">
+										<img src="~/assets/img/compact.png" alt="Layout Image">
 									</label>
 								</div>
 								<h5 class="fs-13 text-center mt-2">Compact</h5>
@@ -1751,7 +1751,7 @@
 									<input class="form-check-input" type="radio" name="data-sidebar-size"
 										id="sidebar-size-small-hover" value="sm-hover">
 									<label class="form-check-label avatar-md w-100" for="sidebar-size-small-hover">
-										<img src="assets/img/small-hover.png" alt="Layout Image">
+										<img src="~/assets/img/small-hover.png" alt="Layout Image">
 									</label>
 								</div>
 								<h5 class="fs-13 text-center mt-2">Small Hover View</h5>
@@ -1770,7 +1770,7 @@
 									<input class="form-check-input" type="radio" name="data-layout-style"
 										id="sidebar-view-default" value="default">
 									<label class="form-check-label avatar-md w-100" for="sidebar-view-default">
-										<img src="assets/img/compact.png" alt="Layout Image">
+										<img src="~/assets/img/compact.png" alt="Layout Image">
 									</label>
 								</div>
 								<h5 class="fs-13 text-center mt-2">Default</h5>
@@ -1780,7 +1780,7 @@
 									<input class="form-check-input" type="radio" name="data-layout-style"
 										id="sidebar-view-detached" value="detached">
 									<label class="form-check-label  avatar-md w-100" for="sidebar-view-detached">
-										<img src="assets/img/detached.png" alt="Layout Image">
+										<img src="~/assets/img/detached.png" alt="Layout Image">
 									</label>
 								</div>
 								<h5 class="fs-13 text-center mt-2">Detached</h5>
@@ -1904,31 +1904,31 @@
 	</div>
 
 	<!-- jQuery -->
-	<script src="assets/js/jquery-3.7.0.min.js"></script>
+	<script src="~/assets/js/jquery-3.7.0.min.js"></script>
 
 	<!-- Bootstrap Core JS -->
-	<script src="assets/js/bootstrap.bundle.min.js"></script>
+	<script src="~/assets/js/bootstrap.bundle.min.js"></script>
 
 	<!-- Slimscroll JS -->
-	<script src="assets/js/jquery.slimscroll.min.js"></script>
+	<script src="~/assets/js/jquery.slimscroll.min.js"></script>
 
 	<!-- Select2 JS -->
-	<script src="assets/js/select2.min.js"></script>
+	<script src="~/assets/js/select2.min.js"></script>
 
 	<!-- Datetimepicker JS -->
-	<script src="assets/js/moment.min.js"></script>
-	<script src="assets/js/bootstrap-datetimepicker.min.js"></script>
+	<script src="~/assets/js/moment.min.js"></script>
+	<script src="~/assets/js/bootstrap-datetimepicker.min.js"></script>
 
 	<!-- Datatable JS -->
-	<script src="assets/js/jquery.dataTables.min.js"></script>
-	<script src="assets/js/dataTables.bootstrap4.min.js"></script>
+	<script src="~/assets/js/jquery.dataTables.min.js"></script>
+	<script src="~/assets/js/dataTables.bootstrap4.min.js"></script>
 
 	<!-- Theme Settings JS -->
-	<script src="assets/js/layout.js"></script>
-	<script src="assets/js/theme-settings.js"></script>
-	<script src="assets/js/greedynav.js"></script>
+	<script src="~/assets/js/layout.js"></script>
+	<script src="~/assets/js/theme-settings.js"></script>
+	<script src="~/assets/js/greedynav.js"></script>
 	<!-- Custom JS -->
-	<script src="assets/js/app.js"></script>
+	<script src="~/assets/js/app.js"></script>
 
 </body>
 

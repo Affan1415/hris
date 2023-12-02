@@ -9,33 +9,33 @@
 	<meta name="keywords"
 		content="admin, estimates, bootstrap, business, corporate, creative, management, minimal, modern, accounts, invoice, html5, responsive, CRM, Projects">
 	<meta name="author" content="Dreamguys - Bootstrap Admin Template">
-	<title>Resignation - HRMS admin template</title>
+	<title>Expenses - HRMS admin template</title>
 
 	<!-- Favicon -->
-	<link rel="shortcut icon" type="image/x-icon" href="assets/img/favicon.png">
+	<link rel="shortcut icon" type="image/x-icon" href="~/assets/img/favicon.png">
 
 	<!-- Bootstrap CSS -->
-	<link rel="stylesheet" href="assets/css/bootstrap.min.css">
+	<link rel="stylesheet" href="~/assets/css/bootstrap.min.css">
 
 	<!-- Fontawesome CSS -->
-	<link rel="stylesheet" href="assets/plugins/fontawesome/css/fontawesome.min.css">
-	<link rel="stylesheet" href="assets/plugins/fontawesome/css/all.min.css">
+	<link rel="stylesheet" href="~/assets/plugins/fontawesome/css/fontawesome.min.css">
+	<link rel="stylesheet" href="~/assets/plugins/fontawesome/css/all.min.css">
 
 	<!-- Lineawesome CSS -->
-	<link rel="stylesheet" href="assets/css/line-awesome.min.css">
-	<link rel="stylesheet" href="assets/css/material.css">
-
-	<!-- Select2 CSS -->
-	<link rel="stylesheet" href="assets/css/select2.min.css">
-
-	<!-- Datetimepicker CSS -->
-	<link rel="stylesheet" href="assets/css/bootstrap-datetimepicker.min.css">
+	<link rel="stylesheet" href="~/assets/css/line-awesome.min.css">
+	<link rel="stylesheet" href="~/assets/css/material.css">
 
 	<!-- Datatable CSS -->
-	<link rel="stylesheet" href="assets/css/dataTables.bootstrap4.min.css">
+	<link rel="stylesheet" href="~/assets/css/dataTables.bootstrap4.min.css">
+
+	<!-- Select2 CSS -->
+	<link rel="stylesheet" href="~/assets/css/select2.min.css">
+
+	<!-- Datetimepicker CSS -->
+	<link rel="stylesheet" href="~/assets/css/bootstrap-datetimepicker.min.css">
 
 	<!-- Main CSS -->
-	<link rel="stylesheet" href="assets/css/style.css">
+	<link rel="stylesheet" href="~/assets/css/style.css">
 
 
 </head>
@@ -49,11 +49,11 @@
 
 			<!-- Logo -->
 			<div class="header-left">
-				<a href="admin-dashboard.html" class="logo">
-					<img src="assets/img/logo.png" width="40" height="40" alt="Logo">
+				<a href="admindashboard.cshtml" class="logo">
+					<img src="~/assets/img/logo.png" width="40" height="40" alt="Logo">
 				</a>
-				<a href="admin-dashboard.html" class="logo2">
-					<img src="assets/img/logo2.png" width="40" height="40" alt="Logo">
+				<a href="admindashboard.cshtml" class="logo2">
+					<img src="~/assets/img/logo2.png" width="40" height="40" alt="Logo">
 				</a>
 			</div>
 			<!-- /Logo -->
@@ -78,24 +78,23 @@
 			<ul class="nav user-menu">
 
 
-
 				<!-- Flag -->
 				<li class="nav-item dropdown has-arrow flag-nav">
 					<a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button">
-						<img src="assets/img/flags/us.png" alt="Flag" height="20"> <span>English</span>
+						<img src="~/assets/img/flags/us.png" alt="Flag" height="20"> <span>English</span>
 					</a>
 					<div class="dropdown-menu dropdown-menu-right">
 						<a href="javascript:void(0);" class="dropdown-item">
-							<img src="assets/img/flags/us.png" alt="Flag" height="16"> English
+							<img src="~/assets/img/flags/us.png" alt="Flag" height="16"> English
 						</a>
 						<a href="javascript:void(0);" class="dropdown-item">
-							<img src="assets/img/flags/fr.png" alt="Flag" height="16"> French
+							<img src="~/assets/img/flags/fr.png" alt="Flag" height="16"> French
 						</a>
 						<a href="javascript:void(0);" class="dropdown-item">
-							<img src="assets/img/flags/es.png" alt="Flag" height="16"> Spanish
+							<img src="~/assets/img/flags/es.png" alt="Flag" height="16"> Spanish
 						</a>
 						<a href="javascript:void(0);" class="dropdown-item">
-							<img src="assets/img/flags/de.png" alt="Flag" height="16"> German
+							<img src="~/assets/img/flags/de.png" alt="Flag" height="16"> German
 						</a>
 					</div>
 				</li>
@@ -120,13 +119,13 @@
 
 				<li class="nav-item dropdown has-arrow main-drop">
 					<a href="#" class="dropdown-toggle nav-link" data-bs-toggle="dropdown">
-						<span class="user-img"><img src="assets/img/profiles/avatar-21.jpg" alt="User Image">
+						<span class="user-img"><img src="~/assets/img/profiles/avatar-21.jpg" alt="User Image">
 							<span class="status online"></span></span>
 						<span>Admin</span>
 					</a>
 					<div class="dropdown-menu">
-						<a class="dropdown-item" href="profile.html">My Profile</a>
-						<a class="dropdown-item" href="index.html">Logout</a>
+						<a class="dropdown-item" href="profile.cshtml">My Profile</a>
+						<a class="dropdown-item" href="index.cshtml">Logout</a>
 					</div>
 				</li>
 			</ul>
@@ -137,8 +136,8 @@
 				<a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false"><i
 						class="fa-solid fa-ellipsis-vertical"></i></a>
 				<div class="dropdown-menu dropdown-menu-right">
-					<a class="dropdown-item" href="profile.html">My Profile</a>
-					<a class="dropdown-item" href="index.html">Logout</a>
+					<a class="dropdown-item" href="profile.cshtml">My Profile</a>
+					<a class="dropdown-item" href="index.cshtml">Logout</a>
 				</div>
 			</div>
 			<!-- /Mobile Menu -->
@@ -156,39 +155,39 @@
 								<span>Main</span>
 							</li>
 							<li class="submenu">
-								<a href="admin-dashboard.html"><i class="la la-dashboard"></i> <span> Dashboard</span>
+								<a href="admindashboard.cshtml"><i class="la la-dashboard"></i> <span> Dashboard</span>
 									<span class="menu-arrow"></span></a>
 							</li>
 							<li class="submenu">
 								<a href="#" class="noti-dot"><i class="la la-user"></i> <span> HR </span> <span
 										class="menu-arrow"></span></a>
 								<ul>
-									<li><a href="employees.html">All Employees</a></li>
-									<li><a href="leaves.html">Leaves (Admin) <span
+									<li><a href="employees.cshtml">All Employees</a></li>
+									<li><a href="leaves.cshtml">Leaves (Admin) <span
 												class="badge rounded-pill bg-primary float-end">1</span></a></li>
-									<li><a href="attendance.html">Attendance (Admin)</a></li>
-									<li><a href="departments.html">Departments</a></li>
+									<li><a href="attendance.cshtml">Attendance (Admin)</a></li>
+									<li><a href="departments.cshtml">Departments</a></li>
 								</ul>
 							</li>
 							<li>
-								<a href="clients.html"><i class="la la-users"></i> <span>Clients</span></a>
+								<a href="clients.cshtml"><i class="la la-users"></i> <span>Clients</span></a>
 							</li>
 							<li>
-								<a href="projects.html"><i class="la la-users"></i> <span>Projects</span></a>
+								<a href="projects.cshtml"><i class="la la-users"></i> <span>Projects</span></a>
 							</li>
 							<li>
-								<a href="expenses.html"><i class="la la-users"></i> <span>Expenses</span></a>
+								<a href="expenses.cshtml"><i class="la la-users"></i> <span>Expenses</span></a>
 							</li>
 						</ul>
 						<button class="viewmoremenu">More Menu</button>
 						<ul class="hidden-links hidden">
 							<li>
-								<a href="salary.html"><i class="la la-users"></i> <span>Employee Salary</span></a>
+								<a href="salary.cshtml"><i class="la la-users"></i> <span>Employee Salary</span></a>
 							</li>
 							<li>
-								<a href="salary-view.html"><i class="la la-users"></i> <span>Payslip</span></a>
+								<a href="salaryview.cshtml"><i class="la la-users"></i> <span>Payslip</span></a>
 							</li>
-							<li><a href="resignation.html"><i class="la la-external-link-square"></i>
+							<li><a href="resignation.cshtml"><i class="la la-external-link-square"></i>
 									<span>Resignation</span></a></li>
 						</ul>
 					</nav>
@@ -198,36 +197,36 @@
 							<span>Main</span>
 						</li>
 						<li class="submenu">
-							<a href="admin-dashboard.html"><i class="la la-dashboard"></i> <span>Admin
+							<a href="admindashboard.cshtml"><i class="la la-dashboard"></i> <span>Admin
 									Dashboard</span></a>
 						</li>
 						<li class="submenu">
 							<a href="#" class="noti-dot"><i class="la la-user"></i> <span> HR</span> <span
 									class="menu-arrow"></span></a>
 							<ul>
-								<li><a href="employees.html">All Employees</a></li>
-								<li><a href="leaves.html">Leaves (Admin) <span
+								<li><a href="employees.cshtml">All Employees</a></li>
+								<li><a href="leaves.cshtml">Leaves (Admin) <span
 											class="badge rounded-pill bg-primary float-end">1</span></a></li>
-								<li><a href="attendance.html">Attendance (Admin)</a></li>
-								<li><a href="departments.html">Departments</a></li>
+								<li><a href="attendance.cshtml">Attendance (Admin)</a></li>
+								<li><a href="departments.cshtml">Departments</a></li>
 							</ul>
 						</li>
 						<li>
-							<a href="clients.html"><i class="la la-users"></i> <span>Clients</span></a>
+							<a href="clients.cshtml"><i class="la la-users"></i> <span>Clients</span></a>
 						</li>
 						<li>
-							<a href="projects.html"><i class="la la-users"></i> <span>Projects</span></a>
+							<a href="projects.cshtml"><i class="la la-users"></i> <span>Projects</span></a>
 						</li>
 						<li>
-							<a href="expenses.html"><i class="la la-users"></i> <span>Expenses</span></a>
+							<a href="expenses.cshtml"><i class="la la-users"></i> <span>Expenses</span></a>
 						</li>
 						<li>
-							<a href="salary.html"><i class="la la-users"></i> <span>Employee Salary</span></a>
+							<a href="salary.cshtml"><i class="la la-users"></i> <span>Employee Salary</span></a>
 						</li>
 						<li>
-							<a href="salary-view.html"><i class="la la-users"></i> <span>Payslip</span></a>
+							<a href="salaryview.cshtml"><i class="la la-users"></i> <span>Payslip</span></a>
 						</li>
-						<li><a href="resignation.html"><i class="la la-external-link-square"></i>
+						<li><a href="resignation.cshtml"><i class="la la-external-link-square"></i>
 								<span>Resignation</span></a></li>
 					</ul>
 
@@ -248,49 +247,118 @@
 				<div class="page-header">
 					<div class="row align-items-center">
 						<div class="col">
-							<h3 class="page-title">Resignation</h3>
+							<h3 class="page-title">Expenses</h3>
 							<ul class="breadcrumb">
-								<li class="breadcrumb-item"><a href="admin-dashboard.html">Dashboard</a></li>
-								<li class="breadcrumb-item active">Resignation</li>
+								<li class="breadcrumb-item"><a href="admindashboard.cshtml>Dashboard</a></li>
+								<li class="breadcrumb-item active">Expenses</li>
 							</ul>
 						</div>
 						<div class="col-auto float-end ms-auto">
-							<a href="#" class="btn add-btn" data-bs-toggle="modal" data-bs-target="#add_resignation"><i
-									class="fa-solid fa-plus"></i> Add Resignation</a>
+							<a href="#" class="btn add-btn" data-bs-toggle="modal" data-bs-target="#add_expense"><i
+									class="fa-solid fa-plus"></i> Add Expense</a>
 						</div>
 					</div>
 				</div>
 				<!-- /Page Header -->
 
+				<!-- Search Filter -->
+				<div class="row filter-row">
+					<div class="col-sm-6 col-md-3 col-lg-3 col-xl-2 col-12">
+						<div class="input-block mb-3 form-focus">
+							<input type="text" class="form-control floating">
+							<label class="focus-label">Item Name</label>
+						</div>
+					</div>
+					<div class="col-sm-6 col-md-3 col-lg-3 col-xl-2 col-12">
+						<div class="input-block mb-3 form-focus select-focus">
+							<select class="select floating">
+								<option> -- Select -- </option>
+								<option>Loren Gatlin</option>
+								<option>Tarah Shropshire</option>
+							</select>
+							<label class="focus-label">Purchased By</label>
+						</div>
+					</div>
+					<div class="col-sm-6 col-md-3 col-lg-3 col-xl-2 col-12">
+						<div class="input-block mb-3 form-focus select-focus">
+							<select class="select floating">
+								<option> -- Select -- </option>
+								<option> Cash </option>
+								<option> Cheque </option>
+							</select>
+							<label class="focus-label">Paid By</label>
+						</div>
+					</div>
+					<div class="col-sm-6 col-md-3 col-lg-3 col-xl-2 col-12">
+						<div class="input-block mb-3 form-focus">
+							<div class="cal-icon">
+								<input class="form-control floating datetimepicker" type="text">
+							</div>
+							<label class="focus-label">From</label>
+						</div>
+					</div>
+					<div class="col-sm-6 col-md-3 col-lg-3 col-xl-2 col-12">
+						<div class="input-block mb-3 form-focus">
+							<div class="cal-icon">
+								<input class="form-control floating datetimepicker" type="text">
+							</div>
+							<label class="focus-label">To</label>
+						</div>
+					</div>
+					<div class="col-sm-6 col-md-3 col-lg-3 col-xl-2 col-12">
+						<a href="#" class="btn btn-success w-100"> Search </a>
+					</div>
+				</div>
+				<!-- /Search Filter -->
+
 				<div class="row">
 					<div class="col-md-12">
 						<div class="table-responsive">
-							<table class="table table-striped custom-table mb-0 datatable leave-employee-table">
+							<table class="table table-striped custom-table mb-0 datatable">
 								<thead>
 									<tr>
-										<th>#</th>
-										<th>Resigning Employee </th>
-										<th>Department </th>
-										<th>Reason </th>
-										<th>Notice Date </th>
-										<th>Resignation Date </th>
-										<th class="text-end">Action</th>
+										<th>Item</th>
+										<th>Purchase From</th>
+										<th>Purchase Date</th>
+										<th>Purchased By</th>
+										<th>Amount</th>
+										<th>Paid By</th>
+										<th class="text-center">Status</th>
+										<th class="text-end">Actions</th>
 									</tr>
 								</thead>
 								<tbody>
 									<tr>
-										<td>1</td>
 										<td>
-											<h2 class="table-avatar blue-link">
-												<a href="profile.html" class="avatar"><img
-														src="assets/img/profiles/avatar-02.jpg" alt="User Image"></a>
-												<a href="profile.html">John Doe</a>
+											<strong>Dell Laptop</strong>
+										</td>
+										<td>Amazon</td>
+										<td>5 Jan 2019</td>
+										<td>
+											<h2 class="table-avatar">
+												<a href="profile.cshtml" class="avatar avatar-xs"><img
+														src="~/assets/img/profiles/avatar-04.jpg" alt="User Image"></a>
+												<a href="profile.cshtml">Loren Gatlin</a>
 											</h2>
 										</td>
-										<td>Web Development</td>
-										<td>Lorem ipsum dollar</td>
-										<td>28 Feb 2019</td>
-										<td>28 Feb 2019</td>
+										<td>$1215</td>
+										<td>Cash</td>
+										<td class="text-center">
+											<div class="dropdown action-label">
+												<a class="btn btn-white btn-sm btn-rounded dropdown-toggle" href="#"
+													data-bs-toggle="dropdown" aria-expanded="false">
+													<i class="fa-regular fa-circle-dot text-danger"></i> Pending
+												</a>
+												<div class="dropdown-menu dropdown-menu-right">
+													<a class="dropdown-item" href="#"><i
+															class="fa-regular fa-circle-dot text-danger"></i>
+														Pending</a>
+													<a class="dropdown-item" href="#"><i
+															class="fa-regular fa-circle-dot text-success"></i>
+														Approved</a>
+												</div>
+											</div>
+										</td>
 										<td class="text-end">
 											<div class="dropdown dropdown-action">
 												<a href="#" class="action-icon dropdown-toggle"
@@ -298,10 +366,57 @@
 														class="material-icons">more_vert</i></a>
 												<div class="dropdown-menu dropdown-menu-right">
 													<a class="dropdown-item" href="#" data-bs-toggle="modal"
-														data-bs-target="#edit_resignation"><i
+														data-bs-target="#edit_expense"><i
 															class="fa-solid fa-pencil m-r-5"></i> Edit</a>
 													<a class="dropdown-item" href="#" data-bs-toggle="modal"
-														data-bs-target="#delete_resignation"><i
+														data-bs-target="#delete_expense"><i
+															class="fa-regular fa-trash-can m-r-5"></i> Delete</a>
+												</div>
+											</div>
+										</td>
+									</tr>
+									<tr>
+										<td>
+											<strong>Mac System</strong>
+										</td>
+										<td>Amazon</td>
+										<td>5 Jan 2019</td>
+										<td>
+											<h2 class="table-avatar">
+												<a href="profile.cshtml" class="avatar avatar-xs"><img
+														src="~/assets/img/profiles/avatar-03.jpg" alt="User Image"></a>
+												<a href="profile.cshtml">Tarah Shropshire</a>
+											</h2>
+										</td>
+										<td>$1215</td>
+										<td>Cheque</td>
+										<td class="text-center">
+											<div class="dropdown action-label">
+												<a class="btn btn-white btn-sm btn-rounded dropdown-toggle" href="#"
+													data-bs-toggle="dropdown" aria-expanded="false">
+													<i class="fa-regular fa-circle-dot text-success"></i> Approved
+												</a>
+												<div class="dropdown-menu dropdown-menu-right">
+													<a class="dropdown-item" href="#"><i
+															class="fa-regular fa-circle-dot text-danger"></i>
+														Pending</a>
+													<a class="dropdown-item" href="#"><i
+															class="fa-regular fa-circle-dot text-success"></i>
+														Approved</a>
+												</div>
+											</div>
+										</td>
+										<td class="text-end">
+											<div class="dropdown dropdown-action">
+												<a href="#" class="action-icon dropdown-toggle"
+													data-bs-toggle="dropdown" aria-expanded="false"><i
+														class="material-icons">more_vert</i></a>
+												<div class="dropdown-menu dropdown-menu-right">
+													<a class="dropdown-item" href="#" data-bs-toggle="modal"
+														data-bs-target="#edit_expense"><i
+															class="fa-solid fa-pencil m-r-5"></i> Edit</a>
+													<a class="dropdown-item" href="#" data-bs-toggle="modal"
+														data-bs-target="#delete_expense"><i
 															class="fa-regular fa-trash-can m-r-5"></i> Delete</a>
 												</div>
 											</div>
@@ -315,39 +430,95 @@
 			</div>
 			<!-- /Page Content -->
 
-			<!-- Add Resignation Modal -->
-			<div id="add_resignation" class="modal custom-modal fade" role="dialog">
-				<div class="modal-dialog modal-dialog-centered" role="document">
+			<!-- Add Expense Modal -->
+			<div id="add_expense" class="modal custom-modal fade" role="dialog">
+				<div class="modal-dialog modal-dialog-centered modal-lg" role="document">
 					<div class="modal-content">
 						<div class="modal-header">
-							<h5 class="modal-title">Add Resignation</h5>
+							<h5 class="modal-title">Add Expense</h5>
 							<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">
 								<span aria-hidden="true">&times;</span>
 							</button>
 						</div>
 						<div class="modal-body">
 							<form>
-								<div class="input-block mb-3">
-									<label class="col-form-label">Resigning Employee <span
-											class="text-danger">*</span></label>
-									<input class="form-control" type="text">
-								</div>
-								<div class="input-block mb-3">
-									<label class="col-form-label">Notice Date <span class="text-danger">*</span></label>
-									<div class="cal-icon">
-										<input type="text" class="form-control datetimepicker">
+								<div class="row">
+									<div class="col-md-6">
+										<div class="input-block mb-3">
+											<label class="col-form-label">Item Name</label>
+											<input class="form-control" type="text">
+										</div>
+									</div>
+									<div class="col-md-6">
+										<div class="input-block mb-3">
+											<label class="col-form-label">Purchase From</label>
+											<input class="form-control" type="text">
+										</div>
 									</div>
 								</div>
-								<div class="input-block mb-3">
-									<label class="col-form-label">Resignation Date <span
-											class="text-danger">*</span></label>
-									<div class="cal-icon">
-										<input type="text" class="form-control datetimepicker">
+								<div class="row">
+									<div class="col-md-6">
+										<div class="input-block mb-3">
+											<label class="col-form-label">Purchase Date</label>
+											<div class="cal-icon"><input class="form-control datetimepicker"
+													type="text"></div>
+										</div>
+									</div>
+									<div class="col-md-6">
+										<div class="input-block mb-3">
+											<label class="col-form-label">Purchased By </label>
+											<select class="select">
+												<option>Daniel Porter</option>
+												<option>Roger Dixon</option>
+											</select>
+										</div>
 									</div>
 								</div>
-								<div class="input-block mb-3">
-									<label class="col-form-label">Reason <span class="text-danger">*</span></label>
-									<textarea class="form-control" rows="4"></textarea>
+								<div class="row">
+									<div class="col-md-6">
+										<div class="input-block mb-3">
+											<label class="col-form-label">Amount</label>
+											<input placeholder="$50" class="form-control" type="text">
+										</div>
+									</div>
+									<div class="col-md-6">
+										<div class="input-block mb-3">
+											<label class="col-form-label">Paid By</label>
+											<select class="select">
+												<option>Cash</option>
+												<option>Cheque</option>
+											</select>
+										</div>
+									</div>
+								</div>
+								<div class="row">
+									<div class="col-md-6">
+										<div class="input-block mb-3">
+											<label class="col-form-label">Status</label>
+											<select class="select">
+												<option>Pending</option>
+												<option>Approved</option>
+											</select>
+										</div>
+									</div>
+									<div class="col-md-6">
+										<div class="input-block mb-3">
+											<label class="col-form-label">Attachments</label>
+											<input class="form-control" type="file">
+										</div>
+									</div>
+								</div>
+								<div class="attach-files">
+									<ul>
+										<li>
+											<img src="~/assets/img/placeholder.jpg" alt="Placeholder Image">
+											<a href="#" class="fa fa-close file-remove"></a>
+										</li>
+										<li>
+											<img src="~/assets/img/placeholder.jpg" alt="Placeholder Image">
+											<a href="#" class="fa fa-close file-remove"></a>
+										</li>
+									</ul>
 								</div>
 								<div class="submit-section">
 									<button class="btn btn-primary submit-btn">Submit</button>
@@ -357,59 +528,115 @@
 					</div>
 				</div>
 			</div>
-			<!-- /Add Resignation Modal -->
+			<!-- /Add Expense Modal -->
 
-			<!-- Edit Resignation Modal -->
-			<div id="edit_resignation" class="modal custom-modal fade" role="dialog">
-				<div class="modal-dialog modal-dialog-centered" role="document">
+			<!-- Edit Expense Modal -->
+			<div id="edit_expense" class="modal custom-modal fade" role="dialog">
+				<div class="modal-dialog modal-dialog-centered modal-lg" role="document">
 					<div class="modal-content">
 						<div class="modal-header">
-							<h5 class="modal-title">Edit Resignation</h5>
+							<h5 class="modal-title">Edit Expense</h5>
 							<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">
 								<span aria-hidden="true">&times;</span>
 							</button>
 						</div>
 						<div class="modal-body">
 							<form>
-								<div class="input-block mb-3">
-									<label class="col-form-label">Resigning Employee <span
-											class="text-danger">*</span></label>
-									<input class="form-control" type="text" value="John Doe">
-								</div>
-								<div class="input-block mb-3">
-									<label class="col-form-label">Notice Date <span class="text-danger">*</span></label>
-									<div class="cal-icon">
-										<input type="text" class="form-control datetimepicker" value="28/02/2019">
+								<div class="row">
+									<div class="col-md-6">
+										<div class="input-block mb-3">
+											<label class="col-form-label">Item Name</label>
+											<input class="form-control" value="Dell Laptop" type="text">
+										</div>
+									</div>
+									<div class="col-md-6">
+										<div class="input-block mb-3">
+											<label class="col-form-label">Purchase From</label>
+											<input class="form-control" value="Amazon" type="text">
+										</div>
 									</div>
 								</div>
-								<div class="input-block mb-3">
-									<label class="col-form-label">Resignation Date <span
-											class="text-danger">*</span></label>
-									<div class="cal-icon">
-										<input type="text" class="form-control datetimepicker" value="28/02/2019">
+								<div class="row">
+									<div class="col-md-6">
+										<div class="input-block mb-3">
+											<label class="col-form-label">Purchase Date</label>
+											<div class="cal-icon"><input class="form-control datetimepicker"
+													type="text"></div>
+										</div>
+									</div>
+									<div class="col-md-6">
+										<div class="input-block mb-3">
+											<label class="col-form-label">Purchased By </label>
+											<select class="select">
+												<option>Daniel Porter</option>
+												<option>Roger Dixon</option>
+											</select>
+										</div>
 									</div>
 								</div>
-								<div class="input-block mb-3">
-									<label class="col-form-label">Reason <span class="text-danger">*</span></label>
-									<textarea class="form-control" rows="4"></textarea>
+								<div class="row">
+									<div class="col-md-6">
+										<div class="input-block mb-3">
+											<label class="col-form-label">Amount</label>
+											<input placeholder="$50" class="form-control" value="$10000" type="text">
+										</div>
+									</div>
+									<div class="col-md-6">
+										<div class="input-block mb-3">
+											<label class="col-form-label">Paid By</label>
+											<select class="select">
+												<option>Cash</option>
+												<option>Cheque</option>
+											</select>
+										</div>
+									</div>
+								</div>
+								<div class="row">
+									<div class="col-md-6">
+										<div class="input-block mb-3">
+											<label class="col-form-label">Status</label>
+											<select class="select">
+												<option>Pending</option>
+												<option>Approved</option>
+											</select>
+										</div>
+									</div>
+									<div class="col-md-6">
+										<div class="input-block mb-3">
+											<label class="col-form-label">Attachments</label>
+											<input class="form-control" type="file">
+										</div>
+									</div>
+								</div>
+								<div class="attach-files">
+									<ul>
+										<li>
+											<img src="~/assets/img/placeholder.jpg" alt="Placeholder Image">
+											<a href="#" class="fa fa-close file-remove"></a>
+										</li>
+										<li>
+											<img src="~/assets/img/placeholder.jpg" alt="Placeholder Image">
+											<a href="#" class="fa fa-close file-remove"></a>
+										</li>
+									</ul>
 								</div>
 								<div class="submit-section">
-									<button class="btn btn-primary submit-btn">Submit</button>
+									<button class="btn btn-primary submit-btn">Save</button>
 								</div>
 							</form>
 						</div>
 					</div>
 				</div>
 			</div>
-			<!-- /Edit Resignation Modal -->
+			<!-- /Edit Expense Modal -->
 
-			<!-- Delete Resignation Modal -->
-			<div class="modal custom-modal fade" id="delete_resignation" role="dialog">
+			<!-- Delete Expense Modal -->
+			<div class="modal custom-modal fade" id="delete_expense" role="dialog">
 				<div class="modal-dialog modal-dialog-centered">
 					<div class="modal-content">
 						<div class="modal-body">
 							<div class="form-header">
-								<h3>Delete Resignation</h3>
+								<h3>Delete Expense</h3>
 								<p>Are you sure want to delete?</p>
 							</div>
 							<div class="modal-btn delete-action">
@@ -427,7 +654,7 @@
 					</div>
 				</div>
 			</div>
-			<!-- /Delete Resignation Modal -->
+			<!-- Delete Expense Modal -->
 
 		</div>
 		<!-- /Page Wrapper -->
@@ -446,7 +673,7 @@
 				<h3>Customize your overview Page layout</h3>
 			</div>
 			<div class="sidebar-headerclose">
-				<a data-bs-dismiss="offcanvas" aria-label="Close"><img src="assets/img/close.png" alt="Close Icon"></a>
+				<a data-bs-dismiss="offcanvas" aria-label="Close"><img src="~/assets/img/close.png" alt="Close Icon"></a>
 			</div>
 		</div>
 		<div class="offcanvas-body p-0">
@@ -462,7 +689,7 @@
 								<input id="customizer-layout01" name="data-layout" type="radio" value="vertical"
 									class="form-check-input">
 								<label class="form-check-label avatar-md w-100" for="customizer-layout01">
-									<img src="assets/img/vertical.png" alt="Layout Image">
+									<img src="~/assets/img/vertical.png" alt="Layout Image">
 								</label>
 							</div>
 							<h5 class="fs-13 text-center mt-2">Vertical</h5>
@@ -472,7 +699,7 @@
 								<input id="customizer-layout02" name="data-layout" type="radio" value="horizontal"
 									class="form-check-input">
 								<label class="form-check-label  avatar-md w-100" for="customizer-layout02">
-									<img src="assets/img/horizontal.png" alt="Layout Image">
+									<img src="~/assets/img/horizontal.png" alt="Layout Image">
 								</label>
 							</div>
 							<h5 class="fs-13 text-center mt-2">Horizontal</h5>
@@ -482,7 +709,7 @@
 								<input id="customizer-layout03" name="data-layout" type="radio" value="twocolumn"
 									class="form-check-input">
 								<label class="form-check-label  avatar-md w-100" for="customizer-layout03">
-									<img src="assets/img/two-col.png" alt="Layout Image">
+									<img src="~/assets/img/two-col.png" alt="Layout Image">
 								</label>
 							</div>
 							<h5 class="fs-13 text-center mt-2">Two Column</h5>
@@ -499,7 +726,7 @@
 									<input class="form-check-input" type="radio" name="data-layout-mode"
 										id="layout-mode-orange" value="orange">
 									<label class="form-check-label  avatar-md w-100 " for="layout-mode-orange">
-										<img src="assets/img/vertical.png" alt="Layout Image">
+										<img src="~/assets/img/vertical.png" alt="Layout Image">
 									</label>
 								</div>
 								<h5 class="fs-13 text-center mt-2">Orange</h5>
@@ -509,7 +736,7 @@
 									<input class="form-check-input" type="radio" name="data-layout-mode"
 										id="layout-mode-light" value="light">
 									<label class="form-check-label  avatar-md w-100" for="layout-mode-light">
-										<img src="assets/img/vertical.png" alt="Layout Image">
+										<img src="~/assets/img/vertical.png" alt="Layout Image">
 									</label>
 								</div>
 								<h5 class="fs-13 text-center mt-2">Light</h5>
@@ -519,7 +746,7 @@
 									<input class="form-check-input" type="radio" name="data-layout-mode"
 										id="layout-mode-dark" value="dark">
 									<label class="form-check-label avatar-md w-100 " for="layout-mode-dark">
-										<img src="assets/img/vertical.png" alt="Layout Image">
+										<img src="~/assets/img/vertical.png" alt="Layout Image">
 									</label>
 								</div>
 								<h5 class="fs-13 text-center mt-2">Dark</h5>
@@ -529,7 +756,7 @@
 									<input class="form-check-input" type="radio" name="data-layout-mode"
 										id="layout-mode-blue" value="blue">
 									<label class="form-check-label  avatar-md w-100" for="layout-mode-blue">
-										<img src="assets/img/vertical.png" alt="Layout Image">
+										<img src="~/assets/img/vertical.png" alt="Layout Image">
 									</label>
 								</div>
 								<h5 class="fs-13 text-center mt-2">Blue</h5>
@@ -539,7 +766,7 @@
 									<input class="form-check-input" type="radio" name="data-layout-mode"
 										id="layout-mode-maroon" value="maroon">
 									<label class="form-check-label  avatar-md w-100 " for="layout-mode-maroon">
-										<img src="assets/img/vertical.png" alt="Layout Image">
+										<img src="~/assets/img/vertical.png" alt="Layout Image">
 									</label>
 								</div>
 								<h5 class="fs-13 text-center mt-2">Maroon</h5>
@@ -549,7 +776,7 @@
 									<input class="form-check-input" type="radio" name="data-layout-mode"
 										id="layout-mode-purple" value="purple">
 									<label class="form-check-label  avatar-md w-100 " for="layout-mode-purple">
-										<img src="assets/img/vertical.png" alt="Layout Image">
+										<img src="~/assets/img/vertical.png" alt="Layout Image">
 									</label>
 								</div>
 								<h5 class="fs-13 text-center mt-2">Purple</h5>
@@ -568,7 +795,7 @@
 									<input class="form-check-input" type="radio" name="data-layout-width"
 										id="layout-width-fluid" value="fluid">
 									<label class="form-check-label avatar-md w-100" for="layout-width-fluid">
-										<img src="assets/img/vertical.png" alt="Layout Image">
+										<img src="~/assets/img/vertical.png" alt="Layout Image">
 									</label>
 								</div>
 								<h5 class="fs-13 text-center mt-2">Fluid</h5>
@@ -578,7 +805,7 @@
 									<input class="form-check-input" type="radio" name="data-layout-width"
 										id="layout-width-boxed" value="boxed">
 									<label class="form-check-label avatar-md w-100 px-2" for="layout-width-boxed">
-										<img src="assets/img/boxed.png" alt="Layout Image">
+										<img src="~/assets/img/boxed.png" alt="Layout Image">
 									</label>
 								</div>
 								<h5 class="fs-13 text-center mt-2">Boxed</h5>
@@ -611,7 +838,7 @@
 								<input class="form-check-input" type="radio" name="data-topbar" id="topbar-color-light"
 									value="light">
 								<label class="form-check-label avatar-md w-100" for="topbar-color-light">
-									<img src="assets/img/vertical.png" alt="Layout Image">
+									<img src="~/assets/img/vertical.png" alt="Layout Image">
 								</label>
 							</div>
 							<h5 class="fs-13 text-center mt-2">Light</h5>
@@ -621,7 +848,7 @@
 								<input class="form-check-input" type="radio" name="data-topbar" id="topbar-color-dark"
 									value="dark">
 								<label class="form-check-label  avatar-md w-100" for="topbar-color-dark">
-									<img src="assets/img/dark.png" alt="Layout Image">
+									<img src="~/assets/img/dark.png" alt="Layout Image">
 								</label>
 							</div>
 							<h5 class="fs-13 text-center mt-2">Dark</h5>
@@ -639,7 +866,7 @@
 									<input class="form-check-input" type="radio" name="data-sidebar-size"
 										id="sidebar-size-default" value="lg">
 									<label class="form-check-label avatar-md w-100" for="sidebar-size-default">
-										<img src="assets/img/vertical.png" alt="Layout Image">
+										<img src="~/assets/img/vertical.png" alt="Layout Image">
 									</label>
 								</div>
 								<h5 class="fs-13 text-center mt-2">Default</h5>
@@ -650,7 +877,7 @@
 									<input class="form-check-input" type="radio" name="data-sidebar-size"
 										id="sidebar-size-compact" value="md">
 									<label class="form-check-label  avatar-md w-100" for="sidebar-size-compact">
-										<img src="assets/img/compact.png" alt="Layout Image">
+										<img src="~/assets/img/compact.png" alt="Layout Image">
 									</label>
 								</div>
 								<h5 class="fs-13 text-center mt-2">Compact</h5>
@@ -661,7 +888,7 @@
 									<input class="form-check-input" type="radio" name="data-sidebar-size"
 										id="sidebar-size-small-hover" value="sm-hover">
 									<label class="form-check-label avatar-md w-100" for="sidebar-size-small-hover">
-										<img src="assets/img/small-hover.png" alt="Layout Image">
+										<img src="~/assets/img/small-hover.png" alt="Layout Image">
 									</label>
 								</div>
 								<h5 class="fs-13 text-center mt-2">Small Hover View</h5>
@@ -680,7 +907,7 @@
 									<input class="form-check-input" type="radio" name="data-layout-style"
 										id="sidebar-view-default" value="default">
 									<label class="form-check-label avatar-md w-100" for="sidebar-view-default">
-										<img src="assets/img/compact.png" alt="Layout Image">
+										<img src="~/assets/img/compact.png" alt="Layout Image">
 									</label>
 								</div>
 								<h5 class="fs-13 text-center mt-2">Default</h5>
@@ -690,7 +917,7 @@
 									<input class="form-check-input" type="radio" name="data-layout-style"
 										id="sidebar-view-detached" value="detached">
 									<label class="form-check-label  avatar-md w-100" for="sidebar-view-detached">
-										<img src="assets/img/detached.png" alt="Layout Image">
+										<img src="~/assets/img/detached.png" alt="Layout Image">
 									</label>
 								</div>
 								<h5 class="fs-13 text-center mt-2">Detached</h5>
@@ -814,31 +1041,31 @@
 	</div>
 
 	<!-- jQuery -->
-	<script src="assets/js/jquery-3.7.0.min.js"></script>
+	<script src="~/assets/js/jquery-3.7.0.min.js"></script>
 
 	<!-- Bootstrap Core JS -->
-	<script src="assets/js/bootstrap.bundle.min.js"></script>
+	<script src="~/assets/js/bootstrap.bundle.min.js"></script>
 
 	<!-- Slimscroll JS -->
-	<script src="assets/js/jquery.slimscroll.min.js"></script>
+	<script src="~/assets/js/jquery.slimscroll.min.js"></script>
 
 	<!-- Select2 JS -->
-	<script src="assets/js/select2.min.js"></script>
-
-	<!-- Datetimepicker JS -->
-	<script src="assets/js/moment.min.js"></script>
-	<script src="assets/js/bootstrap-datetimepicker.min.js"></script>
+	<script src="~/assets/js/select2.min.js"></script>
 
 	<!-- Datatable JS -->
-	<script src="assets/js/jquery.dataTables.min.js"></script>
-	<script src="assets/js/dataTables.bootstrap4.min.js"></script>
+	<script src="~/assets/js/jquery.dataTables.min.js"></script>
+	<script src="~/assets/js/dataTables.bootstrap4.min.js"></script>
+
+	<!-- Datetimepicker JS -->
+	<script src="~/assets/js/moment.min.js"></script>
+	<script src="~/assets/js/bootstrap-datetimepicker.min.js"></script>
 
 	<!-- Theme Settings JS -->
-	<script src="assets/js/layout.js"></script>
-	<script src="assets/js/theme-settings.js"></script>
-	<script src="assets/js/greedynav.js"></script>
+	<script src="~/assets/js/layout.js"></script>
+	<script src="~/assets/js/theme-settings.js"></script>
+	<script src="~/assets/js/greedynav.js"></script>
 	<!-- Custom JS -->
-	<script src="assets/js/app.js"></script>
+	<script src="~/assets/js/app.js"></script>
 
 </body>
 

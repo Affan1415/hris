@@ -11,24 +11,24 @@
         <title>Employee Dashboard - HRMS admin template</title>
 		
 		<!-- Favicon -->
-        <link rel="shortcut icon" type="image/x-icon" href="assets/img/favicon.png">
+        <link rel="shortcut icon" type="image/x-icon" href="~/assets/img/favicon.png">
 		
 		<!-- Bootstrap CSS -->
-        <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+        <link rel="stylesheet" href="~/assets/css/bootstrap.min.css">
 		
 		<!-- Fontawesome CSS -->
-        <link rel="stylesheet" href="assets/plugins/fontawesome/css/fontawesome.min.css">
-    	<link rel="stylesheet" href="assets/plugins/fontawesome/css/all.min.css">
+        <link rel="stylesheet" href="~/assets/plugins/fontawesome/css/fontawesome.min.css">
+    	<link rel="stylesheet" href="~/assets/plugins/fontawesome/css/all.min.css">
 
 		<!-- Lineawesome CSS -->
-        <link rel="stylesheet" href="assets/css/line-awesome.min.css">
-		<link rel="stylesheet" href="assets/css/material.css">
+        <link rel="stylesheet" href="~/assets/css/line-awesome.min.css">
+		<link rel="stylesheet" href="~/assets/css/material.css">
 
 		<!-- Lineawesome CSS -->
-        <link rel="stylesheet" href="assets/css/line-awesome.min.css">
+        <link rel="stylesheet" href="~/assets/css/line-awesome.min.css">
 		
 		<!-- Main CSS -->
-        <link rel="stylesheet" href="assets/css/style.css">
+        <link rel="stylesheet" href="~/assets/css/style.css">
 		
     </head>
     <body>
@@ -53,11 +53,11 @@
 				
 				<!-- Logo -->
 				<div class="header-left">
-					<a href="admin-dashboard.cshtml" class="logo">
-						<img src="assets/img/logo.png" width="40" height="40" alt="Logo">
+					<a href="employeedashboard.cshtml" class="logo">
+						<img src="~/assets/img/logo.png" width="40" height="40" alt="Logo">
 					</a>
-					<a href="admin-dashboard.cshtml" class="logo2">
-						<img src="assets/img/logo2.png" width="40" height="40" alt="Logo">
+					<a href="employeedashboard.cshtml" class="logo2">
+						<img src="~/assets/img/logo2.png" width="40" height="40" alt="Logo">
 					</a>
 				</div>
 				<!-- /Logo -->
@@ -81,37 +81,25 @@
 				<!-- Header Menu -->
 				<ul class="nav user-menu">
 				
-					<!-- Search -->
-					<li class="nav-item">
-						<div class="top-nav-search">
-							<a href="javascript:void(0);" class="responsive-search">
-								<i class="fa-solid fa-magnifying-glass"></i>
-						</a>
-							<form action="search.html">
-								<input class="form-control" type="text" placeholder="Search here">
-								<button class="btn" type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
-							</form>
-						</div>
-					</li>
-					<!-- /Search -->
+					
 				
 					<!-- Flag -->
 					<li class="nav-item dropdown has-arrow flag-nav">
 						<a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button">
-							<img src="assets/img/flags/us.png" alt="Flag" height="20"> <span>English</span>
+							<img src="~/assets/img/flags/us.png" alt="Flag" height="20"> <span>English</span>
 						</a>
 						<div class="dropdown-menu dropdown-menu-right">
 							<a href="javascript:void(0);" class="dropdown-item">
-								<img src="assets/img/flags/us.png" alt="Flag" height="16"> English
+								<img src="~/assets/img/flags/us.png" alt="Flag" height="16"> English
 							</a>
 							<a href="javascript:void(0);" class="dropdown-item">
-								<img src="assets/img/flags/fr.png" alt="Flag" height="16"> French
+								<img src="~/assets/img/flags/fr.png" alt="Flag" height="16"> French
 							</a>
 							<a href="javascript:void(0);" class="dropdown-item">
-								<img src="assets/img/flags/es.png" alt="Flag" height="16"> Spanish
+								<img src="~/assets/img/flags/es.png" alt="Flag" height="16"> Spanish
 							</a>
 							<a href="javascript:void(0);" class="dropdown-item">
-								<img src="assets/img/flags/de.png" alt="Flag" height="16"> German
+								<img src="~/assets/img/flags/de.png" alt="Flag" height="16"> German
 							</a>
 						</div>
 					</li>
@@ -127,191 +115,19 @@
 								<span class="notification-title">Notifications</span>
 								<a href="javascript:void(0)" class="clear-noti"> Clear All </a>
 							</div>
-							<div class="noti-content">
-								<ul class="notification-list">
-									<li class="notification-message">
-										<a href="activities.cshtml">
-											<div class="chat-block d-flex">
-												<span class="avatar flex-shrink-0">
-													<img src="assets/img/profiles/avatar-02.jpg" alt="User Image">
-												</span>
-												<div class="media-body flex-grow-1">
-													<p class="noti-details"><span class="noti-title">John Doe</span> added new task <span class="noti-title">Patient appointment booking</span></p>
-													<p class="noti-time"><span class="notification-time">4 mins ago</span></p>
-												</div>
-											</div>
-										</a>
-									</li>
-									<li class="notification-message">
-										<a href="activities.cshtml">
-											<div class="chat-block d-flex">
-												<span class="avatar flex-shrink-0">
-													<img src="assets/img/profiles/avatar-03.jpg" alt="User Image">
-												</span>
-												<div class="media-body flex-grow-1">
-													<p class="noti-details"><span class="noti-title">Tarah Shropshire</span> changed the task name <span class="noti-title">Appointment booking with payment gateway</span></p>
-													<p class="noti-time"><span class="notification-time">6 mins ago</span></p>
-												</div>
-											</div>
-										</a>
-									</li>
-									<li class="notification-message">
-										<a href="activities.cshtml">
-											<div class="chat-block d-flex">
-												<span class="avatar flex-shrink-0">
-													<img src="assets/img/profiles/avatar-06.jpg" alt="User Image">
-												</span>
-												<div class="media-body flex-grow-1">
-													<p class="noti-details"><span class="noti-title">Misty Tison</span> added <span class="noti-title">Domenic Houston</span> and <span class="noti-title">Claire Mapes</span> to project <span class="noti-title">Doctor available module</span></p>
-													<p class="noti-time"><span class="notification-time">8 mins ago</span></p>
-												</div>
-											</div>
-										</a>
-									</li>
-									<li class="notification-message">
-										<a href="activities.cshtml">
-											<div class="chat-block d-flex">
-												<span class="avatar flex-shrink-0">
-													<img src="assets/img/profiles/avatar-17.jpg" alt="User Image">
-												</span>
-												<div class="media-body flex-grow-1">
-													<p class="noti-details"><span class="noti-title">Rolland Webber</span> completed task <span class="noti-title">Patient and Doctor video conferencing</span></p>
-													<p class="noti-time"><span class="notification-time">12 mins ago</span></p>
-												</div>
-											</div>
-										</a>
-									</li>
-									<li class="notification-message">
-										<a href="activities.cshtml">
-											<div class="chat-block d-flex">
-												<span class="avatar flex-shrink-0">
-													<img src="assets/img/profiles/avatar-13.jpg" alt="User Image">
-												</span>
-												<div class="media-body flex-grow-1">
-													<p class="noti-details"><span class="noti-title">Bernardo Galaviz</span> added new task <span class="noti-title">Private chat module</span></p>
-													<p class="noti-time"><span class="notification-time">2 days ago</span></p>
-												</div>
-											</div>
-										</a>
-									</li>
-								</ul>
-							</div>
+							
 							<div class="topnav-dropdown-footer">
-								<a href="activities.cshtml">View all Notifications</a>
+								
 							</div>
 						</div>
 					</li>
 					<!-- /Notifications -->
 					
-					<!-- Message Notifications -->
-					<li class="nav-item dropdown">
-						<a href="#" class="dropdown-toggle nav-link" data-bs-toggle="dropdown">
-							<i class="fa-regular fa-comment"></i> <span class="badge rounded-pill">8</span>
-						</a>
-						<div class="dropdown-menu notifications">
-							<div class="topnav-dropdown-header">
-								<span class="notification-title">Messages</span>
-								<a href="javascript:void(0)" class="clear-noti"> Clear All </a>
-							</div>
-							<div class="noti-content">
-								<ul class="notification-list">
-									<li class="notification-message">
-										<a href="chat.cshtml">
-											<div class="list-item">
-												<div class="list-left">
-													<span class="avatar">
-														<img src="assets/img/profiles/avatar-09.jpg" alt="User Image">
-													</span>
-												</div>
-												<div class="list-body">
-													<span class="message-author">Richard Miles </span>
-													<span class="message-time">12:28 AM</span>
-													<div class="clearfix"></div>
-													<span class="message-content">Lorem ipsum dolor sit amet, consectetur adipiscing</span>
-												</div>
-											</div>
-										</a>
-									</li>
-									<li class="notification-message">
-										<a href="chat.cshtml">
-											<div class="list-item">
-												<div class="list-left">
-													<span class="avatar">
-														<img src="assets/img/profiles/avatar-02.jpg" alt="User Image">
-													</span>
-												</div>
-												<div class="list-body">
-													<span class="message-author">John Doe</span>
-													<span class="message-time">6 Mar</span>
-													<div class="clearfix"></div>
-													<span class="message-content">Lorem ipsum dolor sit amet, consectetur adipiscing</span>
-												</div>
-											</div>
-										</a>
-									</li>
-									<li class="notification-message">
-										<a href="chat.cshtml">
-											<div class="list-item">
-												<div class="list-left">
-													<span class="avatar">
-														<img src="assets/img/profiles/avatar-03.jpg" alt="User Image">
-													</span>
-												</div>
-												<div class="list-body">
-													<span class="message-author"> Tarah Shropshire </span>
-													<span class="message-time">5 Mar</span>
-													<div class="clearfix"></div>
-													<span class="message-content">Lorem ipsum dolor sit amet, consectetur adipiscing</span>
-												</div>
-											</div>
-										</a>
-									</li>
-									<li class="notification-message">
-										<a href="chat.cshtml">
-											<div class="list-item">
-												<div class="list-left">
-													<span class="avatar">
-														<img src="assets/img/profiles/avatar-05.jpg" alt="User Image">
-													</span>
-												</div>
-												<div class="list-body">
-													<span class="message-author">Mike Litorus</span>
-													<span class="message-time">3 Mar</span>
-													<div class="clearfix"></div>
-													<span class="message-content">Lorem ipsum dolor sit amet, consectetur adipiscing</span>
-												</div>
-											</div>
-										</a>
-									</li>
-									<li class="notification-message">
-										<a href="chat.cshtml">
-											<div class="list-item">
-												<div class="list-left">
-													<span class="avatar">
-														<img src="assets/img/profiles/avatar-08.jpg" alt="User Image">
-													</span>
-												</div>
-												<div class="list-body">
-													<span class="message-author"> Catherine Manseau </span>
-													<span class="message-time">27 Feb</span>
-													<div class="clearfix"></div>
-													<span class="message-content">Lorem ipsum dolor sit amet, consectetur adipiscing</span>
-												</div>
-											</div>
-										</a>
-									</li>
-								</ul>
-							</div>
-							<div class="topnav-dropdown-footer">
-								<a href="chat.cshtml">View all Messages</a>
-							</div>
-						</div>
-					</li>
-					<!-- /Message Notifications -->
+					
 
 					<li class="nav-item dropdown has-arrow main-drop">
 						<a href="#" class="dropdown-toggle nav-link" data-bs-toggle="dropdown">
-							<sSpan class="user-img"><img src="assets/img/profiles/avatar-21.jpg" alt="User Image">
+							<sSpan class="user-img"><img src="~/assets/img/profiles/avatar-21.jpg" alt="User Image">
 							<span class="status online"></span></sSpan>
 							<span>name</span>
 						</a>
@@ -352,7 +168,7 @@
 										<a href="#"><i class="la la-dashboard"></i> <span> Dashboard</span> <span
 												class="menu-arrow"></span></a>
 										<ul>
-											<li><a href="employee-dashboard.cshtml">Employee Dashboard</a></li>
+											<li><a href="employeedashboard.cshtml">Employee Dashboard</a></li>
 										</ul>
 									</li>
 		
@@ -363,9 +179,9 @@
 										<a href="#" class="noti-dot"><i class="la la-user"></i> <span> Employees</span> <span
 												class="menu-arrow"></span></a>
 										<ul>
-											<li><a href="leaves-employee.cshtml">Leaves (Employee)</a></li>
+											<li><a href="leavesemployee.cshtml">Leaves (Employee)</a></li>
 		
-											<li><a href="attendance-employee.cshtml">Attendance (Employee)</a></li>
+											<li><a href="attendanceemployee.cshtml">Attendance (Employee)</a></li>
 		
 										</ul>
 									</li>
@@ -420,7 +236,7 @@
 								<a href="#"><i class="la la-dashboard"></i> <span> Dashboard</span> <span
 										class="menu-arrow"></span></a>
 								<ul>
-									<li><a href="employee-dashboard.cshtml">Employee Dashboard</a></li>
+									<li><a href="employeedashboard.cshtml">Employee Dashboard</a></li>
 								</ul>
 							</li>
 		
@@ -431,9 +247,9 @@
 								<a href="#" class="noti-dot"><i class="la la-user"></i> <span> Employees</span> <span
 										class="menu-arrow"></span></a>
 								<ul>
-									<li><a href="leaves-employee.cshtml">Leaves (Employee)</a></li>
+									<li><a href="leavesemployee.cshtml">Leaves (Employee)</a></li>
 		
-									<li><a href="attendance-employee.cshtml">Attendance (Employee)</a></li>
+									<li><a href="attendanceemployee.cshtml">Attendance (Employee)</a></li>
 		
 								</ul>
 							</li>
@@ -477,7 +293,7 @@
 						<div class="col-md-12">
 							<div class="welcome-box">
 								<div class="welcome-img">
-									<img src="assets/img/profiles/avatar-02.jpg" alt="User Image">
+									<img src="~/assets/img/profiles/avatar-02.jpg" alt="User Image">
 								</div>
 								<div class="welcome-det">
 									<h3>Welcome, John Doe</h3>
@@ -502,7 +318,7 @@
 													<p>Richard Miles is off sick today</p>
 												</div>
 												<div class="dash-card-avatars">
-													<div class="e-avatar"><img src="assets/img/profiles/avatar-09.jpg" alt="User Image"></div>
+													<div class="e-avatar"><img src="~/assets/img/profiles/avatar-09.jpg" alt="User Image"></div>
 												</div>
 											</div>
 										</a>
@@ -518,7 +334,7 @@
 													<p>You are away today</p>
 												</div>
 												<div class="dash-card-avatars">
-													<div class="e-avatar"><img src="assets/img/profiles/avatar-02.jpg" alt="User Image"></div>
+													<div class="e-avatar"><img src="~/assets/img/profiles/avatar-02.jpg" alt="User Image"></div>
 												</div>
 											</div>
 										</a>
@@ -534,7 +350,7 @@
 													<p>You are working from home today</p>
 												</div>
 												<div class="dash-card-avatars">
-													<div class="e-avatar"><img src="assets/img/profiles/avatar-02.jpg" alt="User Image"></div>
+													<div class="e-avatar"><img src="~/assets/img/profiles/avatar-02.jpg" alt="User Image"></div>
 												</div>
 											</div>
 										</a>
@@ -556,8 +372,8 @@
 													<p>2 people will be away tomorrow</p>
 												</div>
 												<div class="dash-card-avatars">
-													<a href="#" class="e-avatar"><img src="assets/img/profiles/avatar-04.jpg" alt="User Image"></a>
-													<a href="#" class="e-avatar"><img src="assets/img/profiles/avatar-08.jpg" alt="User Image"></a>
+													<a href="#" class="e-avatar"><img src="~/assets/img/profiles/avatar-04.jpg" alt="User Image"></a>
+													<a href="#" class="e-avatar"><img src="~/assets/img/profiles/avatar-08.jpg" alt="User Image"></a>
 												</div>
 											</div>
 										</div>
@@ -578,8 +394,8 @@
 													<p>2 people are going to be away</p>
 												</div>
 												<div class="dash-card-avatars">
-													<a href="#" class="e-avatar"><img src="assets/img/profiles/avatar-05.jpg" alt="User Image"></a>
-													<a href="#" class="e-avatar"><img src="assets/img/profiles/avatar-07.jpg" alt="User Image"></a>
+													<a href="#" class="e-avatar"><img src="~/assets/img/profiles/avatar-05.jpg" alt="User Image"></a>
+													<a href="#" class="e-avatar"><img src="~/assets/img/profiles/avatar-07.jpg" alt="User Image"></a>
 												</div>
 											</div>
 										</div>
@@ -594,7 +410,7 @@
 													<p>Your first day is going to be  on Thursday</p>
 												</div>
 												<div class="dash-card-avatars">
-													<div class="e-avatar"><img src="assets/img/profiles/avatar-02.jpg" alt="User Image"></div>
+													<div class="e-avatar"><img src="~/assets/img/profiles/avatar-02.jpg" alt="User Image"></div>
 												</div>
 											</div>
 										</div>
@@ -711,7 +527,7 @@
 					<h3>Customize your overview Page layout</h3>
 				</div>
 				<div class="sidebar-headerclose">
-					<a data-bs-dismiss="offcanvas" aria-label="Close"><img src="assets/img/close.png" alt="Close Icon"></a>
+					<a data-bs-dismiss="offcanvas" aria-label="Close"><img src="~/assets/img/close.png" alt="Close Icon"></a>
 				</div>
 			</div>
 			<div class="offcanvas-body p-0"> 
@@ -726,7 +542,7 @@
 								<div class="form-check card-radio p-0"> 
 									<input id="customizer-layout01" name="data-layout" type="radio" value="vertical" class="form-check-input"> 
 									<label class="form-check-label avatar-md w-100" for="customizer-layout01"> 
-										<img src="assets/img/vertical.png" alt="Layout Image">
+										<img src="~/assets/img/vertical.png" alt="Layout Image">
 									</label> 
 								</div> 
 								<h5 class="fs-13 text-center mt-2">Vertical</h5> 
@@ -735,7 +551,7 @@
 								<div class="form-check card-radio p-0"> 
 								<input id="customizer-layout02" name="data-layout" type="radio" value="horizontal" class="form-check-input"> 
 									<label class="form-check-label  avatar-md w-100" for="customizer-layout02"> 
-										<img src="assets/img/horizontal.png" alt="Layout Image">
+										<img src="~/assets/img/horizontal.png" alt="Layout Image">
 									</label> 
 								</div> 
 								<h5 class="fs-13 text-center mt-2">Horizontal</h5> 
@@ -744,7 +560,7 @@
 								<div class="form-check card-radio p-0"> 
 									<input id="customizer-layout03" name="data-layout" type="radio" value="twocolumn" class="form-check-input"> 
 									<label class="form-check-label  avatar-md w-100" for="customizer-layout03"> 
-										<img src="assets/img/two-col.png" alt="Layout Image">
+										<img src="~/assets/img/two-col.png" alt="Layout Image">
 									</label> 
 								</div> 
 								<h5 class="fs-13 text-center mt-2">Two Column</h5> 
@@ -760,7 +576,7 @@
 										<div class="form-check card-radio p-0"> 
 											<input class="form-check-input" type="radio" name="data-layout-mode" id="layout-mode-orange" value="orange"> 
 											<label class="form-check-label  avatar-md w-100 " for="layout-mode-orange"> 
-												<img src="assets/img/vertical.png" alt="Layout Image">
+												<img src="~/assets/img/vertical.png" alt="Layout Image">
 										</label> 
 									</div> 
 									<h5 class="fs-13 text-center mt-2">Orange</h5> 
@@ -769,7 +585,7 @@
 									<div class="form-check card-radio p-0"> 
 										<input class="form-check-input" type="radio" name="data-layout-mode" id="layout-mode-light" value="light"> 
 										<label class="form-check-label  avatar-md w-100" for="layout-mode-light"> 
-											<img src="assets/img/vertical.png" alt="Layout Image">
+											<img src="~/assets/img/vertical.png" alt="Layout Image">
 										</label> 
 									</div> 
 									<h5 class="fs-13 text-center mt-2">Light</h5> 
@@ -778,7 +594,7 @@
 									<div class="form-check card-radio dark  p-0 "> 
 										<input class="form-check-input" type="radio" name="data-layout-mode" id="layout-mode-dark" value="dark"> 
 										<label class="form-check-label avatar-md w-100 " for="layout-mode-dark"> 
-											<img src="assets/img/vertical.png" alt="Layout Image">
+											<img src="~/assets/img/vertical.png" alt="Layout Image">
 										</label> 
 									</div> 
 									<h5 class="fs-13 text-center mt-2">Dark</h5> 
@@ -787,7 +603,7 @@
 									<div class="form-check card-radio blue  p-0 "> 
 										<input class="form-check-input" type="radio" name="data-layout-mode" id="layout-mode-blue" value="blue"> 
 										<label class="form-check-label  avatar-md w-100" for="layout-mode-blue"> 
-											<img src="assets/img/vertical.png" alt="Layout Image">
+											<img src="~/assets/img/vertical.png" alt="Layout Image">
 										</label> 
 									</div> 
 									<h5 class="fs-13 text-center mt-2">Blue</h5> 
@@ -796,7 +612,7 @@
 									<div class="form-check card-radio maroon p-0"> 
 										<input class="form-check-input" type="radio" name="data-layout-mode" id="layout-mode-maroon" value="maroon"> 
 										<label class="form-check-label  avatar-md w-100 " for="layout-mode-maroon"> 
-											<img src="assets/img/vertical.png" alt="Layout Image">
+											<img src="~/assets/img/vertical.png" alt="Layout Image">
 										</label> 
 									</div> 
 									<h5 class="fs-13 text-center mt-2">Maroon</h5> 
@@ -805,7 +621,7 @@
 									<div class="form-check card-radio purple p-0"> 
 										<input class="form-check-input" type="radio" name="data-layout-mode" id="layout-mode-purple" value="purple"> 
 										<label class="form-check-label  avatar-md w-100 " for="layout-mode-purple"> 
-											<img src="assets/img/vertical.png" alt="Layout Image">
+											<img src="~/assets/img/vertical.png" alt="Layout Image">
 										</label> 
 									</div> 
 									<h5 class="fs-13 text-center mt-2">Purple</h5> 
@@ -823,7 +639,7 @@
 									<div class="form-check card-radio p-0"> 
 										<input class="form-check-input" type="radio" name="data-layout-width" id="layout-width-fluid" value="fluid"> 
 										<label class="form-check-label avatar-md w-100" for="layout-width-fluid"> 
-											<img src="assets/img/vertical.png" alt="Layout Image">
+											<img src="~/assets/img/vertical.png" alt="Layout Image">
 										</label> 
 									</div> 
 									<h5 class="fs-13 text-center mt-2">Fluid</h5> 
@@ -832,7 +648,7 @@
 									<div class="form-check card-radio p-0 "> 
 										<input class="form-check-input" type="radio" name="data-layout-width" id="layout-width-boxed" value="boxed"> 
 										<label class="form-check-label avatar-md w-100 px-2" for="layout-width-boxed"> 
-											<img src="assets/img/boxed.png" alt="Layout Image"> 
+											<img src="~/assets/img/boxed.png" alt="Layout Image"> 
 										</label> 
 									</div> 
 									<h5 class="fs-13 text-center mt-2">Boxed</h5> 
@@ -862,7 +678,7 @@
 								<div class="form-check card-radio  p-0"> 
 									<input class="form-check-input" type="radio" name="data-topbar" id="topbar-color-light" value="light"> 
 									<label class="form-check-label avatar-md w-100" for="topbar-color-light"> 
-										<img src="assets/img/vertical.png" alt="Layout Image">
+										<img src="~/assets/img/vertical.png" alt="Layout Image">
 									</label> 
 								</div> 
 								<h5 class="fs-13 text-center mt-2">Light</h5> 
@@ -871,7 +687,7 @@
 								<div class="form-check card-radio p-0"> 
 									<input class="form-check-input" type="radio" name="data-topbar" id="topbar-color-dark" value="dark"> 
 									<label class="form-check-label  avatar-md w-100" for="topbar-color-dark"> 
-										<img src="assets/img/dark.png" alt="Layout Image">
+										<img src="~/assets/img/dark.png" alt="Layout Image">
 									</label> 
 								</div> 
 								<h5 class="fs-13 text-center mt-2">Dark</h5> 
@@ -888,7 +704,7 @@
 									<div class="form-check sidebar-setting card-radio  p-0 "> 
 										<input class="form-check-input" type="radio" name="data-sidebar-size" id="sidebar-size-default" value="lg" > 
 										<label class="form-check-label avatar-md w-100" for="sidebar-size-default"> 
-											<img src="assets/img/vertical.png" alt="Layout Image">
+											<img src="~/assets/img/vertical.png" alt="Layout Image">
 										</label> 
 									</div> 
 									<h5 class="fs-13 text-center mt-2">Default</h5> 
@@ -898,7 +714,7 @@
 									<div class="form-check sidebar-setting card-radio p-0"> 
 										<input class="form-check-input" type="radio" name="data-sidebar-size" id="sidebar-size-compact" value="md"> 
 										<label class="form-check-label  avatar-md w-100" for="sidebar-size-compact"> 
-											<img src="assets/img/compact.png" alt="Layout Image">
+											<img src="~/assets/img/compact.png" alt="Layout Image">
 										</label> 
 									</div> 
 									<h5 class="fs-13 text-center mt-2">Compact</h5> 
@@ -908,7 +724,7 @@
 									<div class="form-check sidebar-setting card-radio p-0 "> 
 										<input class="form-check-input" type="radio" name="data-sidebar-size" id="sidebar-size-small-hover" value="sm-hover" > 
 										<label class="form-check-label avatar-md w-100" for="sidebar-size-small-hover"> 
-											<img src="assets/img/small-hover.png" alt="Layout Image">
+											<img src="~/assets/img/small-hover.png" alt="Layout Image">
 										</label> 
 									</div> 
 									<h5 class="fs-13 text-center mt-2">Small Hover View</h5> 
@@ -926,7 +742,7 @@
 									<div class="form-check sidebar-setting card-radio  p-0"> 
 										<input class="form-check-input" type="radio" name="data-layout-style" id="sidebar-view-default" value="default"> 
 										<label class="form-check-label avatar-md w-100" for="sidebar-view-default"> 
-											<img src="assets/img/compact.png" alt="Layout Image">
+											<img src="~/assets/img/compact.png" alt="Layout Image">
 										</label>
 										</div> 
 									<h5 class="fs-13 text-center mt-2">Default</h5> 
@@ -935,7 +751,7 @@
 									<div class="form-check sidebar-setting card-radio p-0"> 
 										<input class="form-check-input" type="radio" name="data-layout-style" id="sidebar-view-detached" value="detached"> 
 										<label class="form-check-label  avatar-md w-100" for="sidebar-view-detached"> 
-											<img src="assets/img/detached.png" alt="Layout Image">
+											<img src="~/assets/img/detached.png" alt="Layout Image">
 										</label> 
 									</div> 
 									<h5 class="fs-13 text-center mt-2">Detached</h5> 
@@ -1043,21 +859,21 @@
 		</div> 
 
 		<!-- jQuery -->
-       <script src="assets/js/jquery-3.7.0.min.js"></script>
+       <script src="~/assets/js/jquery-3.7.0.min.js"></script>
 		
 		<!-- Bootstrap Core JS -->
-        <script src="assets/js/bootstrap.bundle.min.js"></script>
+        <script src="~/assets/js/bootstrap.bundle.min.js"></script>
 		
 		<!-- Slimscroll JS -->
-		<script src="assets/js/jquery.slimscroll.min.js"></script>
+		<script src="~/assets/js/jquery.slimscroll.min.js"></script>
 
 		 <!-- Theme Settings JS -->
-		<script src="assets/js/layout.js"></script>
-		<script src="assets/js/theme-settings.js"></script>
-		<script src="assets/js/greedynav.js"></script>
+		<script src="~/assets/js/layout.js"></script>
+		<script src="~/assets/js/theme-settings.js"></script>
+		<script src="~/assets/js/greedynav.js"></script>
 		
 		<!-- Custom JS -->
-		<script src="assets/js/app.js"></script>
+		<script src="~/assets/js/app.js"></script>
 		
     </body>
 </html>
