@@ -140,5 +140,59 @@ public class HRController : Controller
 	{ 
 	return View();
 	}
+	[HttpPost]
+	//[Route("HR/updatesalary")]
+	public IActionResult UpdateSalary(UpdateSalaryModel model)
+	{
+		try
+		{
+			// Retrieve the employee based on the provided employeeId
 
+			var employee = _context.EmployeeData.Where(u => u.EmployeeID == model.Id).FirstOrDefault();
+
+
+			//if (employee == null)
+			//{
+			//	// Handle the case where employee data is not found
+			//	return NotFound();
+			//}
+
+			// Update the salary of the employee
+			employee.Salary = model.update_salary;
+
+			// Save the changes to the database
+			_context.SaveChanges();
+
+			// Redirect to the employee profile or another appropriate page
+			return RedirectToAction("salaryupdate","HR");
+		}
+		catch (Exception ex)
+		{
+			_logger.LogError($"Error updating salary: {ex.Message}");
+			ModelState.AddModelError("", "An error occurred while updating the salary.");
+			// If there is an error, return to the form with validation errors
+			return View(); // You can decide whether to redirect to the same form or handle the error differently
+		}
+	}
+
+	[HttpGet]
+	public IActionResult salaryupdate()
+	{
+		return View();
+	}
+	[HttpGet]
+	public IActionResult viewnoti()
+	{
+		var notification = _context.Notifications.ToList();
+		return View(notification);
+	}
+	[HttpGet]
+	public IActionResult projects()//view projects
+	{
+		// Add any necessary logic for the admin dashboard
+		var projects = _context.ProjectData.ToList();
+
+		return View(projects);
+		//return View("admindashboard");
+	}
 }

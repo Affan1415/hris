@@ -111,24 +111,19 @@
 				<!-- /Flag -->
 				<!-- Notifications -->
 				<li class="nav-item dropdown">
-					<a href="#"
-					   class="dropdown-toggle nav-link"
-					   data-bs-toggle="dropdown">
-						<i class="fa-regular fa-bell"></i>
-						<span class="badge rounded-pill">3</span>
+					<a href="#" class="dropdown-toggle nav-link" data-bs-toggle="dropdown">
+						<i class="fa-regular fa-bell"></i> <span class="badge rounded-pill">3</span>
 					</a>
 					<div class="dropdown-menu notifications">
 						<div class="topnav-dropdown-header">
-							<span class="notification-title">Notifications</span>
-							<a href="javascript:void(0)" class="clear-noti"> Clear All </a>
+
+							<a class="notification-title" asp-controller="projectManager" asp-action="viewnoti">Notification</a>
 						</div>
 
-						<div class="topnav-dropdown-footer">
-						</div>
+
 					</div>
 				</li>
 				<!-- /Notifications -->
-
 
 
 				<li class="nav-item dropdown has-arrow main-drop">
@@ -140,10 +135,9 @@
 								 alt="User Image" />
 							<span class="status online"></span>
 						</span>
-						<span>Admin</span>
+						<span>PM</span>
 					</a>
 					<div class="dropdown-menu">
-						<a class="dropdown-item" href="profile.cshtml">My Profile</a>
 						<a class="dropdown-item" href="index.cshtml">Logout</a>
 					</div>
 				</li>
@@ -158,13 +152,13 @@
 					<i class="fa-solid fa-ellipsis-vertical"></i>
 				</a>
 				<div class="dropdown-menu dropdown-menu-right">
-					<a class="dropdown-item" href="profile.cshtml">My Profile</a>
 					<a class="dropdown-item" href="index.cshtml">Logout</a>
 				</div>
 			</div>
 			<!-- /Mobile Menu -->
 		</div>
 		<!-- /Header -->
+		<!-- Sidebar -->
 		<div class="sidebar" id="sidebar">
 			<div class="sidebar-inner slimscroll">
 				<div id="sidebar-menu" class="sidebar-menu">
@@ -197,22 +191,25 @@
 								</ul>
 							</li>
 							<li>
-								<a href="clients.cshtml"><i class="la la-users"></i> <span>Clients</span></a>
-							</li>
-							<li>
 								<a asp-controller="projectManager" asp-action="projects">
 									<i class="la la-rocket"></i><span>Projects</span>
 								</a>
 							</li>
 							<li>
-								<a asp-controller="projectManager" asp-action="addprojects">
+								<a asp-controller="projectManager" asp-action="add_project" method="Get">
 									<i class="la la-rocket"></i><span>
 										Add Projects
 									</span>
 								</a>
 							</li>
 							<li>
-								<a href="expenses.cshtml"><i class="la la-files-o"></i> <span>Expenses</span></a>
+								<a asp-controller="projectManager" asp-action="expenses">
+									<i class="la la-rocket"></i> <span> Expenses</span>
+
+								</a>
+							</li>
+							<li>
+								<a class="notification-title" asp-controller="projectManager" asp-action="viewnoti">Notifications</a>
 							</li>
 						</ul>
 					</nav>
@@ -243,9 +240,7 @@
 								</li>
 							</ul>
 						</li>
-						<li>
-							<a href="clients.cshtml"><i class="la la-users"></i> <span>Clients</span></a>
-						</li>
+
 						<li>
 							<a asp-controller="projectManager" asp-action="projects">
 								<i class="la la-rocket"></i><span>
@@ -254,14 +249,19 @@
 							</a>
 						</li>
 						<li>
-							<a asp-controller="projectManager" asp-action="addprojects">
+							<a asp-controller="projectManager" asp-action="add_project" method="Get">
 								<i class="la la-rocket"></i><span>
 									Add Projects
 								</span>
 							</a>
 						</li>
 						<li>
-							<a href="expenses.cshtml"><i class="la la-files-o"></i> <span>Expenses</span></a>
+							<a asp-controller="projectManager" asp-action="expenses">
+								<i class="la la-rocket"></i> <span> Expenses</span>
+							</a>
+						</li>
+						<li>
+							<a class="notification-title" asp-controller="projectManager" asp-action="viewnoti">Notifications</a>
 						</li>
 
 					</ul>

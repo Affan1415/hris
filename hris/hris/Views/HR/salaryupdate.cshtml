@@ -1,5 +1,5 @@
-﻿@model hris.Models.ProjectData
-
+﻿
+@model hris.Models.UpdateSalaryModel
 <!DOCTYPE html>
 <html lang="en" data-layout="vertical" data-topbar="light" data-sidebar="dark" data-sidebar-size="lg"
 	  data-sidebar-image="none">
@@ -11,7 +11,7 @@
 	<meta name="keywords"
 		  content="admin, estimates, bootstrap, business, corporate, creative, management, minimal, modern, accounts, invoice, html5, responsive, CRM, Projects">
 	<meta name="author" content="Dreamguys - Bootstrap Admin Template">
-	<title>Projects - HRMS admin template</title>
+	<title>Salary - HRMS admin template</title>
 
 	<!-- Favicon -->
 	<link rel="shortcut icon" type="image/x-icon" href="~/assets/img/favicon.png">
@@ -27,14 +27,14 @@
 	<link rel="stylesheet" href="~/assets/css/line-awesome.min.css">
 	<link rel="stylesheet" href="~/assets/css/material.css">
 
+	<!-- Datatable CSS -->
+	<link rel="stylesheet" href="~/assets/css/dataTables.bootstrap4.min.css">
+
 	<!-- Select2 CSS -->
 	<link rel="stylesheet" href="~/assets/css/select2.min.css">
 
 	<!-- Datetimepicker CSS -->
 	<link rel="stylesheet" href="~/assets/css/bootstrap-datetimepicker.min.css">
-
-	<!-- Ck Editor -->
-	<link rel="stylesheet" href="~/assets/css/ckeditor.css">
 
 	<!-- Main CSS -->
 	<link rel="stylesheet" href="~/assets/css/style.css">
@@ -45,15 +45,17 @@
 <body>
 	<!-- Main Wrapper -->
 	<div class="main-wrapper">
+
 		<!-- Header -->
 		<div class="header">
+
 			<!-- Logo -->
 			<div class="header-left">
-				<a href="projectManagerdashboard.cshtml" class="logo">
-					<img src="~/assets/img/logo.png" width="40" height="40" alt="Logo" />
+				<a href="admindashboard.cshtml" class="logo">
+					<img src="~/assets/img/logo.png" width="40" height="40" alt="Logo">
 				</a>
-				<a href="projectManagerdashboard.cshtml" class="logo2">
-					<img src="~/assets/img/logo2.png" width="40" height="40" alt="Logo" />
+				<a href="admindashboard.cshtml" class="logo2">
+					<img src="~/assets/img/logo2.png" width="40" height="40" alt="Logo">
 				</a>
 			</div>
 			<!-- /Logo -->
@@ -68,43 +70,34 @@
 
 			<!-- Header Title -->
 			<div class="page-title-box">
-				<h3>Codexia Technologies</h3>
+				<h3>Codexia Technoligies</h3>
 			</div>
 			<!-- /Header Title -->
 
-			<a id="mobile_btn" class="mobile_btn" href="#sidebar">
-				<i class="fa-solid fa-bars"></i>
-			</a>
+			<a id="mobile_btn" class="mobile_btn" href="#sidebar"><i class="fa-solid fa-bars"></i></a>
 
 			<!-- Header Menu -->
 			<ul class="nav user-menu">
 
 
+
 				<!-- Flag -->
 				<li class="nav-item dropdown has-arrow flag-nav">
-					<a class="nav-link dropdown-toggle"
-					   data-bs-toggle="dropdown"
-					   href="#"
-					   role="button">
-						<img src="~/assets/img/flags/us.png" alt="Flag" height="20" />
-						<span>English</span>
+					<a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button">
+						<img src="~/assets/img/flags/us.png" alt="Flag" height="20"> <span>English</span>
 					</a>
 					<div class="dropdown-menu dropdown-menu-right">
 						<a href="javascript:void(0);" class="dropdown-item">
-							<img src="~/assets/img/flags/us.png" alt="Flag" height="16" />
-							English
+							<img src="~/assets/img/flags/us.png" alt="Flag" height="16"> English
 						</a>
 						<a href="javascript:void(0);" class="dropdown-item">
-							<img src="~/assets/img/flags/fr.png" alt="Flag" height="16" />
-							French
+							<img src="~/assets/img/flags/fr.png" alt="Flag" height="16"> French
 						</a>
 						<a href="javascript:void(0);" class="dropdown-item">
-							<img src="~/assets/img/flags/es.png" alt="Flag" height="16" />
-							Spanish
+							<img src="~/assets/img/flags/es.png" alt="Flag" height="16"> Spanish
 						</a>
 						<a href="javascript:void(0);" class="dropdown-item">
-							<img src="~/assets/img/flags/de.png" alt="Flag" height="16" />
-							German
+							<img src="~/assets/img/flags/de.png" alt="Flag" height="16"> German
 						</a>
 					</div>
 				</li>
@@ -117,7 +110,7 @@
 					<div class="dropdown-menu notifications">
 						<div class="topnav-dropdown-header">
 
-							<a class="notification-title" asp-controller="projectManager" asp-action="viewnoti">Notification</a>
+							<a class="notification-title" asp-controller="HR" asp-action="viewnoti">Notification</a>
 						</div>
 
 
@@ -127,18 +120,17 @@
 
 
 
+
 				<li class="nav-item dropdown has-arrow main-drop">
-					<a href="#"
-					   class="dropdown-toggle nav-link"
-					   data-bs-toggle="dropdown">
+					<a href="#" class="dropdown-toggle nav-link" data-bs-toggle="dropdown">
 						<span class="user-img">
-							<img src="~/assets/img/profiles/avatar-21.jpg"
-								 alt="User Image" />
+							<img src="~/assets/img/profiles/avatar-21.jpg" alt="User Image">
 							<span class="status online"></span>
 						</span>
-						<span>PM</span>
+						<span>Admin</span>
 					</a>
 					<div class="dropdown-menu">
+						
 						<a class="dropdown-item" href="index.cshtml">Logout</a>
 					</div>
 				</li>
@@ -146,17 +138,16 @@
 			<!-- /Header Menu -->
 			<!-- Mobile Menu -->
 			<div class="dropdown mobile-user-menu">
-				<a href="#"
-				   class="nav-link dropdown-toggle"
-				   data-bs-toggle="dropdown"
-				   aria-expanded="false">
+				<a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
 					<i class="fa-solid fa-ellipsis-vertical"></i>
 				</a>
 				<div class="dropdown-menu dropdown-menu-right">
+					
 					<a class="dropdown-item" href="index.cshtml">Logout</a>
 				</div>
 			</div>
 			<!-- /Mobile Menu -->
+
 		</div>
 		<!-- /Header -->
 		<!-- Sidebar -->
@@ -169,106 +160,120 @@
 								<span>Main</span>
 							</li>
 							<li class="submenu">
-								<a href="#">
+								<a href="admindashboard.cshtml">
 									<i class="la la-dashboard"></i> <span> Dashboard</span>
 									<span class="menu-arrow"></span>
 								</a>
-								<ul>
-									<li><a href="projectManagerdashboard.cshtml">Project Manager Dashboard</a></li>
-								</ul>
-							</li>
-							<li class="menu-title">
-								<span>Project Manager</span>
 							</li>
 							<li class="submenu">
 								<a href="#" class="noti-dot">
-									<i class="la la-user"></i> <span> Employees</span>
-									<span class="menu-arrow"></span>
+									<i class="la la-user"></i> <span> HR </span> <span class="menu-arrow"></span>
 								</a>
 								<ul>
+									<li><a asp-controller="HR" asp-action="employeeslist">All employees</a></li>
+									<li><a asp-controller="HR" asp-action="addemployee">Add Employee</a></li>
 									<li>
-										<a href="attendanceemployee.cshtml">Attendance (Employee)</a>
+										<a href="leaves.cshtml">
+											Leaves (Admin) <span class="badge rounded-pill bg-primary float-end">1</span>
+										</a>
 									</li>
+									<li><a href="attendance.cshtml">Attendance (Admin)</a></li>
 								</ul>
 							</li>
-							<li>
-								<a asp-controller="projectManager" asp-action="projects">
-									<i class="la la-rocket"></i><span>Projects</span>
-								</a>
-							</li>
-							<li>
-								<a asp-controller="projectManager" asp-action="add_project" method="Get">
-									<i class="la la-rocket"></i><span>
-										Add Projects
-									</span>
-								</a>
-							</li>
-							<li>
-								<a asp-controller="projectManager" asp-action="expenses">
-									<i class="la la-rocket"></i> <span> Expenses</span>
 
+						</ul>
+						<button class="viewmoremenu">More Menu</button>
+						<ul class="hidden-links hidden">
+							<li>
+								<a asp-controller="HR" asp-action="projects">
+									<i class="la la-users"></i> <span>project</span>
 								</a>
 							</li>
 							<li>
-								<a class="notification-title" asp-controller="projectManager" asp-action="viewnoti">Notifications</a>
+								<a asp-controller="HR" asp-action="Expenses">
+									<i class="la la-users"></i> <span>Expenses</span>
+								</a>
+							</li>
+							<li>
+								<a asp-controller="HR" asp-action="Add_Notification">
+									<i class="la la-users"></i> <span>Add Notification</span>
+								</a>
+							</li>
+
+							<li>
+								<a asp-controller="HR" asp-action="employeeslist">
+									<i class="la la-users"></i> <span>view salary</span>
+								</a>
+							</li>
+							<li>
+								<a asp-controller="HR" asp-action="salaryupdate">
+									<i class="la la-users"></i> <span>Update Salary</span>
+								</a>
 							</li>
 						</ul>
 					</nav>
+					<!-- veritical hai bhaiiiiiii-->
 					<ul class="sidebar-vertical">
 						<li class="menu-title">
 							<span>Main</span>
 						</li>
 						<li class="submenu">
-							<a href="#">
-								<i class="la la-dashboard"></i> <span> Dashboard</span>
-								<span class="menu-arrow"></span>
+							<a href="admindashboard.cshtml">
+								<i class="la la-dashboard"></i> <span>
+									Admin
+									Dashboard
+								</span>
 							</a>
-							<ul>
-								<li><a href="projectManagerdashboard.cshtml">Project Manager Dashboard</a></li>
-							</ul>
-						</li>
-						<li class="menu-title">
-							<span>Project Manager</span>
 						</li>
 						<li class="submenu">
 							<a href="#" class="noti-dot">
-								<i class="la la-user"></i> <span> Employees</span>
-								<span class="menu-arrow"></span>
+								<i class="la la-user"></i> <span> HR</span> <span class="menu-arrow"></span>
 							</a>
 							<ul>
-								<li>
-									<a href="attendanceemployee.cshtml">Attendance (Employee)</a>
-								</li>
+								<li><a asp-controller="HR" asp-action="employeeslist">All employees</a></li>
+								<li><a asp-controller="HR" asp-action="addemployee">Add Employee</a></li>
+
+								<li><a href="attendance.cshtml">Attendance (Admin)</a></li>
 							</ul>
+						</li>
+						<li>
+							<a asp-controller="HR" asp-action="projects">
+								<i class="la la-users"></i> <span>project</span>
+							</a>
+						</li>
+						<li>
+							<a asp-controller="HR" asp-action="Expenses">
+								<i class="la la-users"></i> <span>Expenses</span>
+							</a>
+						</li>
+						<li>
+							<a asp-controller="HR" asp-action="Add_Notification">
+								<i class="la la-users"></i> <span>Add Notification</span>
+							</a>
 						</li>
 
 						<li>
-							<a asp-controller="projectManager" asp-action="projects">
-								<i class="la la-rocket"></i><span>
-									Projects
-								</span>
+							<a asp-controller="HR" asp-action="employeeslist">
+								<i class="la la-users"></i> <span>view salary</span>
 							</a>
 						</li>
 						<li>
-							<a asp-controller="projectManager" asp-action="add_project" method="Get">
-								<i class="la la-rocket"></i><span>
-									Add Projects
-								</span>
+							<a asp-controller="HR" asp-action="salaryupdate">
+								<i class="la la-users"></i> <span>Update Salary</span>
 							</a>
 						</li>
 						<li>
-							<a asp-controller="projectManager" asp-action="expenses">
-								<i class="la la-rocket"></i> <span> Expenses</span>
+							<a asp-controller="HR" asp-action="viewnoti">
+								<i class="la la-users"></i> <span>view notification</span>
 							</a>
-						</li>
-						<li>
-							<a class="notification-title" asp-controller="projectManager" asp-action="viewnoti">Notifications</a>
 						</li>
 
 					</ul>
+
 				</div>
 			</div>
 		</div>
+
 		<!-- /Sidebar -->
 		<!-- Page Wrapper -->
 		<div class="page-wrapper">
@@ -280,78 +285,47 @@
 				<div class="page-header">
 					<div class="row align-items-center">
 						<div class="col">
-							<h3 class="page-title">Projects</h3>
+							<h3 class="page-title">Employee Salary</h3>
 							<ul class="breadcrumb">
-								<li class="breadcrumb-item"><a href="projectManagerdashboard.cshtml">Dashboard</a></li>
-								<li class="breadcrumb-item active">CREATE PROJECTS</li>
+								<li class="breadcrumb-item"><a href="admindashboard.cshtml">Dashboard</a></li>
+								<li class="breadcrumb-item active">Update Salary</li>
 							</ul>
 						</div>
 						
 					</div>
 				</div>
 				<!-- /Page Header -->
-				<!-- Create Project Modal -->
-				
+
 				<div class="modal-body">
-					<form asp-action="addproject" asp-controller="projectManager" method="post">
-									<div class="row">
-										<div class="col-sm-6">
-											<div class="input-block mb-3">
-												<label class="col-form-label">Project Name</label>
-									<input asp-for="Name" class="form-control" />
-									<span asp-validation-for="Name" class="text-danger"></span>
-											</div>
-										</div>
-									</div>
-									<div class="row">
-										<div class="col-sm-6">
-											<div class="input-block mb-3">
-												<label class="col-form-label">End Date</label>
-												<div class="cal-icon">
-										<input asp-for="Deadline" class="form-control datetimepicker" type="text" />
-										<span asp-validation-for="Deadline" class="text-danger"></span>
-												</div>
-											</div>
-										</div>
-									</div>
-									<div class="row">
-										<div class="col-sm-3">
-											<div class="input-block mb-3">
-												<label class="col-form-label">Leader</label>
-									<input asp-for="Lead" class="form-control" />
-									<span asp-validation-for="Lead" class="text-danger"></span>
-											</div>
-										</div>
-										<div class="col-sm-6">
-											<div class="input-block mb-3">
-												<label class="col-form-label">Team Members</label>
-									<input asp-for="AssignedEmployeeName" class="form-control" />
-									<span asp-validation-for="AssignedEmployeeName" class="text-danger"></span>
-								        </div>
-										</div>
-									</div>
-									<div class="row">
-										<div class="col-sm-6">
-											<div class="input-block mb-3">
-												<label class="col-form-label">Budget</label>
-									<input asp-for="Price" class="form-control" type="number" />
-									<span asp-validation-for="Price" class="text-danger"></span>
-											</div>
-										</div>
-										
-									</div>
-									
-									<div class="submit-section">
-										<button class="btn btn-primary submit-btn">Submit</button>
-									</div>
-								</form>
-							</div>
-						
-				<!-- /Create Project Modal -->
+					<form asp-action="UpdateSalary" asp-controller="HR" method="post">
+				<div class="row">
+					<div class="col-md-6 offset-md-2">
+						<div class="input-block mb-3">
+							<label class="col-form-label">ID <span class="text-danger">*</span></label>
+							<input asp-for="Id" class="form-control" />
+							<span asp-validation-for="Id" class="text-danger"></span>
+						</div>
+					</div>
+				    <div class="col-md-6 offset-md-2">
+						<div class="input-block mb-3">
+							<label class="col-form-label">Salaray <span class="text-danger">*</span></label>
+									<input asp-for="update_salary" class="form-control" />
+									<span asp-validation-for="update_salary" class="text-danger"></span>
+						</div>
+					</div>
+				</div>
+						<div class="submit-section">
+							<button type="submit" class="btn btn-primary submit-btn">Submit</button>
+						</div>
+				</form>
+			</div>
+				
+				
 			</div>
 			<!-- /Page Wrapper -->
+
 		</div>
-  </div>
+	</div>
 		<!-- /Main Wrapper -->
 
 		<div class="settings-icon">
@@ -407,7 +381,7 @@
 								<h5 class="fs-13 text-center mt-2">Two Column</h5>
 							</div>
 						</div>
-						<div class="layout-head pt-4">
+						<div class="layout-head pt-3">
 							<h5>Color Scheme</h5>
 							<h6>Choose Light or Dark Scheme.</h6>
 						</div>
@@ -477,7 +451,7 @@
 						</div>
 
 						<div id="layout-width">
-							<div class="layout-head pt-4">
+							<div class="layout-head pt-3">
 								<h5>Layout Width</h5>
 								<h6>Choose Fluid or Boxed layout.</h6>
 							</div>
@@ -506,7 +480,7 @@
 						</div>
 
 						<div id="layout-position">
-							<div class="layout-head pt-4">
+							<div class="layout-head pt-3">
 								<h5>Layout Position</h5>
 								<h6>Choose Fixed or Scrollable Layout Position.</h6>
 							</div>
@@ -520,7 +494,7 @@
 								<label class="btn btn-light w-sm ms-0" for="layout-position-scrollable">Scrollable</label>
 							</div>
 						</div>
-						<div class="layout-head pt-4">
+						<div class="layout-head pt-3">
 							<h5>Topbar Color</h5>
 							<h6>Choose Light or Dark Topbar Color.</h6>
 						</div>
@@ -548,7 +522,7 @@
 						</div>
 
 						<div id="sidebar-size">
-							<div class="layout-head pt-4">
+							<div class="layout-head pt-3">
 								<h5>Sidebar Size</h5>
 								<h6>Choose a size of Sidebar.</h6>
 							</div>
@@ -589,7 +563,7 @@
 						</div>
 
 						<div id="sidebar-view">
-							<div class="layout-head pt-4">
+							<div class="layout-head pt-3">
 								<h5>Sidebar View</h5>
 								<h6>Choose Default or Detached Sidebar view.</h6>
 							</div>
@@ -617,7 +591,7 @@
 							</div>
 						</div>
 						<div id="sidebar-color">
-							<div class="layout-head pt-4">
+							<div class="layout-head pt-3">
 								<h5>Sidebar Color</h5>
 								<h6>Choose a color of Sidebar.</h6>
 							</div>
@@ -748,8 +722,9 @@
 		<script src="~/assets/js/moment.min.js"></script>
 		<script src="~/assets/js/bootstrap-datetimepicker.min.js"></script>
 
-		<!-- Ck Editor JS -->
-		<script src="~/assets/js/ckeditor.js"></script>
+		<!-- Datatable JS -->
+		<script src="~/assets/js/jquery.dataTables.min.js"></script>
+		<script src="~/assets/js/dataTables.bootstrap4.min.js"></script>
 
 		<!-- Theme Settings JS -->
 		<script src="~/assets/js/layout.js"></script>
@@ -757,7 +732,7 @@
 		<script src="~/assets/js/greedynav.js"></script>
 		<!-- Custom JS -->
 		<script src="~/assets/js/app.js"></script>
+
 </body>
 
 </html>
-				

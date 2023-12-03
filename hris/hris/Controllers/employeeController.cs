@@ -42,4 +42,13 @@ public class employeeController : Controller
 		var notification = _context.Notifications.ToList();
 		return View(notification);
     }
+	[HttpGet]
+	public IActionResult projects()//view projects
+	{
+		// Add any necessary logic for the admin dashboard
+		var projects = _context.ProjectData.ToList();
+
+		return View(projects);
+		//return View("admindashboard");
+	}
 }

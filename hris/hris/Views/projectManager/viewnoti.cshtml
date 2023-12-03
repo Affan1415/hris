@@ -112,7 +112,7 @@
 					<div class="dropdown-menu notifications">
 						<div class="topnav-dropdown-header">
 
-							<a class="notification-title" asp-controller="employee" asp-action="viewnoti">NOtification</a>
+							<a class="notification-title" asp-controller="projectManager" asp-action="viewnoti">Notification</a>
 						</div>
 
 
@@ -128,7 +128,7 @@
 							<img src="~/assets/img/profiles/avatar-21.jpg" alt="User Image">
 							<span class="status online"></span>
 						</sSpan>
-						<span>employee</span>
+						<span>PM</span>
 					</a>
 					<div class="dropdown-menu">
 						<a class="dropdown-item" href="index.cshtml">Logout</a>
@@ -152,100 +152,114 @@
 		<div class="sidebar" id="sidebar">
 			<div class="sidebar-inner slimscroll">
 				<div id="sidebar-menu" class="sidebar-menu">
-					<div class="sidebar-horizantal">
-						<nav class='greedys '>
-							<ul class="list-inline-item list-unstyled links">
-								<li class="menu-title">
-									<span>Main</span>
-								</li>
-								<li class="submenu">
-									<a href="#">
-										<i class="la la-dashboard"></i> <span> Dashboard</span> <span class="menu-arrow"></span>
-									</a>
-									<ul>
-										<li><a href="employeedashboard.cshtml">Employee Dashboard</a></li>
-									</ul>
-								</li>
+					<nav class="greedys sidebar-horizantal">
+						<ul class="list-inline-item list-unstyled links">
+							<li class="menu-title">
+								<span>Main</span>
+							</li>
+							<li class="submenu">
+								<a href="#">
+									<i class="la la-dashboard"></i> <span> Dashboard</span>
+									<span class="menu-arrow"></span>
+								</a>
+								<ul>
+									<li><a href="projectManagerdashboard.cshtml">Project Manager Dashboard</a></li>
+								</ul>
+							</li>
+							<li class="menu-title">
+								<span>Project Manager</span>
+							</li>
+							<li class="submenu">
+								<a href="#" class="noti-dot">
+									<i class="la la-user"></i> <span> Employees</span>
+									<span class="menu-arrow"></span>
+								</a>
+								<ul>
+									<li>
+										<a href="attendanceemployee.cshtml">Attendance (Employee)</a>
+									</li>
+								</ul>
+							</li>
+							<li>
+								<a asp-controller="projectManager" asp-action="projects">
+									<i class="la la-rocket"></i><span>Projects</span>
+								</a>
+							</li>
+							<li>
+								<a asp-controller="projectManager" asp-action="add_project" method="Get">
+									<i class="la la-rocket"></i><span>
+										Add Projects
+									</span>
+								</a>
+							</li>
+							<li>
+								<a asp-controller="projectManager" asp-action="expenses">
+									<i class="la la-rocket"></i> <span> Expenses</span>
 
-								<li class="menu-title">
-									<span>Employees</span>
-								</li>
-								<li class="submenu">
-									<a href="#" class="noti-dot">
-										<i class="la la-user"></i> <span> Employees</span> <span class="menu-arrow"></span>
-									</a>
-									<ul>
-										<li><a href="leavesemployee.cshtml">Leaves (Employee)</a></li>
-
-										<li><a href="attendanceemployee.cshtml">Attendance (Employee)</a></li>
-
-									</ul>
-								</li>
-								<li>
-									<a asp-controller="employee" asp-action="projects">
-										<i class="la la-rocket"></i><span>Projects</span>
-									</a>
-								</li>
-								<li>
-									<a class="notification-title" asp-controller="employee" asp-action="viewnoti">Notifications</a>
-								</li>
-
-
-
-
-
-
-
-
-
-
-							</ul>
-						</nav>
-					</div>
+								</a>
+							</li>
+							<li>
+								<a class="notification-title" asp-controller="projectManager" asp-action="viewnoti">Notifications</a>
+							</li>
+						</ul>
+					</nav>
 					<ul class="sidebar-vertical">
 						<li class="menu-title">
 							<span>Main</span>
 						</li>
 						<li class="submenu">
 							<a href="#">
-								<i class="la la-dashboard"></i> <span> Dashboard</span> <span class="menu-arrow"></span>
+								<i class="la la-dashboard"></i> <span> Dashboard</span>
+								<span class="menu-arrow"></span>
 							</a>
 							<ul>
-								<li><a href="employeedashboard.cshtml">Employee Dashboard</a></li>
+								<li><a href="projectManagerdashboard.cshtml">Project Manager Dashboard</a></li>
 							</ul>
 						</li>
-
 						<li class="menu-title">
-							<span>Employees</span>
+							<span>Project Manager</span>
 						</li>
 						<li class="submenu">
 							<a href="#" class="noti-dot">
-								<i class="la la-user"></i> <span> Employees</span> <span class="menu-arrow"></span>
+								<i class="la la-user"></i> <span> Employees</span>
+								<span class="menu-arrow"></span>
 							</a>
 							<ul>
-
-								<li><a href="attendanceemployee.cshtml">Attendance (Employee)</a></li>
-
+								<li>
+									<a href="attendanceemployee.cshtml">Attendance (Employee)</a>
+								</li>
 							</ul>
 						</li>
 
 						<li>
-							<a asp-controller="employee" asp-action="projects">
-								<i class="la la-rocket"></i><span>Projects</span>
+							<a asp-controller="projectManager" asp-action="projects">
+								<i class="la la-rocket"></i><span>
+									Projects
+								</span>
 							</a>
 						</li>
 						<li>
-							<a class="notification-title" asp-controller="employee" asp-action="viewnoti">Notifications</a>
+							<a asp-controller="projectManager" asp-action="add_project" method="Get">
+								<i class="la la-rocket"></i><span>
+									Add Projects
+								</span>
+							</a>
 						</li>
-
+						<li>
+							<a asp-controller="projectManager" asp-action="expenses">
+								<i class="la la-rocket"></i> <span> Expenses</span>
+							</a>
+						</li>
+						<li>
+							<a class="notification-title" asp-controller="projectManager" asp-action="viewnoti">Notifications</a>
+						</li>
 
 					</ul>
 				</div>
 			</div>
 		</div>
 		<!-- /Sidebar -->
-
-	</div>
+   </div>
 	<!-- Page Wrapper -->
 	<div class="page-wrapper">
 

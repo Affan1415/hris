@@ -17,25 +17,31 @@ public class projectManagerController : Controller
     }
     [HttpGet]
     [Route("projectManager/projectManagerdashboard")]
-    public IActionResult projectManagerdashboard()
+    public IActionResult projectManagerdashboard(int employeeId)
     {
+
+        var employee = _context.EmployeeData.FirstOrDefault(e => e.EmployeeID == employeeId);
         // Add any necessary logic for the admin dashboard
-        return View();
+        return View(employee);
         //return View("admindashboard");
     }
     [HttpGet]
-    public IActionResult Profile(int employeeId)
+    public IActionResult profile(int employeeId)
     {
+
         // Retrieve employee data based on the employeeId
         var employee = _context.EmployeeData.FirstOrDefault(e => e.EmployeeID == employeeId);
 
-        // Your logic to display the employee data in the profile view
-        // ...
+        if (employee == null)
+        {
+            // Handle the case where employee data is not found
+            return NotFound();
+        }
 
-        return View();
+        return View(employee);
     }
 
-	[HttpGet]
+    [HttpGet]
 	public IActionResult projects()//view projects
 	{
 		// Add any necessary logic for the admin dashboard
@@ -84,10 +90,17 @@ public class projectManagerController : Controller
 			_context.SaveChanges();
 
 			// Redirect to a success page or another action
-			return RedirectToAction("projectManagerdashboard");
+			return RedirectToAction("expenses","projectManager");
 		}
 
 		// If the ModelState is not valid, return to the expense addition form with validation errors
 		return View(expense);
 	}
+	[HttpGet]
+	public IActionResult viewnoti()
+	{
+		var notification = _context.Notifications.ToList();
+		return View(notification);
+	}
+	
 }

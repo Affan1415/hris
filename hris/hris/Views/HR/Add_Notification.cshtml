@@ -14,54 +14,7 @@
 		  content="admin, estimates, bootstrap, business, corporate, creative, management, minimal, modern, accounts, invoice, html5, responsive, CRM, Projects">
 	<meta name="author" content="Dreamguys - Bootstrap Admin Template">
 	<title>Dashboard - HRMS admin template</title>
-	<style>
-		body {
-			display: flex;
-			align-items: center;
-			justify-content: center;
-			height: 100vh;
-			margin: 0;
-			font-family: Arial, sans-serif;
-			background-color: #f4f4f4;
-		}
-
-		form {
-			background-color: #fff;
-			padding: 20px;
-			border-radius: 8px;
-			box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-			max-width: 400px;
-			width: 100%;
-		}
-
-		label {
-			display: block;
-			margin-bottom: 8px;
-		}
-
-		input {
-			width: 100%;
-			padding: 8px;
-			margin-bottom: 16px;
-			box-sizing: border-box;
-			border: 1px solid #ccc;
-			border-radius: 4px;
-			resize: vertical;
-		}
-
-		button {
-			background-color: #4caf50;
-			color: #fff;
-			padding: 10px 15px;
-			border: none;
-			border-radius: 4px;
-			cursor: pointer;
-		}
-
-	    button:hover {
-				background-color: #45a049;
-		}
-	</style>
+	
 	<!-- Favicon -->
 	<link rel="shortcut icon" type="image/x-icon" href="~/assets/img/favicon.png">
 
@@ -151,10 +104,10 @@
 					</a>
 					<div class="dropdown-menu notifications">
 						<div class="topnav-dropdown-header">
-							<span class="notification-title">Notifications</span>
-							<a href="javascript:void(0)" class="clear-noti"> Clear All </a>
+
+							<a class="notification-title" asp-controller="HR" asp-action="viewnoti">Notification</a>
 						</div>
-						
+
 
 					</div>
 				</li>
@@ -168,11 +121,10 @@
 							<img src="~/assets/img/profiles/avatar-21.jpg" alt="User Image">
 							<span class="status online"></span>
 						</span>
+						<span>Admin</span>
 					</a>
 					<div class="dropdown-menu">
-						<ul>
-							<li><a class ="dropdown-item" asp-controller="HR" asp-action="profile" asp-route-employeeId="Profile">My Profile</a></li>
-						</ul>
+						
 						<a class="dropdown-item" href="index.cshtml">Logout</a>
 					</div>
 
@@ -185,9 +137,7 @@
 					<i class="fa-solid fa-ellipsis-vertical"></i>
 				</a>
 				<div class="dropdown-menu dropdown-menu-right">
-					<ul>
-						<li><a class="dropdown-item" asp-controller="HR" asp-action="profile" asp-route-employeeId="Profile">My Profile</a></li>
-					</ul>
+					
 					<a class="dropdown-item" href="index.cshtml">Logout</a>
 				</div>
 			</div>
@@ -223,31 +173,36 @@
 										</a>
 									</li>
 									<li><a href="attendance.cshtml">Attendance (Admin)</a></li>
-									<li><a href="departments.cshtml">Departments</a></li>
 								</ul>
 							</li>
-							<li>
-								<a href="clients.cshtml"><i class="la la-users"></i> <span>Clients</span></a>
-							</li>
-							<li>
-								<a href="projects.cshtml"><i class="la la-users"></i> <span>Projects</span></a>
-							</li>
-							<li>
-								<a href="expenses.cshtml"><i class="la la-users"></i> <span>Expenses</span></a>
-							</li>
+
 						</ul>
 						<button class="viewmoremenu">More Menu</button>
 						<ul class="hidden-links hidden">
 							<li>
-								<a href="salary.cshtml"><i class="la la-users"></i> <span>Employee Salary</span></a>
+								<a asp-controller="HR" asp-action="projects">
+									<i class="la la-users"></i> <span>project</span>
+								</a>
 							</li>
 							<li>
-								<a href="salaryview.cshtml"><i class="la la-users"></i> <span>Payslip</span></a>
+								<a asp-controller="HR" asp-action="Expenses">
+									<i class="la la-users"></i> <span>Expenses</span>
+								</a>
 							</li>
 							<li>
-								<a href="resignation.cshtml">
-									<i class="la la-external-link-square"></i>
-									<span>Resignation</span>
+								<a asp-controller="HR" asp-action="Add_Notification">
+									<i class="la la-users"></i> <span>Add Notification</span>
+								</a>
+							</li>
+
+							<li>
+								<a asp-controller="HR" asp-action="employeeslist">
+									<i class="la la-users"></i> <span>view salary</span>
+								</a>
+							</li>
+							<li>
+								<a asp-controller="HR" asp-action="salaryupdate">
+									<i class="la la-users"></i> <span>Update Salary</span>
 								</a>
 							</li>
 						</ul>
@@ -270,24 +225,16 @@
 								<i class="la la-user"></i> <span> HR</span> <span class="menu-arrow"></span>
 							</a>
 							<ul>
-								<li><a asp-controller="HR" asp-action="employeeslist" >All employees</a></li>
+								<li><a asp-controller="HR" asp-action="employeeslist">All employees</a></li>
 								<li><a asp-controller="HR" asp-action="addemployee">Add Employee</a></li>
-								
 
-								<li>
-									<a href="leaves.cshtml">
-										Leaves (Admin) <span class="badge rounded-pill bg-primary float-end">1</span>
-									</a>
-								</li>
 								<li><a href="attendance.cshtml">Attendance (Admin)</a></li>
-								<li><a href="departments.cshtml">Departments</a></li>
 							</ul>
 						</li>
 						<li>
-							<a href="clients.cshtml"><i class="la la-users"></i> <span>Clients</span></a>
-						</li>
-						<li>
-							<a href="projects.cshtml"><i class="la la-users"></i> <span>Projects</span></a>
+							<a asp-controller="HR" asp-action="projects">
+								<i class="la la-users"></i> <span>project</span>
+							</a>
 						</li>
 						<li>
 							<a asp-controller="HR" asp-action="Expenses">
@@ -295,23 +242,27 @@
 							</a>
 						</li>
 						<li>
-							<a asp-controller="HR" asp-action="AddNotification">
-								<i class="la la-users"></i> <span>AddNotification</span>
+							<a asp-controller="HR" asp-action="Add_Notification">
+								<i class="la la-users"></i> <span>Add Notification</span>
 							</a>
 						</li>
 
 						<li>
-							<a href="salary.cshtml"><i class="la la-users"></i> <span>Employee Salary</span></a>
-						</li>
-						<li>
-							<a href="salaryview.cshtml"><i class="la la-users"></i> <span>Payslip</span></a>
-						</li>
-						<li>
-							<a href="resignation.cshtml">
-								<i class="la la-external-link-square"></i>
-								<span>Resignation</span>
+							<a asp-controller="HR" asp-action="employeeslist">
+								<i class="la la-users"></i> <span>view salary</span>
 							</a>
 						</li>
+						<li>
+							<a asp-controller="HR" asp-action="salaryupdate">
+								<i class="la la-users"></i> <span>Update Salary</span>
+							</a>
+						</li>
+						<li>
+							<a asp-controller="HR" asp-action="viewnoti">
+								<i class="la la-users"></i> <span>view notification</span>
+							</a>
+						</li>
+
 					</ul>
 
 				</div>
@@ -319,6 +270,51 @@
 		</div>
 
 		<!-- /Sidebar -->
+		<!-- Page Wrapper -->
+		<div class="page-wrapper">
+
+			<!-- Page Content -->
+			<div class="content container-fluid">
+
+				<!-- Page Header -->
+				<div class="page-header">
+					<div class="row align-items-center">
+						<div class="col">
+							<h3 class="page-title">Notification</h3>
+							<ul class="breadcrumb">
+								<li class="breadcrumb-item"><a href="admindashboard.cshtml">Dashboard</a></li>
+								<li class="breadcrumb-item active">Add notification</li>
+							</ul>
+						</div>
+
+					</div>
+				</div>
+				<!-- /Page Header -->
+		<div class="modal-body">
+					<form asp-action="AddNotification" asp-controller="HR" method="post">
+				<div class="row">
+					<div class="col-md-6 offset-2">
+						<div class="input-block mb-3">
+							<label class="col-form-label">enter msg</label>
+							<input asp-for="Notify" class="form-control" />
+							<span asp-validation-for="Notify" class="text-danger"></span>
+						</div>
+					</div>
+				</div>
+				
+				
+				
+
+				<div class="submit-section">
+					<button class="btn btn-primary submit-btn">Submit</button>
+				</div>
+			</form>
+		</div>
+			</div>
+			<!-- /Page Wrapper -->
+		</div>
+	</div>
+	<!-- /Main Wrapper -->
 		<div class="settings-icon">
 			<span data-bs-toggle="offcanvas" data-bs-target="#theme-settings-offcanvas"
 				  aria-controls="theme-settings-offcanvas"><i class="las la-cog"></i></span>
@@ -661,18 +657,10 @@
 				</div>
 			</div>
 		</div>
-		<h2 style="text-align: center;">Add Notification</h2>
+		
 
-		<form asp-action="AddNotification" asp-controller="HR" method="post">
-			<div class="form-group">
-				<label asp-for="Notify">Notification Content:</label>
-				<input asp-for="Notify" class="form-control" />
-				<span asp-validation-for="Notify" class="text-danger"></span>
-			</div>
-
-			<button type="submit" class="btn btn-primary">Add Notification</button>
-		</form>
-
+		
+	</div>
 
 		<!-- jQuery -->
 		<script src="~/assets/js/jquery-3.7.0.min.js"></script>
