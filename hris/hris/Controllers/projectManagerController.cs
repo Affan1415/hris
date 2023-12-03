@@ -36,7 +36,7 @@ public class projectManagerController : Controller
     }
 
 	[HttpGet]
-	public IActionResult projects()
+	public IActionResult projects()//view projects
 	{
 		// Add any necessary logic for the admin dashboard
 		var projects = _context.ProjectData.ToList();
@@ -46,7 +46,7 @@ public class projectManagerController : Controller
 	}
 
 	[HttpPost]
-	public IActionResult Register(ProjectData project)
+	public IActionResult addproject(ProjectData project)//add projects
 	{
 		if (ModelState.IsValid)
 		{
@@ -54,11 +54,17 @@ public class projectManagerController : Controller
 			_context.ProjectData.Add(project);
 			_context.SaveChanges();
 
-			// Redirect to a success page or another action
-			return RedirectToAction("Index", "Home");
-		}
+            // Redirect to a success page or another action
+            return RedirectToAction("projectManagerdashboard", "projectManager");
+            //return View();
+
+        }
 
 		// If the ModelState is not valid, return to the registration form with validation errors
 		return View(project);
 	}
+    [HttpGet]
+    public IActionResult add_project() {
+        return View();
+    }
 }
