@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Mahi\\Documents\\GitHub\\hris\\hris\\hris\\hris.csproj": {}
+    "C:\\Users\\DELL\\Documents\\GitHub\\hris\\hris\\hris\\hris.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Mahi\\Documents\\GitHub\\hris\\hris\\hris\\hris.csproj": {
+    "C:\\Users\\DELL\\Documents\\GitHub\\hris\\hris\\hris\\hris.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Mahi\\Documents\\GitHub\\hris\\hris\\hris\\hris.csproj",
+        "projectUniqueName": "C:\\Users\\DELL\\Documents\\GitHub\\hris\\hris\\hris\\hris.csproj",
         "projectName": "hris",
-        "projectPath": "C:\\Users\\Mahi\\Documents\\GitHub\\hris\\hris\\hris\\hris.csproj",
-        "packagesPath": "C:\\Users\\Mahi\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Mahi\\Documents\\GitHub\\hris\\hris\\hris\\obj\\",
+        "projectPath": "C:\\Users\\DELL\\Documents\\GitHub\\hris\\hris\\hris\\hris.csproj",
+        "packagesPath": "C:\\Users\\DELL\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\DELL\\Documents\\GitHub\\hris\\hris\\hris\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Mahi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\DELL\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -78,7 +78,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
         }
       }
     }

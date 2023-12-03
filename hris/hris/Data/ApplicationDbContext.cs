@@ -15,5 +15,7 @@ public class ApplicationDbContext : DbContext
 
     public DbSet<NotificationDataModel> Notifications { get; set; }
 
+    public DbSet<UpdateSalaryModel> updateSalary { get; set; }
+
 
 }
