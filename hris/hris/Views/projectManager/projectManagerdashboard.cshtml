@@ -275,9 +275,12 @@
                                 <i class="la la-rocket"></i><span>Add Projects
                             </span></a>
               </li>
-              <li>
-                 <a href="expenses.cshtml"><i class="la la-files-o"></i> <span>Expenses</span></a>
-              </li>
+             <li>
+                       <a asp-controller="projectManager" asp-action="expenses">
+                           <i class="la la-rocket"></i> <span> Expenses</span>
+                           <span class="menu-arrow"></span>
+                       </a>
+             </li>
                 
             </ul>
           </div>

@@ -63,8 +63,4 @@ public class projectManagerController : Controller
 		// If the ModelState is not valid, return to the registration form with validation errors
 		return View(project);
 	}
-    [HttpGet]
-    public IActionResult add_project() {
-        return View();
-    }
 }

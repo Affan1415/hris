@@ -25,3 +25,4 @@ namespace hris.Models
 		public string AssignedEmployeeName { get; set; }
 	}
 }
+

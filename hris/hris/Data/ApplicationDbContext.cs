@@ -11,4 +11,7 @@ public class ApplicationDbContext : DbContext
     public DbSet<EmployeeData> EmployeeData { get; set; }
     public DbSet<ProjectData> ProjectData { get; set; }
 
+    public DbSet<ExpenseDataModel> ExpenseData { get; set; }
+
+
 }
