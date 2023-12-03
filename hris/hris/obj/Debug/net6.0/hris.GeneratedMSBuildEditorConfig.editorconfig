@@ -96,10 +96,6 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSFJccHJvZmlsZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/git projects/hris/hris/hris/Views/HR/projects.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSFJccHJvamVjdHMuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
 [D:/git projects/hris/hris/hris/Views/HR/resignation.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSFJccmVzaWduYXRpb24uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
@@ -108,12 +104,28 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSFJcc2FsYXJ5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
+[D:/git projects/hris/hris/hris/Views/HR/salaryupdate.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSFJcc2FsYXJ5dXBkYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/git projects/hris/hris/hris/Views/HR/salaryview.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSFJcc2FsYXJ5dmlldy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
+[D:/git projects/hris/hris/hris/Views/HR/viewnoti.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSFJcdmlld25vdGkuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/git projects/hris/hris/hris/Views/projectManager/add_project.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NccHJvamVjdE1hbmFnZXJcYWRkX3Byb2plY3QuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/git projects/hris/hris/hris/Views/projectManager/profile.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NccHJvamVjdE1hbmFnZXJccHJvZmlsZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/git projects/hris/hris/hris/Views/projectManager/viewnoti.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NccHJvamVjdE1hbmFnZXJcdmlld25vdGkuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/git projects/hris/hris/hris/Views/Shared/Error.cshtml]
