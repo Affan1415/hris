@@ -1,3 +1,5 @@
+@model List<hris.Models.ProjectData>
+
 <!DOCTYPE html>
 <html lang="en" data-layout="vertical" data-topbar="light" data-sidebar="dark" data-sidebar-size="lg"
 	data-sidebar-image="none">
@@ -43,17 +45,15 @@
 <body>
 	<!-- Main Wrapper -->
 	<div class="main-wrapper">
-
 		<!-- Header -->
 		<div class="header">
-
 			<!-- Logo -->
 			<div class="header-left">
-				<a href="admindashboard.cshtml" class="logo">
-					<img src="~/assets/img/logo.png" width="40" height="40" alt="Logo">
+				<a href="projectManagerdashboard.cshtml" class="logo">
+					<img src="~/assets/img/logo.png" width="40" height="40" alt="Logo" />
 				</a>
-				<a href="admindashboard.cshtml" class="logo2">
-					<img src="~/assets/img/logo2.png" width="40" height="40" alt="Logo">
+				<a href="projectManagerdashboard.cshtml" class="logo2">
+					<img src="~/assets/img/logo2.png" width="40" height="40" alt="Logo" />
 				</a>
 			</div>
 			<!-- /Logo -->
@@ -68,39 +68,47 @@
 
 			<!-- Header Title -->
 			<div class="page-title-box">
-				<h3>Codexia Technoligies</h3>
+				<h3>Codexia Technologies</h3>
 			</div>
 			<!-- /Header Title -->
 
-			<a id="mobile_btn" class="mobile_btn" href="#sidebar"><i class="fa-solid fa-bars"></i></a>
+			<a id="mobile_btn" class="mobile_btn" href="#sidebar">
+				<i class="fa-solid fa-bars"></i>
+			</a>
 
 			<!-- Header Menu -->
 			<ul class="nav user-menu">
 
 
-
 				<!-- Flag -->
 				<li class="nav-item dropdown has-arrow flag-nav">
-					<a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button">
-						<img src="~/assets/img/flags/us.png" alt="Flag" height="20"> <span>English</span>
+					<a class="nav-link dropdown-toggle"
+					   data-bs-toggle="dropdown"
+					   href="#"
+					   role="button">
+						<img src="~/assets/img/flags/us.png" alt="Flag" height="20" />
+						<span>English</span>
 					</a>
 					<div class="dropdown-menu dropdown-menu-right">
 						<a href="javascript:void(0);" class="dropdown-item">
-							<img src="~/assets/img/flags/us.png" alt="Flag" height="16"> English
+							<img src="~/assets/img/flags/us.png" alt="Flag" height="16" />
+							English
 						</a>
 						<a href="javascript:void(0);" class="dropdown-item">
-							<img src="~/assets/img/flags/fr.png" alt="Flag" height="16"> French
+							<img src="~/assets/img/flags/fr.png" alt="Flag" height="16" />
+							French
 						</a>
 						<a href="javascript:void(0);" class="dropdown-item">
-							<img src="~/assets/img/flags/es.png" alt="Flag" height="16"> Spanish
+							<img src="~/assets/img/flags/es.png" alt="Flag" height="16" />
+							Spanish
 						</a>
 						<a href="javascript:void(0);" class="dropdown-item">
-							<img src="~/assets/img/flags/de.png" alt="Flag" height="16"> German
+							<img src="~/assets/img/flags/de.png" alt="Flag" height="16" />
+							German
 						</a>
 					</div>
 				</li>
 				<!-- /Flag -->
-
 				<!-- Notifications -->
 				<li class="nav-item dropdown">
 					<a href="#" class="dropdown-toggle nav-link" data-bs-toggle="dropdown">
@@ -108,9 +116,10 @@
 					</a>
 					<div class="dropdown-menu notifications">
 						<div class="topnav-dropdown-header">
-							<span class="notification-title">Notifications</span>
-							<a href="javascript:void(0)" class="clear-noti"> Clear All </a>
+
+							<a class="notification-title" asp-controller="HR" asp-action="viewnoti">Notification</a>
 						</div>
+
 
 					</div>
 				</li>
@@ -118,33 +127,37 @@
 
 
 				<li class="nav-item dropdown has-arrow main-drop">
-					<a href="#" class="dropdown-toggle nav-link" data-bs-toggle="dropdown">
-						<span class="user-img"><img src="~/assets/img/profiles/avatar-21.jpg" alt="User Image">
-							<span class="status online"></span></span>
+					<a href="#"
+					   class="dropdown-toggle nav-link"
+					   data-bs-toggle="dropdown">
+						<span class="user-img">
+							<img src="~/assets/img/profiles/avatar-21.jpg"
+								 alt="User Image" />
+							<span class="status online"></span>
+						</span>
 						<span>Admin</span>
 					</a>
 					<div class="dropdown-menu">
-						<a class="dropdown-item" href="profile.cshtml">My Profile</a>
 						<a class="dropdown-item" href="index.cshtml">Logout</a>
 					</div>
 				</li>
 			</ul>
 			<!-- /Header Menu -->
-
 			<!-- Mobile Menu -->
 			<div class="dropdown mobile-user-menu">
-				<a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false"><i
-						class="fa-solid fa-ellipsis-vertical"></i></a>
+				<a href="#"
+				   class="nav-link dropdown-toggle"
+				   data-bs-toggle="dropdown"
+				   aria-expanded="false">
+					<i class="fa-solid fa-ellipsis-vertical"></i>
+				</a>
 				<div class="dropdown-menu dropdown-menu-right">
-					<a class="dropdown-item" href="profile.cshtml">My Profile</a>
 					<a class="dropdown-item" href="index.cshtml">Logout</a>
 				</div>
 			</div>
 			<!-- /Mobile Menu -->
-
 		</div>
 		<!-- /Header -->
-
 		<!-- Sidebar -->
 		<div class="sidebar" id="sidebar">
 			<div class="sidebar-inner slimscroll">
@@ -155,40 +168,56 @@
 								<span>Main</span>
 							</li>
 							<li class="submenu">
-								<a href="admindashboard.cshtml"><i class="la la-dashboard"></i> <span> Dashboard</span>
-									<span class="menu-arrow"></span></a>
+								<a href="admindashboard.cshtml">
+									<i class="la la-dashboard"></i> <span> Dashboard</span>
+									<span class="menu-arrow"></span>
+								</a>
 							</li>
 							<li class="submenu">
-								<a href="#" class="noti-dot"><i class="la la-user"></i> <span> HR </span> <span
-										class="menu-arrow"></span></a>
+								<a href="#" class="noti-dot">
+									<i class="la la-user"></i> <span> HR </span> <span class="menu-arrow"></span>
+								</a>
 								<ul>
-									<li><a href="employees.cshtml">All Employees</a></li>
-									<li><a href="leaves.cshtml">Leaves (Admin) <span
-												class="badge rounded-pill bg-primary float-end">1</span></a></li>
+									<li><a asp-controller="HR" asp-action="employeeslist">All employees</a></li>
+									<li><a asp-controller="HR" asp-action="addemployee">Add Employee</a></li>
+									<li>
+										<a href="leaves.cshtml">
+											Leaves (Admin) <span class="badge rounded-pill bg-primary float-end">1</span>
+										</a>
+									</li>
 									<li><a href="attendance.cshtml">Attendance (Admin)</a></li>
-									<li><a href="departments.cshtml">Departments</a></li>
 								</ul>
 							</li>
-							<li>
-								<a href="clients.cshtml"><i class="la la-users"></i> <span>Clients</span></a>
-							</li>
-							<li>
-								<a href="projects.cshtml"><i class="la la-users"></i> <span>Projects</span></a>
-							</li>
-							<li>
-								<a href="expenses.cshtml"><i class="la la-users"></i> <span>Expenses</span></a>
-							</li>
+
 						</ul>
 						<button class="viewmoremenu">More Menu</button>
 						<ul class="hidden-links hidden">
 							<li>
-								<a href="salary.cshtml"><i class="la la-users"></i> <span>Employee Salary</span></a>
+								<a asp-controller="HR" asp-action="projects">
+									<i class="la la-users"></i> <span>project</span>
+								</a>
 							</li>
 							<li>
-								<a href="salaryview.cshtml"><i class="la la-users"></i> <span>Payslip</span></a>
+								<a asp-controller="HR" asp-action="Expenses">
+									<i class="la la-users"></i> <span>Expenses</span>
+								</a>
 							</li>
-							<li><a href="resignation.cshtml"><i class="la la-external-link-square"></i>
-									<span>Resignation</span></a></li>
+							<li>
+								<a asp-controller="HR" asp-action="Add_Notification">
+									<i class="la la-users"></i> <span>Add Notification</span>
+								</a>
+							</li>
+
+							<li>
+								<a asp-controller="HR" asp-action="employeeslist">
+									<i class="la la-users"></i> <span>view salary</span>
+								</a>
+							</li>
+							<li>
+								<a asp-controller="HR" asp-action="salaryupdate">
+									<i class="la la-users"></i> <span>Update Salary</span>
+								</a>
+							</li>
 						</ul>
 					</nav>
 					<!-- veritical hai bhaiiiiiii-->
@@ -197,47 +226,63 @@
 							<span>Main</span>
 						</li>
 						<li class="submenu">
-							<a href="admindashboard.cshtml"><i class="la la-dashboard"></i> <span>Admin
-									Dashboard</span></a>
+							<a href="admindashboard.cshtml">
+								<i class="la la-dashboard"></i> <span>
+									Admin
+									Dashboard
+								</span>
+							</a>
 						</li>
 						<li class="submenu">
-							<a href="#" class="noti-dot"><i class="la la-user"></i> <span> HR</span> <span
-									class="menu-arrow"></span></a>
+							<a href="#" class="noti-dot">
+								<i class="la la-user"></i> <span> HR</span> <span class="menu-arrow"></span>
+							</a>
 							<ul>
-								<li><a href="employees.cshtml">All Employees</a></li>
-								<li><a href="leaves.cshtml">Leaves (Admin) <span
-											class="badge rounded-pill bg-primary float-end">1</span></a></li>
+								<li><a asp-controller="HR" asp-action="employeeslist">All employees</a></li>
+								<li><a asp-controller="HR" asp-action="addemployee">Add Employee</a></li>
+
 								<li><a href="attendance.cshtml">Attendance (Admin)</a></li>
-								<li><a href="departments.cshtml">Departments</a></li>
 							</ul>
 						</li>
 						<li>
-							<a href="clients.cshtml"><i class="la la-users"></i> <span>Clients</span></a>
+							<a asp-controller="HR" asp-action="projects">
+								<i class="la la-users"></i> <span>project</span>
+							</a>
 						</li>
 						<li>
-							<a href="projects.cshtml"><i class="la la-users"></i> <span>Projects</span></a>
+							<a asp-controller="HR" asp-action="Expenses">
+								<i class="la la-users"></i> <span>Expenses</span>
+							</a>
 						</li>
 						<li>
-							<a href="expenses.cshtml"><i class="la la-users"></i> <span>Expenses</span></a>
+							<a asp-controller="HR" asp-action="Add_Notification">
+								<i class="la la-users"></i> <span>Add Notification</span>
+							</a>
+						</li>
+
+						<li>
+							<a asp-controller="HR" asp-action="employeeslist">
+								<i class="la la-users"></i> <span>view salary</span>
+							</a>
 						</li>
 						<li>
-							<a href="salary.cshtml"><i class="la la-users"></i> <span>Employee Salary</span></a>
+							<a asp-controller="HR" asp-action="salaryupdate">
+								<i class="la la-users"></i> <span>Update Salary</span>
+							</a>
 						</li>
 						<li>
-							<a href="salaryview.cshtml"><i class="la la-users"></i> <span>Payslip</span></a>
+							<a asp-controller="HR" asp-action="viewnoti">
+								<i class="la la-users"></i> <span>view notification</span>
+							</a>
 						</li>
-						<li><a href="resignation.cshtml"><i class="la la-external-link-square"></i>
-								<span>Resignation</span></a></li>
+
 					</ul>
 
 				</div>
 			</div>
 		</div>
+
 		<!-- /Sidebar -->
-
-
-
-
 		<!-- Page Wrapper -->
 		<div class="page-wrapper">
 
@@ -250,16 +295,16 @@
 						<div class="col">
 							<h3 class="page-title">Projects</h3>
 							<ul class="breadcrumb">
-								<li class="breadcrumb-item"><a href="admindashboard.cshtml">Dashboard</a></li>
+								<li class="breadcrumb-item"><a href="projectManagerdashboard.cshtml">Dashboard</a></li>
 								<li class="breadcrumb-item active">Projects</li>
 							</ul>
 						</div>
 						<div class="col-auto float-end ms-auto">
-							<a href="#" class="btn add-btn" data-bs-toggle="modal" data-bs-target="#create_project"><i
-									class="fa-solid fa-plus"></i> Create Project</a>
+							
 							<div class="view-icons">
-								<a href="projects.cshtml" class="grid-view btn btn-link active"><i
-										class="fa fa-th"></i></a>
+								<a asp-controller="projectManager" asp-action="projects"
+									class="list-view btn btn-link"><i class="fa-solid fa-bars"></i>
+								</a>
 
 							</div>
 						</div>
@@ -300,189 +345,59 @@
 				<!-- Search Filter -->
 
 				<div class="row">
-					<div class="col-lg-4 col-sm-6 col-md-4 col-xl-3">
-						<div class="card">
-							<div class="card-body">
-								<div class="dropdown dropdown-action profile-action">
-									<a href="#" class="action-icon dropdown-toggle" data-bs-toggle="dropdown"
-										aria-expanded="false"><i class="material-icons">more_vert</i></a>
-									<div class="dropdown-menu dropdown-menu-right">
-										<a class="dropdown-item" href="#" data-bs-toggle="modal"
-											data-bs-target="#edit_project"><i class="fa-solid fa-pencil m-r-5"></i>
-											Edit</a>
-										<a class="dropdown-item" href="#" data-bs-toggle="modal"
-											data-bs-target="#delete_project"><i
-												class="fa-regular fa-trash-can m-r-5"></i> Delete</a>
-									</div>
-								</div>
-
-								<h4 class="project-title">Office Management</h4>
-
-
-								<div class="project-members m-b-15">
-									<div>Project Leader :</div>
-									<ul class="team-members">
-										<li>
-											<a href="#" data-bs-toggle="tooltip" title="Jeffery Lalor"><img
-													src="~/assets/img/profiles/avatar-16.jpg" alt="User Image"></a>
-										</li>
-									</ul>
-								</div>
-								<div class="dropdown dropdown-action profile-action">
-									<a href="#" class="action-icon dropdown-toggle" data-bs-toggle="dropdown"
-										aria-expanded="false"><i class="material-icons">more_vert</i></a>
-									<div class="dropdown-menu dropdown-menu-right">
-										<a class="dropdown-item" href="#" data-bs-toggle="modal"
-											data-bs-target="#edit_project"><i class="fa-solid fa-pencil m-r-5"></i>
-											Edit</a>
-										<a class="dropdown-item" href="#" data-bs-toggle="modal"
-											data-bs-target="#delete_project"><i
-												class="fa-regular fa-trash-can m-r-5"></i> Delete</a>
-									</div>
-								</div>
-							</div>
-
-
-						</div>
-					</div>
-
-
-					<div class="col-lg-4 col-sm-6 col-md-4 col-xl-3">
-						<div class="card">
-							<div class="card-body">
-								<div class="dropdown dropdown-action profile-action">
-									<a href="#" class="action-icon dropdown-toggle" data-bs-toggle="dropdown"
-										aria-expanded="false"><i class="material-icons">more_vert</i></a>
-									<div class="dropdown-menu dropdown-menu-right">
-										<a class="dropdown-item" href="#" data-bs-toggle="modal"
-											data-bs-target="#edit_project"><i class="fa-solid fa-pencil m-r-5"></i>
-											Edit</a>
-										<a class="dropdown-item" href="#" data-bs-toggle="modal"
-											data-bs-target="#delete_project"><i
-												class="fa-regular fa-trash-can m-r-5"></i> Delete</a>
-									</div>
-								</div>
-
-								<h4 class="project-title">Project Management</h4>
-								<div class="project-members m-b-15">
-									<div>Project Leader :</div>
-									<ul class="team-members">
-										<li>
-											<a href="#" data-bs-toggle="tooltip" title="Jeffery Lalor"><img
-													src="~/assets/img/profiles/avatar-16.jpg" alt="User Image"></a>
-										</li>
-									</ul>
-								</div>
-								<div class="dropdown dropdown-action profile-action">
-									<a href="#" class="action-icon dropdown-toggle" data-bs-toggle="dropdown"
-										aria-expanded="false"><i class="material-icons">more_vert</i></a>
-									<div class="dropdown-menu dropdown-menu-right">
-										<a class="dropdown-item" href="#" data-bs-toggle="modal"
-											data-bs-target="#edit_project"><i class="fa-solid fa-pencil m-r-5"></i>
-											Edit</a>
-										<a class="dropdown-item" href="#" data-bs-toggle="modal"
-											data-bs-target="#delete_project"><i
-												class="fa-regular fa-trash-can m-r-5"></i> Delete</a>
-									</div>
-								</div>
-
-							</div>
-						</div>
-					</div>
-
-					<div class="col-lg-4 col-sm-6 col-md-4 col-xl-3">
-						<div class="card">
-							<div class="card-body">
-								<div class="dropdown dropdown-action profile-action">
-									<a href="#" class="action-icon dropdown-toggle" data-bs-toggle="dropdown"
-										aria-expanded="false"><i class="material-icons">more_vert</i></a>
-									<div class="dropdown-menu dropdown-menu-right">
-										<a class="dropdown-item" href="#" data-bs-toggle="modal"
-											data-bs-target="#edit_project"><i class="fa-solid fa-pencil m-r-5"></i>
-											Edit</a>
-										<a class="dropdown-item" href="#" data-bs-toggle="modal"
-											data-bs-target="#delete_project"><i
-												class="fa-regular fa-trash-can m-r-5"></i> Delete</a>
-									</div>
-								</div>
-
-								<h4 class="project-title">Video Calling App</h4>
-
-
-								<div class="project-members m-b-15">
-									<div>Project Leader :</div>
-									<ul class="team-members">
-										<li>
-											<a href="#" data-bs-toggle="tooltip" title="Jeffery Lalor"><img
-													src="~/assets/img/profiles/avatar-16.jpg" alt="User Image"></a>
-										</li>
-									</ul>
-								</div>
-								<div class="dropdown dropdown-action profile-action">
-									<a href="#" class="action-icon dropdown-toggle" data-bs-toggle="dropdown"
-										aria-expanded="false"><i class="material-icons">more_vert</i></a>
-									<div class="dropdown-menu dropdown-menu-right">
-										<a class="dropdown-item" href="#" data-bs-toggle="modal"
-											data-bs-target="#edit_project"><i class="fa-solid fa-pencil m-r-5"></i>
-											Edit</a>
-										<a class="dropdown-item" href="#" data-bs-toggle="modal"
-											data-bs-target="#delete_project"><i
-												class="fa-regular fa-trash-can m-r-5"></i> Delete</a>
-									</div>
-								</div>
-
-							</div>
-						</div>
-					</div>
-
-					<div class="col-lg-4 col-sm-6 col-md-4 col-xl-3">
-						<div class="card">
-							<div class="card-body">
-								<div class="dropdown dropdown-action profile-action">
-									<a href="#" class="action-icon dropdown-toggle" data-bs-toggle="dropdown"
-										aria-expanded="false"><i class="material-icons">more_vert</i></a>
-									<div class="dropdown-menu dropdown-menu-right">
-										<a class="dropdown-item" href="#" data-bs-toggle="modal"
-											data-bs-target="#edit_project"><i class="fa-solid fa-pencil m-r-5"></i>
-											Edit</a>
-										<a class="dropdown-item" href="#" data-bs-toggle="modal"
-											data-bs-target="#delete_project"><i
-												class="fa-regular fa-trash-can m-r-5"></i> Delete</a>
-									</div>
-								</div>
-
-								<h4 class="project-title">Hospital Administration</h4>
-								<div class="project-members m-b-15">
-									<div>Project Leader :</div>
-									<ul class="team-members">
-										<li>
-											<a href="#" data-bs-toggle="tooltip" title="Jeffery Lalor"><img
-													src="~/assets/img/profiles/avatar-16.jpg" alt="User Image"></a>
-										</li>
-									</ul>
-								</div>
-								<div class="dropdown dropdown-action profile-action">
-									<a href="#" class="action-icon dropdown-toggle" data-bs-toggle="dropdown"
-										aria-expanded="false"><i class="material-icons">more_vert</i></a>
-									<div class="dropdown-menu dropdown-menu-right">
-										<a class="dropdown-item" href="#" data-bs-toggle="modal"
-											data-bs-target="#edit_project"><i class="fa-solid fa-pencil m-r-5"></i>
-											Edit</a>
-										<a class="dropdown-item" href="#" data-bs-toggle="modal"
-											data-bs-target="#delete_project"><i
-												class="fa-regular fa-trash-can m-r-5"></i> Delete</a>
-									</div>
-								</div>
-
-
-							</div>
+					<div class="col-md-12">
+						<div class="table-responsive">
+							<table class="table table-striped custom-table datatable">
+								<thead>
+									<tr>
+										
+										<th>Project Id</th>
+										<th>Project</th>
+										<th>Deadline</th>
+										<th>Leader</th>
+										<th>budget</th>
+										<th>Team Members</th>
+										<th class="text-end">Action</th>
+									</tr>
+								</thead>
+								<tbody>
+									@foreach(var project in Model)
+									{
+									<tr>
+										<td>@project.ProjectID</td>
+										<td>
+												<a>@project.Name</a>
+										</td>
+											<td>@project.Deadline</td>
+										<td>
+											<ul class="team-members">
+												<li>
+														<a href="#" data-bs-toggle="tooltip" title="@project.Lead"><img src="assets/img/profiles/avatar-16.jpg" alt="User Image"></a>
+												</li>
+											</ul>
+										</td>
+										<td>@project.Price</td>
+										<td>@project.AssignedEmployeeName</td>
+										<td class="text-end">
+											<div class="dropdown dropdown-action">
+												<a href="#" class="action-icon dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false"><i class="material-icons">more_vert</i></a>
+												<div class="dropdown-menu dropdown-menu-right">
+													<a class="dropdown-item" href="#" data-bs-toggle="modal" data-bs-target="#edit_project"><i class="fa-solid fa-pencil m-r-5"></i> Edit</a>
+													<a class="dropdown-item" href="#" data-bs-toggle="modal" data-bs-target="#delete_project"><i class="fa-regular fa-trash-can m-r-5"></i> Delete</a>
+												</div>
+											</div>
+										</td>
+									</tr>
+									}
+								</tbody>
+							</table>
 						</div>
 					</div>
 				</div>
 			</div>
 			<!-- /Page Content -->
 
-			<!-- Create Project Modal -->
+			@* <!-- Create Project Modal -->
 			<div id="create_project" class="modal custom-modal fade" role="dialog">
 				<div class="modal-dialog modal-dialog-centered modal-lg" role="document">
 					<div class="modal-content">
@@ -621,7 +536,7 @@
 					</div>
 				</div>
 			</div>
-			<!-- /Create Project Modal -->
+			<!-- /Create Project Modal --> *@
 
 			<!-- Edit Project Modal -->
 			<div id="edit_project" class="modal custom-modal fade" role="dialog">

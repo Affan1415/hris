@@ -180,4 +180,19 @@ public class HRController : Controller
 	{
 		return View();
 	}
+	[HttpGet]
+	public IActionResult viewnoti()
+	{
+		var notification = _context.Notifications.ToList();
+		return View(notification);
+	}
+	[HttpGet]
+	public IActionResult projects()//view projects
+	{
+		// Add any necessary logic for the admin dashboard
+		var projects = _context.ProjectData.ToList();
+
+		return View(projects);
+		//return View("admindashboard");
+	}
 }

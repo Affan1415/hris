@@ -104,7 +104,6 @@
 					</div>
 				</li>
 				<!-- /Flag -->
-
 				<!-- Notifications -->
 				<li class="nav-item dropdown">
 					<a href="#" class="dropdown-toggle nav-link" data-bs-toggle="dropdown">
@@ -112,12 +111,15 @@
 					</a>
 					<div class="dropdown-menu notifications">
 						<div class="topnav-dropdown-header">
-							<span class="notification-title">Notifications</span>
-							<a href="javascript:void(0)" class="clear-noti"> Clear All </a>
+
+							<a class="notification-title" asp-controller="employee" asp-action="viewnoti">Notification</a>
 						</div>
 
+
+					</div>
 				</li>
 				<!-- /Notifications -->
+
 
 
 
@@ -128,7 +130,9 @@
 						<span>@Model._Name</span>
 					</a>
 					<div class="dropdown-menu">
-						<a class="dropdown-item" href="profile.cshtml">My Profile</a>
+						<ul>
+							<li><a class="dropdown-item" asp-controller="employee" asp-action="profile" asp-route-employeeId="@Model.EmployeeID">My Profile</a></li>
+						</ul>
 						<a class="dropdown-item" href="index.cshtml">Logout</a>
 					</div>
 				</li>
@@ -140,7 +144,7 @@
 				<a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false"><i
 						class="fa-solid fa-ellipsis-vertical"></i></a>
 				<div class="dropdown-menu dropdown-menu-right">
-					<a class="dropdown-item" href="profile.cshtml">My Profile</a>
+					<a class="dropdown-item" asp-controller="employee" asp-action="profile" asp-route-employeeId="@Model.EmployeeID">My Profile</a>
 					<a class="dropdown-item" href="index.cshtml">Logout</a>
 				</div>
 			</div>
@@ -148,137 +152,104 @@
 
 		</div>
 		<!-- /Header -->
-
 		<!-- Sidebar -->
-            <div class="sidebar" id="sidebar">
-				<div class="sidebar-inner slimscroll">
-					<div id="sidebar-menu" class="sidebar-menu">
-						<div class="sidebar-horizantal">
-							<nav class='greedys '>
-								<ul class="list-inline-item list-unstyled links">
-									<li class="menu-title">
-										<span>Main</span>
-									</li>
-									<li class="submenu">
-										<a href="#"><i class="la la-dashboard"></i> <span> Dashboard</span> <span
-												class="menu-arrow"></span></a>
-										<ul>
-											<li><a href="employeedashboard.cshtml">Employee Dashboard</a></li>
-										</ul>
-									</li>
-		
-									<li class="menu-title">
-										<span>Employees</span>
-									</li>
-									<li class="submenu">
-										<a href="#" class="noti-dot"><i class="la la-user"></i> <span> Employees</span> <span
-												class="menu-arrow"></span></a>
-										<ul>
-											<li><a href="leavesemployee.cshtml">Leaves (Employee)</a></li>
-		
-											<li><a href="attendanceemployee.cshtml">Attendance (Employee)</a></li>
-		
-										</ul>
-									</li>
-		
-									<li class="submenu">
-										<a href="#"><i class="la la-rocket"></i> <span> Tasks</span> <span
-												class="menu-arrow"></span></a>
-										<ul>
-											<li><a href="tasks.cshtml">Tasks</a></li>
-										</ul>
-									</li>
-		
-		
-		
-		
-								</ul>
-								<button class="viewmoremenu">More Menu</button>
-								<ul class="hidden-links hidden">
-		
-		
-		
-		
-		
-		
-									<li class="menu-title">
-										<span>Pages</span>
-									</li>
-									<li class="submenu">
-										<a href="#"><i class="la la-user"></i> <span> Profile </span> <span
-												class="menu-arrow"></span></a>
-										<ul>
-											<li><a href="profile.cshtml"> Employee Profile </a></li>
-										</ul>
-									</li>
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-								</ul>
-							</nav>
-						</div>
-						<ul class="sidebar-vertical">
-							<li class="menu-title">
-								<span>Main</span>
-							</li>
-							<li class="submenu">
-								<a href="#"><i class="la la-dashboard"></i> <span> Dashboard</span> <span
-										class="menu-arrow"></span></a>
-								<ul>
-									<li><a href="employeedashboard.cshtml">Employee Dashboard</a></li>
-								</ul>
-							</li>
-		
-							<li class="menu-title">
-								<span>Employees</span>
-							</li>
-							<li class="submenu">
-								<a href="#" class="noti-dot"><i class="la la-user"></i> <span> Employees</span> <span
-										class="menu-arrow"></span></a>
-								<ul>
-									<li><a href="leavesemployee.cshtml">Leaves (Employee)</a></li>
-		
-									<li><a href="attendanceemployee.cshtml">Attendance (Employee)</a></li>
-		
-								</ul>
-							</li>
-		
-							<li class="submenu">
-								<a href="#"><i class="la la-rocket"></i> <span> Tasks</span> <span
-										class="menu-arrow"></span></a>
-								<ul>
-									<li><a href="tasks.cshtml">Tasks</a></li>
-								</ul>
-							</li>
-		
-		
-		
-		
-							<li class="menu-title">
-								<span>Pages</span>
-							</li>
-							<li class="submenu">
-								<a href="#"><i class="la la-user"></i> <span> Profile </span> <span
-										class="menu-arrow"></span></a>
-								<ul>
-									<li><a href="profile.cshtml"> Employee Profile </a></li>
-								</ul>
-							</li>
-						</ul>
+		<div class="sidebar" id="sidebar">
+			<div class="sidebar-inner slimscroll">
+				<div id="sidebar-menu" class="sidebar-menu">
+					<div class="sidebar-horizantal">
+						<nav class='greedys '>
+							<ul class="list-inline-item list-unstyled links">
+								<li class="menu-title">
+									<span>Main</span>
+								</li>
+								<li class="submenu">
+									<a href="#">
+										<i class="la la-dashboard"></i> <span> Dashboard</span> <span class="menu-arrow"></span>
+									</a>
+									<ul>
+										<li><a href="employeedashboard.cshtml">Employee Dashboard</a></li>
+									</ul>
+								</li>
+
+								<li class="menu-title">
+									<span>Employees</span>
+								</li>
+								<li class="submenu">
+									<a href="#" class="noti-dot">
+										<i class="la la-user"></i> <span> Employees</span> <span class="menu-arrow"></span>
+									</a>
+									<ul>
+										<li><a href="leavesemployee.cshtml">Leaves (Employee)</a></li>
+
+										<li><a href="attendanceemployee.cshtml">Attendance (Employee)</a></li>
+
+									</ul>
+								</li>
+								<li>
+									<a asp-controller="employee" asp-action="projects">
+										<i class="la la-rocket"></i><span>Projects</span>
+									</a>
+								</li>
+								<li>
+									<a class="notification-title" asp-controller="employee" asp-action="viewnoti">Notifications</a>
+								</li>
+								<li><a asp-controller="employee" asp-action="profile" asp-route-employeeId="@Model.EmployeeID">Profile</a></li>>
+
+
+
+
+
+
+
+
+
+
+							</ul>
+						</nav>
 					</div>
+					<ul class="sidebar-vertical">
+						<li class="menu-title">
+							<span>Main</span>
+						</li>
+						<li class="submenu">
+							<a href="#">
+								<i class="la la-dashboard"></i> <span> Dashboard</span> <span class="menu-arrow"></span>
+							</a>
+							<ul>
+								<li><a href="employeedashboard.cshtml">Employee Dashboard</a></li>
+							</ul>
+						</li>
+
+						<li class="menu-title">
+							<span>Employees</span>
+						</li>
+						<li class="submenu">
+							<a href="#" class="noti-dot">
+								<i class="la la-user"></i> <span> Employees</span> <span class="menu-arrow"></span>
+							</a>
+							<ul>
+
+								<li><a href="attendanceemployee.cshtml">Attendance (Employee)</a></li>
+
+							</ul>
+						</li>
+
+						<li>
+							<a asp-controller="employee" asp-action="projects">
+								<i class="la la-rocket"></i><span>Projects</span>
+							</a>
+						</li>
+						<li>
+							<a class="notification-title" asp-controller="employee" asp-action="viewnoti">Notifications</a>
+						</li>
+						<li><a asp-controller="employee" asp-action="profile" asp-route-employeeId="@Model.EmployeeID">Profile</a></li>>
+
+
+					</ul>
 				</div>
 			</div>
-			<!-- /Sidebar -->
-
-
-
+		</div>
+		<!-- /Sidebar -->
 		<!-- Page Wrapper -->
 		<div class="page-wrapper">
 

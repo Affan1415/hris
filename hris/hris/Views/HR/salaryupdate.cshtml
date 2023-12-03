@@ -109,13 +109,15 @@
 					</a>
 					<div class="dropdown-menu notifications">
 						<div class="topnav-dropdown-header">
-							<span class="notification-title">Notifications</span>
-							<a href="javascript:void(0)" class="clear-noti"> Clear All </a>
+
+							<a class="notification-title" asp-controller="HR" asp-action="viewnoti">Notification</a>
 						</div>
+
 
 					</div>
 				</li>
 				<!-- /Notifications -->
+
 
 
 
@@ -128,8 +130,7 @@
 						<span>Admin</span>
 					</a>
 					<div class="dropdown-menu">
-						<a class="dropdown-item" href="profile.cshtml">My Profile</a>
-
+						
 						<a class="dropdown-item" href="index.cshtml">Logout</a>
 					</div>
 				</li>
@@ -141,7 +142,7 @@
 					<i class="fa-solid fa-ellipsis-vertical"></i>
 				</a>
 				<div class="dropdown-menu dropdown-menu-right">
-					<a class="dropdown-item" href="profile.cshtml">My Profile</a>
+					
 					<a class="dropdown-item" href="index.cshtml">Logout</a>
 				</div>
 			</div>
@@ -169,38 +170,44 @@
 									<i class="la la-user"></i> <span> HR </span> <span class="menu-arrow"></span>
 								</a>
 								<ul>
-									<li><a href="employees.cshtml">All Employees</a></li>
+									<li><a asp-controller="HR" asp-action="employeeslist">All employees</a></li>
+									<li><a asp-controller="HR" asp-action="addemployee">Add Employee</a></li>
 									<li>
 										<a href="leaves.cshtml">
 											Leaves (Admin) <span class="badge rounded-pill bg-primary float-end">1</span>
 										</a>
 									</li>
 									<li><a href="attendance.cshtml">Attendance (Admin)</a></li>
-									<li><a href="departments.cshtml">Departments</a></li>
 								</ul>
 							</li>
-							<li>
-								<a href="clients.cshtml"><i class="la la-users"></i> <span>Clients</span></a>
-							</li>
-							<li>
-								<a href="projects.cshtml"><i class="la la-users"></i> <span>Projects</span></a>
-							</li>
-							<li>
-								<a href="expenses.cshtml"><i class="la la-users"></i> <span>Expenses</span></a>
-							</li>
+
 						</ul>
 						<button class="viewmoremenu">More Menu</button>
 						<ul class="hidden-links hidden">
 							<li>
-								<a href="salary.cshtml"><i class="la la-users"></i> <span>Employee Salary</span></a>
+								<a asp-controller="HR" asp-action="projects">
+									<i class="la la-users"></i> <span>project</span>
+								</a>
 							</li>
 							<li>
-								<a href="salaryview.cshtml"><i class="la la-users"></i> <span>Payslip</span></a>
+								<a asp-controller="HR" asp-action="Expenses">
+									<i class="la la-users"></i> <span>Expenses</span>
+								</a>
 							</li>
 							<li>
-								<a href="resignation.cshtml">
-									<i class="la la-external-link-square"></i>
-									<span>Resignation</span>
+								<a asp-controller="HR" asp-action="Add_Notification">
+									<i class="la la-users"></i> <span>Add Notification</span>
+								</a>
+							</li>
+
+							<li>
+								<a asp-controller="HR" asp-action="employeeslist">
+									<i class="la la-users"></i> <span>view salary</span>
+								</a>
+							</li>
+							<li>
+								<a asp-controller="HR" asp-action="salaryupdate">
+									<i class="la la-users"></i> <span>Update Salary</span>
 								</a>
 							</li>
 						</ul>
@@ -223,37 +230,44 @@
 								<i class="la la-user"></i> <span> HR</span> <span class="menu-arrow"></span>
 							</a>
 							<ul>
-								<li><a href="employees.cshtml">All Employees</a></li>
-								<li>
-									<a href="leaves.cshtml">
-										Leaves (Admin) <span class="badge rounded-pill bg-primary float-end">1</span>
-									</a>
-								</li>
+								<li><a asp-controller="HR" asp-action="employeeslist">All employees</a></li>
+								<li><a asp-controller="HR" asp-action="addemployee">Add Employee</a></li>
+
 								<li><a href="attendance.cshtml">Attendance (Admin)</a></li>
-								<li><a href="departments.cshtml">Departments</a></li>
 							</ul>
 						</li>
 						<li>
-							<a href="clients.cshtml"><i class="la la-users"></i> <span>Clients</span></a>
-						</li>
-						<li>
-							<a href="projects.cshtml"><i class="la la-users"></i> <span>Projects</span></a>
-						</li>
-						<li>
-							<a href="expenses.cshtml"><i class="la la-users"></i> <span>Expenses</span></a>
-						</li>
-						<li>
-							<a href="salary.cshtml"><i class="la la-users"></i> <span>Employee Salary</span></a>
-						</li>
-						<li>
-							<a href="salaryview.cshtml"><i class="la la-users"></i> <span>Payslip</span></a>
-						</li>
-						<li>
-							<a href="resignation.cshtml">
-								<i class="la la-external-link-square"></i>
-								<span>Resignation</span>
+							<a asp-controller="HR" asp-action="projects">
+								<i class="la la-users"></i> <span>project</span>
 							</a>
 						</li>
+						<li>
+							<a asp-controller="HR" asp-action="Expenses">
+								<i class="la la-users"></i> <span>Expenses</span>
+							</a>
+						</li>
+						<li>
+							<a asp-controller="HR" asp-action="Add_Notification">
+								<i class="la la-users"></i> <span>Add Notification</span>
+							</a>
+						</li>
+
+						<li>
+							<a asp-controller="HR" asp-action="employeeslist">
+								<i class="la la-users"></i> <span>view salary</span>
+							</a>
+						</li>
+						<li>
+							<a asp-controller="HR" asp-action="salaryupdate">
+								<i class="la la-users"></i> <span>Update Salary</span>
+							</a>
+						</li>
+						<li>
+							<a asp-controller="HR" asp-action="viewnoti">
+								<i class="la la-users"></i> <span>view notification</span>
+							</a>
+						</li>
+
 					</ul>
 
 				</div>

@@ -113,7 +113,7 @@
 						<div class="dropdown-menu notifications">
 							<div class="topnav-dropdown-header">
 							
-								<a class="notification-title" asp-controller="employee" asp-action="viewnoti">NOtification</a>
+								<a class="notification-title" asp-controller="employee" asp-action="viewnoti">Notification</a>
 							</div>
 							
 							
@@ -127,13 +127,14 @@
 						<a href="#" class="dropdown-toggle nav-link" data-bs-toggle="dropdown">
 							<sSpan class="user-img"><img src="~/assets/img/profiles/avatar-21.jpg" alt="User Image">
 							<span class="status online"></span></sSpan>
-							<span>name</span>
+							<span>@Model._Name</span>
 						</a>
-						<div class="dropdown-menu">
-							<a class="dropdown-item" href="profile.cshtml">My Profile</a>
-							<a class="dropdown-item" href="settings.cshtml">Settings</a>
-							<a class="dropdown-item" href="index.cshtml">Logout</a>
-						</div>
+					<div class="dropdown-menu">
+						<ul>
+							<li><a class="dropdown-item" asp-controller="employee" asp-action="profile" asp-route-employeeId="@Model.EmployeeID">My Profile</a></li>
+						</ul>
+						<a class="dropdown-item" href="index.cshtml">Logout</a>
+					</div>
 					</li>
 				</ul>
 				<!-- /Header Menu -->
@@ -142,8 +143,7 @@
 				<div class="dropdown mobile-user-menu">
 					<a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false"><i class="fa-solid fa-ellipsis-vertical"></i></a>
 					<div class="dropdown-menu dropdown-menu-right">
-						<a class="dropdown-item" href="profile.cshtml">My Profile</a>
-						<a class="dropdown-item" href="settings.cshtml">Settings</a>
+					    <a class="dropdown-item" asp-controller="employee" asp-action="profile" asp-route-employeeId="@Model.EmployeeID">My Profile</a>
 						<a class="dropdown-item" href="index.cshtml">Logout</a>
 					</div>
 				</div>
@@ -183,36 +183,15 @@
 		
 										</ul>
 									</li>
-		
-									<li class="submenu">
-										<a href="#"><i class="la la-rocket"></i> <span> Tasks</span> <span
-												class="menu-arrow"></span></a>
-										<ul>
-											<li><a href="tasks.cshtml">Tasks</a></li>
-										</ul>
-									</li>
-		
-		
-		
-		
-								</ul>
-								<button class="viewmoremenu">More Menu</button>
-								<ul class="hidden-links hidden">
-		
-		
-		
-		
-		
-									<li class="menu-title">
-										<span>Pages</span>
-									</li>
-									<li class="submenu">
-										<a href="#"><i class="la la-user"></i> <span> Profile </span> <span
-												class="menu-arrow"></span></a>
-										<ul>
-										<a class="dropdown-item" asp-controller="Profile" asp-action="DisplayProfile">My Profile</a>
-										</ul>
-									</li>
+								<li>
+									<a asp-controller="employee" asp-action="projects">
+										<i class="la la-rocket"></i><span>Projects</span>
+									</a>
+								</li>
+								<li>
+									<a class="notification-title" asp-controller="employee" asp-action="viewnoti">Notifications</a>
+								</li>
+								<li><a asp-controller="employee" asp-action="profile" asp-route-employeeId="@Model.EmployeeID">Profile</a></li>>
 		
 		
 		
@@ -245,33 +224,22 @@
 								<a href="#" class="noti-dot"><i class="la la-user"></i> <span> Employees</span> <span
 										class="menu-arrow"></span></a>
 								<ul>
-									<li><a href="leavesemployee.cshtml">Leaves (Employee)</a></li>
 		
 									<li><a href="attendanceemployee.cshtml">Attendance (Employee)</a></li>
 		
 								</ul>
 							</li>
 		
-							<li class="submenu">
-								<a href="#"><i class="la la-rocket"></i> <span> Tasks</span> <span
-										class="menu-arrow"></span></a>
-								<ul>
-									<li><a href="tasks.cshtml">Tasks</a></li>
-								</ul>
-							</li>
-		
-		
-		
-		
-							<li class="menu-title">
-								<span>Pages</span>
-							</li>
-						<li class="submenu">
-							<a href="#"><i class="la la-user"></i> <span> Profile </span> <span class="menu-arrow"></span></a>
-							<ul>
-								<li><a asp-controller="employee" asp-action="profile" asp-route-employeeId="@Model.EmployeeID">Employee Profile</a></li>>
-								</ul>
+						<li>
+							<a asp-controller="employee" asp-action="projects">
+								<i class="la la-rocket"></i><span>Projects</span>
+							</a>
 						</li>
+						<li>
+							<a class="notification-title" asp-controller="employee" asp-action="viewnoti">Notifications</a>
+						</li>
+						<li><a asp-controller="employee" asp-action="profile" asp-route-employeeId="@Model.EmployeeID">Profile</a></li>>
+							
 
 						</ul>
 					</div>

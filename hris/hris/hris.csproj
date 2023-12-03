@@ -7,7 +7,9 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Content Remove="Views\Employee\projects.cshtml" />
     <Content Remove="Views\HR\admindashboard.cshtml" />
+    <Content Remove="Views\HR\projects.cshtml" />
     <Content Remove="Views\projectManager\expenses.cshtml" />
     <Content Remove="Views\projectManager\projectManagerdashboard.cshtml" />
     <Content Remove="Views\projectManager\projects.cshtml" />
@@ -28,7 +30,9 @@
   </ItemGroup>
 
   <ItemGroup>
+    <None Include="Views\Employee\projects.cshtml" />
     <None Include="Views\HR\admindashboard.cshtml" />
+    <None Include="Views\HR\projects.cshtml" />
     <None Include="Views\projectManager\expenses.cshtml" />
     <None Include="Views\projectManager\projectManagerdashboard.cshtml" />
     <None Include="Views\projectManager\projects.cshtml" />

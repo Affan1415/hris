@@ -1,4 +1,5 @@
-@model hris.Models.ExpenseDataModel
+@model List<hris.Models.ProjectData>
+
 <!DOCTYPE html>
 <html lang="en" data-layout="vertical" data-topbar="light" data-sidebar="dark" data-sidebar-size="lg"
 	data-sidebar-image="none">
@@ -10,7 +11,7 @@
 	<meta name="keywords"
 		content="admin, estimates, bootstrap, business, corporate, creative, management, minimal, modern, accounts, invoice, html5, responsive, CRM, Projects">
 	<meta name="author" content="Dreamguys - Bootstrap Admin Template">
-	<title>Expenses - HRMS admin template</title>
+	<title>Projects - HRMS admin template</title>
 
 	<!-- Favicon -->
 	<link rel="shortcut icon" type="image/x-icon" href="~/assets/img/favicon.png">
@@ -26,14 +27,14 @@
 	<link rel="stylesheet" href="~/assets/css/line-awesome.min.css">
 	<link rel="stylesheet" href="~/assets/css/material.css">
 
-	<!-- Datatable CSS -->
-	<link rel="stylesheet" href="~/assets/css/dataTables.bootstrap4.min.css">
-
 	<!-- Select2 CSS -->
 	<link rel="stylesheet" href="~/assets/css/select2.min.css">
 
 	<!-- Datetimepicker CSS -->
 	<link rel="stylesheet" href="~/assets/css/bootstrap-datetimepicker.min.css">
+
+	<!-- Ck Editor -->
+	<link rel="stylesheet" href="~/assets/css/ckeditor.css">
 
 	<!-- Main CSS -->
 	<link rel="stylesheet" href="~/assets/css/style.css">
@@ -44,17 +45,15 @@
 <body>
 	<!-- Main Wrapper -->
 	<div class="main-wrapper">
-
 		<!-- Header -->
 		<div class="header">
-
 			<!-- Logo -->
 			<div class="header-left">
 				<a href="projectManagerdashboard.cshtml" class="logo">
-					<img src="~/assets/img/logo.png" width="40" height="40" alt="Logo">
+					<img src="~/assets/img/logo.png" width="40" height="40" alt="Logo" />
 				</a>
 				<a href="projectManagerdashboard.cshtml" class="logo2">
-					<img src="~/assets/img/logo2.png" width="40" height="40" alt="Logo">
+					<img src="~/assets/img/logo2.png" width="40" height="40" alt="Logo" />
 				</a>
 			</div>
 			<!-- /Logo -->
@@ -69,11 +68,13 @@
 
 			<!-- Header Title -->
 			<div class="page-title-box">
-				<h3>Codexia Technoligies</h3>
+				<h3>Codexia Technologies</h3>
 			</div>
 			<!-- /Header Title -->
 
-			<a id="mobile_btn" class="mobile_btn" href="#sidebar"><i class="fa-solid fa-bars"></i></a>
+			<a id="mobile_btn" class="mobile_btn" href="#sidebar">
+				<i class="fa-solid fa-bars"></i>
+			</a>
 
 			<!-- Header Menu -->
 			<ul class="nav user-menu">
@@ -81,21 +82,29 @@
 
 				<!-- Flag -->
 				<li class="nav-item dropdown has-arrow flag-nav">
-					<a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button">
-						<img src="~/assets/img/flags/us.png" alt="Flag" height="20"> <span>English</span>
+					<a class="nav-link dropdown-toggle"
+					   data-bs-toggle="dropdown"
+					   href="#"
+					   role="button">
+						<img src="~/assets/img/flags/us.png" alt="Flag" height="20" />
+						<span>English</span>
 					</a>
 					<div class="dropdown-menu dropdown-menu-right">
 						<a href="javascript:void(0);" class="dropdown-item">
-							<img src="~/assets/img/flags/us.png" alt="Flag" height="16"> English
+							<img src="~/assets/img/flags/us.png" alt="Flag" height="16" />
+							English
 						</a>
 						<a href="javascript:void(0);" class="dropdown-item">
-							<img src="~/assets/img/flags/fr.png" alt="Flag" height="16"> French
+							<img src="~/assets/img/flags/fr.png" alt="Flag" height="16" />
+							French
 						</a>
 						<a href="javascript:void(0);" class="dropdown-item">
-							<img src="~/assets/img/flags/es.png" alt="Flag" height="16"> Spanish
+							<img src="~/assets/img/flags/es.png" alt="Flag" height="16" />
+							Spanish
 						</a>
 						<a href="javascript:void(0);" class="dropdown-item">
-							<img src="~/assets/img/flags/de.png" alt="Flag" height="16"> German
+							<img src="~/assets/img/flags/de.png" alt="Flag" height="16" />
+							German
 						</a>
 					</div>
 				</li>
@@ -108,7 +117,7 @@
 					<div class="dropdown-menu notifications">
 						<div class="topnav-dropdown-header">
 
-							<a class="notification-title" asp-controller="projectManager" asp-action="viewnoti">Notification</a>
+							<a class="notification-title" asp-controller="employee" asp-action="viewnoti">NOtification</a>
 						</div>
 
 
@@ -117,12 +126,16 @@
 				<!-- /Notifications -->
 
 
-
 				<li class="nav-item dropdown has-arrow main-drop">
-					<a href="#" class="dropdown-toggle nav-link" data-bs-toggle="dropdown">
-						<span class="user-img"><img src="~/assets/img/profiles/avatar-21.jpg" alt="User Image">
-							<span class="status online"></span></span>
-						<span>PM</span>
+					<a href="#"
+					   class="dropdown-toggle nav-link"
+					   data-bs-toggle="dropdown">
+						<span class="user-img">
+							<img src="~/assets/img/profiles/avatar-21.jpg"
+								 alt="User Image" />
+							<span class="status online"></span>
+						</span>
+						<span>employee</span>
 					</a>
 					<div class="dropdown-menu">
 						<a class="dropdown-item" href="index.cshtml">Logout</a>
@@ -130,132 +143,117 @@
 				</li>
 			</ul>
 			<!-- /Header Menu -->
-
 			<!-- Mobile Menu -->
 			<div class="dropdown mobile-user-menu">
-				<a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false"><i
-						class="fa-solid fa-ellipsis-vertical"></i></a>
+				<a href="#"
+				   class="nav-link dropdown-toggle"
+				   data-bs-toggle="dropdown"
+				   aria-expanded="false">
+					<i class="fa-solid fa-ellipsis-vertical"></i>
+				</a>
 				<div class="dropdown-menu dropdown-menu-right">
 					<a class="dropdown-item" href="index.cshtml">Logout</a>
 				</div>
 			</div>
 			<!-- /Mobile Menu -->
-
 		</div>
 		<!-- /Header -->
 		<!-- Sidebar -->
 		<div class="sidebar" id="sidebar">
 			<div class="sidebar-inner slimscroll">
 				<div id="sidebar-menu" class="sidebar-menu">
-					<nav class="greedys sidebar-horizantal">
-						<ul class="list-inline-item list-unstyled links">
-							<li class="menu-title">
-								<span>Main</span>
-							</li>
-							<li class="submenu">
-								<a href="#">
-									<i class="la la-dashboard"></i> <span> Dashboard</span>
-									<span class="menu-arrow"></span>
-								</a>
-								<ul>
-									<li><a href="projectManagerdashboard.cshtml">Project Manager Dashboard</a></li>
-								</ul>
-							</li>
-							<li class="menu-title">
-								<span>Project Manager</span>
-							</li>
-							<li class="submenu">
-								<a href="#" class="noti-dot">
-									<i class="la la-user"></i> <span> Employees</span>
-									<span class="menu-arrow"></span>
-								</a>
-								<ul>
-									<li>
-										<a href="attendanceemployee.cshtml">Attendance (Employee)</a>
-									</li>
-								</ul>
-							</li>
-							<li>
-								<a asp-controller="projectManager" asp-action="projects">
-									<i class="la la-rocket"></i><span>Projects</span>
-								</a>
-							</li>
-							<li>
-								<a asp-controller="projectManager" asp-action="add_project" method="Get">
-									<i class="la la-rocket"></i><span>
-										Add Projects
-									</span>
-								</a>
-							</li>
-							<li>
-								<a asp-controller="projectManager" asp-action="expenses">
-									<i class="la la-rocket"></i> <span> Expenses</span>
+					<div class="sidebar-horizantal">
+						<nav class='greedys '>
+							<ul class="list-inline-item list-unstyled links">
+								<li class="menu-title">
+									<span>Main</span>
+								</li>
+								<li class="submenu">
+									<a href="#">
+										<i class="la la-dashboard"></i> <span> Dashboard</span> <span class="menu-arrow"></span>
+									</a>
+									<ul>
+										<li><a href="employeedashboard.cshtml">Employee Dashboard</a></li>
+									</ul>
+								</li>
 
-								</a>
-							</li>
-							<li>
-								<a class="notification-title" asp-controller="projectManager" asp-action="viewnoti">Notifications</a>
-							</li>
-						</ul>
-					</nav>
+								<li class="menu-title">
+									<span>Employees</span>
+								</li>
+								<li class="submenu">
+									<a href="#" class="noti-dot">
+										<i class="la la-user"></i> <span> Employees</span> <span class="menu-arrow"></span>
+									</a>
+									<ul>
+										<li><a href="leavesemployee.cshtml">Leaves (Employee)</a></li>
+
+										<li><a href="attendanceemployee.cshtml">Attendance (Employee)</a></li>
+
+									</ul>
+								</li>
+								<li>
+									<a asp-controller="employee" asp-action="projects">
+										<i class="la la-rocket"></i><span>Projects</span>
+									</a>
+								</li>
+								<li>
+									<a class="notification-title" asp-controller="employee" asp-action="viewnoti">Notifications</a>
+								</li>
+
+
+
+
+
+
+
+
+
+
+							</ul>
+						</nav>
+					</div>
 					<ul class="sidebar-vertical">
 						<li class="menu-title">
 							<span>Main</span>
 						</li>
 						<li class="submenu">
 							<a href="#">
-								<i class="la la-dashboard"></i> <span> Dashboard</span>
-								<span class="menu-arrow"></span>
+								<i class="la la-dashboard"></i> <span> Dashboard</span> <span class="menu-arrow"></span>
 							</a>
 							<ul>
-								<li><a href="projectManagerdashboard.cshtml">Project Manager Dashboard</a></li>
+								<li><a href="employeedashboard.cshtml">Employee Dashboard</a></li>
 							</ul>
 						</li>
+
 						<li class="menu-title">
-							<span>Project Manager</span>
+							<span>Employees</span>
 						</li>
 						<li class="submenu">
 							<a href="#" class="noti-dot">
-								<i class="la la-user"></i> <span> Employees</span>
-								<span class="menu-arrow"></span>
+								<i class="la la-user"></i> <span> Employees</span> <span class="menu-arrow"></span>
 							</a>
 							<ul>
-								<li>
-									<a href="attendanceemployee.cshtml">Attendance (Employee)</a>
-								</li>
+
+								<li><a href="attendanceemployee.cshtml">Attendance (Employee)</a></li>
+
 							</ul>
 						</li>
 
 						<li>
-							<a asp-controller="projectManager" asp-action="projects">
-								<i class="la la-rocket"></i><span>
-									Projects
-								</span>
+							<a asp-controller="employee" asp-action="projects">
+								<i class="la la-rocket"></i><span>Projects</span>
 							</a>
 						</li>
 						<li>
-							<a asp-controller="projectManager" asp-action="add_project" method="Get">
-								<i class="la la-rocket"></i><span>
-									Add Projects
-								</span>
-							</a>
+							<a class="notification-title" asp-controller="employee" asp-action="viewnoti">Notifications</a>
 						</li>
-						<li>
-							<a asp-controller="projectManager" asp-action="expenses">
-								<i class="la la-rocket"></i> <span> Expenses</span>
-							</a>
-						</li>
-						<li>
-							<a class="notification-title" asp-controller="projectManager" asp-action="viewnoti">Notifications</a>
-						</li>
+
 
 					</ul>
 				</div>
 			</div>
 		</div>
 		<!-- /Sidebar -->
-
-
 		<!-- Page Wrapper -->
 		<div class="page-wrapper">
 
@@ -266,81 +264,418 @@
 				<div class="page-header">
 					<div class="row align-items-center">
 						<div class="col">
-							<h3 class="page-title">Expenses</h3>
+							<h3 class="page-title">Projects</h3>
 							<ul class="breadcrumb">
-								<li class="breadcrumb-item"><a href="projectManagerdashboard.cshtml>Dashboard</a></li>
-								<li class="breadcrumb-item active">Expenses</li>
+								<li class="breadcrumb-item"><a href="projectManagerdashboard.cshtml">Dashboard</a></li>
+								<li class="breadcrumb-item active">Projects</li>
 							</ul>
 						</div>
-						
+						<div class="col-auto float-end ms-auto">
+							
+							<div class="view-icons">
+								<a asp-controller="projectManager" asp-action="projects"
+									class="list-view btn btn-link"><i class="fa-solid fa-bars"></i>
+								</a>
+
+							</div>
+						</div>
 					</div>
 				</div>
 				<!-- /Page Header -->
-				
+
+				<!-- Search Filter -->
+				<div class="row filter-row">
+					<div class="col-sm-6 col-md-3">
+						<div class="input-block mb-3 form-focus">
+							<input type="text" class="form-control floating">
+							<label class="focus-label">Project Name</label>
+						</div>
+					</div>
+					<div class="col-sm-6 col-md-3">
+						<div class="input-block mb-3 form-focus">
+							<input type="text" class="form-control floating">
+							<label class="focus-label">Employee Name</label>
+						</div>
+					</div>
+					<div class="col-sm-6 col-md-3">
+						<div class="input-block mb-3 form-focus select-focus">
+							<select class="select floating">
+								<option>Select Designation</option>
+								<option>Web Developer</option>
+								<option>Web Designer</option>
+								<option>Android Developer</option>
+								<option>Ios Developer</option>
+							</select>
+							<label class="focus-label">Designation</label>
+						</div>
+					</div>
+					<div class="col-sm-6 col-md-3">
+						<a href="#" class="btn btn-success w-100"> Search </a>
+					</div>
 				</div>
-			<!-- Add Expense Modal -->
-			<!-- /Add Expense Modal -->
+				<!-- Search Filter -->
+
+				<div class="row">
+					<div class="col-md-12">
+						<div class="table-responsive">
+							<table class="table table-striped custom-table datatable">
+								<thead>
+									<tr>
+										
+										<th>Project Id</th>
+										<th>Project</th>
+										<th>Deadline</th>
+										<th>Leader</th>
+										<th>budget</th>
+										<th>Team Members</th>
+										<th class="text-end">Action</th>
+									</tr>
+								</thead>
+								<tbody>
+									@foreach(var project in Model)
+									{
+									<tr>
+										<td>@project.ProjectID</td>
+										<td>
+												<a>@project.Name</a>
+										</td>
+											<td>@project.Deadline</td>
+										<td>
+											<ul class="team-members">
+												<li>
+														<a href="#" data-bs-toggle="tooltip" title="@project.Lead"><img src="assets/img/profiles/avatar-16.jpg" alt="User Image"></a>
+												</li>
+											</ul>
+										</td>
+										<td>@project.Price</td>
+										<td>@project.AssignedEmployeeName</td>
+										<td class="text-end">
+											<div class="dropdown dropdown-action">
+												<a href="#" class="action-icon dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false"><i class="material-icons">more_vert</i></a>
+												<div class="dropdown-menu dropdown-menu-right">
+													<a class="dropdown-item" href="#" data-bs-toggle="modal" data-bs-target="#edit_project"><i class="fa-solid fa-pencil m-r-5"></i> Edit</a>
+													<a class="dropdown-item" href="#" data-bs-toggle="modal" data-bs-target="#delete_project"><i class="fa-regular fa-trash-can m-r-5"></i> Delete</a>
+												</div>
+											</div>
+										</td>
+									</tr>
+									}
+								</tbody>
+							</table>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- /Page Content -->
+
+			@* <!-- Create Project Modal -->
+			<div id="create_project" class="modal custom-modal fade" role="dialog">
+				<div class="modal-dialog modal-dialog-centered modal-lg" role="document">
 					<div class="modal-content">
 						<div class="modal-header">
-							<h5 class="modal-title">Add Expense</h5>
-							
+							<h5 class="modal-title">Create Project</h5>
+							<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">
+								<span aria-hidden="true">&times;</span>
+							</button>
 						</div>
 						<div class="modal-body">
-							<form asp-controller="projectManager" asp-action="AddExpense" method="post">
+							<form>
 								<div class="row">
-									<div class="col-md-6">
+									<div class="col-sm-6">
 										<div class="input-block mb-3">
-											<label class="col-form-label">Item Name</label>
-											<input asp-for="Item" class="form-control" type="text">
+											<label class="col-form-label">Project Name</label>
+											<input class="form-control" type="text">
 										</div>
 									</div>
-									<div class="col-md-6 offset-2">
+									<div class="col-sm-6">
 										<div class="input-block mb-3">
-											<label class="col-form-label">Purchase From</label>
-											<input asp-for="PurchaseFrom" class="form-control" type="text">
+											<label class="col-form-label">Client</label>
+											<select class="select">
+												<option>Global Technologies</option>
+												<option>Delta Infotech</option>
+											</select>
 										</div>
 									</div>
-							<div class="col-md-6 offset-2">
-										<div class="input-block mb-3">
-											<label class="col-form-label">Purchase Date</label>
-											<input asp-for="PurchaseDate" class="form-control datetimepicker" type="text">
-										</div>
-									</div>
-							<div class="col-md-6 offset-2">
-										<div class="input-block mb-3">
-											<label class="col-form-label">Purchase By</label>
-											<input asp-for="PurchaseBy" class="form-control" type="text">
-										</div>
-									</div>
-							<div class="col-md-6 offset-2">
-										<div class="input-block mb-3">
-											<label class="col-form-label">Amount</label>
-											<input asp-for="Amount" class="form-control" type="text">
-										</div>
-									</div>
-							<div class="col-md-6 offset-2">
-										<div class="input-block mb-3">
-											<label class="col-form-label">Paid By</label>
-											<input asp-for="PaidBy" class="form-control" type="text">
-										</div>
-									</div>
-									
 								</div>
-
-								<!-- Additional form fields -->
-
+								<div class="row">
+									<div class="col-sm-6">
+										<div class="input-block mb-3">
+											<label class="col-form-label">Start Date</label>
+											<div class="cal-icon">
+												<input class="form-control datetimepicker" type="text">
+											</div>
+										</div>
+									</div>
+									<div class="col-sm-6">
+										<div class="input-block mb-3">
+											<label class="col-form-label">End Date</label>
+											<div class="cal-icon">
+												<input class="form-control datetimepicker" type="text">
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="row">
+									<div class="col-sm-3">
+										<div class="input-block mb-3">
+											<label class="col-form-label">Rate</label>
+											<input placeholder="$50" class="form-control" type="text">
+										</div>
+									</div>
+									<div class="col-sm-3">
+										<div class="input-block mb-3">
+											<label class="col-form-label">&nbsp;</label>
+											<select class="select">
+												<option>Hourly</option>
+												<option>Fixed</option>
+											</select>
+										</div>
+									</div>
+									<div class="col-sm-6">
+										<div class="input-block mb-3">
+											<label class="col-form-label">Priority</label>
+											<select class="select">
+												<option>High</option>
+												<option>Medium</option>
+												<option>Low</option>
+											</select>
+										</div>
+									</div>
+								</div>
+								<div class="row">
+									<div class="col-sm-6">
+										<div class="input-block mb-3">
+											<label class="col-form-label">Add Project Leader</label>
+											<input class="form-control" type="text">
+										</div>
+									</div>
+									<div class="col-sm-6">
+										<div class="input-block mb-3">
+											<label class="col-form-label">Team Leader</label>
+											<div class="project-members">
+												<a href="#" data-bs-toggle="tooltip" title="Jeffery Lalor"
+													class="avatar">
+													<img src="~/assets/img/profiles/avatar-16.jpg" alt="User Image">
+												</a>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="row">
+									<div class="col-sm-6">
+										<div class="input-block mb-3">
+											<label class="col-form-label">Add Team</label>
+											<input class="form-control" type="text">
+										</div>
+									</div>
+									<div class="col-sm-6">
+										<div class="input-block mb-3">
+											<label class="col-form-label">Team Members</label>
+											<div class="project-members">
+												<a href="#" data-bs-toggle="tooltip" title="John Doe" class="avatar">
+													<img src="~/assets/img/profiles/avatar-16.jpg" alt="User Image">
+												</a>
+												<a href="#" data-bs-toggle="tooltip" title="Richard Miles"
+													class="avatar">
+													<img src="~/assets/img/profiles/avatar-09.jpg" alt="User Image">
+												</a>
+												<a href="#" data-bs-toggle="tooltip" title="John Smith" class="avatar">
+													<img src="~/assets/img/profiles/avatar-10.jpg" alt="User Image">
+												</a>
+												<a href="#" data-bs-toggle="tooltip" title="Mike Litorus"
+													class="avatar">
+													<img src="~/assets/img/profiles/avatar-05.jpg" alt="User Image">
+												</a>
+												<span class="all-team">+2</span>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="input-block mb-3">
+									<label class="col-form-label">Description</label>
+									<div id="editor"></div>
+								</div>
+								<div class="input-block mb-3">
+									<label class="col-form-label">Upload Files</label>
+									<input class="form-control" type="file">
+								</div>
 								<div class="submit-section">
-									<button type="submit" class="btn btn-primary submit-btn">Submit</button>
+									<button class="btn btn-primary submit-btn">Submit</button>
 								</div>
 							</form>
 						</div>
-					
+					</div>
+				</div>
 			</div>
-			<!-- Edit Expense Modal -->
-			<!-- /Edit Expense Modal -->
-			<!-- Delete Expense Modal -->
-			
-			<!-- Delete Expense Modal -->
+			<!-- /Create Project Modal --> *@
+
+			<!-- Edit Project Modal -->
+			<div id="edit_project" class="modal custom-modal fade" role="dialog">
+				<div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+					<div class="modal-content">
+						<div class="modal-header">
+							<h5 class="modal-title">Edit Project</h5>
+							<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">
+								<span aria-hidden="true">&times;</span>
+							</button>
+						</div>
+						<div class="modal-body">
+							<form>
+								<div class="row">
+									<div class="col-sm-6">
+										<div class="input-block mb-3">
+											<label class="col-form-label">Project Name</label>
+											<input class="form-control" value="Project Management" type="text">
+										</div>
+									</div>
+									<div class="col-sm-6">
+										<div class="input-block mb-3">
+											<label class="col-form-label">Client</label>
+											<select class="select">
+												<option>Global Technologies</option>
+												<option>Delta Infotech</option>
+											</select>
+										</div>
+									</div>
+								</div>
+								<div class="row">
+									<div class="col-sm-6">
+										<div class="input-block mb-3">
+											<label class="col-form-label">Start Date</label>
+											<div class="cal-icon">
+												<input class="form-control datetimepicker" type="text">
+											</div>
+										</div>
+									</div>
+									<div class="col-sm-6">
+										<div class="input-block mb-3">
+											<label class="col-form-label">End Date</label>
+											<div class="cal-icon">
+												<input class="form-control datetimepicker" type="text">
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="row">
+									<div class="col-sm-3">
+										<div class="input-block mb-3">
+											<label class="col-form-label">Rate</label>
+											<input placeholder="$50" class="form-control" value="$5000" type="text">
+										</div>
+									</div>
+									<div class="col-sm-3">
+										<div class="input-block mb-3">
+											<label class="col-form-label">&nbsp;</label>
+											<select class="select">
+												<option>Hourly</option>
+												<option selected>Fixed</option>
+											</select>
+										</div>
+									</div>
+									<div class="col-sm-6">
+										<div class="input-block mb-3">
+											<label class="col-form-label">Priority</label>
+											<select class="select">
+												<option selected>High</option>
+												<option>Medium</option>
+												<option>Low</option>
+											</select>
+										</div>
+									</div>
+								</div>
+								<div class="row">
+									<div class="col-sm-6">
+										<div class="input-block mb-3">
+											<label class="col-form-label">Add Project Leader</label>
+											<input class="form-control" type="text">
+										</div>
+									</div>
+									<div class="col-sm-6">
+										<div class="input-block mb-3">
+											<label class="col-form-label">Team Leader</label>
+											<div class="project-members">
+												<a href="#" data-bs-toggle="tooltip" title="Jeffery Lalor"
+													class="avatar">
+													<img src="~/assets/img/profiles/avatar-16.jpg" alt="User Image">
+												</a>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="row">
+									<div class="col-sm-6">
+										<div class="input-block mb-3">
+											<label class="col-form-label">Add Team</label>
+											<input class="form-control" type="text">
+										</div>
+									</div>
+									<div class="col-sm-6">
+										<div class="input-block mb-3">
+											<label class="col-form-label">Team Members</label>
+											<div class="project-members">
+												<a href="#" data-bs-toggle="tooltip" title="John Doe" class="avatar">
+													<img src="~/assets/img/profiles/avatar-16.jpg" alt="User Image">
+												</a>
+												<a href="#" data-bs-toggle="tooltip" title="Richard Miles"
+													class="avatar">
+													<img src="~/assets/img/profiles/avatar-09.jpg" alt="User Image">
+												</a>
+												<a href="#" data-bs-toggle="tooltip" title="John Smith" class="avatar">
+													<img src="~/assets/img/profiles/avatar-10.jpg" alt="User Image">
+												</a>
+												<a href="#" data-bs-toggle="tooltip" title="Mike Litorus"
+													class="avatar">
+													<img src="~/assets/img/profiles/avatar-05.jpg" alt="User Image">
+												</a>
+												<span class="all-team">+2</span>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="input-block mb-3">
+									<label class="col-form-label">Description</label>
+									<textarea rows="4" class="form-control"
+										placeholder="Enter your message here"></textarea>
+								</div>
+								<div class="input-block mb-3">
+									<label class="col-form-label">Upload Files</label>
+									<input class="form-control" type="file">
+								</div>
+								<div class="submit-section">
+									<button class="btn btn-primary submit-btn">Save</button>
+								</div>
+							</form>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- /Edit Project Modal -->
+
+			<!-- Delete Project Modal -->
+			<div class="modal custom-modal fade" id="delete_project" role="dialog">
+				<div class="modal-dialog modal-dialog-centered">
+					<div class="modal-content">
+						<div class="modal-body">
+							<div class="form-header">
+								<h3>Delete Project</h3>
+								<p>Are you sure want to delete?</p>
+							</div>
+							<div class="modal-btn delete-action">
+								<div class="row">
+									<div class="col-6">
+										<a href="javascript:void(0);" class="btn btn-primary continue-btn">Delete</a>
+									</div>
+									<div class="col-6">
+										<a href="javascript:void(0);" data-bs-dismiss="modal"
+											class="btn btn-primary cancel-btn">Cancel</a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- /Delete Project Modal -->
 
 		</div>
 		<!-- /Page Wrapper -->
@@ -401,7 +736,7 @@
 							<h5 class="fs-13 text-center mt-2">Two Column</h5>
 						</div>
 					</div>
-					<div class="layout-head pt-3">
+					<div class="layout-head pt-4">
 						<h5>Color Scheme</h5>
 						<h6>Choose Light or Dark Scheme.</h6>
 					</div>
@@ -471,7 +806,7 @@
 					</div>
 
 					<div id="layout-width">
-						<div class="layout-head pt-3">
+						<div class="layout-head pt-4">
 							<h5>Layout Width</h5>
 							<h6>Choose Fluid or Boxed layout.</h6>
 						</div>
@@ -500,7 +835,7 @@
 					</div>
 
 					<div id="layout-position">
-						<div class="layout-head pt-3">
+						<div class="layout-head pt-4">
 							<h5>Layout Position</h5>
 							<h6>Choose Fixed or Scrollable Layout Position.</h6>
 						</div>
@@ -514,7 +849,7 @@
 							<label class="btn btn-light w-sm ms-0" for="layout-position-scrollable">Scrollable</label>
 						</div>
 					</div>
-					<div class="layout-head pt-3">
+					<div class="layout-head pt-4">
 						<h5>Topbar Color</h5>
 						<h6>Choose Light or Dark Topbar Color.</h6>
 					</div>
@@ -542,7 +877,7 @@
 					</div>
 
 					<div id="sidebar-size">
-						<div class="layout-head pt-3">
+						<div class="layout-head pt-4">
 							<h5>Sidebar Size</h5>
 							<h6>Choose a size of Sidebar.</h6>
 						</div>
@@ -583,7 +918,7 @@
 					</div>
 
 					<div id="sidebar-view">
-						<div class="layout-head pt-3">
+						<div class="layout-head pt-4">
 							<h5>Sidebar View</h5>
 							<h6>Choose Default or Detached Sidebar view.</h6>
 						</div>
@@ -611,7 +946,7 @@
 						</div>
 					</div>
 					<div id="sidebar-color">
-						<div class="layout-head pt-3">
+						<div class="layout-head pt-4">
 							<h5>Sidebar Color</h5>
 							<h6>Choose a color of Sidebar.</h6>
 						</div>
@@ -738,13 +1073,12 @@
 	<!-- Select2 JS -->
 	<script src="~/assets/js/select2.min.js"></script>
 
-	<!-- Datatable JS -->
-	<script src="~/assets/js/jquery.dataTables.min.js"></script>
-	<script src="~/assets/js/dataTables.bootstrap4.min.js"></script>
-
 	<!-- Datetimepicker JS -->
 	<script src="~/assets/js/moment.min.js"></script>
 	<script src="~/assets/js/bootstrap-datetimepicker.min.js"></script>
+
+	<!-- Ck Editor JS -->
+	<script src="~/assets/js/ckeditor.js"></script>
 
 	<!-- Theme Settings JS -->
 	<script src="~/assets/js/layout.js"></script>
@@ -752,7 +1086,6 @@
 	<script src="~/assets/js/greedynav.js"></script>
 	<!-- Custom JS -->
 	<script src="~/assets/js/app.js"></script>
-
 </body>
 
 </html>
