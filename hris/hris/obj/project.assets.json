@@ -4032,19 +4032,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\DELL\\.nuget\\packages\\": {}
+    "C:\\Users\\affan\\.nuget\\packages\\": {},
+    "D:\\installation softwares\\visual studio\\shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\DELL\\Documents\\GitHub\\hris\\hris\\hris\\hris.csproj",
+      "projectUniqueName": "D:\\git projects\\hris\\hris\\hris\\hris.csproj",
       "projectName": "hris",
-      "projectPath": "C:\\Users\\DELL\\Documents\\GitHub\\hris\\hris\\hris\\hris.csproj",
-      "packagesPath": "C:\\Users\\DELL\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\DELL\\Documents\\GitHub\\hris\\hris\\hris\\obj\\",
+      "projectPath": "D:\\git projects\\hris\\hris\\hris\\hris.csproj",
+      "packagesPath": "C:\\Users\\affan\\.nuget\\packages\\",
+      "outputPath": "D:\\git projects\\hris\\hris\\hris\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "D:\\installation softwares\\visual studio\\shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "C:\\Users\\DELL\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\affan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -4052,6 +4057,7 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
