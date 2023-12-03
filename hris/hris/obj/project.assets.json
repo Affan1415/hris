@@ -4032,24 +4032,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\affan\\.nuget\\packages\\": {},
-    "D:\\installation softwares\\visual studio\\shared\\NuGetPackages": {}
+    "C:\\Users\\Mahi\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\git projects\\hris\\hris\\hris\\hris.csproj",
+      "projectUniqueName": "C:\\Users\\Mahi\\Documents\\GitHub\\hris\\hris\\hris\\hris.csproj",
       "projectName": "hris",
-      "projectPath": "D:\\git projects\\hris\\hris\\hris\\hris.csproj",
-      "packagesPath": "C:\\Users\\affan\\.nuget\\packages\\",
-      "outputPath": "D:\\git projects\\hris\\hris\\hris\\obj\\",
+      "projectPath": "C:\\Users\\Mahi\\Documents\\GitHub\\hris\\hris\\hris\\hris.csproj",
+      "packagesPath": "C:\\Users\\Mahi\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Mahi\\Documents\\GitHub\\hris\\hris\\hris\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "D:\\installation softwares\\visual studio\\shared\\NuGetPackages"
-      ],
       "configFilePaths": [
-        "C:\\Users\\affan\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Users\\Mahi\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -4057,7 +4052,6 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -4114,7 +4108,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
       }
     }
   }
