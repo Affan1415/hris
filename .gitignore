@@ -1,5 +1,4 @@
 
-hris/hris/obj/Debug/net6.0/project.razor.vscode.bin
 
 .fake
 hris/.vs/hris/FileContentIndex/462797e0-25ac-412c-b543-a668abac6508.vsidx
@@ -20,7 +19,6 @@ hris/hris/obj/Debug/net6.0/hris.csproj.AssemblyReference.cache
 hris/hris/obj/Debug/net6.0/hris.GeneratedMSBuildEditorConfig.editorconfig
 hris/hris/obj/Debug/net6.0/hris.RazorAssemblyInfo.cache
 hris/hris/obj/Debug/net6.0/project.razor.vs.bin
-hris/hris/obj/Debug/net6.0/project.razor.vscode.bin
 hris/hris/obj/project.nuget.cache
 hris/.vs/hris/FileContentIndex/3f71e049-d0d1-4433-b8f6-983b089b110e.vsidx
 hris/.vs/hris/FileContentIndex/3f582e46-8fb1-4f42-a334-1d49040d6fee.vsidx
@@ -34,7 +32,10 @@ hris/hris/obj/Debug/net6.0/hris.assets.cache
 hris/hris/obj/Debug/net6.0/hris.csproj.AssemblyReference.cache
 hris/hris/obj/Debug/net6.0/hris.GeneratedMSBuildEditorConfig.editorconfig
 hris/hris/obj/Debug/net6.0/hris.RazorAssemblyInfo.cache
-hris/hris/obj/Debug/net6.0/project.razor.vscode.bin
 hris/hris/obj/project.nuget.cache
 *.vsidx
 *.cache
+branch_structure.json
+temp_auto_push.bat
+temp_interactive_push.bat
+.gitignore
