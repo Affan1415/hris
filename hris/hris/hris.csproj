@@ -24,10 +24,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Views\employee\" />
-  </ItemGroup>
-
-  <ItemGroup>
     <None Include="Views\HR\admindashboard.cshtml" />
     <None Include="Views\projectManager\expenses.cshtml" />
     <None Include="Views\projectManager\projectManagerdashboard.cshtml" />

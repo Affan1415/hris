@@ -35,6 +35,11 @@ public class employeeController : Controller
 		}
 
 		return View(employee);
-	}
-
+    }
+    [HttpGet]
+    public IActionResult viewnoti()
+    {
+		var notification = _context.Notifications.ToList();
+		return View(notification);
+    }
 }
