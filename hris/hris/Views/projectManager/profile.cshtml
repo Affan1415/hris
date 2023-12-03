@@ -1,4 +1,5 @@
-@model hris.Models.ExpenseDataModel
+
+@model hris.Models.EmployeeData
 <!DOCTYPE html>
 <html lang="en" data-layout="vertical" data-topbar="light" data-sidebar="dark" data-sidebar-size="lg"
 	data-sidebar-image="none">
@@ -10,7 +11,7 @@
 	<meta name="keywords"
 		content="admin, estimates, bootstrap, business, corporate, creative, management, minimal, modern, accounts, invoice, html5, responsive, CRM, Projects">
 	<meta name="author" content="Dreamguys - Bootstrap Admin Template">
-	<title>Expenses - HRMS admin template</title>
+	<title>Employee Profile - HRMS admin template</title>
 
 	<!-- Favicon -->
 	<link rel="shortcut icon" type="image/x-icon" href="~/assets/img/favicon.png">
@@ -35,6 +36,9 @@
 	<!-- Datetimepicker CSS -->
 	<link rel="stylesheet" href="~/assets/css/bootstrap-datetimepicker.min.css">
 
+	<!-- Tagsinput CSS -->
+	<link rel="stylesheet" href="~/assets/plugins/bootstrap-tagsinput/bootstrap-tagsinput.css">
+
 	<!-- Main CSS -->
 	<link rel="stylesheet" href="~/assets/css/style.css">
 
@@ -50,10 +54,10 @@
 
 			<!-- Logo -->
 			<div class="header-left">
-				<a href="projectManagerdashboard.cshtml" class="logo">
+				<a href="admindashboard.cshtml" class="logo">
 					<img src="~/assets/img/logo.png" width="40" height="40" alt="Logo">
 				</a>
-				<a href="projectManagerdashboard.cshtml" class="logo2">
+				<a href="admindashboard.cshtml" class="logo2">
 					<img src="~/assets/img/logo2.png" width="40" height="40" alt="Logo">
 				</a>
 			</div>
@@ -77,6 +81,7 @@
 
 			<!-- Header Menu -->
 			<ul class="nav user-menu">
+
 
 
 				<!-- Flag -->
@@ -122,9 +127,12 @@
 					<a href="#" class="dropdown-toggle nav-link" data-bs-toggle="dropdown">
 						<span class="user-img"><img src="~/assets/img/profiles/avatar-21.jpg" alt="User Image">
 							<span class="status online"></span></span>
-						<span>Admin</span>
+						<span>@Model._Name</span>
 					</a>
 					<div class="dropdown-menu">
+						<ul>
+							<li><a class="dropdown-item" asp-controller="projectManager" asp-action="profile" asp-route-employeeId="@Model.EmployeeID">My Profile</a></li>
+						</ul>
 						<a class="dropdown-item" href="index.cshtml">Logout</a>
 					</div>
 				</li>
@@ -136,6 +144,9 @@
 				<a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false"><i
 						class="fa-solid fa-ellipsis-vertical"></i></a>
 				<div class="dropdown-menu dropdown-menu-right">
+					<ul>
+						<li><a class="dropdown-item" asp-controller="projectManager" asp-action="profile" asp-route-employeeId="@Model.EmployeeID">My Profile</a></li>
+					</ul>
 					<a class="dropdown-item" href="index.cshtml">Logout</a>
 				</div>
 			</div>
@@ -254,8 +265,6 @@
 			</div>
 		</div>
 		<!-- /Sidebar -->
-
-
 		<!-- Page Wrapper -->
 		<div class="page-wrapper">
 
@@ -264,83 +273,191 @@
 
 				<!-- Page Header -->
 				<div class="page-header">
-					<div class="row align-items-center">
-						<div class="col">
-							<h3 class="page-title">Expenses</h3>
+					<div class="row">
+						<div class="col-sm-12">
+							<h3 class="page-title">Profile</h3>
 							<ul class="breadcrumb">
-								<li class="breadcrumb-item"><a href="projectManagerdashboard.cshtml>Dashboard</a></li>
-								<li class="breadcrumb-item active">Expenses</li>
+								<li class="breadcrumb-item"><a href="admindashboard.cshtml">Dashboard</a></li>
+								<li class="breadcrumb-item active">Profile</li>
 							</ul>
 						</div>
-						
 					</div>
 				</div>
 				<!-- /Page Header -->
-				
+
+				<div class="card mb-0">
+					<div class="card-body">
+						<div class="row">
+							<div class="col-md-12">
+								<div class="profile-view">
+									<div class="profile-img-wrap">
+										<div class="profile-img">
+											<a href="#"><img src="~/assets/img/profiles/avatar-02.jpg"
+													alt="User Image"></a>
+										</div>
+									</div>
+									<div class="profile-basic">
+										<div class="row">
+											<div class="col-md-5">
+												<div class="profile-info-left">
+													<h3 class="user-name m-t-0 mb-0">@Model._Name</h3>
+													<small class="text-muted">Web Designer</small>
+													<div class="staff-id">Employee ID : FT-0001</div>
+													<div class="small doj text-muted">Date of Join : 1st Jan 2013</div>
+												</div>
+											</div>
+											<div class="col-md-7">
+												<ul class="personal-info">
+													<li>
+														<div class="title">Phone:</div>
+														<div class="text"><a href="">9876543210</a></div>
+													</li>
+													<li>
+														<div class="title">Email:</div>
+														<div class="text"><a href="">johndoe@example.com</a></div>
+													</li>
+													<li>
+														<div class="title">Birthday:</div>
+														<div class="text">24th July</div>
+													</li>
+													<li>
+														<div class="title">Address:</div>
+														<div class="text">1861 Bayonne Ave, Manchester Township, NJ,
+															08759</div>
+													</li>
+													<li>
+														<div class="title">Gender:</div>
+														<div class="text">Male</div>
+													</li>
+													
+												</ul>
+											</div>
+										</div>
+									</div>
+									<div class="pro-edit"><a data-bs-target="#profile_info" data-bs-toggle="modal"
+											class="edit-icon" href="#"><i class="fa-solid fa-pencil"></i></a></div>
+								</div>
+							</div>
+						</div>
+					</div>
 				</div>
-			<!-- Add Expense Modal -->
-			<!-- /Add Expense Modal -->
-					<div class="modal-content">
-						<div class="modal-header">
-							<h5 class="modal-title">Add Expense</h5>
-							
-						</div>
-						<div class="modal-body">
-							<form asp-controller="projectManager" asp-action="AddExpense" method="post">
-								<div class="row">
-									<div class="col-md-6">
-										<div class="input-block mb-3">
-											<label class="col-form-label">Item Name</label>
-											<input asp-for="Item" class="form-control" type="text">
-										</div>
-									</div>
-									<div class="col-md-6 offset-2">
-										<div class="input-block mb-3">
-											<label class="col-form-label">Purchase From</label>
-											<input asp-for="PurchaseFrom" class="form-control" type="text">
-										</div>
-									</div>
-							<div class="col-md-6 offset-2">
-										<div class="input-block mb-3">
-											<label class="col-form-label">Purchase Date</label>
-											<input asp-for="PurchaseDate" class="form-control datetimepicker" type="text">
-										</div>
-									</div>
-							<div class="col-md-6 offset-2">
-										<div class="input-block mb-3">
-											<label class="col-form-label">Purchase By</label>
-											<input asp-for="PurchaseBy" class="form-control" type="text">
-										</div>
-									</div>
-							<div class="col-md-6 offset-2">
-										<div class="input-block mb-3">
-											<label class="col-form-label">Amount</label>
-											<input asp-for="Amount" class="form-control" type="text">
-										</div>
-									</div>
-							<div class="col-md-6 offset-2">
-										<div class="input-block mb-3">
-											<label class="col-form-label">Paid By</label>
-											<input asp-for="PaidBy" class="form-control" type="text">
-										</div>
-									</div>
-									
-								</div>
 
-								<!-- Additional form fields -->
-
-								<div class="submit-section">
-									<button type="submit" class="btn btn-primary submit-btn">Submit</button>
-								</div>
-							</form>
+				<div class="card tab-box">
+					<div class="row user-tabs">
+						<div class="col-lg-12 col-md-12 col-sm-12 line-tabs">
+							<ul class="nav nav-tabs nav-tabs-bottom">
+								<li class="nav-item"><a href="#emp_projects" data-bs-toggle="tab"
+										class="nav-link">Projects</a></li>
+								
+							</ul>
 						</div>
-					
+					</div>
+				</div>
+
+				<div class="tab-content">
+
+					<!-- Projects Tab -->
+					<div class="tab-pane fade" id="emp_projects">
+						<div class="row">
+							<div class="col-lg-4 col-sm-6 col-md-4 col-xl-3">
+								<div class="card">
+									<div class="card-body">
+
+										<h4 class="project-title">Office Management</h4>
+
+
+										<div class="project-members m-b-15">
+											<div>Project Leader :</div>
+											<ul class="team-members">
+												<li>
+													<a href="#" data-bs-toggle="tooltip"
+														title="Jeffery Lalor"><img
+															src="~/assets/img/profiles/avatar-16.jpg"
+															alt="User Image"></a>
+												</li>
+											</ul>
+										</div>
+									</div>
+
+
+								</div>
+							</div>
+
+
+							<div class="col-lg-4 col-sm-6 col-md-4 col-xl-3">
+								<div class="card">
+									<div class="card-body">
+
+										<h4 class="project-title">Project Management</h4>
+										<div class="project-members m-b-15">
+											<div>Project Leader :</div>
+											<ul class="team-members">
+												<li>
+													<a href="#" data-bs-toggle="tooltip"
+														title="Jeffery Lalor"><img
+															src="~/assets/img/profiles/avatar-16.jpg"
+															alt="User Image"></a>
+												</li>
+											</ul>
+										</div>
+
+									</div>
+								</div>
+							</div>
+
+							<div class="col-lg-4 col-sm-6 col-md-4 col-xl-3">
+								<div class="card">
+									<div class="card-body">
+
+										<h4 class="project-title">Video Calling App</h4>
+
+
+										<div class="project-members m-b-15">
+											<div>Project Leader :</div>
+											<ul class="team-members">
+												<li>
+													<a href="#" data-bs-toggle="tooltip"
+														title="Jeffery Lalor"><img
+															src="~/assets/img/profiles/avatar-16.jpg"
+															alt="User Image"></a>
+												</li>
+											</ul>
+										</div>
+
+									</div>
+								</div>
+							</div>
+
+							<div class="col-lg-4 col-sm-6 col-md-4 col-xl-3">
+								<div class="card">
+									<div class="card-body">
+
+										<h4 class="project-title">Hospital Administration</h4>
+										<div class="project-members m-b-15">
+											<div>Project Leader :</div>
+											<ul class="team-members">
+												<li>
+													<a href="#" data-bs-toggle="tooltip"
+														title="Jeffery Lalor"><img
+															src="~/assets/img/profiles/avatar-16.jpg"
+															alt="User Image"></a>
+												</li>
+											</ul>
+										</div>
+
+
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<!-- /Projects Tab -->
+
+
+
+				</div>
 			</div>
-			<!-- Edit Expense Modal -->
-			<!-- /Edit Expense Modal -->
-			<!-- Delete Expense Modal -->
-			
-			<!-- Delete Expense Modal -->
+			<!-- /Page Content -->
 
 		</div>
 		<!-- /Page Wrapper -->
@@ -738,13 +855,16 @@
 	<!-- Select2 JS -->
 	<script src="~/assets/js/select2.min.js"></script>
 
+	<!-- Datetimepicker JS -->
+	<script src="~/assets/js/moment.min.js"></script>
+	<script src="~/assets/js/bootstrap-datetimepicker.min.js"></script>
+
 	<!-- Datatable JS -->
 	<script src="~/assets/js/jquery.dataTables.min.js"></script>
 	<script src="~/assets/js/dataTables.bootstrap4.min.js"></script>
 
-	<!-- Datetimepicker JS -->
-	<script src="~/assets/js/moment.min.js"></script>
-	<script src="~/assets/js/bootstrap-datetimepicker.min.js"></script>
+	<!-- Tagsinput JS -->
+	<script src="~/assets/plugins/bootstrap-tagsinput/bootstrap-tagsinput.min.js"></script>
 
 	<!-- Theme Settings JS -->
 	<script src="~/assets/js/layout.js"></script>

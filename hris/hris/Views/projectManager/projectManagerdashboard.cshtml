@@ -1,3 +1,4 @@
+@model hris.Models.EmployeeData
 <!DOCTYPE html>
 <html
   lang="en"
@@ -115,68 +116,54 @@
             </div>
           </li>
           <!-- /Flag -->
+                <!-- Notifications -->
+                <li class="nav-item dropdown">
+                    <a href="#" class="dropdown-toggle nav-link" data-bs-toggle="dropdown">
+                        <i class="fa-regular fa-bell"></i> <span class="badge rounded-pill">3</span>
+                    </a>
+                    <div class="dropdown-menu notifications">
+                        <div class="topnav-dropdown-header">
 
-          <!-- Notifications -->
-          <li class="nav-item dropdown">
-            <a
-              href="#"
-              class="dropdown-toggle nav-link"
-              data-bs-toggle="dropdown"
-            >
-              <i class="fa-regular fa-bell"></i>
-              <span class="badge rounded-pill">3</span>
-            </a>
-            <div class="dropdown-menu notifications">
-              <div class="topnav-dropdown-header">
-                <span class="notification-title">Notifications</span>
-                <a href="javascript:void(0)" class="clear-noti"> Clear All </a>
-              </div>
-              
-              <div class="topnav-dropdown-footer">
-              </div>
-            </div>
-          </li>
-          <!-- /Notifications -->
+                            <a class="notification-title" asp-controller="projectManager" asp-action="viewnoti">Notification</a>
+                        </div>
 
-          
 
-          <li class="nav-item dropdown has-arrow main-drop">
-            <a
-              href="#"
-              class="dropdown-toggle nav-link"
-              data-bs-toggle="dropdown"
-            >
-              <span class="user-img"
-                ><img
-                  src="~/assets/img/profiles/avatar-21.jpg"
-                  alt="User Image" />
-                <span class="status online"></span
-              ></span>
-              <span>Admin</span>
-            </a>
-            <div class="dropdown-menu">
-              <a class="dropdown-item" href="profile.cshtml">My Profile</a>
-              <a class="dropdown-item" href="index.cshtml">Logout</a>
-            </div>
-          </li>
-        </ul>
+                    </div>
+                </li>
+                <!-- /Notifications -->
+
+
+
+                <li class="nav-item dropdown has-arrow main-drop">
+                    <a href="#" class="dropdown-toggle nav-link" data-bs-toggle="dropdown">
+                        <span class="user-img">
+                            <img src="~/assets/img/profiles/avatar-21.jpg" alt="User Image">
+                            <span class="status online"></span>
+                        </span>
+                        <span>@Model._Name</span>
+                    </a>
+                    <div class="dropdown-menu">
+                        <ul>
+                            <li><a class="dropdown-item" asp-controller="projectManager" asp-action="profile" asp-route-employeeId="@Model.EmployeeID">My Profile</a></li>
+                        </ul>
+                        <a class="dropdown-item" href="index.cshtml">Logout</a>
+                    </div>
+                </li>
+            </ul>
         <!-- /Header Menu -->
-
-        <!-- Mobile Menu -->
-        <div class="dropdown mobile-user-menu">
-          <a
-            href="#"
-            class="nav-link dropdown-toggle"
-            data-bs-toggle="dropdown"
-            aria-expanded="false"
-            ><i class="fa-solid fa-ellipsis-vertical"></i
-          ></a>
-          <div class="dropdown-menu dropdown-menu-right">
-            <a class="dropdown-item" href="profile.cshtml">My Profile</a>
-            <a class="dropdown-item" href="index.cshtml">Logout</a>
-          </div>
-        </div>
-        <!-- /Mobile Menu -->
+            <!-- Mobile Menu -->
+            <div class="dropdown mobile-user-menu">
+                <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                    <i class="fa-solid fa-ellipsis-vertical"></i>
+                </a>
+                <div class="dropdown-menu dropdown-menu-right">
+                    <ul>
+                        <li><a class="dropdown-item" asp-controller="projectManager" asp-action="profile" asp-route-employeeId="@Model.EmployeeID">My Profile</a></li>
+                    </ul>
+                    <a class="dropdown-item" href="index.cshtml">Logout</a>
+                </div>
+            </div>
+            <!-- /Mobile Menu -->
       </div>
       <!-- /Header -->
 
@@ -215,10 +202,6 @@
                   </ul>
                 </li>
                 <li>
-                  <a href="clients.cshtml"
-                    ><i class="la la-users"></i> <span>Clients</span></a>
-                </li>
-                <li>
                  <a asp-controller="projectManager" asp-action="projects">
                                     <i class="la la-rocket"></i><span>Projects</span>
                                 </a>
@@ -228,11 +211,15 @@
                                 <i class="la la-rocket"></i><span>Add Projects
                             </span></a>
               </li>
-                <li>
-                  <a href="expenses.cshtml"
-                    ><i class="la la-files-o"></i> <span>Expenses</span></a
-                  >
-                </li>
+                            <li>
+                                <a asp-controller="projectManager" asp-action="expenses">
+                                    <i class="la la-rocket"></i> <span> Expenses</span>
+                                    
+                                </a>
+                            </li>
+                            <li>
+                                <a class="notification-title" asp-controller="projectManager" asp-action="viewnoti">Notifications</a>
+                            </li>
               </ul>
             </nav>
             <ul class="sidebar-vertical">
@@ -262,9 +249,7 @@
                     </li>
                 </ul>
               </li>
-               <li>
-                 <a href="clients.cshtml"><i class="la la-users"></i> <span>Clients</span></a>
-               </li>
+               
               <li>
                 <a asp-controller="projectManager" asp-action="projects">
                                 <i class="la la-rocket"></i><span>Projects
@@ -278,9 +263,11 @@
              <li>
                        <a asp-controller="projectManager" asp-action="expenses">
                            <i class="la la-rocket"></i> <span> Expenses</span>
-                           <span class="menu-arrow"></span>
                        </a>
              </li>
+                        <li>
+                            <a class="notification-title" asp-controller="projectManager" asp-action="viewnoti">Notifications</a>
+                        </li>
                 
             </ul>
           </div>

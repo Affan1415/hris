@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("hris")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+09ec68eab44cd601a485413cb48dffe97d2e624b")]
 [assembly: System.Reflection.AssemblyProductAttribute("hris")]
 [assembly: System.Reflection.AssemblyTitleAttribute("hris")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
