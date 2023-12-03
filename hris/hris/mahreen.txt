@@ -5,3 +5,93 @@ i love her soo much
 nice
 nice 2
 nice 3
+
+use [hris.codexia];
+GO
+
+CREATE TABLE EmployeeData(
+   EmployeeID INT PRIMARY KEY IDENTITY,
+	_type VARCHAR(255),
+    _Name VARCHAR(255),
+    Designation VARCHAR(255),
+    ContactNumber VARCHAR(20),
+    DateOfBirth DATE,
+    JoiningDate DATE,
+    CurrentAddress VARCHAR(255),
+    Email VARCHAR(255),
+	Gender VARCHAR(255),
+	Salary int
+    
+);
+INSERT INTO EmployeeData ( _type, _Name, Designation, ContactNumber, DateOfBirth, JoiningDate, CurrentAddress, Email, Gender, Salary)
+VALUES ( 'hr', 'John Doe', 'Software Engineer', '123-456-7890', '1990-01-15', '2022-01-01', '123 Main St, City', 'john.doe@example.com', 'Male', 80000.00);
+INSERT INTO EmployeeData ( _type, _Name, Designation, ContactNumber, DateOfBirth, JoiningDate, CurrentAddress, Email, Gender, Salary)
+VALUES ('emp', 'Jane Smith', 'Graphic Designer', '987-654-3210', '1995-05-20', '2022-02-15', '456 Oak St, Town', 'jane.smith@example.com', 'Female', 60000.00);
+INSERT INTO EmployeeData ( _type, _Name, Designation, ContactNumber, DateOfBirth, JoiningDate, CurrentAddress, Email, Gender, Salary)
+VALUES ('pm', 'Alex Johnson', 'Intern Developer', '555-123-4567', '2000-08-10', '2022-03-10', '789 Pine St, Village', 'alex.johnson@example.com', 'Male', 30000.00);
+
+
+CREATE TABLE LoginTable (
+	employeeid int primary key,
+    Email VARCHAR(100),   
+    PasswordHash VARCHAR(100) NOT NULL,
+	_type  VARCHAR(100),
+	FOREIGN KEY (employeeid) REFERENCES EmployeeData(EmployeeID)
+);
+insert into LoginTable values(1,'admin','aa1','hr');
+insert into LoginTable values(2,'employee','aa2','emp');
+insert into LoginTable values(3,'projectManager','aa3','pm');
+
+CREATE TABLE ProjectData (
+    ProjectID INT PRIMARY KEY IDENTITY,
+    Name NVARCHAR(MAX) NOT NULL,
+    Deadline DATE,
+    Lead NVARCHAR(MAX),
+    Price DECIMAL(18, 2),
+    AssignedEmployeeName NVARCHAR(MAX)
+);
+
+-- Inserting a project with assigned employee name
+INSERT INTO ProjectData (Name, Deadline, Lead, Price, AssignedEmployeeName)
+VALUES ('Project1', '2023-12-31', 'Team Lead A', 5000.00, 'John Doe');
+
+-- Inserting another project with a different assigned employee
+INSERT INTO ProjectData (Name, Deadline, Lead, Price, AssignedEmployeeName)
+VALUES ('Project2', '2023-12-15', 'Team Lead B', 8000.00, 'Jane Smith');
+
+
+
+CREATE TABLE ExpenseData (
+    Id INT PRIMARY KEY IDENTITY,
+    Item VARCHAR(255) NOT NULL,
+    PurchaseFrom VARCHAR(255),
+    PurchaseDate DATE,
+    PurchaseBy VARCHAR(255),
+    Amount DECIMAL(10, 2) NOT NULL,
+    PaidBy VARCHAR(255)
+);
+INSERT INTO ExpenseData (Item, PurchaseFrom, PurchaseDate, PurchaseBy, amount, PaidBy)
+VALUES
+('Office Supplies', 'Office Depot', '2023-01-15', 'John Doe', 150.00, 'John Doe'),
+('Lunch Meeting', 'Local Restaurant', '2023-02-05', 'Jane Smith', 75.50, 'Company Credit Card'),
+('Conference Tickets', 'Event Organizer', '2023-03-20', 'Alice Johnson', 500.00, 'Company Account');
+
+CREATE TABLE Notifications(
+ Id INT PRIMARY KEY IDENTITY,
+ Notify VARCHAR(255),
+ _time  DATETIME,
+
+);
+
+
+select * from LoginTable;
+select * from EmployeeData;
+SELECT * FROM ProjectData;
+select *from ExpenseData;
+select * from Notifications
+
+drop table ProjectData;
+DROP TABLE LoginTable;
+DROP TABLE EmployeeData;
+DROP TABLE ExpenseData;
+drop table Notifications;
