@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.7.34031.279
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "hris", "hris\hris.csproj", "{EB98D18F-A9EE-49DB-A6A9-1F40E6F913D5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "hris", "hris\hris.csproj", "{EB98D18F-A9EE-49DB-A6A9-1F40E6F913D5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
