@@ -141,28 +141,30 @@ public class HRController : Controller
 	return View();
 	}
 	[HttpPost]
-	[Route("HR/updatesalary")]
-	public IActionResult UpdateSalary(int employeeId, int updatedSalary)
+	//[Route("HR/updatesalary")]
+	public IActionResult UpdateSalary(UpdateSalaryModel model)
 	{
 		try
 		{
 			// Retrieve the employee based on the provided employeeId
-			var employee = _context.EmployeeData.FirstOrDefault(e => e.EmployeeID == employeeId);
 
-			if (employee == null)
-			{
-				// Handle the case where employee data is not found
-				return NotFound();
-			}
+			var employee = _context.EmployeeData.Where(u => u.EmployeeID == model.Id).FirstOrDefault();
+
+
+			//if (employee == null)
+			//{
+			//	// Handle the case where employee data is not found
+			//	return NotFound();
+			//}
 
 			// Update the salary of the employee
-			employee.Salary = updatedSalary;
+			employee.Salary = model.update_salary;
 
 			// Save the changes to the database
 			_context.SaveChanges();
 
 			// Redirect to the employee profile or another appropriate page
-			return RedirectToAction("admindashboard");
+			return RedirectToAction("salaryupdate","HR");
 		}
 		catch (Exception ex)
 		{

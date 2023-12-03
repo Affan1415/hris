@@ -84,7 +84,7 @@ public class projectManagerController : Controller
 			_context.SaveChanges();
 
 			// Redirect to a success page or another action
-			return RedirectToAction("projectManagerdashboard");
+			return RedirectToAction("expenses","projectManager");
 		}
 
 		// If the ModelState is not valid, return to the expense addition form with validation errors

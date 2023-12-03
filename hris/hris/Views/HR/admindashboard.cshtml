@@ -256,7 +256,9 @@
 							<a href="salary.cshtml"><i class="la la-users"></i> <span>Employee Salary</span></a>
 						</li>
 						<li>
-							<a href="salaryview.cshtml"><i class="la la-users"></i> <span>Payslip</span></a>
+							<a asp-controller="HR" asp-action="salaryupdate">
+								<i class="la la-users"></i> <span>Update Salary</span>
+							</a>
 						</li>
 						<li>
 							<a href="resignation.cshtml">
@@ -888,7 +890,7 @@
 										<tbody>
 											<tr>
 												<td>
-													<h2>Office Management</a></h2>
+													<h2>Office Management</h2>
 													<small class="block text-ellipsis">
 														<span>1</span> <span class="text-muted">open tasks, </span>
 														<span>9</span> <span class="text-muted">tasks completed</span>
