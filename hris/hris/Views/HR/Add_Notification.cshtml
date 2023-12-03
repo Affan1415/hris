@@ -1,5 +1,4 @@
-﻿@page
-@* @model hris.Views.HR.NotificationDataModel, *@
+﻿
 @model hris.Models.NotificationDataModel
 
 
@@ -664,13 +663,16 @@
 		</div>
 		<h2 style="text-align: center;">Add Notification</h2>
 
-		<form asp-controller="HR" asp-action="AddNotification" method="post">
-			<div style="text-align: center;">
-				<label asp-for="Notify">Notification Text:</label><br>
-				<input asp-for="Notify" class="form-control" type="text" />
-				<button type="submit">Submit</button>
+		<form asp-action="AddNotification" asp-controller="HR" method="post">
+			<div class="form-group">
+				<label asp-for="Notify">Notification Content:</label>
+				<input asp-for="Notify" class="form-control" />
+				<span asp-validation-for="Notify" class="text-danger"></span>
 			</div>
+
+			<button type="submit" class="btn btn-primary">Add Notification</button>
 		</form>
+
 
 		<!-- jQuery -->
 		<script src="~/assets/js/jquery-3.7.0.min.js"></script>

@@ -118,23 +118,18 @@ public class HRController : Controller
 	{
 		if (ModelState.IsValid)
 		{
-			try
-			{
+			
 				// Set the notification time to the current time
-				notification.Time = DateTime.Now;
+				notification._time = DateTime.Now;
 
-				// Add the notification to the database
-				_context.NotificationData.Add(notification);
+				// Add the notification to the datab
+				_context.Notifications.Add(notification);
 				_context.SaveChanges();
 
 				// Redirect to the admin dashboard or another appropriate page
-				return RedirectToAction("admindashboard");
-			}
-			catch (Exception ex)
-			{
-				_logger.LogError($"Error adding notification: {ex.Message}");
-				ModelState.AddModelError("", "An error occurred while adding the notification.");
-			}
+				return RedirectToAction("Add_Notification","HR");
+
+			
 		}
 
 		// If the ModelState is not valid, return to the notification addition form with validation errors

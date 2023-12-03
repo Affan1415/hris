@@ -14,6 +14,6 @@ namespace hris.Models
 		public string? Notify { get; set; }
 
 		[Required]
-		public DateTime Time { get; set; }
+		public DateTime _time { get; set; }
 	}
 }
