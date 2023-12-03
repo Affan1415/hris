@@ -68,4 +68,26 @@ public class projectManagerController : Controller
 	{
 		return View();
 	}
+
+	[HttpGet]
+	public IActionResult expenses()
+	{
+		return View();
+	}
+
+	[HttpPost]
+	public IActionResult AddExpense(ExpenseDataModel expense)
+	{
+		if (ModelState.IsValid)
+		{
+			_context.ExpenseData.Add(expense);
+			_context.SaveChanges();
+
+			// Redirect to a success page or another action
+			return RedirectToAction("projectManagerdashboard");
+		}
+
+		// If the ModelState is not valid, return to the expense addition form with validation errors
+		return View(expense);
+	}
 }
