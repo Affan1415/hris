@@ -1,4 +1,4 @@
-@model hris.Models.EmployeeRegistrationViewModel
+@model List<hris.Models.EmployeeData>
 
 @{
 	ViewData["Title"] = "Register Employee";
@@ -342,30 +342,20 @@
 									</tr>
 								</thead>
 								<tbody>
+									@foreach (var employee in Model)
+									{
 									<tr>
 										<td>
 											<h2 class="table-avatar">
 												<a href="profile.cshtml" class="avatar"><img
 														src="~/assets/img/profiles/avatar-02.jpg" alt="User Image"></a>
-												<a href="profile.cshtml">John Doe <span>Web Designer</span></a>
+												<a href="profile.cshtml">@employee._Name <span>@employee.Designation</span></a>
 											</h2>
 										</td>
-										<td>FT-0001</td>
-										<td>johndoe@example.com</td>
-										<td>9876543210</td>
-										<td>1 Jan 2013</td>
-										<td>
-											<div class="dropdown">
-												<a href="" class="btn btn-white btn-sm btn-rounded dropdown-toggle"
-													data-bs-toggle="dropdown" aria-expanded="false">Web Developer </a>
-												<div class="dropdown-menu">
-													<a class="dropdown-item" href="#">Software Engineer</a>
-													<a class="dropdown-item" href="#">Software Tester</a>
-													<a class="dropdown-item" href="#">Frontend Developer</a>
-													<a class="dropdown-item" href="#">UI/UX Developer</a>
-												</div>
-											</div>
-										</td>
+										<td>@employee.EmployeeID</td>
+										<td>@employee.Email</td>
+										<td>@employee.ContactNumber</td>
+										<td>@employee.JoiningDate</td>
 										<td class="text-end">
 											<div class="dropdown dropdown-action">
 												<a href="#" class="action-icon dropdown-toggle"
@@ -382,6 +372,7 @@
 											</div>
 										</td>
 									</tr>
+									}
 								</tbody>
 							</table>
 						</div>
@@ -391,116 +382,7 @@
 			<!-- /Page Content -->
 		
 
-			<div id="add_employee" class="modal custom-modal fade" role="dialog">
-				<div class="modal-dialog modal-dialog-centered modal-lg" role="document">
-					<div class="modal-content">
-						<div class="modal-header">
-							<h5 class="modal-title">Add Employee</h5>
-							<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">
-								<span aria-hidden="true">&times;</span>
-							</button>
-						</div>
-						<div class="modal-body">
-							<form asp-action="RegisterEmployee" asp-controller="HR" method="post">
-								<div class="row">
-									<div class="col-sm-6">
-										<div class="input-block mb-3">
-											<label class="col-form-label">Username <span class="text-danger">*</span></label>
-											<input asp-for="Email" class="form-control" />
-											<span asp-validation-for="Email" class="text-danger"></span>
-										</div>
-									</div>
-									<div class="col-sm-6">
-										<div class="input-block mb-3">
-											<label class="col-form-label">Password <span class="text-danger">*</span></label>
-											<input asp-for="Password" class="form-control"  />
-											<span asp-validation-for="Password" class="text-danger"></span>
-										</div>
-									</div>
-									<div class="col-sm-6">
-										<div class="input-block mb-3">
-											<label class="col-form-label">Email <span class="text-danger">*</span></label>
-											<input asp-for="Email" class="form-control" />
-											<span asp-validation-for="Email" class="text-danger"></span>
-										</div>
-									</div>
-									<div class="col-md-6">
-										<div class="input-block mb-3">
-											<label class="col-form-label">Type<span class="text-danger">*</span></label>
-											<select asp-for="UserType" class="select">
-												<option>hr</option>
-												<option>pm</option>
-												<option>emp</option>
-											</select>
-											<span asp-validation-for="UserType" class="text-danger"></span>
-										</div>
-									</div>
-									<!-- Add the remaining form fields using asp-for tag helpers -->
-									<!-- ... -->
-									<div class="col-sm-6">
-										<div class="input-block mb-3">
-											<label class="col-form-label">Name <span class="text-danger">*</span></label>
-											<input asp-for="Email" class="form-control" />
-											<span asp-validation-for="Name" class="text-danger"></span>
-										</div>
-									</div>
-									<div class="col-sm-6">
-										<div class="input-block mb-3">
-											<label class="col-form-label">Designation <span class="text-danger">*</span></label>
-											<input asp-for="Designation" class="form-control" />
-											<span asp-validation-for="Designation" class="text-danger"></span>
-										</div>
-									</div>
-									<div class="col-sm-6">
-										<div class="input-block mb-3">
-											<label class="col-form-label">Contact <span class="text-danger">*</span></label>
-											<input asp-for="ContactNumber" class="form-control" />
-											<span asp-validation-for="ContactNumber" class="text-danger"></span>
-										</div>
-									</div>
-									<div class="col-sm-6">
-										<div class="input-block mb-3">
-											<label class="col-form-label">Joinning Date <span class="text-danger">*</span></label>
-											<input asp-for="JoiningDate" class="form-control" />
-											<span asp-validation-for="JoiningDate" class="text-danger"></span>
-										</div>
-									</div>
 
-									
-
-									<div class="col-sm-6">
-										<div class="input-block mb-3">
-											<label class="col-form-label">Date Of Birth <span class="text-danger">*</span></label>
-											<input asp-for="DateOfBirth" class="form-control" />
-											<span asp-validation-for="DateOfBirth" class="text-danger"></span>
-										</div>
-									</div>
-
-									<div class="input-block mb-3">
-										<label class="col-form-label">Gender<span class="text-danger">*</span></label>
-										<select asp-for="UserType" class="select">
-											<option>Male</option>
-											<option>Female</option>
-										</select>
-										<span asp-validation-for="UserType" class="text-danger"></span>
-									</div>
-									<div class="col-sm-6">
-										<div class="input-block mb-3">
-											<label class="col-form-label">Salary <span class="text-danger">*</span></label>
-											<input asp-for="Salary" class="form-control" type="password" />
-											<span asp-validation-for="Salary" class="text-danger"></span>
-										</div>
-									</div>
-								</div>
-
-								<div class="submit-section">
-									<button type="submit" class="btn btn-primary submit-btn">Submit</button>
-								</div>
-							</form>
-						</div>
-					</div>
-				</div>
-			</div>
 <!--/////////////////////////////////////////////////////////////////////////////////-->
 			<!-- Add Employee Modal -->
 			<!-- /Add Employee Modal -->

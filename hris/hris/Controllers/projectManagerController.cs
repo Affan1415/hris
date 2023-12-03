@@ -1,4 +1,6 @@
 ﻿
+using hris.Models.Authenticaton.login;
+using hris.Models;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 
@@ -22,7 +24,7 @@ public class projectManagerController : Controller
         //return View("admindashboard");
     }
     [HttpGet]
-    public IActionResult DisplayProfile(int employeeId)
+    public IActionResult Profile(int employeeId)
     {
         // Retrieve employee data based on the employeeId
         var employee = _context.EmployeeData.FirstOrDefault(e => e.EmployeeID == employeeId);
@@ -32,4 +34,31 @@ public class projectManagerController : Controller
 
         return View();
     }
+
+	[HttpGet]
+	public IActionResult projects()
+	{
+		// Add any necessary logic for the admin dashboard
+		var projects = _context.ProjectData.ToList();
+
+		return View(projects);
+		//return View("admindashboard");
+	}
+
+	[HttpPost]
+	public IActionResult Register(ProjectData project)
+	{
+		if (ModelState.IsValid)
+		{
+			// Assuming ProjectID is an identity column, it will be generated automatically
+			_context.ProjectData.Add(project);
+			_context.SaveChanges();
+
+			// Redirect to a success page or another action
+			return RedirectToAction("Index", "Home");
+		}
+
+		// If the ModelState is not valid, return to the registration form with validation errors
+		return View(project);
+	}
 }

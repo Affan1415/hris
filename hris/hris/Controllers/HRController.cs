@@ -42,8 +42,8 @@ public class HRController : Controller
 
     public IActionResult employeeslist(loginmodel loginform,EmployeeData employeeform)
     {
-
-        return View();
+		var employees = _context.EmployeeData.ToList();
+		return View(employees);
     }
 	[HttpPost]
 	public IActionResult RegisterEmployee(EmployeeRegistrationViewModel viewModel)

@@ -218,12 +218,16 @@
                   >
                 </li>
                 <li class="submenu">
-                  <a href="#"
-                    ><i class="la la-rocket"></i> <span> Projects</span>
-                    <span class="menu-arrow"></span
-                  ></a>
+                      <i class="la la-rocket"></i> <span> Projects</span>
+                      <span class="menu-arrow"></span>
+
                   <ul>
-                    <li><a href="projects.cshtml">Projects</a></li>
+                   <li>
+                       <a asp-controller="projectManager" asp-action="projects">
+                           <i class="la la-rocket"></i> <span> Projects</span>
+                           <span class="menu-arrow"></span>
+                       </a>
+                   </li>
                   </ul>
                 </li>
                 <li class="menu-title">
@@ -304,7 +308,12 @@
                   <span class="menu-arrow"></span
                 ></a>
                 <ul>
-                  <li><a href="projects.cshtml">Projects</a></li>
+                                <li>
+                                    <a asp-controller="projectManager" asp-action="projects">
+                                        <i class="la la-rocket"></i> <span> Projects</span>
+                                        <span class="menu-arrow"></span>
+                                    </a>
+                                </li>
                 </ul>
               </li>
               <li class="menu-title">

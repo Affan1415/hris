@@ -9,5 +9,6 @@ public class ApplicationDbContext : DbContext
 
     public DbSet<loginmodel> LoginTable { get; set; }
     public DbSet<EmployeeData> EmployeeData { get; set; }
+    public DbSet<ProjectData> ProjectData { get; set; }
 
 }
