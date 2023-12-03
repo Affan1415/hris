@@ -40,7 +40,7 @@ public class HRController : Controller
 
     [HttpGet]
 
-    public IActionResult employeeslist(loginmodel loginform,EmployeeData employeeform)
+    public IActionResult employeeslist()
     {
 		var employees = _context.EmployeeData.ToList();
 		return View(employees);
@@ -106,5 +106,11 @@ public class HRController : Controller
 	public IActionResult addemployee()
 	{
 		return View();
+	}
+	public IActionResult expenses()
+	{
+		var Expenses = _context.ExpenseData.ToList();
+		return View(Expenses);
+		
 	}
 }

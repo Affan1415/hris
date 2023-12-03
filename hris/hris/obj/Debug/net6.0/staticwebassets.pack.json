@@ -1,2007 +1,2007 @@
 {
   "Files": [
     {
-      "Id": "D:\\git projects\\hris\\hris\\hris\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\hris.bundle.scp.css",
+      "Id": "C:\\Users\\DELL\\Documents\\GitHub\\hris\\hris\\hris\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\hris.bundle.scp.css",
       "PackagePath": "staticwebassets\\hris.bundle.scp.css"
     },
     {
-      "Id": "D:\\git projects\\hris\\hris\\hris\\wwwroot\\assets\\css\\bootstrap-datetimepicker.min.css",
+      "Id": "C:\\Users\\DELL\\Documents\\GitHub\\hris\\hris\\hris\\wwwroot\\assets\\css\\bootstrap-datetimepicker.min.css",
       "PackagePath": "staticwebassets\\assets\\css\\bootstrap-datetimepicker.min.css"
     },
     {
-      "Id": "D:\\git projects\\hris\\hris\\hris\\wwwroot\\assets\\css\\bootstrap.css",
+      "Id": "C:\\Users\\DELL\\Documents\\GitHub\\hris\\hris\\hris\\wwwroot\\assets\\css\\bootstrap.css",
       "PackagePath": "staticwebassets\\assets\\css\\bootstrap.css"
     },
     {
-      "Id": "D:\\git projects\\hris\\hris\\hris\\wwwroot\\assets\\css\\bootstrap.css.map",
+      "Id": "C:\\Users\\DELL\\Documents\\GitHub\\hris\\hris\\hris\\wwwroot\\assets\\css\\bootstrap.css.map",
       "PackagePath": "staticwebassets\\assets\\css\\bootstrap.css.map"
     },
     {
-      "Id": "D:\\git projects\\hris\\hris\\hris\\wwwroot\\assets\\css\\bootstrap.min.css",
+      "Id": "C:\\Users\\DELL\\Documents\\GitHub\\hris\\hris\\hris\\wwwroot\\assets\\css\\bootstrap.min.css",
       "PackagePath": "staticwebassets\\assets\\css\\bootstrap.min.css"
     },
     {
-      "Id": "D:\\git projects\\hris\\hris\\hris\\wwwroot\\assets\\css\\bootstrap.min.css.map",
+      "Id": "C:\\Users\\DELL\\Documents\\GitHub\\hris\\hris\\hris\\wwwroot\\assets\\css\\bootstrap.min.css.map",
       "PackagePath": "staticwebassets\\assets\\css\\bootstrap.min.css.map"
     },
     {
-      "Id": "D:\\git projects\\hris\\hris\\hris\\wwwroot\\assets\\css\\ckeditor.css",
+      "Id": "C:\\Users\\DELL\\Documents\\GitHub\\hris\\hris\\hris\\wwwroot\\assets\\css\\ckeditor.css",
       "PackagePath": "staticwebassets\\assets\\css\\ckeditor.css"
     },
     {
-      "Id": "D:\\git projects\\hris\\hris\\hris\\wwwroot\\assets\\css\\dataTables.bootstrap4.min.css",
+      "Id": "C:\\Users\\DELL\\Documents\\GitHub\\hris\\hris\\hris\\wwwroot\\assets\\css\\dataTables.bootstrap4.min.css",
       "PackagePath": "staticwebassets\\assets\\css\\dataTables.bootstrap4.min.css"
     },
     {
-      "Id": "D:\\git projects\\hris\\hris\\hris\\wwwroot\\assets\\css\\fullcalendar.min.css",
+      "Id": "C:\\Users\\DELL\\Documents\\GitHub\\hris\\hris\\hris\\wwwroot\\assets\\css\\fullcalendar.min.css",
       "PackagePath": "staticwebassets\\assets\\css\\fullcalendar.min.css"
     },
     {
-      "Id": "D:\\git projects\\hris\\hris\\hris\\wwwroot\\assets\\css\\line-awesome.min.css",
+      "Id": "C:\\Users\\DELL\\Documents\\GitHub\\hris\\hris\\hris\\wwwroot\\assets\\css\\line-awesome.min.css",
       "PackagePath": "staticwebassets\\assets\\css\\line-awesome.min.css"
     },
     {
-      "Id": "D:\\git projects\\hris\\hris\\hris\\wwwroot\\assets\\css\\material.css",
+      "Id": "C:\\Users\\DELL\\Documents\\GitHub\\hris\\hris\\hris\\wwwroot\\assets\\css\\material.css",
       "PackagePath": "staticwebassets\\assets\\css\\material.css"
     },
     {
-      "Id": "D:\\git projects\\hris\\hris\\hris\\wwwroot\\assets\\css\\select2.min.css",
+      "Id": "C:\\Users\\DELL\\Documents\\GitHub\\hris\\hris\\hris\\wwwroot\\assets\\css\\select2.min.css",
       "PackagePath": "staticwebassets\\assets\\css\\select2.min.css"
     },
     {
-      "Id": "D:\\git projects\\hris\\hris\\hris\\wwwroot\\assets\\css\\style.css",
+      "Id": "C:\\Users\\DELL\\Documents\\GitHub\\hris\\hris\\hris\\wwwroot\\assets\\css\\style.css",
       "PackagePath": "staticwebassets\\assets\\css\\style.css"
     },
     {
-      "Id": "D:\\git projects\\hris\\hris\\hris\\wwwroot\\assets\\css\\style.css.map",
+      "Id": "C:\\Users\\DELL\\Documents\\GitHub\\hris\\hris\\hris\\wwwroot\\assets\\css\\style.css.map",
       "PackagePath": "staticwebassets\\assets\\css\\style.css.map"
     },
     {
-      "Id": "D:\\git projects\\hris\\hris\\hris\\wwwroot\\assets\\fonts\\CircularStd-Black.woff",
+      "Id": "C:\\Users\\DELL\\Documents\\GitHub\\hris\\hris\\hris\\wwwroot\\assets\\fonts\\CircularStd-Black.woff",
       "PackagePath": "staticwebassets\\assets\\fonts\\CircularStd-Black.woff"
     },
     {
-      "Id": "D:\\git projects\\hris\\hris\\hris\\wwwroot\\assets\\fonts\\CircularStd-BlackItalic.woff",
+      "Id": "C:\\Users\\DELL\\Documents\\GitHub\\hris\\hris\\hris\\wwwroot\\assets\\fonts\\CircularStd-BlackItalic.woff",
       "PackagePath": "staticwebassets\\assets\\fonts\\CircularStd-BlackItalic.woff"
     },
     {
-      "Id": "D:\\git projects\\hris\\hris\\hris\\wwwroot\\assets\\fonts\\CircularStd-Bold.woff",
+      "Id": "C:\\Users\\DELL\\Documents\\GitHub\\hris\\hris\\hris\\wwwroot\\assets\\fonts\\CircularStd-Bold.woff",
       "PackagePath": "staticwebassets\\assets\\fonts\\CircularStd-Bold.woff"
     },
     {
-      "Id": "D:\\git projects\\hris\\hris\\hris\\wwwroot\\assets\\fonts\\CircularStd-BoldItalic.woff",
+      "Id": "C:\\Users\\DELL\\Documents\\GitHub\\hris\\hris\\hris\\wwwroot\\assets\\fonts\\CircularStd-BoldItalic.woff",
       "PackagePath": "staticwebassets\\assets\\fonts\\CircularStd-BoldItalic.woff"
     },
     {
-      "Id": "D:\\git projects\\hris\\hris\\hris\\wwwroot\\assets\\fonts\\CircularStd-Book.woff",
+      "Id": "C:\\Users\\DELL\\Documents\\GitHub\\hris\\hris\\hris\\wwwroot\\assets\\fonts\\CircularStd-Book.woff",
       "PackagePath": "staticwebassets\\assets\\fonts\\CircularStd-Book.woff"
     },
     {
-      "Id": "D:\\git projects\\hris\\hris\\hris\\wwwroot\\assets\\fonts\\CircularStd-BookItalic.woff",
+      "Id": "C:\\Users\\DELL\\Documents\\GitHub\\hris\\hris\\hris\\wwwroot\\assets\\fonts\\CircularStd-BookItalic.woff",
       "PackagePath": "staticwebassets\\assets\\fonts\\CircularStd-BookItalic.woff"
     },
     {
-      "Id": "D:\\git projects\\hris\\hris\\hris\\wwwroot\\assets\\fonts\\CircularStd-Medium.woff",
+      "Id": "C:\\Users\\DELL\\Documents\\GitHub\\hris\\hris\\hris\\wwwroot\\assets\\fonts\\CircularStd-Medium.woff",
       "PackagePath": "staticwebassets\\assets\\fonts\\CircularStd-Medium.woff"
     },
     {
-      "Id": "D:\\git projects\\hris\\hris\\hris\\wwwroot\\assets\\fonts\\CircularStd-MediumItalic.woff",
+      "Id": "C:\\Users\\DELL\\Documents\\GitHub\\hris\\hris\\hris\\wwwroot\\assets\\fonts\\CircularStd-MediumItalic.woff",
       "PackagePath": "staticwebassets\\assets\\fonts\\CircularStd-MediumItalic.woff"
     },
     {
-      "Id": "D:\\git projects\\hris\\hris\\hris\\wwwroot\\assets\\fonts\\FontAwesome.otf",
+      "Id": "C:\\Users\\DELL\\Documents\\GitHub\\hris\\hris\\hris\\wwwroot\\assets\\fonts\\FontAwesome.otf",
       "PackagePath": "staticwebassets\\assets\\fonts\\FontAwesome.otf"
     },
     {
-      "Id": "D:\\git projects\\hris\\hris\\hris\\wwwroot\\assets\\fonts\\MaterialIcons-Regular.eot",
+      "Id": "C:\\Users\\DELL\\Documents\\GitHub\\hris\\hris\\hris\\wwwroot\\assets\\fonts\\MaterialIcons-Regular.eot",
       "PackagePath": "staticwebassets\\assets\\fonts\\MaterialIcons-Regular.eot"
     },
     {
-      "Id": "D:\\git projects\\hris\\hris\\hris\\wwwroot\\assets\\fonts\\MaterialIcons-Regular.svg",
+      "Id": "C:\\Users\\DELL\\Documents\\GitHub\\hris\\hris\\hris\\wwwroot\\assets\\fonts\\MaterialIcons-Regular.svg",
       "PackagePath": "staticwebassets\\assets\\fonts\\MaterialIcons-Regular.svg"
     },
     {
-      "Id": "D:\\git projects\\hris\\hris\\hris\\wwwroot\\assets\\fonts\\MaterialIcons-Regular.ttf",
+      "Id": "C:\\Users\\DELL\\Documents\\GitHub\\hris\\hris\\hris\\wwwroot\\assets\\fonts\\MaterialIcons-Regular.ttf",
       "PackagePath": "staticwebassets\\assets\\fonts\\MaterialIcons-Regular.ttf"
     },
     {
-      "Id": "D:\\git projects\\hris\\hris\\hris\\wwwroot\\assets\\fonts\\MaterialIcons-Regular.woff",
+      "Id": "C:\\Users\\DELL\\Documents\\GitHub\\hris\\hris\\hris\\wwwroot\\assets\\fonts\\MaterialIcons-Regular.woff",
       "PackagePath": "staticwebassets\\assets\\fonts\\MaterialIcons-Regular.woff"
     },
     {
-      "Id": "D:\\git projects\\hris\\hris\\hris\\wwwroot\\assets\\fonts\\MaterialIcons-Regular.woff2",
+      "Id": "C:\\Users\\DELL\\Documents\\GitHub\\hris\\hris\\hris\\wwwroot\\assets\\fonts\\MaterialIcons-Regular.woff2",
       "PackagePath": "staticwebassets\\assets\\fonts\\MaterialIcons-Regular.woff2"
     },
     {
-      "Id": "D:\\git projects\\hris\\hris\\hris\\wwwroot\\assets\\fonts\\fontawesome-webfont.eot",
+      "Id": "C:\\Users\\DELL\\Documents\\GitHub\\hris\\hris\\hris\\wwwroot\\assets\\fonts\\fontawesome-webfont.eot",
       "PackagePath": "staticwebassets\\assets\\fonts\\fontawesome-webfont.eot"
     },
     {
-      "Id": "D:\\git projects\\hris\\hris\\hris\\wwwroot\\assets\\fonts\\fontawesome-webfont.svg",
+      "Id": "C:\\Users\\DELL\\Documents\\GitHub\\hris\\hris\\hris\\wwwroot\\assets\\fonts\\fontawesome-webfont.svg",
       "PackagePath": "staticwebassets\\assets\\fonts\\fontawesome-webfont.svg"
     },
     {
-      "Id": "D:\\git projects\\hris\\hris\\hris\\wwwroot\\assets\\fonts\\fontawesome-webfont.ttf",
+      "Id": "C:\\Users\\DELL\\Documents\\GitHub\\hris\\hris\\hris\\wwwroot\\assets\\fonts\\fontawesome-webfont.ttf",
       "PackagePath": "staticwebassets\\assets\\fonts\\fontawesome-webfont.ttf"
     },
     {
-      "Id": "D:\\git projects\\hris\\hris\\hris\\wwwroot\\assets\\fonts\\fontawesome-webfont.woff",
+      "Id": "C:\\Users\\DELL\\Documents\\GitHub\\hris\\hris\\hris\\wwwroot\\assets\\fonts\\fontawesome-webfont.woff",
       "PackagePath": "staticwebassets\\assets\\fonts\\fontawesome-webfont.woff"
     },
     {
-      "Id": "D:\\git projects\\hris\\hris\\hris\\wwwroot\\assets\\fonts\\fontawesome-webfont.woff2",
+      "Id": "C:\\Users\\DELL\\Documents\\GitHub\\hris\\hris\\hris\\wwwroot\\assets\\fonts\\fontawesome-webfont.woff2",
       "PackagePath": "staticwebassets\\assets\\fonts\\fontawesome-webfont.woff2"
     },
     {
-      "Id": "D:\\git projects\\hris\\hris\\hris\\wwwroot\\assets\\fonts\\fonts.zip",
+      "Id": "C:\\Users\\DELL\\Documents\\GitHub\\hris\\hris\\hris\\wwwroot\\assets\\fonts\\fonts.zip",
       "PackagePath": "staticwebassets\\assets\\fonts\\fonts.zip"
     },
     {
-      "Id": "D:\\git projects\\hris\\hris\\hris\\wwwroot\\assets\\fonts\\la-brands-400.eot",
+      "Id": "C:\\Users\\DELL\\Documents\\GitHub\\hris\\hris\\hris\\wwwroot\\assets\\fonts\\la-brands-400.eot",
       "PackagePath": "staticwebassets\\assets\\fonts\\la-brands-400.eot"
     },
     {
-      "Id": "D:\\git projects\\hris\\hris\\hris\\wwwroot\\assets\\fonts\\la-brands-400.svg",
+      "Id": "C:\\Users\\DELL\\Documents\\GitHub\\hris\\hris\\hris\\wwwroot\\assets\\fonts\\la-brands-400.svg",
       "PackagePath": "staticwebassets\\assets\\fonts\\la-brands-400.svg"
     },
     {
-      "Id": "D:\\git projects\\hris\\hris\\hris\\wwwroot\\assets\\fonts\\la-brands-400.ttf",
+      "Id": "C:\\Users\\DELL\\Documents\\GitHub\\hris\\hris\\hris\\wwwroot\\assets\\fonts\\la-brands-400.ttf",
       "PackagePath": "staticwebassets\\assets\\fonts\\la-brands-400.ttf"
     },
     {
-      "Id": "D:\\git projects\\hris\\hris\\hris\\wwwroot\\assets\\fonts\\la-brands-400.woff",
+      "Id": "C:\\Users\\DELL\\Documents\\GitHub\\hris\\hris\\hris\\wwwroot\\assets\\fonts\\la-brands-400.woff",
       "PackagePath": "staticwebassets\\assets\\fonts\\la-brands-400.woff"
     },
     {
-      "Id": "D:\\git projects\\hris\\hris\\hris\\wwwroot\\assets\\fonts\\la-brands-400.woff2",
+      "Id": "C:\\Users\\DELL\\Documents\\GitHub\\hris\\hris\\hris\\wwwroot\\assets\\fonts\\la-brands-400.woff2",
       "PackagePath": "staticwebassets\\assets\\fonts\\la-brands-400.woff2"
     },
     {
-      "Id": "D:\\git projects\\hris\\hris\\hris\\wwwroot\\assets\\fonts\\la-regular-400.eot",
+      "Id": "C:\\Users\\DELL\\Documents\\GitHub\\hris\\hris\\hris\\wwwroot\\assets\\fonts\\la-regular-400.eot",
       "PackagePath": "staticwebassets\\assets\\fonts\\la-regular-400.eot"
     },
     {
-      "Id": "D:\\git projects\\hris\\hris\\hris\\wwwroot\\assets\\fonts\\la-regular-400.svg",
+      "Id": "C:\\Users\\DELL\\Documents\\GitHub\\hris\\hris\\hris\\wwwroot\\assets\\fonts\\la-regular-400.svg",
       "PackagePath": "staticwebassets\\assets\\fonts\\la-regular-400.svg"
     },
     {
-      "Id": "D:\\git projects\\hris\\hris\\hris\\wwwroot\\assets\\fonts\\la-regular-400.ttf",
+      "Id": "C:\\Users\\DELL\\Documents\\GitHub\\hris\\hris\\hris\\wwwroot\\assets\\fonts\\la-regular-400.ttf",
       "PackagePath": "staticwebassets\\assets\\fonts\\la-regular-400.ttf"
     },
     {
-      "Id": "D:\\git projects\\hris\\hris\\hris\\wwwroot\\assets\\fonts\\la-regular-400.woff",
+      "Id": "C:\\Users\\DELL\\Documents\\GitHub\\hris\\hris\\hris\\wwwroot\\assets\\fonts\\la-regular-400.woff",
       "PackagePath": "staticwebassets\\assets\\fonts\\la-regular-400.woff"
     },
     {
-      "Id": "D:\\git projects\\hris\\hris\\hris\\wwwroot\\assets\\fonts\\la-regular-400.woff2",
+      "Id": "C:\\Users\\DELL\\Documents\\GitHub\\hris\\hris\\hris\\wwwroot\\assets\\fonts\\la-regular-400.woff2",
       "PackagePath": "staticwebassets\\assets\\fonts\\la-regular-400.woff2"
     },
     {
-      "Id": "D:\\git projects\\hris\\hris\\hris\\wwwroot\\assets\\fonts\\la-solid-900.eot",
+      "Id": "C:\\Users\\DELL\\Documents\\GitHub\\hris\\hris\\hris\\wwwroot\\assets\\fonts\\la-solid-900.eot",
       "PackagePath": "staticwebassets\\assets\\fonts\\la-solid-900.eot"
     },
     {
-      "Id": "D:\\git projects\\hris\\hris\\hris\\wwwroot\\assets\\fonts\\la-solid-900.svg",
+      "Id": "C:\\Users\\DELL\\Documents\\GitHub\\hris\\hris\\hris\\wwwroot\\assets\\fonts\\la-solid-900.svg",
       "PackagePath": "staticwebassets\\assets\\fonts\\la-solid-900.svg"
     },
     {
-      "Id": "D:\\git projects\\hris\\hris\\hris\\wwwroot\\assets\\fonts\\la-solid-900.ttf",
+      "Id": "C:\\Users\\DELL\\Documents\\GitHub\\hris\\hris\\hris\\wwwroot\\assets\\fonts\\la-solid-900.ttf",
       "PackagePath": "staticwebassets\\assets\\fonts\\la-solid-900.ttf"
     },
     {
-      "Id": "D:\\git projects\\hris\\hris\\hris\\wwwroot\\assets\\fonts\\la-solid-900.woff",
+      "Id": "C:\\Users\\DELL\\Documents\\GitHub\\hris\\hris\\hris\\wwwroot\\assets\\fonts\\la-solid-900.woff",
       "PackagePath": "staticwebassets\\assets\\fonts\\la-solid-900.woff"
     },
     {
-      "Id": "D:\\git projects\\hris\\hris\\hris\\wwwroot\\assets\\fonts\\la-solid-900.woff2",
+      "Id": "C:\\Users\\DELL\\Documents\\GitHub\\hris\\hris\\hris\\wwwroot\\assets\\fonts\\la-solid-900.woff2",
       "PackagePath": "staticwebassets\\assets\\fonts\\la-solid-900.woff2"
     },
     {
-      "Id": "D:\\git projects\\hris\\hris\\hris\\wwwroot\\assets\\fonts\\line-awesome.eot",
+      "Id": "C:\\Users\\DELL\\Documents\\GitHub\\hris\\hris\\hris\\wwwroot\\assets\\fonts\\line-awesome.eot",
       "PackagePath": "staticwebassets\\assets\\fonts\\line-awesome.eot"
     },
     {
-      "Id": "D:\\git projects\\hris\\hris\\hris\\wwwroot\\assets\\fonts\\line-awesome.svg",
+      "Id": "C:\\Users\\DELL\\Documents\\GitHub\\hris\\hris\\hris\\wwwroot\\assets\\fonts\\line-awesome.svg",
       "PackagePath": "staticwebassets\\assets\\fonts\\line-awesome.svg"
     },
     {
-      "Id": "D:\\git projects\\hris\\hris\\hris\\wwwroot\\assets\\fonts\\line-awesome.ttf",
+      "Id": "C:\\Users\\DELL\\Documents\\GitHub\\hris\\hris\\hris\\wwwroot\\assets\\fonts\\line-awesome.ttf",
       "PackagePath": "staticwebassets\\assets\\fonts\\line-awesome.ttf"
     },
     {
-      "Id": "D:\\git projects\\hris\\hris\\hris\\wwwroot\\assets\\fonts\\line-awesome.woff",
+      "Id": "C:\\Users\\DELL\\Documents\\GitHub\\hris\\hris\\hris\\wwwroot\\assets\\fonts\\line-awesome.woff",
       "PackagePath": "staticwebassets\\assets\\fonts\\line-awesome.woff"
     },
     {
-      "Id": "D:\\git projects\\hris\\hris\\hris\\wwwroot\\assets\\fonts\\line-awesome.woff2",
+      "Id": "C:\\Users\\DELL\\Documents\\GitHub\\hris\\hris\\hris\\wwwroot\\assets\\fonts\\line-awesome.woff2",
       "PackagePath": "staticwebassets\\assets\\fonts\\line-awesome.woff2"
     },
     {
-      "Id": "D:\\git projects\\hris\\hris\\hris\\wwwroot\\assets\\img\\attachment.png",
+      "Id": "C:\\Users\\DELL\\Documents\\GitHub\\hris\\hris\\hris\\wwwroot\\assets\\img\\attachment.png",
       "PackagePath": "staticwebassets\\assets\\img\\attachment.png"
     },
     {
-      "Id": "D:\\git projects\\hris\\hris\\hris\\wwwroot\\assets\\img\\boxed.png",
+      "Id": "C:\\Users\\DELL\\Documents\\GitHub\\hris\\hris\\hris\\wwwroot\\assets\\img\\boxed.png",
       "PackagePath": "staticwebassets\\assets\\img\\boxed.png"
     },
     {
-      "Id": "D:\\git projects\\hris\\hris\\hris\\wwwroot\\assets\\img\\close.png",
+      "Id": "C:\\Users\\DELL\\Documents\\GitHub\\hris\\hris\\hris\\wwwroot\\assets\\img\\close.png",
       "PackagePath": "staticwebassets\\assets\\img\\close.png"
     },
     {
-      "Id": "D:\\git projects\\hris\\hris\\hris\\wwwroot\\assets\\img\\compact.png",
+      "Id": "C:\\Users\\DELL\\Documents\\GitHub\\hris\\hris\\hris\\wwwroot\\assets\\img\\compact.png",
       "PackagePath": "staticwebassets\\assets\\img\\compact.png"
     },
     {
-      "Id": "D:\\git projects\\hris\\hris\\hris\\wwwroot\\assets\\img\\dark.png",
+      "Id": "C:\\Users\\DELL\\Documents\\GitHub\\hris\\hris\\hris\\wwwroot\\assets\\img\\dark.png",
       "PackagePath": "staticwebassets\\assets\\img\\dark.png"
     },
     {
-      "Id": "D:\\git projects\\hris\\hris\\hris\\wwwroot\\assets\\img\\dark2.png",
+      "Id": "C:\\Users\\DELL\\Documents\\GitHub\\hris\\hris\\hris\\wwwroot\\assets\\img\\dark2.png",
       "PackagePath": "staticwebassets\\assets\\img\\dark2.png"
     },
     {
-      "Id": "D:\\git projects\\hris\\hris\\hris\\wwwroot\\assets\\img\\detached.png",
+      "Id": "C:\\Users\\DELL\\Documents\\GitHub\\hris\\hris\\hris\\wwwroot\\assets\\img\\detached.png",
       "PackagePath": "staticwebassets\\assets\\img\\detached.png"
     },
     {
-      "Id": "D:\\git projects\\hris\\hris\\hris\\wwwroot\\assets\\img\\favicon.png",
+      "Id": "C:\\Users\\DELL\\Documents\\GitHub\\hris\\hris\\hris\\wwwroot\\assets\\img\\favicon.png",
       "PackagePath": "staticwebassets\\assets\\img\\favicon.png"
     },
     {
-      "Id": "D:\\git projects\\hris\\hris\\hris\\wwwroot\\assets\\img\\flags\\ad.png",
+      "Id": "C:\\Users\\DELL\\Documents\\GitHub\\hris\\hris\\hris\\wwwroot\\assets\\img\\flags\\ad.png",
       "PackagePath": "staticwebassets\\assets\\img\\flags\\ad.png"
     },
     {
-      "Id": "D:\\git projects\\hris\\hris\\hris\\wwwroot\\assets\\img\\flags\\ae.png",
+      "Id": "C:\\Users\\DELL\\Documents\\GitHub\\hris\\hris\\hris\\wwwroot\\assets\\img\\flags\\ae.png",
       "PackagePath": "staticwebassets\\assets\\img\\flags\\ae.png"
     },
     {
-      "Id": "D:\\git projects\\hris\\hris\\hris\\wwwroot\\assets\\img\\flags\\af.png",
+      "Id": "C:\\Users\\DELL\\Documents\\GitHub\\hris\\hris\\hris\\wwwroot\\assets\\img\\flags\\af.png",
       "PackagePath": "staticwebassets\\assets\\img\\flags\\af.png"
     },
     {
-      "Id": "D:\\git projects\\hris\\hris\\hris\\wwwroot\\assets\\img\\flags\\ag.png",
+      "Id": "C:\\Users\\DELL\\Documents\\GitHub\\hris\\hris\\hris\\wwwroot\\assets\\img\\flags\\ag.png",
       "PackagePath": "staticwebassets\\assets\\img\\flags\\ag.png"
     },
     {
-      "Id": "D:\\git projects\\hris\\hris\\hris\\wwwroot\\assets\\img\\flags\\ai.png",
+      "Id": "C:\\Users\\DELL\\Documents\\GitHub\\hris\\hris\\hris\\wwwroot\\assets\\img\\flags\\ai.png",
       "PackagePath": "staticwebassets\\assets\\img\\flags\\ai.png"
     },
     {
-      "Id": "D:\\git projects\\hris\\hris\\hris\\wwwroot\\assets\\img\\flags\\al.png",
+      "Id": "C:\\Users\\DELL\\Documents\\GitHub\\hris\\hris\\hris\\wwwroot\\assets\\img\\flags\\al.png",
       "PackagePath": "staticwebassets\\assets\\img\\flags\\al.png"
     },
     {
-      "Id": "D:\\git projects\\hris\\hris\\hris\\wwwroot\\assets\\img\\flags\\am.png",
+      "Id": "C:\\Users\\DELL\\Documents\\GitHub\\hris\\hris\\hris\\wwwroot\\assets\\img\\flags\\am.png",
       "PackagePath": "staticwebassets\\assets\\img\\flags\\am.png"
     },
     {
-      "Id": "D:\\git projects\\hris\\hris\\hris\\wwwroot\\assets\\img\\flags\\ao.png",
+      "Id": "C:\\Users\\DELL\\Documents\\GitHub\\hris\\hris\\hris\\wwwroot\\assets\\img\\flags\\ao.png",
       "PackagePath": "staticwebassets\\assets\\img\\flags\\ao.png"
     },
     {
-      "Id": "D:\\git projects\\hris\\hris\\hris\\wwwroot\\assets\\img\\flags\\ar.png",
+      "Id": "C:\\Users\\DELL\\Documents\\GitHub\\hris\\hris\\hris\\wwwroot\\assets\\img\\flags\\ar.png",
       "PackagePath": "staticwebassets\\assets\\img\\flags\\ar.png"
     },
     {
-      "Id": "D:\\git projects\\hris\\hris\\hris\\wwwroot\\assets\\img\\flags\\as.png",
+      "Id": "C:\\Users\\DELL\\Documents\\GitHub\\hris\\hris\\hris\\wwwroot\\assets\\img\\flags\\as.png",
       "PackagePath": "staticwebassets\\assets\\img\\flags\\as.png"
     },
     {
-      "Id": "D:\\git projects\\hris\\hris\\hris\\wwwroot\\assets\\img\\flags\\at.png",
+      "Id": "C:\\Users\\DELL\\Documents\\GitHub\\hris\\hris\\hris\\wwwroot\\assets\\img\\flags\\at.png",
       "PackagePath": "staticwebassets\\assets\\img\\flags\\at.png"
     },
     {
-      "Id": "D:\\git projects\\hris\\hris\\hris\\wwwroot\\assets\\img\\flags\\au.png",
+      "Id": "C:\\Users\\DELL\\Documents\\GitHub\\hris\\hris\\hris\\wwwroot\\assets\\img\\flags\\au.png",
       "PackagePath": "staticwebassets\\assets\\img\\flags\\au.png"
     },
     {
-      "Id": "D:\\git projects\\hris\\hris\\hris\\wwwroot\\assets\\img\\flags\\aw.png",
+      "Id": "C:\\Users\\DELL\\Documents\\GitHub\\hris\\hris\\hris\\wwwroot\\assets\\img\\flags\\aw.png",
       "PackagePath": "staticwebassets\\assets\\img\\flags\\aw.png"
     },
     {
-      "Id": "D:\\git projects\\hris\\hris\\hris\\wwwroot\\assets\\img\\flags\\ax.png",
+      "Id": "C:\\Users\\DELL\\Documents\\GitHub\\hris\\hris\\hris\\wwwroot\\assets\\img\\flags\\ax.png",
       "PackagePath": "staticwebassets\\assets\\img\\flags\\ax.png"
     },
     {
-      "Id": "D:\\git projects\\hris\\hris\\hris\\wwwroot\\assets\\img\\flags\\az.png",
+      "Id": "C:\\Users\\DELL\\Documents\\GitHub\\hris\\hris\\hris\\wwwroot\\assets\\img\\flags\\az.png",
       "PackagePath": "staticwebassets\\assets\\img\\flags\\az.png"
     },
     {
-      "Id": "D:\\git projects\\hris\\hris\\hris\\wwwroot\\assets\\img\\flags\\ba.png",
+      "Id": "C:\\Users\\DELL\\Documents\\GitHub\\hris\\hris\\hris\\wwwroot\\assets\\img\\flags\\ba.png",
       "PackagePath": "staticwebassets\\assets\\img\\flags\\ba.png"
     },
     {
-      "Id": "D:\\git projects\\hris\\hris\\hris\\wwwroot\\assets\\img\\flags\\bb.png",
+      "Id": "C:\\Users\\DELL\\Documents\\GitHub\\hris\\hris\\hris\\wwwroot\\assets\\img\\flags\\bb.png",
       "PackagePath": "staticwebassets\\assets\\img\\flags\\bb.png"
     },
     {
-      "Id": "D:\\git projects\\hris\\hris\\hris\\wwwroot\\assets\\img\\flags\\bd.png",
+      "Id": "C:\\Users\\DELL\\Documents\\GitHub\\hris\\hris\\hris\\wwwroot\\assets\\img\\flags\\bd.png",
       "PackagePath": "staticwebassets\\assets\\img\\flags\\bd.png"
     },
     {
-      "Id": "D:\\git projects\\hris\\hris\\hris\\wwwroot\\assets\\img\\flags\\be.png",
+      "Id": "C:\\Users\\DELL\\Documents\\GitHub\\hris\\hris\\hris\\wwwroot\\assets\\img\\flags\\be.png",
       "PackagePath": "staticwebassets\\assets\\img\\flags\\be.png"
     },
     {
-      "Id": "D:\\git projects\\hris\\hris\\hris\\wwwroot\\assets\\img\\flags\\bf.png",
+      "Id": "C:\\Users\\DELL\\Documents\\GitHub\\hris\\hris\\hris\\wwwroot\\assets\\img\\flags\\bf.png",
       "PackagePath": "staticwebassets\\assets\\img\\flags\\bf.png"
     },
     {
-      "Id": "D:\\git projects\\hris\\hris\\hris\\wwwroot\\assets\\img\\flags\\bg.png",
+      "Id": "C:\\Users\\DELL\\Documents\\GitHub\\hris\\hris\\hris\\wwwroot\\assets\\img\\flags\\bg.png",
       "PackagePath": "staticwebassets\\assets\\img\\flags\\bg.png"
     },
     {
-      "Id": "D:\\git projects\\hris\\hris\\hris\\wwwroot\\assets\\img\\flags\\bh.png",
+      "Id": "C:\\Users\\DELL\\Documents\\GitHub\\hris\\hris\\hris\\wwwroot\\assets\\img\\flags\\bh.png",
       "PackagePath": "staticwebassets\\assets\\img\\flags\\bh.png"
     },
     {
-      "Id": "D:\\git projects\\hris\\hris\\hris\\wwwroot\\assets\\img\\flags\\bi.png",
+      "Id": "C:\\Users\\DELL\\Documents\\GitHub\\hris\\hris\\hris\\wwwroot\\assets\\img\\flags\\bi.png",
       "PackagePath": "staticwebassets\\assets\\img\\flags\\bi.png"
     },
     {
-      "Id": "D:\\git projects\\hris\\hris\\hris\\wwwroot\\assets\\img\\flags\\bj.png",
+      "Id": "C:\\Users\\DELL\\Documents\\GitHub\\hris\\hris\\hris\\wwwroot\\assets\\img\\flags\\bj.png",
       "PackagePath": "staticwebassets\\assets\\img\\flags\\bj.png"
     },
     {
-      "Id": "D:\\git projects\\hris\\hris\\hris\\wwwroot\\assets\\img\\flags\\bl.png",
+      "Id": "C:\\Users\\DELL\\Documents\\GitHub\\hris\\hris\\hris\\wwwroot\\assets\\img\\flags\\bl.png",
       "PackagePath": "staticwebassets\\assets\\img\\flags\\bl.png"
     },
     {
-      "Id": "D:\\git projects\\hris\\hris\\hris\\wwwroot\\assets\\img\\flags\\bm.png",
+      "Id": "C:\\Users\\DELL\\Documents\\GitHub\\hris\\hris\\hris\\wwwroot\\assets\\img\\flags\\bm.png",
       "PackagePath": "staticwebassets\\assets\\img\\flags\\bm.png"
     },
     {
-      "Id": "D:\\git projects\\hris\\hris\\hris\\wwwroot\\assets\\img\\flags\\bn.png",
+      "Id": "C:\\Users\\DELL\\Documents\\GitHub\\hris\\hris\\hris\\wwwroot\\assets\\img\\flags\\bn.png",
       "PackagePath": "staticwebassets\\assets\\img\\flags\\bn.png"
     },
     {
-      "Id": "D:\\git projects\\hris\\hris\\hris\\wwwroot\\assets\\img\\flags\\bo.png",
+      "Id": "C:\\Users\\DELL\\Documents\\GitHub\\hris\\hris\\hris\\wwwroot\\assets\\img\\flags\\bo.png",
       "PackagePath": "staticwebassets\\assets\\img\\flags\\bo.png"
     },
     {
-      "Id": "D:\\git projects\\hris\\hris\\hris\\wwwroot\\assets\\img\\flags\\bq.png",
+      "Id": "C:\\Users\\DELL\\Documents\\GitHub\\hris\\hris\\hris\\wwwroot\\assets\\img\\flags\\bq.png",
       "PackagePath": "staticwebassets\\assets\\img\\flags\\bq.png"
     },
     {
-      "Id": "D:\\git projects\\hris\\hris\\hris\\wwwroot\\assets\\img\\flags\\br.png",
+      "Id": "C:\\Users\\DELL\\Documents\\GitHub\\hris\\hris\\hris\\wwwroot\\assets\\img\\flags\\br.png",
       "PackagePath": "staticwebassets\\assets\\img\\flags\\br.png"
     },
     {
-      "Id": "D:\\git projects\\hris\\hris\\hris\\wwwroot\\assets\\img\\flags\\bs.png",
+      "Id": "C:\\Users\\DELL\\Documents\\GitHub\\hris\\hris\\hris\\wwwroot\\assets\\img\\flags\\bs.png",
       "PackagePath": "staticwebassets\\assets\\img\\flags\\bs.png"
     },
     {
-      "Id": "D:\\git projects\\hris\\hris\\hris\\wwwroot\\assets\\img\\flags\\bt.png",
+      "Id": "C:\\Users\\DELL\\Documents\\GitHub\\hris\\hris\\hris\\wwwroot\\assets\\img\\flags\\bt.png",
       "PackagePath": "staticwebassets\\assets\\img\\flags\\bt.png"
     },
     {
-      "Id": "D:\\git projects\\hris\\hris\\hris\\wwwroot\\assets\\img\\flags\\bv.png",
+      "Id": "C:\\Users\\DELL\\Documents\\GitHub\\hris\\hris\\hris\\wwwroot\\assets\\img\\flags\\bv.png",
       "PackagePath": "staticwebassets\\assets\\img\\flags\\bv.png"
     },
     {
-      "Id": "D:\\git projects\\hris\\hris\\hris\\wwwroot\\assets\\img\\flags\\bw.png",
+      "Id": "C:\\Users\\DELL\\Documents\\GitHub\\hris\\hris\\hris\\wwwroot\\assets\\img\\flags\\bw.png",
       "PackagePath": "staticwebassets\\assets\\img\\flags\\bw.png"
     },
     {
-      "Id": "D:\\git projects\\hris\\hris\\hris\\wwwroot\\assets\\img\\flags\\by.png",
+      "Id": "C:\\Users\\DELL\\Documents\\GitHub\\hris\\hris\\hris\\wwwroot\\assets\\img\\flags\\by.png",
       "PackagePath": "staticwebassets\\assets\\img\\flags\\by.png"
     },
     {
-      "Id": "D:\\git projects\\hris\\hris\\hris\\wwwroot\\assets\\img\\flags\\bz.png",
+      "Id": "C:\\Users\\DELL\\Documents\\GitHub\\hris\\hris\\hris\\wwwroot\\assets\\img\\flags\\bz.png",
       "PackagePath": "staticwebassets\\assets\\img\\flags\\bz.png"
     },
     {
-      "Id": "D:\\git projects\\hris\\hris\\hris\\wwwroot\\assets\\img\\flags\\ca.png",
+      "Id": "C:\\Users\\DELL\\Documents\\GitHub\\hris\\hris\\hris\\wwwroot\\assets\\img\\flags\\ca.png",
       "PackagePath": "staticwebassets\\assets\\img\\flags\\ca.png"
     },
     {
-      "Id": "D:\\git projects\\hris\\hris\\hris\\wwwroot\\assets\\img\\flags\\cc.png",
+      "Id": "C:\\Users\\DELL\\Documents\\GitHub\\hris\\hris\\hris\\wwwroot\\assets\\img\\flags\\cc.png",
       "PackagePath": "staticwebassets\\assets\\img\\flags\\cc.png"
     },
     {
-      "Id": "D:\\git projects\\hris\\hris\\hris\\wwwroot\\assets\\img\\flags\\cd.png",
+      "Id": "C:\\Users\\DELL\\Documents\\GitHub\\hris\\hris\\hris\\wwwroot\\assets\\img\\flags\\cd.png",
       "PackagePath": "staticwebassets\\assets\\img\\flags\\cd.png"
     },
     {
-      "Id": "D:\\git projects\\hris\\hris\\hris\\wwwroot\\assets\\img\\flags\\cf.png",
+      "Id": "C:\\Users\\DELL\\Documents\\GitHub\\hris\\hris\\hris\\wwwroot\\assets\\img\\flags\\cf.png",
       "PackagePath": "staticwebassets\\assets\\img\\flags\\cf.png"
     },
     {
-      "Id": "D:\\git projects\\hris\\hris\\hris\\wwwroot\\assets\\img\\flags\\cg.png",
+      "Id": "C:\\Users\\DELL\\Documents\\GitHub\\hris\\hris\\hris\\wwwroot\\assets\\img\\flags\\cg.png",
       "PackagePath": "staticwebassets\\assets\\img\\flags\\cg.png"
     },
     {
-      "Id": "D:\\git projects\\hris\\hris\\hris\\wwwroot\\assets\\img\\flags\\ch.png",
+      "Id": "C:\\Users\\DELL\\Documents\\GitHub\\hris\\hris\\hris\\wwwroot\\assets\\img\\flags\\ch.png",
       "PackagePath": "staticwebassets\\assets\\img\\flags\\ch.png"
     },
     {
-      "Id": "D:\\git projects\\hris\\hris\\hris\\wwwroot\\assets\\img\\flags\\ci.png",
+      "Id": "C:\\Users\\DELL\\Documents\\GitHub\\hris\\hris\\hris\\wwwroot\\assets\\img\\flags\\ci.png",
       "PackagePath": "staticwebassets\\assets\\img\\flags\\ci.png"
     },
     {
-      "Id": "D:\\git projects\\hris\\hris\\hris\\wwwroot\\assets\\img\\flags\\ck.png",
+      "Id": "C:\\Users\\DELL\\Documents\\GitHub\\hris\\hris\\hris\\wwwroot\\assets\\img\\flags\\ck.png",
       "PackagePath": "staticwebassets\\assets\\img\\flags\\ck.png"
     },
     {
-      "Id": "D:\\git projects\\hris\\hris\\hris\\wwwroot\\assets\\img\\flags\\cl.png",
+      "Id": "C:\\Users\\DELL\\Documents\\GitHub\\hris\\hris\\hris\\wwwroot\\assets\\img\\flags\\cl.png",
       "PackagePath": "staticwebassets\\assets\\img\\flags\\cl.png"
     },
     {
-      "Id": "D:\\git projects\\hris\\hris\\hris\\wwwroot\\assets\\img\\flags\\cm.png",
+      "Id": "C:\\Users\\DELL\\Documents\\GitHub\\hris\\hris\\hris\\wwwroot\\assets\\img\\flags\\cm.png",
       "PackagePath": "staticwebassets\\assets\\img\\flags\\cm.png"
     },
     {
-      "Id": "D:\\git projects\\hris\\hris\\hris\\wwwroot\\assets\\img\\flags\\cn.png",
+      "Id": "C:\\Users\\DELL\\Documents\\GitHub\\hris\\hris\\hris\\wwwroot\\assets\\img\\flags\\cn.png",
       "PackagePath": "staticwebassets\\assets\\img\\flags\\cn.png"
     },
     {
-      "Id": "D:\\git projects\\hris\\hris\\hris\\wwwroot\\assets\\img\\flags\\co.png",
+      "Id": "C:\\Users\\DELL\\Documents\\GitHub\\hris\\hris\\hris\\wwwroot\\assets\\img\\flags\\co.png",
       "PackagePath": "staticwebassets\\assets\\img\\flags\\co.png"
     },
     {
-      "Id": "D:\\git projects\\hris\\hris\\hris\\wwwroot\\assets\\img\\flags\\cr.png",
+      "Id": "C:\\Users\\DELL\\Documents\\GitHub\\hris\\hris\\hris\\wwwroot\\assets\\img\\flags\\cr.png",
       "PackagePath": "staticwebassets\\assets\\img\\flags\\cr.png"
     },
     {
-      "Id": "D:\\git projects\\hris\\hris\\hris\\wwwroot\\assets\\img\\flags\\cu.png",
+      "Id": "C:\\Users\\DELL\\Documents\\GitHub\\hris\\hris\\hris\\wwwroot\\assets\\img\\flags\\cu.png",
       "PackagePath": "staticwebassets\\assets\\img\\flags\\cu.png"
     },
     {
-      "Id": "D:\\git projects\\hris\\hris\\hris\\wwwroot\\assets\\img\\flags\\cv.png",
+      "Id": "C:\\Users\\DELL\\Documents\\GitHub\\hris\\hris\\hris\\wwwroot\\assets\\img\\flags\\cv.png",
       "PackagePath": "staticwebassets\\assets\\img\\flags\\cv.png"
     },
     {
-      "Id": "D:\\git projects\\hris\\hris\\hris\\wwwroot\\assets\\img\\flags\\cw.png",
+      "Id": "C:\\Users\\DELL\\Documents\\GitHub\\hris\\hris\\hris\\wwwroot\\assets\\img\\flags\\cw.png",
       "PackagePath": "staticwebassets\\assets\\img\\flags\\cw.png"
     },
     {
-      "Id": "D:\\git projects\\hris\\hris\\hris\\wwwroot\\assets\\img\\flags\\cx.png",
+      "Id": "C:\\Users\\DELL\\Documents\\GitHub\\hris\\hris\\hris\\wwwroot\\assets\\img\\flags\\cx.png",
       "PackagePath": "staticwebassets\\assets\\img\\flags\\cx.png"
     },
     {
-      "Id": "D:\\git projects\\hris\\hris\\hris\\wwwroot\\assets\\img\\flags\\cy.png",
+      "Id": "C:\\Users\\DELL\\Documents\\GitHub\\hris\\hris\\hris\\wwwroot\\assets\\img\\flags\\cy.png",
       "PackagePath": "staticwebassets\\assets\\img\\flags\\cy.png"
     },
     {
-      "Id": "D:\\git projects\\hris\\hris\\hris\\wwwroot\\assets\\img\\flags\\cz.png",
+      "Id": "C:\\Users\\DELL\\Documents\\GitHub\\hris\\hris\\hris\\wwwroot\\assets\\img\\flags\\cz.png",
       "PackagePath": "staticwebassets\\assets\\img\\flags\\cz.png"
     },
     {
-      "Id": "D:\\git projects\\hris\\hris\\hris\\wwwroot\\assets\\img\\flags\\de.png",
+      "Id": "C:\\Users\\DELL\\Documents\\GitHub\\hris\\hris\\hris\\wwwroot\\assets\\img\\flags\\de.png",
       "PackagePath": "staticwebassets\\assets\\img\\flags\\de.png"
     },
     {
-      "Id": "D:\\git projects\\hris\\hris\\hris\\wwwroot\\assets\\img\\flags\\dj.png",
+      "Id": "C:\\Users\\DELL\\Documents\\GitHub\\hris\\hris\\hris\\wwwroot\\assets\\img\\flags\\dj.png",
       "PackagePath": "staticwebassets\\assets\\img\\flags\\dj.png"
     },
     {
-      "Id": "D:\\git projects\\hris\\hris\\hris\\wwwroot\\assets\\img\\flags\\dk.png",
+      "Id": "C:\\Users\\DELL\\Documents\\GitHub\\hris\\hris\\hris\\wwwroot\\assets\\img\\flags\\dk.png",
       "PackagePath": "staticwebassets\\assets\\img\\flags\\dk.png"
     },
     {
-      "Id": "D:\\git projects\\hris\\hris\\hris\\wwwroot\\assets\\img\\flags\\dm.png",
+      "Id": "C:\\Users\\DELL\\Documents\\GitHub\\hris\\hris\\hris\\wwwroot\\assets\\img\\flags\\dm.png",
       "PackagePath": "staticwebassets\\assets\\img\\flags\\dm.png"
     },
     {
-      "Id": "D:\\git projects\\hris\\hris\\hris\\wwwroot\\assets\\img\\flags\\do.png",
+      "Id": "C:\\Users\\DELL\\Documents\\GitHub\\hris\\hris\\hris\\wwwroot\\assets\\img\\flags\\do.png",
       "PackagePath": "staticwebassets\\assets\\img\\flags\\do.png"
     },
     {
-      "Id": "D:\\git projects\\hris\\hris\\hris\\wwwroot\\assets\\img\\flags\\dz.png",
+      "Id": "C:\\Users\\DELL\\Documents\\GitHub\\hris\\hris\\hris\\wwwroot\\assets\\img\\flags\\dz.png",
       "PackagePath": "staticwebassets\\assets\\img\\flags\\dz.png"
     },
     {
-      "Id": "D:\\git projects\\hris\\hris\\hris\\wwwroot\\assets\\img\\flags\\ec.png",
+      "Id": "C:\\Users\\DELL\\Documents\\GitHub\\hris\\hris\\hris\\wwwroot\\assets\\img\\flags\\ec.png",
       "PackagePath": "staticwebassets\\assets\\img\\flags\\ec.png"
     },
     {
-      "Id": "D:\\git projects\\hris\\hris\\hris\\wwwroot\\assets\\img\\flags\\ee.png",
+      "Id": "C:\\Users\\DELL\\Documents\\GitHub\\hris\\hris\\hris\\wwwroot\\assets\\img\\flags\\ee.png",
       "PackagePath": "staticwebassets\\assets\\img\\flags\\ee.png"
     },
     {
-      "Id": "D:\\git projects\\hris\\hris\\hris\\wwwroot\\assets\\img\\flags\\eg.png",
+      "Id": "C:\\Users\\DELL\\Documents\\GitHub\\hris\\hris\\hris\\wwwroot\\assets\\img\\flags\\eg.png",
       "PackagePath": "staticwebassets\\assets\\img\\flags\\eg.png"
     },
     {
-      "Id": "D:\\git projects\\hris\\hris\\hris\\wwwroot\\assets\\img\\flags\\er.png",
+      "Id": "C:\\Users\\DELL\\Documents\\GitHub\\hris\\hris\\hris\\wwwroot\\assets\\img\\flags\\er.png",
       "PackagePath": "staticwebassets\\assets\\img\\flags\\er.png"
     },
     {
-      "Id": "D:\\git projects\\hris\\hris\\hris\\wwwroot\\assets\\img\\flags\\es.png",
+      "Id": "C:\\Users\\DELL\\Documents\\GitHub\\hris\\hris\\hris\\wwwroot\\assets\\img\\flags\\es.png",
       "PackagePath": "staticwebassets\\assets\\img\\flags\\es.png"
     },
     {
-      "Id": "D:\\git projects\\hris\\hris\\hris\\wwwroot\\assets\\img\\flags\\et.png",
+      "Id": "C:\\Users\\DELL\\Documents\\GitHub\\hris\\hris\\hris\\wwwroot\\assets\\img\\flags\\et.png",
       "PackagePath": "staticwebassets\\assets\\img\\flags\\et.png"
     },
     {
-      "Id": "D:\\git projects\\hris\\hris\\hris\\wwwroot\\assets\\img\\flags\\fi.png",
+      "Id": "C:\\Users\\DELL\\Documents\\GitHub\\hris\\hris\\hris\\wwwroot\\assets\\img\\flags\\fi.png",
       "PackagePath": "staticwebassets\\assets\\img\\flags\\fi.png"
     },
     {
-      "Id": "D:\\git projects\\hris\\hris\\hris\\wwwroot\\assets\\img\\flags\\fj.png",
+      "Id": "C:\\Users\\DELL\\Documents\\GitHub\\hris\\hris\\hris\\wwwroot\\assets\\img\\flags\\fj.png",
       "PackagePath": "staticwebassets\\assets\\img\\flags\\fj.png"
     },
     {
-      "Id": "D:\\git projects\\hris\\hris\\hris\\wwwroot\\assets\\img\\flags\\fk.png",
+      "Id": "C:\\Users\\DELL\\Documents\\GitHub\\hris\\hris\\hris\\wwwroot\\assets\\img\\flags\\fk.png",
       "PackagePath": "staticwebassets\\assets\\img\\flags\\fk.png"
     },
     {
-      "Id": "D:\\git projects\\hris\\hris\\hris\\wwwroot\\assets\\img\\flags\\fm.png",
+      "Id": "C:\\Users\\DELL\\Documents\\GitHub\\hris\\hris\\hris\\wwwroot\\assets\\img\\flags\\fm.png",
       "PackagePath": "staticwebassets\\assets\\img\\flags\\fm.png"
     },
     {
-      "Id": "D:\\git projects\\hris\\hris\\hris\\wwwroot\\assets\\img\\flags\\fo.png",
+      "Id": "C:\\Users\\DELL\\Documents\\GitHub\\hris\\hris\\hris\\wwwroot\\assets\\img\\flags\\fo.png",
       "PackagePath": "staticwebassets\\assets\\img\\flags\\fo.png"
     },
     {
-      "Id": "D:\\git projects\\hris\\hris\\hris\\wwwroot\\assets\\img\\flags\\fr.png",
+      "Id": "C:\\Users\\DELL\\Documents\\GitHub\\hris\\hris\\hris\\wwwroot\\assets\\img\\flags\\fr.png",
       "PackagePath": "staticwebassets\\assets\\img\\flags\\fr.png"
     },
     {
-      "Id": "D:\\git projects\\hris\\hris\\hris\\wwwroot\\assets\\img\\flags\\ga.png",
+      "Id": "C:\\Users\\DELL\\Documents\\GitHub\\hris\\hris\\hris\\wwwroot\\assets\\img\\flags\\ga.png",
       "PackagePath": "staticwebassets\\assets\\img\\flags\\ga.png"
     },
     {
-      "Id": "D:\\git projects\\hris\\hris\\hris\\wwwroot\\assets\\img\\flags\\gb.png",
+      "Id": "C:\\Users\\DELL\\Documents\\GitHub\\hris\\hris\\hris\\wwwroot\\assets\\img\\flags\\gb.png",
       "PackagePath": "staticwebassets\\assets\\img\\flags\\gb.png"
     },
     {
-      "Id": "D:\\git projects\\hris\\hris\\hris\\wwwroot\\assets\\img\\flags\\gd.png",
+      "Id": "C:\\Users\\DELL\\Documents\\GitHub\\hris\\hris\\hris\\wwwroot\\assets\\img\\flags\\gd.png",
       "PackagePath": "staticwebassets\\assets\\img\\flags\\gd.png"
     },
     {
-      "Id": "D:\\git projects\\hris\\hris\\hris\\wwwroot\\assets\\img\\flags\\ge.png",
+      "Id": "C:\\Users\\DELL\\Documents\\GitHub\\hris\\hris\\hris\\wwwroot\\assets\\img\\flags\\ge.png",
       "PackagePath": "staticwebassets\\assets\\img\\flags\\ge.png"
     },
     {
-      "Id": "D:\\git projects\\hris\\hris\\hris\\wwwroot\\assets\\img\\flags\\gf.png",
+      "Id": "C:\\Users\\DELL\\Documents\\GitHub\\hris\\hris\\hris\\wwwroot\\assets\\img\\flags\\gf.png",
       "PackagePath": "staticwebassets\\assets\\img\\flags\\gf.png"
     },
     {
-      "Id": "D:\\git projects\\hris\\hris\\hris\\wwwroot\\assets\\img\\flags\\gg.png",
+      "Id": "C:\\Users\\DELL\\Documents\\GitHub\\hris\\hris\\hris\\wwwroot\\assets\\img\\flags\\gg.png",
       "PackagePath": "staticwebassets\\assets\\img\\flags\\gg.png"
     },
     {
-      "Id": "D:\\git projects\\hris\\hris\\hris\\wwwroot\\assets\\img\\flags\\gh.png",
+      "Id": "C:\\Users\\DELL\\Documents\\GitHub\\hris\\hris\\hris\\wwwroot\\assets\\img\\flags\\gh.png",
       "PackagePath": "staticwebassets\\assets\\img\\flags\\gh.png"
     },
     {
-      "Id": "D:\\git projects\\hris\\hris\\hris\\wwwroot\\assets\\img\\flags\\gi.png",
+      "Id": "C:\\Users\\DELL\\Documents\\GitHub\\hris\\hris\\hris\\wwwroot\\assets\\img\\flags\\gi.png",
       "PackagePath": "staticwebassets\\assets\\img\\flags\\gi.png"
     },
     {
-      "Id": "D:\\git projects\\hris\\hris\\hris\\wwwroot\\assets\\img\\flags\\gl.png",
+      "Id": "C:\\Users\\DELL\\Documents\\GitHub\\hris\\hris\\hris\\wwwroot\\assets\\img\\flags\\gl.png",
       "PackagePath": "staticwebassets\\assets\\img\\flags\\gl.png"
     },
     {
-      "Id": "D:\\git projects\\hris\\hris\\hris\\wwwroot\\assets\\img\\flags\\gm.png",
+      "Id": "C:\\Users\\DELL\\Documents\\GitHub\\hris\\hris\\hris\\wwwroot\\assets\\img\\flags\\gm.png",
       "PackagePath": "staticwebassets\\assets\\img\\flags\\gm.png"
     },
     {
-      "Id": "D:\\git projects\\hris\\hris\\hris\\wwwroot\\assets\\img\\flags\\gn.png",
+      "Id": "C:\\Users\\DELL\\Documents\\GitHub\\hris\\hris\\hris\\wwwroot\\assets\\img\\flags\\gn.png",
       "PackagePath": "staticwebassets\\assets\\img\\flags\\gn.png"
     },
     {
-      "Id": "D:\\git projects\\hris\\hris\\hris\\wwwroot\\assets\\img\\flags\\gp.png",
+      "Id": "C:\\Users\\DELL\\Documents\\GitHub\\hris\\hris\\hris\\wwwroot\\assets\\img\\flags\\gp.png",
       "PackagePath": "staticwebassets\\assets\\img\\flags\\gp.png"
     },
     {
-      "Id": "D:\\git projects\\hris\\hris\\hris\\wwwroot\\assets\\img\\flags\\gq.png",
+      "Id": "C:\\Users\\DELL\\Documents\\GitHub\\hris\\hris\\hris\\wwwroot\\assets\\img\\flags\\gq.png",
       "PackagePath": "staticwebassets\\assets\\img\\flags\\gq.png"
     },
     {
-      "Id": "D:\\git projects\\hris\\hris\\hris\\wwwroot\\assets\\img\\flags\\gr.png",
+      "Id": "C:\\Users\\DELL\\Documents\\GitHub\\hris\\hris\\hris\\wwwroot\\assets\\img\\flags\\gr.png",
       "PackagePath": "staticwebassets\\assets\\img\\flags\\gr.png"
     },
     {
-      "Id": "D:\\git projects\\hris\\hris\\hris\\wwwroot\\assets\\img\\flags\\gs.png",
+      "Id": "C:\\Users\\DELL\\Documents\\GitHub\\hris\\hris\\hris\\wwwroot\\assets\\img\\flags\\gs.png",
       "PackagePath": "staticwebassets\\assets\\img\\flags\\gs.png"
     },
     {
-      "Id": "D:\\git projects\\hris\\hris\\hris\\wwwroot\\assets\\img\\flags\\gt.png",
+      "Id": "C:\\Users\\DELL\\Documents\\GitHub\\hris\\hris\\hris\\wwwroot\\assets\\img\\flags\\gt.png",
       "PackagePath": "staticwebassets\\assets\\img\\flags\\gt.png"
     },
     {
-      "Id": "D:\\git projects\\hris\\hris\\hris\\wwwroot\\assets\\img\\flags\\gu.png",
+      "Id": "C:\\Users\\DELL\\Documents\\GitHub\\hris\\hris\\hris\\wwwroot\\assets\\img\\flags\\gu.png",
       "PackagePath": "staticwebassets\\assets\\img\\flags\\gu.png"
     },
     {
-      "Id": "D:\\git projects\\hris\\hris\\hris\\wwwroot\\assets\\img\\flags\\gw.png",
+      "Id": "C:\\Users\\DELL\\Documents\\GitHub\\hris\\hris\\hris\\wwwroot\\assets\\img\\flags\\gw.png",
       "PackagePath": "staticwebassets\\assets\\img\\flags\\gw.png"
     },
     {
-      "Id": "D:\\git projects\\hris\\hris\\hris\\wwwroot\\assets\\img\\flags\\gy.png",
+      "Id": "C:\\Users\\DELL\\Documents\\GitHub\\hris\\hris\\hris\\wwwroot\\assets\\img\\flags\\gy.png",
       "PackagePath": "staticwebassets\\assets\\img\\flags\\gy.png"
     },
     {
-      "Id": "D:\\git projects\\hris\\hris\\hris\\wwwroot\\assets\\img\\flags\\hk.png",
+      "Id": "C:\\Users\\DELL\\Documents\\GitHub\\hris\\hris\\hris\\wwwroot\\assets\\img\\flags\\hk.png",
       "PackagePath": "staticwebassets\\assets\\img\\flags\\hk.png"
     },
     {
-      "Id": "D:\\git projects\\hris\\hris\\hris\\wwwroot\\assets\\img\\flags\\hn.png",
+      "Id": "C:\\Users\\DELL\\Documents\\GitHub\\hris\\hris\\hris\\wwwroot\\assets\\img\\flags\\hn.png",
       "PackagePath": "staticwebassets\\assets\\img\\flags\\hn.png"
     },
     {
-      "Id": "D:\\git projects\\hris\\hris\\hris\\wwwroot\\assets\\img\\flags\\hr.png",
+      "Id": "C:\\Users\\DELL\\Documents\\GitHub\\hris\\hris\\hris\\wwwroot\\assets\\img\\flags\\hr.png",
       "PackagePath": "staticwebassets\\assets\\img\\flags\\hr.png"
     },
     {
-      "Id": "D:\\git projects\\hris\\hris\\hris\\wwwroot\\assets\\img\\flags\\ht.png",
+      "Id": "C:\\Users\\DELL\\Documents\\GitHub\\hris\\hris\\hris\\wwwroot\\assets\\img\\flags\\ht.png",
       "PackagePath": "staticwebassets\\assets\\img\\flags\\ht.png"
     },
     {
-      "Id": "D:\\git projects\\hris\\hris\\hris\\wwwroot\\assets\\img\\flags\\hu.png",
+      "Id": "C:\\Users\\DELL\\Documents\\GitHub\\hris\\hris\\hris\\wwwroot\\assets\\img\\flags\\hu.png",
       "PackagePath": "staticwebassets\\assets\\img\\flags\\hu.png"
     },
     {
-      "Id": "D:\\git projects\\hris\\hris\\hris\\wwwroot\\assets\\img\\flags\\id.png",
+      "Id": "C:\\Users\\DELL\\Documents\\GitHub\\hris\\hris\\hris\\wwwroot\\assets\\img\\flags\\id.png",
       "PackagePath": "staticwebassets\\assets\\img\\flags\\id.png"
     },
     {
-      "Id": "D:\\git projects\\hris\\hris\\hris\\wwwroot\\assets\\img\\flags\\ie.png",
+      "Id": "C:\\Users\\DELL\\Documents\\GitHub\\hris\\hris\\hris\\wwwroot\\assets\\img\\flags\\ie.png",
       "PackagePath": "staticwebassets\\assets\\img\\flags\\ie.png"
     },
     {
-      "Id": "D:\\git projects\\hris\\hris\\hris\\wwwroot\\assets\\img\\flags\\il.png",
+      "Id": "C:\\Users\\DELL\\Documents\\GitHub\\hris\\hris\\hris\\wwwroot\\assets\\img\\flags\\il.png",
       "PackagePath": "staticwebassets\\assets\\img\\flags\\il.png"
     },
     {
-      "Id": "D:\\git projects\\hris\\hris\\hris\\wwwroot\\assets\\img\\flags\\im.png",
+      "Id": "C:\\Users\\DELL\\Documents\\GitHub\\hris\\hris\\hris\\wwwroot\\assets\\img\\flags\\im.png",
       "PackagePath": "staticwebassets\\assets\\img\\flags\\im.png"
     },
     {
-      "Id": "D:\\git projects\\hris\\hris\\hris\\wwwroot\\assets\\img\\flags\\in.png",
+      "Id": "C:\\Users\\DELL\\Documents\\GitHub\\hris\\hris\\hris\\wwwroot\\assets\\img\\flags\\in.png",
       "PackagePath": "staticwebassets\\assets\\img\\flags\\in.png"
     },
     {
-      "Id": "D:\\git projects\\hris\\hris\\hris\\wwwroot\\assets\\img\\flags\\io.png",
+      "Id": "C:\\Users\\DELL\\Documents\\GitHub\\hris\\hris\\hris\\wwwroot\\assets\\img\\flags\\io.png",
       "PackagePath": "staticwebassets\\assets\\img\\flags\\io.png"
     },
     {
-      "Id": "D:\\git projects\\hris\\hris\\hris\\wwwroot\\assets\\img\\flags\\iq.png",
+      "Id": "C:\\Users\\DELL\\Documents\\GitHub\\hris\\hris\\hris\\wwwroot\\assets\\img\\flags\\iq.png",
       "PackagePath": "staticwebassets\\assets\\img\\flags\\iq.png"
     },
     {
-      "Id": "D:\\git projects\\hris\\hris\\hris\\wwwroot\\assets\\img\\flags\\ir.png",
+      "Id": "C:\\Users\\DELL\\Documents\\GitHub\\hris\\hris\\hris\\wwwroot\\assets\\img\\flags\\ir.png",
       "PackagePath": "staticwebassets\\assets\\img\\flags\\ir.png"
     },
     {
-      "Id": "D:\\git projects\\hris\\hris\\hris\\wwwroot\\assets\\img\\flags\\is.png",
+      "Id": "C:\\Users\\DELL\\Documents\\GitHub\\hris\\hris\\hris\\wwwroot\\assets\\img\\flags\\is.png",
       "PackagePath": "staticwebassets\\assets\\img\\flags\\is.png"
     },
     {
-      "Id": "D:\\git projects\\hris\\hris\\hris\\wwwroot\\assets\\img\\flags\\it.png",
+      "Id": "C:\\Users\\DELL\\Documents\\GitHub\\hris\\hris\\hris\\wwwroot\\assets\\img\\flags\\it.png",
       "PackagePath": "staticwebassets\\assets\\img\\flags\\it.png"
     },
     {
-      "Id": "D:\\git projects\\hris\\hris\\hris\\wwwroot\\assets\\img\\flags\\je.png",
+      "Id": "C:\\Users\\DELL\\Documents\\GitHub\\hris\\hris\\hris\\wwwroot\\assets\\img\\flags\\je.png",
       "PackagePath": "staticwebassets\\assets\\img\\flags\\je.png"
     },
     {
-      "Id": "D:\\git projects\\hris\\hris\\hris\\wwwroot\\assets\\img\\flags\\jm.png",
+      "Id": "C:\\Users\\DELL\\Documents\\GitHub\\hris\\hris\\hris\\wwwroot\\assets\\img\\flags\\jm.png",
       "PackagePath": "staticwebassets\\assets\\img\\flags\\jm.png"
     },
     {
-      "Id": "D:\\git projects\\hris\\hris\\hris\\wwwroot\\assets\\img\\flags\\jo.png",
+      "Id": "C:\\Users\\DELL\\Documents\\GitHub\\hris\\hris\\hris\\wwwroot\\assets\\img\\flags\\jo.png",
       "PackagePath": "staticwebassets\\assets\\img\\flags\\jo.png"
     },
     {
-      "Id": "D:\\git projects\\hris\\hris\\hris\\wwwroot\\assets\\img\\flags\\jp.png",
+      "Id": "C:\\Users\\DELL\\Documents\\GitHub\\hris\\hris\\hris\\wwwroot\\assets\\img\\flags\\jp.png",
       "PackagePath": "staticwebassets\\assets\\img\\flags\\jp.png"
     },
     {
-      "Id": "D:\\git projects\\hris\\hris\\hris\\wwwroot\\assets\\img\\flags\\ke.png",
+      "Id": "C:\\Users\\DELL\\Documents\\GitHub\\hris\\hris\\hris\\wwwroot\\assets\\img\\flags\\ke.png",
       "PackagePath": "staticwebassets\\assets\\img\\flags\\ke.png"
     },
     {
-      "Id": "D:\\git projects\\hris\\hris\\hris\\wwwroot\\assets\\img\\flags\\kg.png",
+      "Id": "C:\\Users\\DELL\\Documents\\GitHub\\hris\\hris\\hris\\wwwroot\\assets\\img\\flags\\kg.png",
       "PackagePath": "staticwebassets\\assets\\img\\flags\\kg.png"
     },
     {
-      "Id": "D:\\git projects\\hris\\hris\\hris\\wwwroot\\assets\\img\\flags\\kh.png",
+      "Id": "C:\\Users\\DELL\\Documents\\GitHub\\hris\\hris\\hris\\wwwroot\\assets\\img\\flags\\kh.png",
       "PackagePath": "staticwebassets\\assets\\img\\flags\\kh.png"
     },
     {
-      "Id": "D:\\git projects\\hris\\hris\\hris\\wwwroot\\assets\\img\\flags\\ki.png",
+      "Id": "C:\\Users\\DELL\\Documents\\GitHub\\hris\\hris\\hris\\wwwroot\\assets\\img\\flags\\ki.png",
       "PackagePath": "staticwebassets\\assets\\img\\flags\\ki.png"
     },
     {
-      "Id": "D:\\git projects\\hris\\hris\\hris\\wwwroot\\assets\\img\\flags\\km.png",
+      "Id": "C:\\Users\\DELL\\Documents\\GitHub\\hris\\hris\\hris\\wwwroot\\assets\\img\\flags\\km.png",
       "PackagePath": "staticwebassets\\assets\\img\\flags\\km.png"
     },
     {
-      "Id": "D:\\git projects\\hris\\hris\\hris\\wwwroot\\assets\\img\\flags\\kn.png",
+      "Id": "C:\\Users\\DELL\\Documents\\GitHub\\hris\\hris\\hris\\wwwroot\\assets\\img\\flags\\kn.png",
       "PackagePath": "staticwebassets\\assets\\img\\flags\\kn.png"
     },
     {
-      "Id": "D:\\git projects\\hris\\hris\\hris\\wwwroot\\assets\\img\\flags\\kp.png",
+      "Id": "C:\\Users\\DELL\\Documents\\GitHub\\hris\\hris\\hris\\wwwroot\\assets\\img\\flags\\kp.png",
       "PackagePath": "staticwebassets\\assets\\img\\flags\\kp.png"
     },
     {
-      "Id": "D:\\git projects\\hris\\hris\\hris\\wwwroot\\assets\\img\\flags\\kr.png",
+      "Id": "C:\\Users\\DELL\\Documents\\GitHub\\hris\\hris\\hris\\wwwroot\\assets\\img\\flags\\kr.png",
       "PackagePath": "staticwebassets\\assets\\img\\flags\\kr.png"
     },
     {
-      "Id": "D:\\git projects\\hris\\hris\\hris\\wwwroot\\assets\\img\\flags\\kw.png",
+      "Id": "C:\\Users\\DELL\\Documents\\GitHub\\hris\\hris\\hris\\wwwroot\\assets\\img\\flags\\kw.png",
       "PackagePath": "staticwebassets\\assets\\img\\flags\\kw.png"
     },
     {
-      "Id": "D:\\git projects\\hris\\hris\\hris\\wwwroot\\assets\\img\\flags\\ky.png",
+      "Id": "C:\\Users\\DELL\\Documents\\GitHub\\hris\\hris\\hris\\wwwroot\\assets\\img\\flags\\ky.png",
       "PackagePath": "staticwebassets\\assets\\img\\flags\\ky.png"
     },
     {
-      "Id": "D:\\git projects\\hris\\hris\\hris\\wwwroot\\assets\\img\\flags\\kz.png",
+      "Id": "C:\\Users\\DELL\\Documents\\GitHub\\hris\\hris\\hris\\wwwroot\\assets\\img\\flags\\kz.png",
       "PackagePath": "staticwebassets\\assets\\img\\flags\\kz.png"
     },
     {
-      "Id": "D:\\git projects\\hris\\hris\\hris\\wwwroot\\assets\\img\\flags\\la.png",
+      "Id": "C:\\Users\\DELL\\Documents\\GitHub\\hris\\hris\\hris\\wwwroot\\assets\\img\\flags\\la.png",
       "PackagePath": "staticwebassets\\assets\\img\\flags\\la.png"
     },
     {
-      "Id": "D:\\git projects\\hris\\hris\\hris\\wwwroot\\assets\\img\\flags\\lb.png",
+      "Id": "C:\\Users\\DELL\\Documents\\GitHub\\hris\\hris\\hris\\wwwroot\\assets\\img\\flags\\lb.png",
       "PackagePath": "staticwebassets\\assets\\img\\flags\\lb.png"
     },
     {
-      "Id": "D:\\git projects\\hris\\hris\\hris\\wwwroot\\assets\\img\\flags\\lc.png",
+      "Id": "C:\\Users\\DELL\\Documents\\GitHub\\hris\\hris\\hris\\wwwroot\\assets\\img\\flags\\lc.png",
       "PackagePath": "staticwebassets\\assets\\img\\flags\\lc.png"
     },
     {
-      "Id": "D:\\git projects\\hris\\hris\\hris\\wwwroot\\assets\\img\\flags\\li.png",
+      "Id": "C:\\Users\\DELL\\Documents\\GitHub\\hris\\hris\\hris\\wwwroot\\assets\\img\\flags\\li.png",
       "PackagePath": "staticwebassets\\assets\\img\\flags\\li.png"
     },
     {
-      "Id": "D:\\git projects\\hris\\hris\\hris\\wwwroot\\assets\\img\\flags\\lk.png",
+      "Id": "C:\\Users\\DELL\\Documents\\GitHub\\hris\\hris\\hris\\wwwroot\\assets\\img\\flags\\lk.png",
       "PackagePath": "staticwebassets\\assets\\img\\flags\\lk.png"
     },
     {
-      "Id": "D:\\git projects\\hris\\hris\\hris\\wwwroot\\assets\\img\\flags\\lr.png",
+      "Id": "C:\\Users\\DELL\\Documents\\GitHub\\hris\\hris\\hris\\wwwroot\\assets\\img\\flags\\lr.png",
       "PackagePath": "staticwebassets\\assets\\img\\flags\\lr.png"
     },
     {
-      "Id": "D:\\git projects\\hris\\hris\\hris\\wwwroot\\assets\\img\\flags\\ls.png",
+      "Id": "C:\\Users\\DELL\\Documents\\GitHub\\hris\\hris\\hris\\wwwroot\\assets\\img\\flags\\ls.png",
       "PackagePath": "staticwebassets\\assets\\img\\flags\\ls.png"
     },
     {
-      "Id": "D:\\git projects\\hris\\hris\\hris\\wwwroot\\assets\\img\\flags\\lt.png",
+      "Id": "C:\\Users\\DELL\\Documents\\GitHub\\hris\\hris\\hris\\wwwroot\\assets\\img\\flags\\lt.png",
       "PackagePath": "staticwebassets\\assets\\img\\flags\\lt.png"
     },
     {
-      "Id": "D:\\git projects\\hris\\hris\\hris\\wwwroot\\assets\\img\\flags\\lu.png",
+      "Id": "C:\\Users\\DELL\\Documents\\GitHub\\hris\\hris\\hris\\wwwroot\\assets\\img\\flags\\lu.png",
       "PackagePath": "staticwebassets\\assets\\img\\flags\\lu.png"
     },
     {
-      "Id": "D:\\git projects\\hris\\hris\\hris\\wwwroot\\assets\\img\\flags\\lv.png",
+      "Id": "C:\\Users\\DELL\\Documents\\GitHub\\hris\\hris\\hris\\wwwroot\\assets\\img\\flags\\lv.png",
       "PackagePath": "staticwebassets\\assets\\img\\flags\\lv.png"
     },
     {
-      "Id": "D:\\git projects\\hris\\hris\\hris\\wwwroot\\assets\\img\\flags\\ly.png",
+      "Id": "C:\\Users\\DELL\\Documents\\GitHub\\hris\\hris\\hris\\wwwroot\\assets\\img\\flags\\ly.png",
       "PackagePath": "staticwebassets\\assets\\img\\flags\\ly.png"
     },
     {
-      "Id": "D:\\git projects\\hris\\hris\\hris\\wwwroot\\assets\\img\\flags\\ma.png",
+      "Id": "C:\\Users\\DELL\\Documents\\GitHub\\hris\\hris\\hris\\wwwroot\\assets\\img\\flags\\ma.png",
       "PackagePath": "staticwebassets\\assets\\img\\flags\\ma.png"
     },
     {
-      "Id": "D:\\git projects\\hris\\hris\\hris\\wwwroot\\assets\\img\\flags\\mc.png",
+      "Id": "C:\\Users\\DELL\\Documents\\GitHub\\hris\\hris\\hris\\wwwroot\\assets\\img\\flags\\mc.png",
       "PackagePath": "staticwebassets\\assets\\img\\flags\\mc.png"
     },
     {
-      "Id": "D:\\git projects\\hris\\hris\\hris\\wwwroot\\assets\\img\\flags\\md.png",
+      "Id": "C:\\Users\\DELL\\Documents\\GitHub\\hris\\hris\\hris\\wwwroot\\assets\\img\\flags\\md.png",
       "PackagePath": "staticwebassets\\assets\\img\\flags\\md.png"
     },
     {
-      "Id": "D:\\git projects\\hris\\hris\\hris\\wwwroot\\assets\\img\\flags\\me.png",
+      "Id": "C:\\Users\\DELL\\Documents\\GitHub\\hris\\hris\\hris\\wwwroot\\assets\\img\\flags\\me.png",
       "PackagePath": "staticwebassets\\assets\\img\\flags\\me.png"
     },
     {
-      "Id": "D:\\git projects\\hris\\hris\\hris\\wwwroot\\assets\\img\\flags\\mg.png",
+      "Id": "C:\\Users\\DELL\\Documents\\GitHub\\hris\\hris\\hris\\wwwroot\\assets\\img\\flags\\mg.png",
       "PackagePath": "staticwebassets\\assets\\img\\flags\\mg.png"
     },
     {
-      "Id": "D:\\git projects\\hris\\hris\\hris\\wwwroot\\assets\\img\\flags\\mh.png",
+      "Id": "C:\\Users\\DELL\\Documents\\GitHub\\hris\\hris\\hris\\wwwroot\\assets\\img\\flags\\mh.png",
       "PackagePath": "staticwebassets\\assets\\img\\flags\\mh.png"
     },
     {
-      "Id": "D:\\git projects\\hris\\hris\\hris\\wwwroot\\assets\\img\\flags\\mk.png",
+      "Id": "C:\\Users\\DELL\\Documents\\GitHub\\hris\\hris\\hris\\wwwroot\\assets\\img\\flags\\mk.png",
       "PackagePath": "staticwebassets\\assets\\img\\flags\\mk.png"
     },
     {
-      "Id": "D:\\git projects\\hris\\hris\\hris\\wwwroot\\assets\\img\\flags\\ml.png",
+      "Id": "C:\\Users\\DELL\\Documents\\GitHub\\hris\\hris\\hris\\wwwroot\\assets\\img\\flags\\ml.png",
       "PackagePath": "staticwebassets\\assets\\img\\flags\\ml.png"
     },
     {
-      "Id": "D:\\git projects\\hris\\hris\\hris\\wwwroot\\assets\\img\\flags\\mm.png",
+      "Id": "C:\\Users\\DELL\\Documents\\GitHub\\hris\\hris\\hris\\wwwroot\\assets\\img\\flags\\mm.png",
       "PackagePath": "staticwebassets\\assets\\img\\flags\\mm.png"
     },
     {
-      "Id": "D:\\git projects\\hris\\hris\\hris\\wwwroot\\assets\\img\\flags\\mn.png",
+      "Id": "C:\\Users\\DELL\\Documents\\GitHub\\hris\\hris\\hris\\wwwroot\\assets\\img\\flags\\mn.png",
       "PackagePath": "staticwebassets\\assets\\img\\flags\\mn.png"
     },
     {
-      "Id": "D:\\git projects\\hris\\hris\\hris\\wwwroot\\assets\\img\\flags\\mo.png",
+      "Id": "C:\\Users\\DELL\\Documents\\GitHub\\hris\\hris\\hris\\wwwroot\\assets\\img\\flags\\mo.png",
       "PackagePath": "staticwebassets\\assets\\img\\flags\\mo.png"
     },
     {
-      "Id": "D:\\git projects\\hris\\hris\\hris\\wwwroot\\assets\\img\\flags\\mp.png",
+      "Id": "C:\\Users\\DELL\\Documents\\GitHub\\hris\\hris\\hris\\wwwroot\\assets\\img\\flags\\mp.png",
       "PackagePath": "staticwebassets\\assets\\img\\flags\\mp.png"
     },
     {
-      "Id": "D:\\git projects\\hris\\hris\\hris\\wwwroot\\assets\\img\\flags\\mq.png",
+      "Id": "C:\\Users\\DELL\\Documents\\GitHub\\hris\\hris\\hris\\wwwroot\\assets\\img\\flags\\mq.png",
       "PackagePath": "staticwebassets\\assets\\img\\flags\\mq.png"
     },
     {
-      "Id": "D:\\git projects\\hris\\hris\\hris\\wwwroot\\assets\\img\\flags\\mr.png",
+      "Id": "C:\\Users\\DELL\\Documents\\GitHub\\hris\\hris\\hris\\wwwroot\\assets\\img\\flags\\mr.png",
       "PackagePath": "staticwebassets\\assets\\img\\flags\\mr.png"
     },
     {
-      "Id": "D:\\git projects\\hris\\hris\\hris\\wwwroot\\assets\\img\\flags\\ms.png",
+      "Id": "C:\\Users\\DELL\\Documents\\GitHub\\hris\\hris\\hris\\wwwroot\\assets\\img\\flags\\ms.png",
       "PackagePath": "staticwebassets\\assets\\img\\flags\\ms.png"
     },
     {
-      "Id": "D:\\git projects\\hris\\hris\\hris\\wwwroot\\assets\\img\\flags\\mt.png",
+      "Id": "C:\\Users\\DELL\\Documents\\GitHub\\hris\\hris\\hris\\wwwroot\\assets\\img\\flags\\mt.png",
       "PackagePath": "staticwebassets\\assets\\img\\flags\\mt.png"
     },
     {
-      "Id": "D:\\git projects\\hris\\hris\\hris\\wwwroot\\assets\\img\\flags\\mu.png",
+      "Id": "C:\\Users\\DELL\\Documents\\GitHub\\hris\\hris\\hris\\wwwroot\\assets\\img\\flags\\mu.png",
       "PackagePath": "staticwebassets\\assets\\img\\flags\\mu.png"
     },
     {
-      "Id": "D:\\git projects\\hris\\hris\\hris\\wwwroot\\assets\\img\\flags\\mv.png",
+      "Id": "C:\\Users\\DELL\\Documents\\GitHub\\hris\\hris\\hris\\wwwroot\\assets\\img\\flags\\mv.png",
       "PackagePath": "staticwebassets\\assets\\img\\flags\\mv.png"
     },
     {
-      "Id": "D:\\git projects\\hris\\hris\\hris\\wwwroot\\assets\\img\\flags\\mw.png",
+      "Id": "C:\\Users\\DELL\\Documents\\GitHub\\hris\\hris\\hris\\wwwroot\\assets\\img\\flags\\mw.png",
       "PackagePath": "staticwebassets\\assets\\img\\flags\\mw.png"
     },
     {
-      "Id": "D:\\git projects\\hris\\hris\\hris\\wwwroot\\assets\\img\\flags\\mx.png",
+      "Id": "C:\\Users\\DELL\\Documents\\GitHub\\hris\\hris\\hris\\wwwroot\\assets\\img\\flags\\mx.png",
       "PackagePath": "staticwebassets\\assets\\img\\flags\\mx.png"
     },
     {
-      "Id": "D:\\git projects\\hris\\hris\\hris\\wwwroot\\assets\\img\\flags\\my.png",
+      "Id": "C:\\Users\\DELL\\Documents\\GitHub\\hris\\hris\\hris\\wwwroot\\assets\\img\\flags\\my.png",
       "PackagePath": "staticwebassets\\assets\\img\\flags\\my.png"
     },
     {
-      "Id": "D:\\git projects\\hris\\hris\\hris\\wwwroot\\assets\\img\\flags\\mz.png",
+      "Id": "C:\\Users\\DELL\\Documents\\GitHub\\hris\\hris\\hris\\wwwroot\\assets\\img\\flags\\mz.png",
       "PackagePath": "staticwebassets\\assets\\img\\flags\\mz.png"
     },
     {
-      "Id": "D:\\git projects\\hris\\hris\\hris\\wwwroot\\assets\\img\\flags\\na.png",
+      "Id": "C:\\Users\\DELL\\Documents\\GitHub\\hris\\hris\\hris\\wwwroot\\assets\\img\\flags\\na.png",
       "PackagePath": "staticwebassets\\assets\\img\\flags\\na.png"
     },
     {
-      "Id": "D:\\git projects\\hris\\hris\\hris\\wwwroot\\assets\\img\\flags\\nc.png",
+      "Id": "C:\\Users\\DELL\\Documents\\GitHub\\hris\\hris\\hris\\wwwroot\\assets\\img\\flags\\nc.png",
       "PackagePath": "staticwebassets\\assets\\img\\flags\\nc.png"
     },
     {
-      "Id": "D:\\git projects\\hris\\hris\\hris\\wwwroot\\assets\\img\\flags\\ne.png",
+      "Id": "C:\\Users\\DELL\\Documents\\GitHub\\hris\\hris\\hris\\wwwroot\\assets\\img\\flags\\ne.png",
       "PackagePath": "staticwebassets\\assets\\img\\flags\\ne.png"
     },
     {
-      "Id": "D:\\git projects\\hris\\hris\\hris\\wwwroot\\assets\\img\\flags\\nf.png",
+      "Id": "C:\\Users\\DELL\\Documents\\GitHub\\hris\\hris\\hris\\wwwroot\\assets\\img\\flags\\nf.png",
       "PackagePath": "staticwebassets\\assets\\img\\flags\\nf.png"
     },
     {
-      "Id": "D:\\git projects\\hris\\hris\\hris\\wwwroot\\assets\\img\\flags\\ng.png",
+      "Id": "C:\\Users\\DELL\\Documents\\GitHub\\hris\\hris\\hris\\wwwroot\\assets\\img\\flags\\ng.png",
       "PackagePath": "staticwebassets\\assets\\img\\flags\\ng.png"
     },
     {
-      "Id": "D:\\git projects\\hris\\hris\\hris\\wwwroot\\assets\\img\\flags\\ni.png",
+      "Id": "C:\\Users\\DELL\\Documents\\GitHub\\hris\\hris\\hris\\wwwroot\\assets\\img\\flags\\ni.png",
       "PackagePath": "staticwebassets\\assets\\img\\flags\\ni.png"
     },
     {
-      "Id": "D:\\git projects\\hris\\hris\\hris\\wwwroot\\assets\\img\\flags\\nl.png",
+      "Id": "C:\\Users\\DELL\\Documents\\GitHub\\hris\\hris\\hris\\wwwroot\\assets\\img\\flags\\nl.png",
       "PackagePath": "staticwebassets\\assets\\img\\flags\\nl.png"
     },
     {
-      "Id": "D:\\git projects\\hris\\hris\\hris\\wwwroot\\assets\\img\\flags\\no.png",
+      "Id": "C:\\Users\\DELL\\Documents\\GitHub\\hris\\hris\\hris\\wwwroot\\assets\\img\\flags\\no.png",
       "PackagePath": "staticwebassets\\assets\\img\\flags\\no.png"
     },
     {
-      "Id": "D:\\git projects\\hris\\hris\\hris\\wwwroot\\assets\\img\\flags\\np.png",
+      "Id": "C:\\Users\\DELL\\Documents\\GitHub\\hris\\hris\\hris\\wwwroot\\assets\\img\\flags\\np.png",
       "PackagePath": "staticwebassets\\assets\\img\\flags\\np.png"
     },
     {
-      "Id": "D:\\git projects\\hris\\hris\\hris\\wwwroot\\assets\\img\\flags\\nr.png",
+      "Id": "C:\\Users\\DELL\\Documents\\GitHub\\hris\\hris\\hris\\wwwroot\\assets\\img\\flags\\nr.png",
       "PackagePath": "staticwebassets\\assets\\img\\flags\\nr.png"
     },
     {
-      "Id": "D:\\git projects\\hris\\hris\\hris\\wwwroot\\assets\\img\\flags\\nu.png",
+      "Id": "C:\\Users\\DELL\\Documents\\GitHub\\hris\\hris\\hris\\wwwroot\\assets\\img\\flags\\nu.png",
       "PackagePath": "staticwebassets\\assets\\img\\flags\\nu.png"
     },
     {
-      "Id": "D:\\git projects\\hris\\hris\\hris\\wwwroot\\assets\\img\\flags\\nz.png",
+      "Id": "C:\\Users\\DELL\\Documents\\GitHub\\hris\\hris\\hris\\wwwroot\\assets\\img\\flags\\nz.png",
       "PackagePath": "staticwebassets\\assets\\img\\flags\\nz.png"
     },
     {
-      "Id": "D:\\git projects\\hris\\hris\\hris\\wwwroot\\assets\\img\\flags\\om.png",
+      "Id": "C:\\Users\\DELL\\Documents\\GitHub\\hris\\hris\\hris\\wwwroot\\assets\\img\\flags\\om.png",
       "PackagePath": "staticwebassets\\assets\\img\\flags\\om.png"
     },
     {
-      "Id": "D:\\git projects\\hris\\hris\\hris\\wwwroot\\assets\\img\\flags\\pa.png",
+      "Id": "C:\\Users\\DELL\\Documents\\GitHub\\hris\\hris\\hris\\wwwroot\\assets\\img\\flags\\pa.png",
       "PackagePath": "staticwebassets\\assets\\img\\flags\\pa.png"
     },
     {
-      "Id": "D:\\git projects\\hris\\hris\\hris\\wwwroot\\assets\\img\\flags\\pe.png",
+      "Id": "C:\\Users\\DELL\\Documents\\GitHub\\hris\\hris\\hris\\wwwroot\\assets\\img\\flags\\pe.png",
       "PackagePath": "staticwebassets\\assets\\img\\flags\\pe.png"
     },
     {
-      "Id": "D:\\git projects\\hris\\hris\\hris\\wwwroot\\assets\\img\\flags\\pf.png",
+      "Id": "C:\\Users\\DELL\\Documents\\GitHub\\hris\\hris\\hris\\wwwroot\\assets\\img\\flags\\pf.png",
       "PackagePath": "staticwebassets\\assets\\img\\flags\\pf.png"
     },
     {
-      "Id": "D:\\git projects\\hris\\hris\\hris\\wwwroot\\assets\\img\\flags\\pg.png",
+      "Id": "C:\\Users\\DELL\\Documents\\GitHub\\hris\\hris\\hris\\wwwroot\\assets\\img\\flags\\pg.png",
       "PackagePath": "staticwebassets\\assets\\img\\flags\\pg.png"
     },
     {
-      "Id": "D:\\git projects\\hris\\hris\\hris\\wwwroot\\assets\\img\\flags\\ph.png",
+      "Id": "C:\\Users\\DELL\\Documents\\GitHub\\hris\\hris\\hris\\wwwroot\\assets\\img\\flags\\ph.png",
       "PackagePath": "staticwebassets\\assets\\img\\flags\\ph.png"
     },
     {
-      "Id": "D:\\git projects\\hris\\hris\\hris\\wwwroot\\assets\\img\\flags\\pk.png",
+      "Id": "C:\\Users\\DELL\\Documents\\GitHub\\hris\\hris\\hris\\wwwroot\\assets\\img\\flags\\pk.png",
       "PackagePath": "staticwebassets\\assets\\img\\flags\\pk.png"
     },
     {
-      "Id": "D:\\git projects\\hris\\hris\\hris\\wwwroot\\assets\\img\\flags\\pl.png",
+      "Id": "C:\\Users\\DELL\\Documents\\GitHub\\hris\\hris\\hris\\wwwroot\\assets\\img\\flags\\pl.png",
       "PackagePath": "staticwebassets\\assets\\img\\flags\\pl.png"
     },
     {
-      "Id": "D:\\git projects\\hris\\hris\\hris\\wwwroot\\assets\\img\\flags\\pm.png",
+      "Id": "C:\\Users\\DELL\\Documents\\GitHub\\hris\\hris\\hris\\wwwroot\\assets\\img\\flags\\pm.png",
       "PackagePath": "staticwebassets\\assets\\img\\flags\\pm.png"
     },
     {
-      "Id": "D:\\git projects\\hris\\hris\\hris\\wwwroot\\assets\\img\\flags\\pn.png",
+      "Id": "C:\\Users\\DELL\\Documents\\GitHub\\hris\\hris\\hris\\wwwroot\\assets\\img\\flags\\pn.png",
       "PackagePath": "staticwebassets\\assets\\img\\flags\\pn.png"
     },
     {
-      "Id": "D:\\git projects\\hris\\hris\\hris\\wwwroot\\assets\\img\\flags\\pr.png",
+      "Id": "C:\\Users\\DELL\\Documents\\GitHub\\hris\\hris\\hris\\wwwroot\\assets\\img\\flags\\pr.png",
       "PackagePath": "staticwebassets\\assets\\img\\flags\\pr.png"
     },
     {
-      "Id": "D:\\git projects\\hris\\hris\\hris\\wwwroot\\assets\\img\\flags\\ps.png",
+      "Id": "C:\\Users\\DELL\\Documents\\GitHub\\hris\\hris\\hris\\wwwroot\\assets\\img\\flags\\ps.png",
       "PackagePath": "staticwebassets\\assets\\img\\flags\\ps.png"
     },
     {
-      "Id": "D:\\git projects\\hris\\hris\\hris\\wwwroot\\assets\\img\\flags\\pt.png",
+      "Id": "C:\\Users\\DELL\\Documents\\GitHub\\hris\\hris\\hris\\wwwroot\\assets\\img\\flags\\pt.png",
       "PackagePath": "staticwebassets\\assets\\img\\flags\\pt.png"
     },
     {
-      "Id": "D:\\git projects\\hris\\hris\\hris\\wwwroot\\assets\\img\\flags\\pw.png",
+      "Id": "C:\\Users\\DELL\\Documents\\GitHub\\hris\\hris\\hris\\wwwroot\\assets\\img\\flags\\pw.png",
       "PackagePath": "staticwebassets\\assets\\img\\flags\\pw.png"
     },
     {
-      "Id": "D:\\git projects\\hris\\hris\\hris\\wwwroot\\assets\\img\\flags\\py.png",
+      "Id": "C:\\Users\\DELL\\Documents\\GitHub\\hris\\hris\\hris\\wwwroot\\assets\\img\\flags\\py.png",
       "PackagePath": "staticwebassets\\assets\\img\\flags\\py.png"
     },
     {
-      "Id": "D:\\git projects\\hris\\hris\\hris\\wwwroot\\assets\\img\\flags\\qa.png",
+      "Id": "C:\\Users\\DELL\\Documents\\GitHub\\hris\\hris\\hris\\wwwroot\\assets\\img\\flags\\qa.png",
       "PackagePath": "staticwebassets\\assets\\img\\flags\\qa.png"
     },
     {
-      "Id": "D:\\git projects\\hris\\hris\\hris\\wwwroot\\assets\\img\\flags\\re.png",
+      "Id": "C:\\Users\\DELL\\Documents\\GitHub\\hris\\hris\\hris\\wwwroot\\assets\\img\\flags\\re.png",
       "PackagePath": "staticwebassets\\assets\\img\\flags\\re.png"
     },
     {
-      "Id": "D:\\git projects\\hris\\hris\\hris\\wwwroot\\assets\\img\\flags\\ro.png",
+      "Id": "C:\\Users\\DELL\\Documents\\GitHub\\hris\\hris\\hris\\wwwroot\\assets\\img\\flags\\ro.png",
       "PackagePath": "staticwebassets\\assets\\img\\flags\\ro.png"
     },
     {
-      "Id": "D:\\git projects\\hris\\hris\\hris\\wwwroot\\assets\\img\\flags\\rs.png",
+      "Id": "C:\\Users\\DELL\\Documents\\GitHub\\hris\\hris\\hris\\wwwroot\\assets\\img\\flags\\rs.png",
       "PackagePath": "staticwebassets\\assets\\img\\flags\\rs.png"
     },
     {
-      "Id": "D:\\git projects\\hris\\hris\\hris\\wwwroot\\assets\\img\\flags\\ru.png",
+      "Id": "C:\\Users\\DELL\\Documents\\GitHub\\hris\\hris\\hris\\wwwroot\\assets\\img\\flags\\ru.png",
       "PackagePath": "staticwebassets\\assets\\img\\flags\\ru.png"
     },
     {
-      "Id": "D:\\git projects\\hris\\hris\\hris\\wwwroot\\assets\\img\\flags\\rw.png",
+      "Id": "C:\\Users\\DELL\\Documents\\GitHub\\hris\\hris\\hris\\wwwroot\\assets\\img\\flags\\rw.png",
       "PackagePath": "staticwebassets\\assets\\img\\flags\\rw.png"
     },
     {
-      "Id": "D:\\git projects\\hris\\hris\\hris\\wwwroot\\assets\\img\\flags\\sa.png",
+      "Id": "C:\\Users\\DELL\\Documents\\GitHub\\hris\\hris\\hris\\wwwroot\\assets\\img\\flags\\sa.png",
       "PackagePath": "staticwebassets\\assets\\img\\flags\\sa.png"
     },
     {
-      "Id": "D:\\git projects\\hris\\hris\\hris\\wwwroot\\assets\\img\\flags\\sb.png",
+      "Id": "C:\\Users\\DELL\\Documents\\GitHub\\hris\\hris\\hris\\wwwroot\\assets\\img\\flags\\sb.png",
       "PackagePath": "staticwebassets\\assets\\img\\flags\\sb.png"
     },
     {
-      "Id": "D:\\git projects\\hris\\hris\\hris\\wwwroot\\assets\\img\\flags\\sc.png",
+      "Id": "C:\\Users\\DELL\\Documents\\GitHub\\hris\\hris\\hris\\wwwroot\\assets\\img\\flags\\sc.png",
       "PackagePath": "staticwebassets\\assets\\img\\flags\\sc.png"
     },
     {
-      "Id": "D:\\git projects\\hris\\hris\\hris\\wwwroot\\assets\\img\\flags\\sd.png",
+      "Id": "C:\\Users\\DELL\\Documents\\GitHub\\hris\\hris\\hris\\wwwroot\\assets\\img\\flags\\sd.png",
       "PackagePath": "staticwebassets\\assets\\img\\flags\\sd.png"
     },
     {
-      "Id": "D:\\git projects\\hris\\hris\\hris\\wwwroot\\assets\\img\\flags\\se.png",
+      "Id": "C:\\Users\\DELL\\Documents\\GitHub\\hris\\hris\\hris\\wwwroot\\assets\\img\\flags\\se.png",
       "PackagePath": "staticwebassets\\assets\\img\\flags\\se.png"
     },
     {
-      "Id": "D:\\git projects\\hris\\hris\\hris\\wwwroot\\assets\\img\\flags\\sg.png",
+      "Id": "C:\\Users\\DELL\\Documents\\GitHub\\hris\\hris\\hris\\wwwroot\\assets\\img\\flags\\sg.png",
       "PackagePath": "staticwebassets\\assets\\img\\flags\\sg.png"
     },
     {
-      "Id": "D:\\git projects\\hris\\hris\\hris\\wwwroot\\assets\\img\\flags\\sh.png",
+      "Id": "C:\\Users\\DELL\\Documents\\GitHub\\hris\\hris\\hris\\wwwroot\\assets\\img\\flags\\sh.png",
       "PackagePath": "staticwebassets\\assets\\img\\flags\\sh.png"
     },
     {
-      "Id": "D:\\git projects\\hris\\hris\\hris\\wwwroot\\assets\\img\\flags\\si.png",
+      "Id": "C:\\Users\\DELL\\Documents\\GitHub\\hris\\hris\\hris\\wwwroot\\assets\\img\\flags\\si.png",
       "PackagePath": "staticwebassets\\assets\\img\\flags\\si.png"
     },
     {
-      "Id": "D:\\git projects\\hris\\hris\\hris\\wwwroot\\assets\\img\\flags\\sk.png",
+      "Id": "C:\\Users\\DELL\\Documents\\GitHub\\hris\\hris\\hris\\wwwroot\\assets\\img\\flags\\sk.png",
       "PackagePath": "staticwebassets\\assets\\img\\flags\\sk.png"
     },
     {
-      "Id": "D:\\git projects\\hris\\hris\\hris\\wwwroot\\assets\\img\\flags\\sl.png",
+      "Id": "C:\\Users\\DELL\\Documents\\GitHub\\hris\\hris\\hris\\wwwroot\\assets\\img\\flags\\sl.png",
       "PackagePath": "staticwebassets\\assets\\img\\flags\\sl.png"
     },
     {
-      "Id": "D:\\git projects\\hris\\hris\\hris\\wwwroot\\assets\\img\\flags\\sm.png",
+      "Id": "C:\\Users\\DELL\\Documents\\GitHub\\hris\\hris\\hris\\wwwroot\\assets\\img\\flags\\sm.png",
       "PackagePath": "staticwebassets\\assets\\img\\flags\\sm.png"
     },
     {
-      "Id": "D:\\git projects\\hris\\hris\\hris\\wwwroot\\assets\\img\\flags\\sn.png",
+      "Id": "C:\\Users\\DELL\\Documents\\GitHub\\hris\\hris\\hris\\wwwroot\\assets\\img\\flags\\sn.png",
       "PackagePath": "staticwebassets\\assets\\img\\flags\\sn.png"
     },
     {
-      "Id": "D:\\git projects\\hris\\hris\\hris\\wwwroot\\assets\\img\\flags\\so.png",
+      "Id": "C:\\Users\\DELL\\Documents\\GitHub\\hris\\hris\\hris\\wwwroot\\assets\\img\\flags\\so.png",
       "PackagePath": "staticwebassets\\assets\\img\\flags\\so.png"
     },
     {
-      "Id": "D:\\git projects\\hris\\hris\\hris\\wwwroot\\assets\\img\\flags\\sr.png",
+      "Id": "C:\\Users\\DELL\\Documents\\GitHub\\hris\\hris\\hris\\wwwroot\\assets\\img\\flags\\sr.png",
       "PackagePath": "staticwebassets\\assets\\img\\flags\\sr.png"
     },
     {
-      "Id": "D:\\git projects\\hris\\hris\\hris\\wwwroot\\assets\\img\\flags\\ss.png",
+      "Id": "C:\\Users\\DELL\\Documents\\GitHub\\hris\\hris\\hris\\wwwroot\\assets\\img\\flags\\ss.png",
       "PackagePath": "staticwebassets\\assets\\img\\flags\\ss.png"
     },
     {
-      "Id": "D:\\git projects\\hris\\hris\\hris\\wwwroot\\assets\\img\\flags\\st.png",
+      "Id": "C:\\Users\\DELL\\Documents\\GitHub\\hris\\hris\\hris\\wwwroot\\assets\\img\\flags\\st.png",
       "PackagePath": "staticwebassets\\assets\\img\\flags\\st.png"
     },
     {
-      "Id": "D:\\git projects\\hris\\hris\\hris\\wwwroot\\assets\\img\\flags\\sv.png",
+      "Id": "C:\\Users\\DELL\\Documents\\GitHub\\hris\\hris\\hris\\wwwroot\\assets\\img\\flags\\sv.png",
       "PackagePath": "staticwebassets\\assets\\img\\flags\\sv.png"
     },
     {
-      "Id": "D:\\git projects\\hris\\hris\\hris\\wwwroot\\assets\\img\\flags\\sx.png",
+      "Id": "C:\\Users\\DELL\\Documents\\GitHub\\hris\\hris\\hris\\wwwroot\\assets\\img\\flags\\sx.png",
       "PackagePath": "staticwebassets\\assets\\img\\flags\\sx.png"
     },
     {
-      "Id": "D:\\git projects\\hris\\hris\\hris\\wwwroot\\assets\\img\\flags\\sy.png",
+      "Id": "C:\\Users\\DELL\\Documents\\GitHub\\hris\\hris\\hris\\wwwroot\\assets\\img\\flags\\sy.png",
       "PackagePath": "staticwebassets\\assets\\img\\flags\\sy.png"
     },
     {
-      "Id": "D:\\git projects\\hris\\hris\\hris\\wwwroot\\assets\\img\\flags\\sz.png",
+      "Id": "C:\\Users\\DELL\\Documents\\GitHub\\hris\\hris\\hris\\wwwroot\\assets\\img\\flags\\sz.png",
       "PackagePath": "staticwebassets\\assets\\img\\flags\\sz.png"
     },
     {
-      "Id": "D:\\git projects\\hris\\hris\\hris\\wwwroot\\assets\\img\\flags\\tc.png",
+      "Id": "C:\\Users\\DELL\\Documents\\GitHub\\hris\\hris\\hris\\wwwroot\\assets\\img\\flags\\tc.png",
       "PackagePath": "staticwebassets\\assets\\img\\flags\\tc.png"
     },
     {
-      "Id": "D:\\git projects\\hris\\hris\\hris\\wwwroot\\assets\\img\\flags\\td.png",
+      "Id": "C:\\Users\\DELL\\Documents\\GitHub\\hris\\hris\\hris\\wwwroot\\assets\\img\\flags\\td.png",
       "PackagePath": "staticwebassets\\assets\\img\\flags\\td.png"
     },
     {
-      "Id": "D:\\git projects\\hris\\hris\\hris\\wwwroot\\assets\\img\\flags\\tf.png",
+      "Id": "C:\\Users\\DELL\\Documents\\GitHub\\hris\\hris\\hris\\wwwroot\\assets\\img\\flags\\tf.png",
       "PackagePath": "staticwebassets\\assets\\img\\flags\\tf.png"
     },
     {
-      "Id": "D:\\git projects\\hris\\hris\\hris\\wwwroot\\assets\\img\\flags\\tg.png",
+      "Id": "C:\\Users\\DELL\\Documents\\GitHub\\hris\\hris\\hris\\wwwroot\\assets\\img\\flags\\tg.png",
       "PackagePath": "staticwebassets\\assets\\img\\flags\\tg.png"
     },
     {
-      "Id": "D:\\git projects\\hris\\hris\\hris\\wwwroot\\assets\\img\\flags\\th.png",
+      "Id": "C:\\Users\\DELL\\Documents\\GitHub\\hris\\hris\\hris\\wwwroot\\assets\\img\\flags\\th.png",
       "PackagePath": "staticwebassets\\assets\\img\\flags\\th.png"
     },
     {
-      "Id": "D:\\git projects\\hris\\hris\\hris\\wwwroot\\assets\\img\\flags\\tj.png",
+      "Id": "C:\\Users\\DELL\\Documents\\GitHub\\hris\\hris\\hris\\wwwroot\\assets\\img\\flags\\tj.png",
       "PackagePath": "staticwebassets\\assets\\img\\flags\\tj.png"
     },
     {
-      "Id": "D:\\git projects\\hris\\hris\\hris\\wwwroot\\assets\\img\\flags\\tk.png",
+      "Id": "C:\\Users\\DELL\\Documents\\GitHub\\hris\\hris\\hris\\wwwroot\\assets\\img\\flags\\tk.png",
       "PackagePath": "staticwebassets\\assets\\img\\flags\\tk.png"
     },
     {
-      "Id": "D:\\git projects\\hris\\hris\\hris\\wwwroot\\assets\\img\\flags\\tl.png",
+      "Id": "C:\\Users\\DELL\\Documents\\GitHub\\hris\\hris\\hris\\wwwroot\\assets\\img\\flags\\tl.png",
       "PackagePath": "staticwebassets\\assets\\img\\flags\\tl.png"
     },
     {
-      "Id": "D:\\git projects\\hris\\hris\\hris\\wwwroot\\assets\\img\\flags\\tm.png",
+      "Id": "C:\\Users\\DELL\\Documents\\GitHub\\hris\\hris\\hris\\wwwroot\\assets\\img\\flags\\tm.png",
       "PackagePath": "staticwebassets\\assets\\img\\flags\\tm.png"
     },
     {
-      "Id": "D:\\git projects\\hris\\hris\\hris\\wwwroot\\assets\\img\\flags\\tn.png",
+      "Id": "C:\\Users\\DELL\\Documents\\GitHub\\hris\\hris\\hris\\wwwroot\\assets\\img\\flags\\tn.png",
       "PackagePath": "staticwebassets\\assets\\img\\flags\\tn.png"
     },
     {
-      "Id": "D:\\git projects\\hris\\hris\\hris\\wwwroot\\assets\\img\\flags\\to.png",
+      "Id": "C:\\Users\\DELL\\Documents\\GitHub\\hris\\hris\\hris\\wwwroot\\assets\\img\\flags\\to.png",
       "PackagePath": "staticwebassets\\assets\\img\\flags\\to.png"
     },
     {
-      "Id": "D:\\git projects\\hris\\hris\\hris\\wwwroot\\assets\\img\\flags\\tr.png",
+      "Id": "C:\\Users\\DELL\\Documents\\GitHub\\hris\\hris\\hris\\wwwroot\\assets\\img\\flags\\tr.png",
       "PackagePath": "staticwebassets\\assets\\img\\flags\\tr.png"
     },
     {
-      "Id": "D:\\git projects\\hris\\hris\\hris\\wwwroot\\assets\\img\\flags\\tt.png",
+      "Id": "C:\\Users\\DELL\\Documents\\GitHub\\hris\\hris\\hris\\wwwroot\\assets\\img\\flags\\tt.png",
       "PackagePath": "staticwebassets\\assets\\img\\flags\\tt.png"
     },
     {
-      "Id": "D:\\git projects\\hris\\hris\\hris\\wwwroot\\assets\\img\\flags\\tv.png",
+      "Id": "C:\\Users\\DELL\\Documents\\GitHub\\hris\\hris\\hris\\wwwroot\\assets\\img\\flags\\tv.png",
       "PackagePath": "staticwebassets\\assets\\img\\flags\\tv.png"
     },
     {
-      "Id": "D:\\git projects\\hris\\hris\\hris\\wwwroot\\assets\\img\\flags\\tw.png",
+      "Id": "C:\\Users\\DELL\\Documents\\GitHub\\hris\\hris\\hris\\wwwroot\\assets\\img\\flags\\tw.png",
       "PackagePath": "staticwebassets\\assets\\img\\flags\\tw.png"
     },
     {
-      "Id": "D:\\git projects\\hris\\hris\\hris\\wwwroot\\assets\\img\\flags\\tz.png",
+      "Id": "C:\\Users\\DELL\\Documents\\GitHub\\hris\\hris\\hris\\wwwroot\\assets\\img\\flags\\tz.png",
       "PackagePath": "staticwebassets\\assets\\img\\flags\\tz.png"
     },
     {
-      "Id": "D:\\git projects\\hris\\hris\\hris\\wwwroot\\assets\\img\\flags\\ua.png",
+      "Id": "C:\\Users\\DELL\\Documents\\GitHub\\hris\\hris\\hris\\wwwroot\\assets\\img\\flags\\ua.png",
       "PackagePath": "staticwebassets\\assets\\img\\flags\\ua.png"
     },
     {
-      "Id": "D:\\git projects\\hris\\hris\\hris\\wwwroot\\assets\\img\\flags\\ug.png",
+      "Id": "C:\\Users\\DELL\\Documents\\GitHub\\hris\\hris\\hris\\wwwroot\\assets\\img\\flags\\ug.png",
       "PackagePath": "staticwebassets\\assets\\img\\flags\\ug.png"
     },
     {
-      "Id": "D:\\git projects\\hris\\hris\\hris\\wwwroot\\assets\\img\\flags\\um.png",
+      "Id": "C:\\Users\\DELL\\Documents\\GitHub\\hris\\hris\\hris\\wwwroot\\assets\\img\\flags\\um.png",
       "PackagePath": "staticwebassets\\assets\\img\\flags\\um.png"
     },
     {
-      "Id": "D:\\git projects\\hris\\hris\\hris\\wwwroot\\assets\\img\\flags\\us.png",
+      "Id": "C:\\Users\\DELL\\Documents\\GitHub\\hris\\hris\\hris\\wwwroot\\assets\\img\\flags\\us.png",
       "PackagePath": "staticwebassets\\assets\\img\\flags\\us.png"
     },
     {
-      "Id": "D:\\git projects\\hris\\hris\\hris\\wwwroot\\assets\\img\\flags\\uy.png",
+      "Id": "C:\\Users\\DELL\\Documents\\GitHub\\hris\\hris\\hris\\wwwroot\\assets\\img\\flags\\uy.png",
       "PackagePath": "staticwebassets\\assets\\img\\flags\\uy.png"
     },
     {
-      "Id": "D:\\git projects\\hris\\hris\\hris\\wwwroot\\assets\\img\\flags\\uz.png",
+      "Id": "C:\\Users\\DELL\\Documents\\GitHub\\hris\\hris\\hris\\wwwroot\\assets\\img\\flags\\uz.png",
       "PackagePath": "staticwebassets\\assets\\img\\flags\\uz.png"
     },
     {
-      "Id": "D:\\git projects\\hris\\hris\\hris\\wwwroot\\assets\\img\\flags\\va.png",
+      "Id": "C:\\Users\\DELL\\Documents\\GitHub\\hris\\hris\\hris\\wwwroot\\assets\\img\\flags\\va.png",
       "PackagePath": "staticwebassets\\assets\\img\\flags\\va.png"
     },
     {
-      "Id": "D:\\git projects\\hris\\hris\\hris\\wwwroot\\assets\\img\\flags\\vc.png",
+      "Id": "C:\\Users\\DELL\\Documents\\GitHub\\hris\\hris\\hris\\wwwroot\\assets\\img\\flags\\vc.png",
       "PackagePath": "staticwebassets\\assets\\img\\flags\\vc.png"
     },
     {
-      "Id": "D:\\git projects\\hris\\hris\\hris\\wwwroot\\assets\\img\\flags\\ve.png",
+      "Id": "C:\\Users\\DELL\\Documents\\GitHub\\hris\\hris\\hris\\wwwroot\\assets\\img\\flags\\ve.png",
       "PackagePath": "staticwebassets\\assets\\img\\flags\\ve.png"
     },
     {
-      "Id": "D:\\git projects\\hris\\hris\\hris\\wwwroot\\assets\\img\\flags\\vg.png",
+      "Id": "C:\\Users\\DELL\\Documents\\GitHub\\hris\\hris\\hris\\wwwroot\\assets\\img\\flags\\vg.png",
       "PackagePath": "staticwebassets\\assets\\img\\flags\\vg.png"
     },
     {
-      "Id": "D:\\git projects\\hris\\hris\\hris\\wwwroot\\assets\\img\\flags\\vi.png",
+      "Id": "C:\\Users\\DELL\\Documents\\GitHub\\hris\\hris\\hris\\wwwroot\\assets\\img\\flags\\vi.png",
       "PackagePath": "staticwebassets\\assets\\img\\flags\\vi.png"
     },
     {
-      "Id": "D:\\git projects\\hris\\hris\\hris\\wwwroot\\assets\\img\\flags\\vn.png",
+      "Id": "C:\\Users\\DELL\\Documents\\GitHub\\hris\\hris\\hris\\wwwroot\\assets\\img\\flags\\vn.png",
       "PackagePath": "staticwebassets\\assets\\img\\flags\\vn.png"
     },
     {
-      "Id": "D:\\git projects\\hris\\hris\\hris\\wwwroot\\assets\\img\\flags\\vu.png",
+      "Id": "C:\\Users\\DELL\\Documents\\GitHub\\hris\\hris\\hris\\wwwroot\\assets\\img\\flags\\vu.png",
       "PackagePath": "staticwebassets\\assets\\img\\flags\\vu.png"
     },
     {
-      "Id": "D:\\git projects\\hris\\hris\\hris\\wwwroot\\assets\\img\\flags\\wf.png",
+      "Id": "C:\\Users\\DELL\\Documents\\GitHub\\hris\\hris\\hris\\wwwroot\\assets\\img\\flags\\wf.png",
       "PackagePath": "staticwebassets\\assets\\img\\flags\\wf.png"
     },
     {
-      "Id": "D:\\git projects\\hris\\hris\\hris\\wwwroot\\assets\\img\\flags\\ws.png",
+      "Id": "C:\\Users\\DELL\\Documents\\GitHub\\hris\\hris\\hris\\wwwroot\\assets\\img\\flags\\ws.png",
       "PackagePath": "staticwebassets\\assets\\img\\flags\\ws.png"
     },
     {
-      "Id": "D:\\git projects\\hris\\hris\\hris\\wwwroot\\assets\\img\\flags\\ye.png",
+      "Id": "C:\\Users\\DELL\\Documents\\GitHub\\hris\\hris\\hris\\wwwroot\\assets\\img\\flags\\ye.png",
       "PackagePath": "staticwebassets\\assets\\img\\flags\\ye.png"
     },
     {
-      "Id": "D:\\git projects\\hris\\hris\\hris\\wwwroot\\assets\\img\\flags\\yt.png",
+      "Id": "C:\\Users\\DELL\\Documents\\GitHub\\hris\\hris\\hris\\wwwroot\\assets\\img\\flags\\yt.png",
       "PackagePath": "staticwebassets\\assets\\img\\flags\\yt.png"
     },
     {
-      "Id": "D:\\git projects\\hris\\hris\\hris\\wwwroot\\assets\\img\\flags\\za.png",
+      "Id": "C:\\Users\\DELL\\Documents\\GitHub\\hris\\hris\\hris\\wwwroot\\assets\\img\\flags\\za.png",
       "PackagePath": "staticwebassets\\assets\\img\\flags\\za.png"
     },
     {
-      "Id": "D:\\git projects\\hris\\hris\\hris\\wwwroot\\assets\\img\\flags\\zm.png",
+      "Id": "C:\\Users\\DELL\\Documents\\GitHub\\hris\\hris\\hris\\wwwroot\\assets\\img\\flags\\zm.png",
       "PackagePath": "staticwebassets\\assets\\img\\flags\\zm.png"
     },
     {
-      "Id": "D:\\git projects\\hris\\hris\\hris\\wwwroot\\assets\\img\\flags\\zw.png",
+      "Id": "C:\\Users\\DELL\\Documents\\GitHub\\hris\\hris\\hris\\wwwroot\\assets\\img\\flags\\zw.png",
       "PackagePath": "staticwebassets\\assets\\img\\flags\\zw.png"
     },
     {
-      "Id": "D:\\git projects\\hris\\hris\\hris\\wwwroot\\assets\\img\\horizontal.png",
+      "Id": "C:\\Users\\DELL\\Documents\\GitHub\\hris\\hris\\hris\\wwwroot\\assets\\img\\horizontal.png",
       "PackagePath": "staticwebassets\\assets\\img\\horizontal.png"
     },
     {
-      "Id": "D:\\git projects\\hris\\hris\\hris\\wwwroot\\assets\\img\\icons\\delete.svg",
+      "Id": "C:\\Users\\DELL\\Documents\\GitHub\\hris\\hris\\hris\\wwwroot\\assets\\img\\icons\\delete.svg",
       "PackagePath": "staticwebassets\\assets\\img\\icons\\delete.svg"
     },
     {
-      "Id": "D:\\git projects\\hris\\hris\\hris\\wwwroot\\assets\\img\\icons\\edit.svg",
+      "Id": "C:\\Users\\DELL\\Documents\\GitHub\\hris\\hris\\hris\\wwwroot\\assets\\img\\icons\\edit.svg",
       "PackagePath": "staticwebassets\\assets\\img\\icons\\edit.svg"
     },
     {
-      "Id": "D:\\git projects\\hris\\hris\\hris\\wwwroot\\assets\\img\\icons\\eye.svg",
+      "Id": "C:\\Users\\DELL\\Documents\\GitHub\\hris\\hris\\hris\\wwwroot\\assets\\img\\icons\\eye.svg",
       "PackagePath": "staticwebassets\\assets\\img\\icons\\eye.svg"
     },
     {
-      "Id": "D:\\git projects\\hris\\hris\\hris\\wwwroot\\assets\\img\\icons\\icon-01.svg",
+      "Id": "C:\\Users\\DELL\\Documents\\GitHub\\hris\\hris\\hris\\wwwroot\\assets\\img\\icons\\icon-01.svg",
       "PackagePath": "staticwebassets\\assets\\img\\icons\\icon-01.svg"
     },
     {
-      "Id": "D:\\git projects\\hris\\hris\\hris\\wwwroot\\assets\\img\\icons\\icon-02.svg",
+      "Id": "C:\\Users\\DELL\\Documents\\GitHub\\hris\\hris\\hris\\wwwroot\\assets\\img\\icons\\icon-02.svg",
       "PackagePath": "staticwebassets\\assets\\img\\icons\\icon-02.svg"
     },
     {
-      "Id": "D:\\git projects\\hris\\hris\\hris\\wwwroot\\assets\\img\\icons\\icon-03.svg",
+      "Id": "C:\\Users\\DELL\\Documents\\GitHub\\hris\\hris\\hris\\wwwroot\\assets\\img\\icons\\icon-03.svg",
       "PackagePath": "staticwebassets\\assets\\img\\icons\\icon-03.svg"
     },
     {
-      "Id": "D:\\git projects\\hris\\hris\\hris\\wwwroot\\assets\\img\\icons\\icon-04.svg",
+      "Id": "C:\\Users\\DELL\\Documents\\GitHub\\hris\\hris\\hris\\wwwroot\\assets\\img\\icons\\icon-04.svg",
       "PackagePath": "staticwebassets\\assets\\img\\icons\\icon-04.svg"
     },
     {
-      "Id": "D:\\git projects\\hris\\hris\\hris\\wwwroot\\assets\\img\\icons\\icon-05.svg",
+      "Id": "C:\\Users\\DELL\\Documents\\GitHub\\hris\\hris\\hris\\wwwroot\\assets\\img\\icons\\icon-05.svg",
       "PackagePath": "staticwebassets\\assets\\img\\icons\\icon-05.svg"
     },
     {
-      "Id": "D:\\git projects\\hris\\hris\\hris\\wwwroot\\assets\\img\\img-01.jpg",
+      "Id": "C:\\Users\\DELL\\Documents\\GitHub\\hris\\hris\\hris\\wwwroot\\assets\\img\\img-01.jpg",
       "PackagePath": "staticwebassets\\assets\\img\\img-01.jpg"
     },
     {
-      "Id": "D:\\git projects\\hris\\hris\\hris\\wwwroot\\assets\\img\\img1.jpg",
+      "Id": "C:\\Users\\DELL\\Documents\\GitHub\\hris\\hris\\hris\\wwwroot\\assets\\img\\img1.jpg",
       "PackagePath": "staticwebassets\\assets\\img\\img1.jpg"
     },
     {
-      "Id": "D:\\git projects\\hris\\hris\\hris\\wwwroot\\assets\\img\\img2.jpg",
+      "Id": "C:\\Users\\DELL\\Documents\\GitHub\\hris\\hris\\hris\\wwwroot\\assets\\img\\img2.jpg",
       "PackagePath": "staticwebassets\\assets\\img\\img2.jpg"
     },
     {
-      "Id": "D:\\git projects\\hris\\hris\\hris\\wwwroot\\assets\\img\\img3.jpg",
+      "Id": "C:\\Users\\DELL\\Documents\\GitHub\\hris\\hris\\hris\\wwwroot\\assets\\img\\img3.jpg",
       "PackagePath": "staticwebassets\\assets\\img\\img3.jpg"
     },
     {
-      "Id": "D:\\git projects\\hris\\hris\\hris\\wwwroot\\assets\\img\\img4.jpg",
+      "Id": "C:\\Users\\DELL\\Documents\\GitHub\\hris\\hris\\hris\\wwwroot\\assets\\img\\img4.jpg",
       "PackagePath": "staticwebassets\\assets\\img\\img4.jpg"
     },
     {
-      "Id": "D:\\git projects\\hris\\hris\\hris\\wwwroot\\assets\\img\\keyboard.png",
+      "Id": "C:\\Users\\DELL\\Documents\\GitHub\\hris\\hris\\hris\\wwwroot\\assets\\img\\keyboard.png",
       "PackagePath": "staticwebassets\\assets\\img\\keyboard.png"
     },
     {
-      "Id": "D:\\git projects\\hris\\hris\\hris\\wwwroot\\assets\\img\\laptop.png",
+      "Id": "C:\\Users\\DELL\\Documents\\GitHub\\hris\\hris\\hris\\wwwroot\\assets\\img\\laptop.png",
       "PackagePath": "staticwebassets\\assets\\img\\laptop.png"
     },
     {
-      "Id": "D:\\git projects\\hris\\hris\\hris\\wwwroot\\assets\\img\\logo.png",
+      "Id": "C:\\Users\\DELL\\Documents\\GitHub\\hris\\hris\\hris\\wwwroot\\assets\\img\\logo.png",
       "PackagePath": "staticwebassets\\assets\\img\\logo.png"
     },
     {
-      "Id": "D:\\git projects\\hris\\hris\\hris\\wwwroot\\assets\\img\\logo.svg",
+      "Id": "C:\\Users\\DELL\\Documents\\GitHub\\hris\\hris\\hris\\wwwroot\\assets\\img\\logo.svg",
       "PackagePath": "staticwebassets\\assets\\img\\logo.svg"
     },
     {
-      "Id": "D:\\git projects\\hris\\hris\\hris\\wwwroot\\assets\\img\\logo2.png",
+      "Id": "C:\\Users\\DELL\\Documents\\GitHub\\hris\\hris\\hris\\wwwroot\\assets\\img\\logo2.png",
       "PackagePath": "staticwebassets\\assets\\img\\logo2.png"
     },
     {
-      "Id": "D:\\git projects\\hris\\hris\\hris\\wwwroot\\assets\\img\\logo3.png",
+      "Id": "C:\\Users\\DELL\\Documents\\GitHub\\hris\\hris\\hris\\wwwroot\\assets\\img\\logo3.png",
       "PackagePath": "staticwebassets\\assets\\img\\logo3.png"
     },
     {
-      "Id": "D:\\git projects\\hris\\hris\\hris\\wwwroot\\assets\\img\\mouse.png",
+      "Id": "C:\\Users\\DELL\\Documents\\GitHub\\hris\\hris\\hris\\wwwroot\\assets\\img\\mouse.png",
       "PackagePath": "staticwebassets\\assets\\img\\mouse.png"
     },
     {
-      "Id": "D:\\git projects\\hris\\hris\\hris\\wwwroot\\assets\\img\\placeholder.jpg",
+      "Id": "C:\\Users\\DELL\\Documents\\GitHub\\hris\\hris\\hris\\wwwroot\\assets\\img\\placeholder.jpg",
       "PackagePath": "staticwebassets\\assets\\img\\placeholder.jpg"
     },
     {
-      "Id": "D:\\git projects\\hris\\hris\\hris\\wwwroot\\assets\\img\\profiles\\avatar-01.jpg",
+      "Id": "C:\\Users\\DELL\\Documents\\GitHub\\hris\\hris\\hris\\wwwroot\\assets\\img\\profiles\\avatar-01.jpg",
       "PackagePath": "staticwebassets\\assets\\img\\profiles\\avatar-01.jpg"
     },
     {
-      "Id": "D:\\git projects\\hris\\hris\\hris\\wwwroot\\assets\\img\\profiles\\avatar-02.jpg",
+      "Id": "C:\\Users\\DELL\\Documents\\GitHub\\hris\\hris\\hris\\wwwroot\\assets\\img\\profiles\\avatar-02.jpg",
       "PackagePath": "staticwebassets\\assets\\img\\profiles\\avatar-02.jpg"
     },
     {
-      "Id": "D:\\git projects\\hris\\hris\\hris\\wwwroot\\assets\\img\\profiles\\avatar-03.jpg",
+      "Id": "C:\\Users\\DELL\\Documents\\GitHub\\hris\\hris\\hris\\wwwroot\\assets\\img\\profiles\\avatar-03.jpg",
       "PackagePath": "staticwebassets\\assets\\img\\profiles\\avatar-03.jpg"
     },
     {
-      "Id": "D:\\git projects\\hris\\hris\\hris\\wwwroot\\assets\\img\\profiles\\avatar-04.jpg",
+      "Id": "C:\\Users\\DELL\\Documents\\GitHub\\hris\\hris\\hris\\wwwroot\\assets\\img\\profiles\\avatar-04.jpg",
       "PackagePath": "staticwebassets\\assets\\img\\profiles\\avatar-04.jpg"
     },
     {
-      "Id": "D:\\git projects\\hris\\hris\\hris\\wwwroot\\assets\\img\\profiles\\avatar-05.jpg",
+      "Id": "C:\\Users\\DELL\\Documents\\GitHub\\hris\\hris\\hris\\wwwroot\\assets\\img\\profiles\\avatar-05.jpg",
       "PackagePath": "staticwebassets\\assets\\img\\profiles\\avatar-05.jpg"
     },
     {
-      "Id": "D:\\git projects\\hris\\hris\\hris\\wwwroot\\assets\\img\\profiles\\avatar-06.jpg",
+      "Id": "C:\\Users\\DELL\\Documents\\GitHub\\hris\\hris\\hris\\wwwroot\\assets\\img\\profiles\\avatar-06.jpg",
       "PackagePath": "staticwebassets\\assets\\img\\profiles\\avatar-06.jpg"
     },
     {
-      "Id": "D:\\git projects\\hris\\hris\\hris\\wwwroot\\assets\\img\\profiles\\avatar-07.jpg",
+      "Id": "C:\\Users\\DELL\\Documents\\GitHub\\hris\\hris\\hris\\wwwroot\\assets\\img\\profiles\\avatar-07.jpg",
       "PackagePath": "staticwebassets\\assets\\img\\profiles\\avatar-07.jpg"
     },
     {
-      "Id": "D:\\git projects\\hris\\hris\\hris\\wwwroot\\assets\\img\\profiles\\avatar-08.jpg",
+      "Id": "C:\\Users\\DELL\\Documents\\GitHub\\hris\\hris\\hris\\wwwroot\\assets\\img\\profiles\\avatar-08.jpg",
       "PackagePath": "staticwebassets\\assets\\img\\profiles\\avatar-08.jpg"
     },
     {
-      "Id": "D:\\git projects\\hris\\hris\\hris\\wwwroot\\assets\\img\\profiles\\avatar-09.jpg",
+      "Id": "C:\\Users\\DELL\\Documents\\GitHub\\hris\\hris\\hris\\wwwroot\\assets\\img\\profiles\\avatar-09.jpg",
       "PackagePath": "staticwebassets\\assets\\img\\profiles\\avatar-09.jpg"
     },
     {
-      "Id": "D:\\git projects\\hris\\hris\\hris\\wwwroot\\assets\\img\\profiles\\avatar-10.jpg",
+      "Id": "C:\\Users\\DELL\\Documents\\GitHub\\hris\\hris\\hris\\wwwroot\\assets\\img\\profiles\\avatar-10.jpg",
       "PackagePath": "staticwebassets\\assets\\img\\profiles\\avatar-10.jpg"
     },
     {
-      "Id": "D:\\git projects\\hris\\hris\\hris\\wwwroot\\assets\\img\\profiles\\avatar-11.jpg",
+      "Id": "C:\\Users\\DELL\\Documents\\GitHub\\hris\\hris\\hris\\wwwroot\\assets\\img\\profiles\\avatar-11.jpg",
       "PackagePath": "staticwebassets\\assets\\img\\profiles\\avatar-11.jpg"
     },
     {
-      "Id": "D:\\git projects\\hris\\hris\\hris\\wwwroot\\assets\\img\\profiles\\avatar-12.jpg",
+      "Id": "C:\\Users\\DELL\\Documents\\GitHub\\hris\\hris\\hris\\wwwroot\\assets\\img\\profiles\\avatar-12.jpg",
       "PackagePath": "staticwebassets\\assets\\img\\profiles\\avatar-12.jpg"
     },
     {
-      "Id": "D:\\git projects\\hris\\hris\\hris\\wwwroot\\assets\\img\\profiles\\avatar-13.jpg",
+      "Id": "C:\\Users\\DELL\\Documents\\GitHub\\hris\\hris\\hris\\wwwroot\\assets\\img\\profiles\\avatar-13.jpg",
       "PackagePath": "staticwebassets\\assets\\img\\profiles\\avatar-13.jpg"
     },
     {
-      "Id": "D:\\git projects\\hris\\hris\\hris\\wwwroot\\assets\\img\\profiles\\avatar-14.jpg",
+      "Id": "C:\\Users\\DELL\\Documents\\GitHub\\hris\\hris\\hris\\wwwroot\\assets\\img\\profiles\\avatar-14.jpg",
       "PackagePath": "staticwebassets\\assets\\img\\profiles\\avatar-14.jpg"
     },
     {
-      "Id": "D:\\git projects\\hris\\hris\\hris\\wwwroot\\assets\\img\\profiles\\avatar-15.jpg",
+      "Id": "C:\\Users\\DELL\\Documents\\GitHub\\hris\\hris\\hris\\wwwroot\\assets\\img\\profiles\\avatar-15.jpg",
       "PackagePath": "staticwebassets\\assets\\img\\profiles\\avatar-15.jpg"
     },
     {
-      "Id": "D:\\git projects\\hris\\hris\\hris\\wwwroot\\assets\\img\\profiles\\avatar-16.jpg",
+      "Id": "C:\\Users\\DELL\\Documents\\GitHub\\hris\\hris\\hris\\wwwroot\\assets\\img\\profiles\\avatar-16.jpg",
       "PackagePath": "staticwebassets\\assets\\img\\profiles\\avatar-16.jpg"
     },
     {
-      "Id": "D:\\git projects\\hris\\hris\\hris\\wwwroot\\assets\\img\\profiles\\avatar-17.jpg",
+      "Id": "C:\\Users\\DELL\\Documents\\GitHub\\hris\\hris\\hris\\wwwroot\\assets\\img\\profiles\\avatar-17.jpg",
       "PackagePath": "staticwebassets\\assets\\img\\profiles\\avatar-17.jpg"
     },
     {
-      "Id": "D:\\git projects\\hris\\hris\\hris\\wwwroot\\assets\\img\\profiles\\avatar-18.jpg",
+      "Id": "C:\\Users\\DELL\\Documents\\GitHub\\hris\\hris\\hris\\wwwroot\\assets\\img\\profiles\\avatar-18.jpg",
       "PackagePath": "staticwebassets\\assets\\img\\profiles\\avatar-18.jpg"
     },
     {
-      "Id": "D:\\git projects\\hris\\hris\\hris\\wwwroot\\assets\\img\\profiles\\avatar-19.jpg",
+      "Id": "C:\\Users\\DELL\\Documents\\GitHub\\hris\\hris\\hris\\wwwroot\\assets\\img\\profiles\\avatar-19.jpg",
       "PackagePath": "staticwebassets\\assets\\img\\profiles\\avatar-19.jpg"
     },
     {
-      "Id": "D:\\git projects\\hris\\hris\\hris\\wwwroot\\assets\\img\\profiles\\avatar-20.jpg",
+      "Id": "C:\\Users\\DELL\\Documents\\GitHub\\hris\\hris\\hris\\wwwroot\\assets\\img\\profiles\\avatar-20.jpg",
       "PackagePath": "staticwebassets\\assets\\img\\profiles\\avatar-20.jpg"
     },
     {
-      "Id": "D:\\git projects\\hris\\hris\\hris\\wwwroot\\assets\\img\\profiles\\avatar-21.jpg",
+      "Id": "C:\\Users\\DELL\\Documents\\GitHub\\hris\\hris\\hris\\wwwroot\\assets\\img\\profiles\\avatar-21.jpg",
       "PackagePath": "staticwebassets\\assets\\img\\profiles\\avatar-21.jpg"
     },
     {
-      "Id": "D:\\git projects\\hris\\hris\\hris\\wwwroot\\assets\\img\\profiles\\avatar-22.jpg",
+      "Id": "C:\\Users\\DELL\\Documents\\GitHub\\hris\\hris\\hris\\wwwroot\\assets\\img\\profiles\\avatar-22.jpg",
       "PackagePath": "staticwebassets\\assets\\img\\profiles\\avatar-22.jpg"
     },
     {
-      "Id": "D:\\git projects\\hris\\hris\\hris\\wwwroot\\assets\\img\\profiles\\avatar-23.jpg",
+      "Id": "C:\\Users\\DELL\\Documents\\GitHub\\hris\\hris\\hris\\wwwroot\\assets\\img\\profiles\\avatar-23.jpg",
       "PackagePath": "staticwebassets\\assets\\img\\profiles\\avatar-23.jpg"
     },
     {
-      "Id": "D:\\git projects\\hris\\hris\\hris\\wwwroot\\assets\\img\\profiles\\avatar-24.jpg",
+      "Id": "C:\\Users\\DELL\\Documents\\GitHub\\hris\\hris\\hris\\wwwroot\\assets\\img\\profiles\\avatar-24.jpg",
       "PackagePath": "staticwebassets\\assets\\img\\profiles\\avatar-24.jpg"
     },
     {
-      "Id": "D:\\git projects\\hris\\hris\\hris\\wwwroot\\assets\\img\\profiles\\avatar-25.jpg",
+      "Id": "C:\\Users\\DELL\\Documents\\GitHub\\hris\\hris\\hris\\wwwroot\\assets\\img\\profiles\\avatar-25.jpg",
       "PackagePath": "staticwebassets\\assets\\img\\profiles\\avatar-25.jpg"
     },
     {
-      "Id": "D:\\git projects\\hris\\hris\\hris\\wwwroot\\assets\\img\\profiles\\avatar-26.jpg",
+      "Id": "C:\\Users\\DELL\\Documents\\GitHub\\hris\\hris\\hris\\wwwroot\\assets\\img\\profiles\\avatar-26.jpg",
       "PackagePath": "staticwebassets\\assets\\img\\profiles\\avatar-26.jpg"
     },
     {
-      "Id": "D:\\git projects\\hris\\hris\\hris\\wwwroot\\assets\\img\\profiles\\avatar-27.jpg",
+      "Id": "C:\\Users\\DELL\\Documents\\GitHub\\hris\\hris\\hris\\wwwroot\\assets\\img\\profiles\\avatar-27.jpg",
       "PackagePath": "staticwebassets\\assets\\img\\profiles\\avatar-27.jpg"
     },
     {
-      "Id": "D:\\git projects\\hris\\hris\\hris\\wwwroot\\assets\\img\\profiles\\avatar-28.jpg",
+      "Id": "C:\\Users\\DELL\\Documents\\GitHub\\hris\\hris\\hris\\wwwroot\\assets\\img\\profiles\\avatar-28.jpg",
       "PackagePath": "staticwebassets\\assets\\img\\profiles\\avatar-28.jpg"
     },
     {
-      "Id": "D:\\git projects\\hris\\hris\\hris\\wwwroot\\assets\\img\\profiles\\avatar-29.jpg",
+      "Id": "C:\\Users\\DELL\\Documents\\GitHub\\hris\\hris\\hris\\wwwroot\\assets\\img\\profiles\\avatar-29.jpg",
       "PackagePath": "staticwebassets\\assets\\img\\profiles\\avatar-29.jpg"
     },
     {
-      "Id": "D:\\git projects\\hris\\hris\\hris\\wwwroot\\assets\\img\\profiles\\avatar-30.jpg",
+      "Id": "C:\\Users\\DELL\\Documents\\GitHub\\hris\\hris\\hris\\wwwroot\\assets\\img\\profiles\\avatar-30.jpg",
       "PackagePath": "staticwebassets\\assets\\img\\profiles\\avatar-30.jpg"
     },
     {
-      "Id": "D:\\git projects\\hris\\hris\\hris\\wwwroot\\assets\\img\\small-hover.png",
+      "Id": "C:\\Users\\DELL\\Documents\\GitHub\\hris\\hris\\hris\\wwwroot\\assets\\img\\small-hover.png",
       "PackagePath": "staticwebassets\\assets\\img\\small-hover.png"
     },
     {
-      "Id": "D:\\git projects\\hris\\hris\\hris\\wwwroot\\assets\\img\\two-col.png",
+      "Id": "C:\\Users\\DELL\\Documents\\GitHub\\hris\\hris\\hris\\wwwroot\\assets\\img\\two-col.png",
       "PackagePath": "staticwebassets\\assets\\img\\two-col.png"
     },
     {
-      "Id": "D:\\git projects\\hris\\hris\\hris\\wwwroot\\assets\\img\\user.jpg",
+      "Id": "C:\\Users\\DELL\\Documents\\GitHub\\hris\\hris\\hris\\wwwroot\\assets\\img\\user.jpg",
       "PackagePath": "staticwebassets\\assets\\img\\user.jpg"
     },
     {
-      "Id": "D:\\git projects\\hris\\hris\\hris\\wwwroot\\assets\\img\\vertical.png",
+      "Id": "C:\\Users\\DELL\\Documents\\GitHub\\hris\\hris\\hris\\wwwroot\\assets\\img\\vertical.png",
       "PackagePath": "staticwebassets\\assets\\img\\vertical.png"
     },
     {
-      "Id": "D:\\git projects\\hris\\hris\\hris\\wwwroot\\assets\\img\\video-call.jpg",
+      "Id": "C:\\Users\\DELL\\Documents\\GitHub\\hris\\hris\\hris\\wwwroot\\assets\\img\\video-call.jpg",
       "PackagePath": "staticwebassets\\assets\\img\\video-call.jpg"
     },
     {
-      "Id": "D:\\git projects\\hris\\hris\\hris\\wwwroot\\assets\\js\\Chart.min.js",
+      "Id": "C:\\Users\\DELL\\Documents\\GitHub\\hris\\hris\\hris\\wwwroot\\assets\\js\\Chart.min.js",
       "PackagePath": "staticwebassets\\assets\\js\\Chart.min.js"
     },
     {
-      "Id": "D:\\git projects\\hris\\hris\\hris\\wwwroot\\assets\\js\\app.js",
+      "Id": "C:\\Users\\DELL\\Documents\\GitHub\\hris\\hris\\hris\\wwwroot\\assets\\js\\app.js",
       "PackagePath": "staticwebassets\\assets\\js\\app.js"
     },
     {
-      "Id": "D:\\git projects\\hris\\hris\\hris\\wwwroot\\assets\\js\\bootstrap-datetimepicker.min.js",
+      "Id": "C:\\Users\\DELL\\Documents\\GitHub\\hris\\hris\\hris\\wwwroot\\assets\\js\\bootstrap-datetimepicker.min.js",
       "PackagePath": "staticwebassets\\assets\\js\\bootstrap-datetimepicker.min.js"
     },
     {
-      "Id": "D:\\git projects\\hris\\hris\\hris\\wwwroot\\assets\\js\\bootstrap.bundle.js",
+      "Id": "C:\\Users\\DELL\\Documents\\GitHub\\hris\\hris\\hris\\wwwroot\\assets\\js\\bootstrap.bundle.js",
       "PackagePath": "staticwebassets\\assets\\js\\bootstrap.bundle.js"
     },
     {
-      "Id": "D:\\git projects\\hris\\hris\\hris\\wwwroot\\assets\\js\\bootstrap.bundle.js.map",
+      "Id": "C:\\Users\\DELL\\Documents\\GitHub\\hris\\hris\\hris\\wwwroot\\assets\\js\\bootstrap.bundle.js.map",
       "PackagePath": "staticwebassets\\assets\\js\\bootstrap.bundle.js.map"
     },
     {
-      "Id": "D:\\git projects\\hris\\hris\\hris\\wwwroot\\assets\\js\\bootstrap.bundle.min.js",
+      "Id": "C:\\Users\\DELL\\Documents\\GitHub\\hris\\hris\\hris\\wwwroot\\assets\\js\\bootstrap.bundle.min.js",
       "PackagePath": "staticwebassets\\assets\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Id": "D:\\git projects\\hris\\hris\\hris\\wwwroot\\assets\\js\\bootstrap.bundle.min.js.map",
+      "Id": "C:\\Users\\DELL\\Documents\\GitHub\\hris\\hris\\hris\\wwwroot\\assets\\js\\bootstrap.bundle.min.js.map",
       "PackagePath": "staticwebassets\\assets\\js\\bootstrap.bundle.min.js.map"
     },
     {
-      "Id": "D:\\git projects\\hris\\hris\\hris\\wwwroot\\assets\\js\\chart.js",
+      "Id": "C:\\Users\\DELL\\Documents\\GitHub\\hris\\hris\\hris\\wwwroot\\assets\\js\\chart.js",
       "PackagePath": "staticwebassets\\assets\\js\\chart.js"
     },
     {
-      "Id": "D:\\git projects\\hris\\hris\\hris\\wwwroot\\assets\\js\\ckeditor.js",
+      "Id": "C:\\Users\\DELL\\Documents\\GitHub\\hris\\hris\\hris\\wwwroot\\assets\\js\\ckeditor.js",
       "PackagePath": "staticwebassets\\assets\\js\\ckeditor.js"
     },
     {
-      "Id": "D:\\git projects\\hris\\hris\\hris\\wwwroot\\assets\\js\\dataTables.bootstrap4.min.js",
+      "Id": "C:\\Users\\DELL\\Documents\\GitHub\\hris\\hris\\hris\\wwwroot\\assets\\js\\dataTables.bootstrap4.min.js",
       "PackagePath": "staticwebassets\\assets\\js\\dataTables.bootstrap4.min.js"
     },
     {
-      "Id": "D:\\git projects\\hris\\hris\\hris\\wwwroot\\assets\\js\\dropfiles.js",
+      "Id": "C:\\Users\\DELL\\Documents\\GitHub\\hris\\hris\\hris\\wwwroot\\assets\\js\\dropfiles.js",
       "PackagePath": "staticwebassets\\assets\\js\\dropfiles.js"
     },
     {
-      "Id": "D:\\git projects\\hris\\hris\\hris\\wwwroot\\assets\\js\\fullcalendar.min.js",
+      "Id": "C:\\Users\\DELL\\Documents\\GitHub\\hris\\hris\\hris\\wwwroot\\assets\\js\\fullcalendar.min.js",
       "PackagePath": "staticwebassets\\assets\\js\\fullcalendar.min.js"
     },
     {
-      "Id": "D:\\git projects\\hris\\hris\\hris\\wwwroot\\assets\\js\\greedynav.js",
+      "Id": "C:\\Users\\DELL\\Documents\\GitHub\\hris\\hris\\hris\\wwwroot\\assets\\js\\greedynav.js",
       "PackagePath": "staticwebassets\\assets\\js\\greedynav.js"
     },
     {
-      "Id": "D:\\git projects\\hris\\hris\\hris\\wwwroot\\assets\\js\\jquery-3.7.0.min.js",
+      "Id": "C:\\Users\\DELL\\Documents\\GitHub\\hris\\hris\\hris\\wwwroot\\assets\\js\\jquery-3.7.0.min.js",
       "PackagePath": "staticwebassets\\assets\\js\\jquery-3.7.0.min.js"
     },
     {
-      "Id": "D:\\git projects\\hris\\hris\\hris\\wwwroot\\assets\\js\\jquery-3.7.0.min.map",
+      "Id": "C:\\Users\\DELL\\Documents\\GitHub\\hris\\hris\\hris\\wwwroot\\assets\\js\\jquery-3.7.0.min.map",
       "PackagePath": "staticwebassets\\assets\\js\\jquery-3.7.0.min.map"
     },
     {
-      "Id": "D:\\git projects\\hris\\hris\\hris\\wwwroot\\assets\\js\\jquery-ui.min.js",
+      "Id": "C:\\Users\\DELL\\Documents\\GitHub\\hris\\hris\\hris\\wwwroot\\assets\\js\\jquery-ui.min.js",
       "PackagePath": "staticwebassets\\assets\\js\\jquery-ui.min.js"
     },
     {
-      "Id": "D:\\git projects\\hris\\hris\\hris\\wwwroot\\assets\\js\\jquery.dataTables.min.js",
+      "Id": "C:\\Users\\DELL\\Documents\\GitHub\\hris\\hris\\hris\\wwwroot\\assets\\js\\jquery.dataTables.min.js",
       "PackagePath": "staticwebassets\\assets\\js\\jquery.dataTables.min.js"
     },
     {
-      "Id": "D:\\git projects\\hris\\hris\\hris\\wwwroot\\assets\\js\\jquery.fullcalendar.js",
+      "Id": "C:\\Users\\DELL\\Documents\\GitHub\\hris\\hris\\hris\\wwwroot\\assets\\js\\jquery.fullcalendar.js",
       "PackagePath": "staticwebassets\\assets\\js\\jquery.fullcalendar.js"
     },
     {
-      "Id": "D:\\git projects\\hris\\hris\\hris\\wwwroot\\assets\\js\\jquery.maskedinput.min.js",
+      "Id": "C:\\Users\\DELL\\Documents\\GitHub\\hris\\hris\\hris\\wwwroot\\assets\\js\\jquery.maskedinput.min.js",
       "PackagePath": "staticwebassets\\assets\\js\\jquery.maskedinput.min.js"
     },
     {
-      "Id": "D:\\git projects\\hris\\hris\\hris\\wwwroot\\assets\\js\\jquery.slimscroll.js",
+      "Id": "C:\\Users\\DELL\\Documents\\GitHub\\hris\\hris\\hris\\wwwroot\\assets\\js\\jquery.slimscroll.js",
       "PackagePath": "staticwebassets\\assets\\js\\jquery.slimscroll.js"
     },
     {
-      "Id": "D:\\git projects\\hris\\hris\\hris\\wwwroot\\assets\\js\\jquery.slimscroll.min.js",
+      "Id": "C:\\Users\\DELL\\Documents\\GitHub\\hris\\hris\\hris\\wwwroot\\assets\\js\\jquery.slimscroll.min.js",
       "PackagePath": "staticwebassets\\assets\\js\\jquery.slimscroll.min.js"
     },
     {
-      "Id": "D:\\git projects\\hris\\hris\\hris\\wwwroot\\assets\\js\\jquery.ui.touch-punch.min.js",
+      "Id": "C:\\Users\\DELL\\Documents\\GitHub\\hris\\hris\\hris\\wwwroot\\assets\\js\\jquery.ui.touch-punch.min.js",
       "PackagePath": "staticwebassets\\assets\\js\\jquery.ui.touch-punch.min.js"
     },
     {
-      "Id": "D:\\git projects\\hris\\hris\\hris\\wwwroot\\assets\\js\\layout.js",
+      "Id": "C:\\Users\\DELL\\Documents\\GitHub\\hris\\hris\\hris\\wwwroot\\assets\\js\\layout.js",
       "PackagePath": "staticwebassets\\assets\\js\\layout.js"
     },
     {
-      "Id": "D:\\git projects\\hris\\hris\\hris\\wwwroot\\assets\\js\\line-chart.js",
+      "Id": "C:\\Users\\DELL\\Documents\\GitHub\\hris\\hris\\hris\\wwwroot\\assets\\js\\line-chart.js",
       "PackagePath": "staticwebassets\\assets\\js\\line-chart.js"
     },
     {
-      "Id": "D:\\git projects\\hris\\hris\\hris\\wwwroot\\assets\\js\\mask.js",
+      "Id": "C:\\Users\\DELL\\Documents\\GitHub\\hris\\hris\\hris\\wwwroot\\assets\\js\\mask.js",
       "PackagePath": "staticwebassets\\assets\\js\\mask.js"
     },
     {
-      "Id": "D:\\git projects\\hris\\hris\\hris\\wwwroot\\assets\\js\\moment.min.js",
+      "Id": "C:\\Users\\DELL\\Documents\\GitHub\\hris\\hris\\hris\\wwwroot\\assets\\js\\moment.min.js",
       "PackagePath": "staticwebassets\\assets\\js\\moment.min.js"
     },
     {
-      "Id": "D:\\git projects\\hris\\hris\\hris\\wwwroot\\assets\\js\\multiselect.min.js",
+      "Id": "C:\\Users\\DELL\\Documents\\GitHub\\hris\\hris\\hris\\wwwroot\\assets\\js\\multiselect.min.js",
       "PackagePath": "staticwebassets\\assets\\js\\multiselect.min.js"
     },
     {
-      "Id": "D:\\git projects\\hris\\hris\\hris\\wwwroot\\assets\\js\\select2.min.js",
+      "Id": "C:\\Users\\DELL\\Documents\\GitHub\\hris\\hris\\hris\\wwwroot\\assets\\js\\select2.min.js",
       "PackagePath": "staticwebassets\\assets\\js\\select2.min.js"
     },
     {
-      "Id": "D:\\git projects\\hris\\hris\\hris\\wwwroot\\assets\\js\\task.js",
+      "Id": "C:\\Users\\DELL\\Documents\\GitHub\\hris\\hris\\hris\\wwwroot\\assets\\js\\task.js",
       "PackagePath": "staticwebassets\\assets\\js\\task.js"
     },
     {
-      "Id": "D:\\git projects\\hris\\hris\\hris\\wwwroot\\assets\\js\\theme-settings.js",
+      "Id": "C:\\Users\\DELL\\Documents\\GitHub\\hris\\hris\\hris\\wwwroot\\assets\\js\\theme-settings.js",
       "PackagePath": "staticwebassets\\assets\\js\\theme-settings.js"
     },
     {
-      "Id": "D:\\git projects\\hris\\hris\\hris\\wwwroot\\assets\\plugins\\bootstrap-tagsinput\\bootstrap-tagsinput.css",
+      "Id": "C:\\Users\\DELL\\Documents\\GitHub\\hris\\hris\\hris\\wwwroot\\assets\\plugins\\bootstrap-tagsinput\\bootstrap-tagsinput.css",
       "PackagePath": "staticwebassets\\assets\\plugins\\bootstrap-tagsinput\\bootstrap-tagsinput.css"
     },
     {
-      "Id": "D:\\git projects\\hris\\hris\\hris\\wwwroot\\assets\\plugins\\bootstrap-tagsinput\\bootstrap-tagsinput.js",
+      "Id": "C:\\Users\\DELL\\Documents\\GitHub\\hris\\hris\\hris\\wwwroot\\assets\\plugins\\bootstrap-tagsinput\\bootstrap-tagsinput.js",
       "PackagePath": "staticwebassets\\assets\\plugins\\bootstrap-tagsinput\\bootstrap-tagsinput.js"
     },
     {
-      "Id": "D:\\git projects\\hris\\hris\\hris\\wwwroot\\assets\\plugins\\bootstrap-tagsinput\\bootstrap-tagsinput.min.js",
+      "Id": "C:\\Users\\DELL\\Documents\\GitHub\\hris\\hris\\hris\\wwwroot\\assets\\plugins\\bootstrap-tagsinput\\bootstrap-tagsinput.min.js",
       "PackagePath": "staticwebassets\\assets\\plugins\\bootstrap-tagsinput\\bootstrap-tagsinput.min.js"
     },
     {
-      "Id": "D:\\git projects\\hris\\hris\\hris\\wwwroot\\assets\\plugins\\daterangepicker\\daterangepicker.css",
+      "Id": "C:\\Users\\DELL\\Documents\\GitHub\\hris\\hris\\hris\\wwwroot\\assets\\plugins\\daterangepicker\\daterangepicker.css",
       "PackagePath": "staticwebassets\\assets\\plugins\\daterangepicker\\daterangepicker.css"
     },
     {
-      "Id": "D:\\git projects\\hris\\hris\\hris\\wwwroot\\assets\\plugins\\daterangepicker\\daterangepicker.js",
+      "Id": "C:\\Users\\DELL\\Documents\\GitHub\\hris\\hris\\hris\\wwwroot\\assets\\plugins\\daterangepicker\\daterangepicker.js",
       "PackagePath": "staticwebassets\\assets\\plugins\\daterangepicker\\daterangepicker.js"
     },
     {
-      "Id": "D:\\git projects\\hris\\hris\\hris\\wwwroot\\assets\\plugins\\fontawesome\\css\\all.css",
+      "Id": "C:\\Users\\DELL\\Documents\\GitHub\\hris\\hris\\hris\\wwwroot\\assets\\plugins\\fontawesome\\css\\all.css",
       "PackagePath": "staticwebassets\\assets\\plugins\\fontawesome\\css\\all.css"
     },
     {
-      "Id": "D:\\git projects\\hris\\hris\\hris\\wwwroot\\assets\\plugins\\fontawesome\\css\\all.min.css",
+      "Id": "C:\\Users\\DELL\\Documents\\GitHub\\hris\\hris\\hris\\wwwroot\\assets\\plugins\\fontawesome\\css\\all.min.css",
       "PackagePath": "staticwebassets\\assets\\plugins\\fontawesome\\css\\all.min.css"
     },
     {
-      "Id": "D:\\git projects\\hris\\hris\\hris\\wwwroot\\assets\\plugins\\fontawesome\\css\\brands.css",
+      "Id": "C:\\Users\\DELL\\Documents\\GitHub\\hris\\hris\\hris\\wwwroot\\assets\\plugins\\fontawesome\\css\\brands.css",
       "PackagePath": "staticwebassets\\assets\\plugins\\fontawesome\\css\\brands.css"
     },
     {
-      "Id": "D:\\git projects\\hris\\hris\\hris\\wwwroot\\assets\\plugins\\fontawesome\\css\\brands.min.css",
+      "Id": "C:\\Users\\DELL\\Documents\\GitHub\\hris\\hris\\hris\\wwwroot\\assets\\plugins\\fontawesome\\css\\brands.min.css",
       "PackagePath": "staticwebassets\\assets\\plugins\\fontawesome\\css\\brands.min.css"
     },
     {
-      "Id": "D:\\git projects\\hris\\hris\\hris\\wwwroot\\assets\\plugins\\fontawesome\\css\\fontawesome.css",
+      "Id": "C:\\Users\\DELL\\Documents\\GitHub\\hris\\hris\\hris\\wwwroot\\assets\\plugins\\fontawesome\\css\\fontawesome.css",
       "PackagePath": "staticwebassets\\assets\\plugins\\fontawesome\\css\\fontawesome.css"
     },
     {
-      "Id": "D:\\git projects\\hris\\hris\\hris\\wwwroot\\assets\\plugins\\fontawesome\\css\\fontawesome.min.css",
+      "Id": "C:\\Users\\DELL\\Documents\\GitHub\\hris\\hris\\hris\\wwwroot\\assets\\plugins\\fontawesome\\css\\fontawesome.min.css",
       "PackagePath": "staticwebassets\\assets\\plugins\\fontawesome\\css\\fontawesome.min.css"
     },
     {
-      "Id": "D:\\git projects\\hris\\hris\\hris\\wwwroot\\assets\\plugins\\fontawesome\\css\\regular.css",
+      "Id": "C:\\Users\\DELL\\Documents\\GitHub\\hris\\hris\\hris\\wwwroot\\assets\\plugins\\fontawesome\\css\\regular.css",
       "PackagePath": "staticwebassets\\assets\\plugins\\fontawesome\\css\\regular.css"
     },
     {
-      "Id": "D:\\git projects\\hris\\hris\\hris\\wwwroot\\assets\\plugins\\fontawesome\\css\\regular.min.css",
+      "Id": "C:\\Users\\DELL\\Documents\\GitHub\\hris\\hris\\hris\\wwwroot\\assets\\plugins\\fontawesome\\css\\regular.min.css",
       "PackagePath": "staticwebassets\\assets\\plugins\\fontawesome\\css\\regular.min.css"
     },
     {
-      "Id": "D:\\git projects\\hris\\hris\\hris\\wwwroot\\assets\\plugins\\fontawesome\\css\\solid.css",
+      "Id": "C:\\Users\\DELL\\Documents\\GitHub\\hris\\hris\\hris\\wwwroot\\assets\\plugins\\fontawesome\\css\\solid.css",
       "PackagePath": "staticwebassets\\assets\\plugins\\fontawesome\\css\\solid.css"
     },
     {
-      "Id": "D:\\git projects\\hris\\hris\\hris\\wwwroot\\assets\\plugins\\fontawesome\\css\\solid.min.css",
+      "Id": "C:\\Users\\DELL\\Documents\\GitHub\\hris\\hris\\hris\\wwwroot\\assets\\plugins\\fontawesome\\css\\solid.min.css",
       "PackagePath": "staticwebassets\\assets\\plugins\\fontawesome\\css\\solid.min.css"
     },
     {
-      "Id": "D:\\git projects\\hris\\hris\\hris\\wwwroot\\assets\\plugins\\fontawesome\\css\\svg-with-js.css",
+      "Id": "C:\\Users\\DELL\\Documents\\GitHub\\hris\\hris\\hris\\wwwroot\\assets\\plugins\\fontawesome\\css\\svg-with-js.css",
       "PackagePath": "staticwebassets\\assets\\plugins\\fontawesome\\css\\svg-with-js.css"
     },
     {
-      "Id": "D:\\git projects\\hris\\hris\\hris\\wwwroot\\assets\\plugins\\fontawesome\\css\\svg-with-js.min.css",
+      "Id": "C:\\Users\\DELL\\Documents\\GitHub\\hris\\hris\\hris\\wwwroot\\assets\\plugins\\fontawesome\\css\\svg-with-js.min.css",
       "PackagePath": "staticwebassets\\assets\\plugins\\fontawesome\\css\\svg-with-js.min.css"
     },
     {
-      "Id": "D:\\git projects\\hris\\hris\\hris\\wwwroot\\assets\\plugins\\fontawesome\\css\\v4-font-face.css",
+      "Id": "C:\\Users\\DELL\\Documents\\GitHub\\hris\\hris\\hris\\wwwroot\\assets\\plugins\\fontawesome\\css\\v4-font-face.css",
       "PackagePath": "staticwebassets\\assets\\plugins\\fontawesome\\css\\v4-font-face.css"
     },
     {
-      "Id": "D:\\git projects\\hris\\hris\\hris\\wwwroot\\assets\\plugins\\fontawesome\\css\\v4-font-face.min.css",
+      "Id": "C:\\Users\\DELL\\Documents\\GitHub\\hris\\hris\\hris\\wwwroot\\assets\\plugins\\fontawesome\\css\\v4-font-face.min.css",
       "PackagePath": "staticwebassets\\assets\\plugins\\fontawesome\\css\\v4-font-face.min.css"
     },
     {
-      "Id": "D:\\git projects\\hris\\hris\\hris\\wwwroot\\assets\\plugins\\fontawesome\\css\\v4-shims.css",
+      "Id": "C:\\Users\\DELL\\Documents\\GitHub\\hris\\hris\\hris\\wwwroot\\assets\\plugins\\fontawesome\\css\\v4-shims.css",
       "PackagePath": "staticwebassets\\assets\\plugins\\fontawesome\\css\\v4-shims.css"
     },
     {
-      "Id": "D:\\git projects\\hris\\hris\\hris\\wwwroot\\assets\\plugins\\fontawesome\\css\\v4-shims.min.css",
+      "Id": "C:\\Users\\DELL\\Documents\\GitHub\\hris\\hris\\hris\\wwwroot\\assets\\plugins\\fontawesome\\css\\v4-shims.min.css",
       "PackagePath": "staticwebassets\\assets\\plugins\\fontawesome\\css\\v4-shims.min.css"
     },
     {
-      "Id": "D:\\git projects\\hris\\hris\\hris\\wwwroot\\assets\\plugins\\fontawesome\\css\\v5-font-face.css",
+      "Id": "C:\\Users\\DELL\\Documents\\GitHub\\hris\\hris\\hris\\wwwroot\\assets\\plugins\\fontawesome\\css\\v5-font-face.css",
       "PackagePath": "staticwebassets\\assets\\plugins\\fontawesome\\css\\v5-font-face.css"
     },
     {
-      "Id": "D:\\git projects\\hris\\hris\\hris\\wwwroot\\assets\\plugins\\fontawesome\\css\\v5-font-face.min.css",
+      "Id": "C:\\Users\\DELL\\Documents\\GitHub\\hris\\hris\\hris\\wwwroot\\assets\\plugins\\fontawesome\\css\\v5-font-face.min.css",
       "PackagePath": "staticwebassets\\assets\\plugins\\fontawesome\\css\\v5-font-face.min.css"
     },
     {
-      "Id": "D:\\git projects\\hris\\hris\\hris\\wwwroot\\assets\\plugins\\fontawesome\\js\\all.js",
+      "Id": "C:\\Users\\DELL\\Documents\\GitHub\\hris\\hris\\hris\\wwwroot\\assets\\plugins\\fontawesome\\js\\all.js",
       "PackagePath": "staticwebassets\\assets\\plugins\\fontawesome\\js\\all.js"
     },
     {
-      "Id": "D:\\git projects\\hris\\hris\\hris\\wwwroot\\assets\\plugins\\fontawesome\\js\\all.min.js",
+      "Id": "C:\\Users\\DELL\\Documents\\GitHub\\hris\\hris\\hris\\wwwroot\\assets\\plugins\\fontawesome\\js\\all.min.js",
       "PackagePath": "staticwebassets\\assets\\plugins\\fontawesome\\js\\all.min.js"
     },
     {
-      "Id": "D:\\git projects\\hris\\hris\\hris\\wwwroot\\assets\\plugins\\fontawesome\\js\\brands.js",
+      "Id": "C:\\Users\\DELL\\Documents\\GitHub\\hris\\hris\\hris\\wwwroot\\assets\\plugins\\fontawesome\\js\\brands.js",
       "PackagePath": "staticwebassets\\assets\\plugins\\fontawesome\\js\\brands.js"
     },
     {
-      "Id": "D:\\git projects\\hris\\hris\\hris\\wwwroot\\assets\\plugins\\fontawesome\\js\\brands.min.js",
+      "Id": "C:\\Users\\DELL\\Documents\\GitHub\\hris\\hris\\hris\\wwwroot\\assets\\plugins\\fontawesome\\js\\brands.min.js",
       "PackagePath": "staticwebassets\\assets\\plugins\\fontawesome\\js\\brands.min.js"
     },
     {
-      "Id": "D:\\git projects\\hris\\hris\\hris\\wwwroot\\assets\\plugins\\fontawesome\\js\\conflict-detection.js",
+      "Id": "C:\\Users\\DELL\\Documents\\GitHub\\hris\\hris\\hris\\wwwroot\\assets\\plugins\\fontawesome\\js\\conflict-detection.js",
       "PackagePath": "staticwebassets\\assets\\plugins\\fontawesome\\js\\conflict-detection.js"
     },
     {
-      "Id": "D:\\git projects\\hris\\hris\\hris\\wwwroot\\assets\\plugins\\fontawesome\\js\\conflict-detection.min.js",
+      "Id": "C:\\Users\\DELL\\Documents\\GitHub\\hris\\hris\\hris\\wwwroot\\assets\\plugins\\fontawesome\\js\\conflict-detection.min.js",
       "PackagePath": "staticwebassets\\assets\\plugins\\fontawesome\\js\\conflict-detection.min.js"
     },
     {
-      "Id": "D:\\git projects\\hris\\hris\\hris\\wwwroot\\assets\\plugins\\fontawesome\\js\\fontawesome.js",
+      "Id": "C:\\Users\\DELL\\Documents\\GitHub\\hris\\hris\\hris\\wwwroot\\assets\\plugins\\fontawesome\\js\\fontawesome.js",
       "PackagePath": "staticwebassets\\assets\\plugins\\fontawesome\\js\\fontawesome.js"
     },
     {
-      "Id": "D:\\git projects\\hris\\hris\\hris\\wwwroot\\assets\\plugins\\fontawesome\\js\\fontawesome.min.js",
+      "Id": "C:\\Users\\DELL\\Documents\\GitHub\\hris\\hris\\hris\\wwwroot\\assets\\plugins\\fontawesome\\js\\fontawesome.min.js",
       "PackagePath": "staticwebassets\\assets\\plugins\\fontawesome\\js\\fontawesome.min.js"
     },
     {
-      "Id": "D:\\git projects\\hris\\hris\\hris\\wwwroot\\assets\\plugins\\fontawesome\\js\\regular.js",
+      "Id": "C:\\Users\\DELL\\Documents\\GitHub\\hris\\hris\\hris\\wwwroot\\assets\\plugins\\fontawesome\\js\\regular.js",
       "PackagePath": "staticwebassets\\assets\\plugins\\fontawesome\\js\\regular.js"
     },
     {
-      "Id": "D:\\git projects\\hris\\hris\\hris\\wwwroot\\assets\\plugins\\fontawesome\\js\\regular.min.js",
+      "Id": "C:\\Users\\DELL\\Documents\\GitHub\\hris\\hris\\hris\\wwwroot\\assets\\plugins\\fontawesome\\js\\regular.min.js",
       "PackagePath": "staticwebassets\\assets\\plugins\\fontawesome\\js\\regular.min.js"
     },
     {
-      "Id": "D:\\git projects\\hris\\hris\\hris\\wwwroot\\assets\\plugins\\fontawesome\\js\\solid.js",
+      "Id": "C:\\Users\\DELL\\Documents\\GitHub\\hris\\hris\\hris\\wwwroot\\assets\\plugins\\fontawesome\\js\\solid.js",
       "PackagePath": "staticwebassets\\assets\\plugins\\fontawesome\\js\\solid.js"
     },
     {
-      "Id": "D:\\git projects\\hris\\hris\\hris\\wwwroot\\assets\\plugins\\fontawesome\\js\\solid.min.js",
+      "Id": "C:\\Users\\DELL\\Documents\\GitHub\\hris\\hris\\hris\\wwwroot\\assets\\plugins\\fontawesome\\js\\solid.min.js",
       "PackagePath": "staticwebassets\\assets\\plugins\\fontawesome\\js\\solid.min.js"
     },
     {
-      "Id": "D:\\git projects\\hris\\hris\\hris\\wwwroot\\assets\\plugins\\fontawesome\\js\\v4-shims.js",
+      "Id": "C:\\Users\\DELL\\Documents\\GitHub\\hris\\hris\\hris\\wwwroot\\assets\\plugins\\fontawesome\\js\\v4-shims.js",
       "PackagePath": "staticwebassets\\assets\\plugins\\fontawesome\\js\\v4-shims.js"
     },
     {
-      "Id": "D:\\git projects\\hris\\hris\\hris\\wwwroot\\assets\\plugins\\fontawesome\\js\\v4-shims.min.js",
+      "Id": "C:\\Users\\DELL\\Documents\\GitHub\\hris\\hris\\hris\\wwwroot\\assets\\plugins\\fontawesome\\js\\v4-shims.min.js",
       "PackagePath": "staticwebassets\\assets\\plugins\\fontawesome\\js\\v4-shims.min.js"
     },
     {
-      "Id": "D:\\git projects\\hris\\hris\\hris\\wwwroot\\assets\\plugins\\fontawesome\\webfonts\\fa-brands-400-1.eot",
+      "Id": "C:\\Users\\DELL\\Documents\\GitHub\\hris\\hris\\hris\\wwwroot\\assets\\plugins\\fontawesome\\webfonts\\fa-brands-400-1.eot",
       "PackagePath": "staticwebassets\\assets\\plugins\\fontawesome\\webfonts\\fa-brands-400-1.eot"
     },
     {
-      "Id": "D:\\git projects\\hris\\hris\\hris\\wwwroot\\assets\\plugins\\fontawesome\\webfonts\\fa-brands-400.eot",
+      "Id": "C:\\Users\\DELL\\Documents\\GitHub\\hris\\hris\\hris\\wwwroot\\assets\\plugins\\fontawesome\\webfonts\\fa-brands-400.eot",
       "PackagePath": "staticwebassets\\assets\\plugins\\fontawesome\\webfonts\\fa-brands-400.eot"
     },
     {
-      "Id": "D:\\git projects\\hris\\hris\\hris\\wwwroot\\assets\\plugins\\fontawesome\\webfonts\\fa-brands-400.svg",
+      "Id": "C:\\Users\\DELL\\Documents\\GitHub\\hris\\hris\\hris\\wwwroot\\assets\\plugins\\fontawesome\\webfonts\\fa-brands-400.svg",
       "PackagePath": "staticwebassets\\assets\\plugins\\fontawesome\\webfonts\\fa-brands-400.svg"
     },
     {
-      "Id": "D:\\git projects\\hris\\hris\\hris\\wwwroot\\assets\\plugins\\fontawesome\\webfonts\\fa-brands-400.ttf",
+      "Id": "C:\\Users\\DELL\\Documents\\GitHub\\hris\\hris\\hris\\wwwroot\\assets\\plugins\\fontawesome\\webfonts\\fa-brands-400.ttf",
       "PackagePath": "staticwebassets\\assets\\plugins\\fontawesome\\webfonts\\fa-brands-400.ttf"
     },
     {
-      "Id": "D:\\git projects\\hris\\hris\\hris\\wwwroot\\assets\\plugins\\fontawesome\\webfonts\\fa-brands-400.woff",
+      "Id": "C:\\Users\\DELL\\Documents\\GitHub\\hris\\hris\\hris\\wwwroot\\assets\\plugins\\fontawesome\\webfonts\\fa-brands-400.woff",
       "PackagePath": "staticwebassets\\assets\\plugins\\fontawesome\\webfonts\\fa-brands-400.woff"
     },
     {
-      "Id": "D:\\git projects\\hris\\hris\\hris\\wwwroot\\assets\\plugins\\fontawesome\\webfonts\\fa-brands-400.woff2",
+      "Id": "C:\\Users\\DELL\\Documents\\GitHub\\hris\\hris\\hris\\wwwroot\\assets\\plugins\\fontawesome\\webfonts\\fa-brands-400.woff2",
       "PackagePath": "staticwebassets\\assets\\plugins\\fontawesome\\webfonts\\fa-brands-400.woff2"
     },
     {
-      "Id": "D:\\git projects\\hris\\hris\\hris\\wwwroot\\assets\\plugins\\fontawesome\\webfonts\\fa-regular-400-1.eot",
+      "Id": "C:\\Users\\DELL\\Documents\\GitHub\\hris\\hris\\hris\\wwwroot\\assets\\plugins\\fontawesome\\webfonts\\fa-regular-400-1.eot",
       "PackagePath": "staticwebassets\\assets\\plugins\\fontawesome\\webfonts\\fa-regular-400-1.eot"
     },
     {
-      "Id": "D:\\git projects\\hris\\hris\\hris\\wwwroot\\assets\\plugins\\fontawesome\\webfonts\\fa-regular-400.eot",
+      "Id": "C:\\Users\\DELL\\Documents\\GitHub\\hris\\hris\\hris\\wwwroot\\assets\\plugins\\fontawesome\\webfonts\\fa-regular-400.eot",
       "PackagePath": "staticwebassets\\assets\\plugins\\fontawesome\\webfonts\\fa-regular-400.eot"
     },
     {
-      "Id": "D:\\git projects\\hris\\hris\\hris\\wwwroot\\assets\\plugins\\fontawesome\\webfonts\\fa-regular-400.svg",
+      "Id": "C:\\Users\\DELL\\Documents\\GitHub\\hris\\hris\\hris\\wwwroot\\assets\\plugins\\fontawesome\\webfonts\\fa-regular-400.svg",
       "PackagePath": "staticwebassets\\assets\\plugins\\fontawesome\\webfonts\\fa-regular-400.svg"
     },
     {
-      "Id": "D:\\git projects\\hris\\hris\\hris\\wwwroot\\assets\\plugins\\fontawesome\\webfonts\\fa-regular-400.ttf",
+      "Id": "C:\\Users\\DELL\\Documents\\GitHub\\hris\\hris\\hris\\wwwroot\\assets\\plugins\\fontawesome\\webfonts\\fa-regular-400.ttf",
       "PackagePath": "staticwebassets\\assets\\plugins\\fontawesome\\webfonts\\fa-regular-400.ttf"
     },
     {
-      "Id": "D:\\git projects\\hris\\hris\\hris\\wwwroot\\assets\\plugins\\fontawesome\\webfonts\\fa-regular-400.woff",
+      "Id": "C:\\Users\\DELL\\Documents\\GitHub\\hris\\hris\\hris\\wwwroot\\assets\\plugins\\fontawesome\\webfonts\\fa-regular-400.woff",
       "PackagePath": "staticwebassets\\assets\\plugins\\fontawesome\\webfonts\\fa-regular-400.woff"
     },
     {
-      "Id": "D:\\git projects\\hris\\hris\\hris\\wwwroot\\assets\\plugins\\fontawesome\\webfonts\\fa-regular-400.woff2",
+      "Id": "C:\\Users\\DELL\\Documents\\GitHub\\hris\\hris\\hris\\wwwroot\\assets\\plugins\\fontawesome\\webfonts\\fa-regular-400.woff2",
       "PackagePath": "staticwebassets\\assets\\plugins\\fontawesome\\webfonts\\fa-regular-400.woff2"
     },
     {
-      "Id": "D:\\git projects\\hris\\hris\\hris\\wwwroot\\assets\\plugins\\fontawesome\\webfonts\\fa-solid-900-1.eot",
+      "Id": "C:\\Users\\DELL\\Documents\\GitHub\\hris\\hris\\hris\\wwwroot\\assets\\plugins\\fontawesome\\webfonts\\fa-solid-900-1.eot",
       "PackagePath": "staticwebassets\\assets\\plugins\\fontawesome\\webfonts\\fa-solid-900-1.eot"
     },
     {
-      "Id": "D:\\git projects\\hris\\hris\\hris\\wwwroot\\assets\\plugins\\fontawesome\\webfonts\\fa-solid-900.eot",
+      "Id": "C:\\Users\\DELL\\Documents\\GitHub\\hris\\hris\\hris\\wwwroot\\assets\\plugins\\fontawesome\\webfonts\\fa-solid-900.eot",
       "PackagePath": "staticwebassets\\assets\\plugins\\fontawesome\\webfonts\\fa-solid-900.eot"
     },
     {
-      "Id": "D:\\git projects\\hris\\hris\\hris\\wwwroot\\assets\\plugins\\fontawesome\\webfonts\\fa-solid-900.svg",
+      "Id": "C:\\Users\\DELL\\Documents\\GitHub\\hris\\hris\\hris\\wwwroot\\assets\\plugins\\fontawesome\\webfonts\\fa-solid-900.svg",
       "PackagePath": "staticwebassets\\assets\\plugins\\fontawesome\\webfonts\\fa-solid-900.svg"
     },
     {
-      "Id": "D:\\git projects\\hris\\hris\\hris\\wwwroot\\assets\\plugins\\fontawesome\\webfonts\\fa-solid-900.ttf",
+      "Id": "C:\\Users\\DELL\\Documents\\GitHub\\hris\\hris\\hris\\wwwroot\\assets\\plugins\\fontawesome\\webfonts\\fa-solid-900.ttf",
       "PackagePath": "staticwebassets\\assets\\plugins\\fontawesome\\webfonts\\fa-solid-900.ttf"
     },
     {
-      "Id": "D:\\git projects\\hris\\hris\\hris\\wwwroot\\assets\\plugins\\fontawesome\\webfonts\\fa-solid-900.woff",
+      "Id": "C:\\Users\\DELL\\Documents\\GitHub\\hris\\hris\\hris\\wwwroot\\assets\\plugins\\fontawesome\\webfonts\\fa-solid-900.woff",
       "PackagePath": "staticwebassets\\assets\\plugins\\fontawesome\\webfonts\\fa-solid-900.woff"
     },
     {
-      "Id": "D:\\git projects\\hris\\hris\\hris\\wwwroot\\assets\\plugins\\fontawesome\\webfonts\\fa-solid-900.woff2",
+      "Id": "C:\\Users\\DELL\\Documents\\GitHub\\hris\\hris\\hris\\wwwroot\\assets\\plugins\\fontawesome\\webfonts\\fa-solid-900.woff2",
       "PackagePath": "staticwebassets\\assets\\plugins\\fontawesome\\webfonts\\fa-solid-900.woff2"
     },
     {
-      "Id": "D:\\git projects\\hris\\hris\\hris\\wwwroot\\assets\\plugins\\fontawesome\\webfonts\\fa-v4compatibility.ttf",
+      "Id": "C:\\Users\\DELL\\Documents\\GitHub\\hris\\hris\\hris\\wwwroot\\assets\\plugins\\fontawesome\\webfonts\\fa-v4compatibility.ttf",
       "PackagePath": "staticwebassets\\assets\\plugins\\fontawesome\\webfonts\\fa-v4compatibility.ttf"
     },
     {
-      "Id": "D:\\git projects\\hris\\hris\\hris\\wwwroot\\assets\\plugins\\fontawesome\\webfonts\\fa-v4compatibility.woff2",
+      "Id": "C:\\Users\\DELL\\Documents\\GitHub\\hris\\hris\\hris\\wwwroot\\assets\\plugins\\fontawesome\\webfonts\\fa-v4compatibility.woff2",
       "PackagePath": "staticwebassets\\assets\\plugins\\fontawesome\\webfonts\\fa-v4compatibility.woff2"
     },
     {
-      "Id": "D:\\git projects\\hris\\hris\\hris\\wwwroot\\assets\\plugins\\morris\\morris.css",
+      "Id": "C:\\Users\\DELL\\Documents\\GitHub\\hris\\hris\\hris\\wwwroot\\assets\\plugins\\morris\\morris.css",
       "PackagePath": "staticwebassets\\assets\\plugins\\morris\\morris.css"
     },
     {
-      "Id": "D:\\git projects\\hris\\hris\\hris\\wwwroot\\assets\\plugins\\morris\\morris.js",
+      "Id": "C:\\Users\\DELL\\Documents\\GitHub\\hris\\hris\\hris\\wwwroot\\assets\\plugins\\morris\\morris.js",
       "PackagePath": "staticwebassets\\assets\\plugins\\morris\\morris.js"
     },
     {
-      "Id": "D:\\git projects\\hris\\hris\\hris\\wwwroot\\assets\\plugins\\morris\\morris.min.js",
+      "Id": "C:\\Users\\DELL\\Documents\\GitHub\\hris\\hris\\hris\\wwwroot\\assets\\plugins\\morris\\morris.min.js",
       "PackagePath": "staticwebassets\\assets\\plugins\\morris\\morris.min.js"
     },
     {
-      "Id": "D:\\git projects\\hris\\hris\\hris\\wwwroot\\assets\\plugins\\raphael\\raphael.min.js",
+      "Id": "C:\\Users\\DELL\\Documents\\GitHub\\hris\\hris\\hris\\wwwroot\\assets\\plugins\\raphael\\raphael.min.js",
       "PackagePath": "staticwebassets\\assets\\plugins\\raphael\\raphael.min.js"
     },
     {
-      "Id": "D:\\git projects\\hris\\hris\\hris\\wwwroot\\assets\\plugins\\sticky-kit-master\\dist\\sticky-kit.js",
+      "Id": "C:\\Users\\DELL\\Documents\\GitHub\\hris\\hris\\hris\\wwwroot\\assets\\plugins\\sticky-kit-master\\dist\\sticky-kit.js",
       "PackagePath": "staticwebassets\\assets\\plugins\\sticky-kit-master\\dist\\sticky-kit.js"
     },
     {
-      "Id": "D:\\git projects\\hris\\hris\\hris\\wwwroot\\assets\\plugins\\sticky-kit-master\\dist\\sticky-kit.min.js",
+      "Id": "C:\\Users\\DELL\\Documents\\GitHub\\hris\\hris\\hris\\wwwroot\\assets\\plugins\\sticky-kit-master\\dist\\sticky-kit.min.js",
       "PackagePath": "staticwebassets\\assets\\plugins\\sticky-kit-master\\dist\\sticky-kit.min.js"
     },
     {
-      "Id": "D:\\git projects\\hris\\hris\\hris\\wwwroot\\assets\\scss\\base\\base.scss",
+      "Id": "C:\\Users\\DELL\\Documents\\GitHub\\hris\\hris\\hris\\wwwroot\\assets\\scss\\base\\base.scss",
       "PackagePath": "staticwebassets\\assets\\scss\\base\\base.scss"
     },
     {
-      "Id": "D:\\git projects\\hris\\hris\\hris\\wwwroot\\assets\\scss\\base\\colors.scss",
+      "Id": "C:\\Users\\DELL\\Documents\\GitHub\\hris\\hris\\hris\\wwwroot\\assets\\scss\\base\\colors.scss",
       "PackagePath": "staticwebassets\\assets\\scss\\base\\colors.scss"
     },
     {
-      "Id": "D:\\git projects\\hris\\hris\\hris\\wwwroot\\assets\\scss\\base\\grid.scss",
+      "Id": "C:\\Users\\DELL\\Documents\\GitHub\\hris\\hris\\hris\\wwwroot\\assets\\scss\\base\\grid.scss",
       "PackagePath": "staticwebassets\\assets\\scss\\base\\grid.scss"
     },
     {
-      "Id": "D:\\git projects\\hris\\hris\\hris\\wwwroot\\assets\\scss\\base\\typography.scss",
+      "Id": "C:\\Users\\DELL\\Documents\\GitHub\\hris\\hris\\hris\\wwwroot\\assets\\scss\\base\\typography.scss",
       "PackagePath": "staticwebassets\\assets\\scss\\base\\typography.scss"
     },
     {
-      "Id": "D:\\git projects\\hris\\hris\\hris\\wwwroot\\assets\\scss\\components\\button.scss",
+      "Id": "C:\\Users\\DELL\\Documents\\GitHub\\hris\\hris\\hris\\wwwroot\\assets\\scss\\components\\button.scss",
       "PackagePath": "staticwebassets\\assets\\scss\\components\\button.scss"
     },
     {
-      "Id": "D:\\git projects\\hris\\hris\\hris\\wwwroot\\assets\\scss\\layout\\avatar.scss",
+      "Id": "C:\\Users\\DELL\\Documents\\GitHub\\hris\\hris\\hris\\wwwroot\\assets\\scss\\layout\\avatar.scss",
       "PackagePath": "staticwebassets\\assets\\scss\\layout\\avatar.scss"
     },
     {
-      "Id": "D:\\git projects\\hris\\hris\\hris\\wwwroot\\assets\\scss\\layout\\bootstrap-classes.scss",
+      "Id": "C:\\Users\\DELL\\Documents\\GitHub\\hris\\hris\\hris\\wwwroot\\assets\\scss\\layout\\bootstrap-classes.scss",
       "PackagePath": "staticwebassets\\assets\\scss\\layout\\bootstrap-classes.scss"
     },
     {
-      "Id": "D:\\git projects\\hris\\hris\\hris\\wwwroot\\assets\\scss\\layout\\breadcrumb.scss",
+      "Id": "C:\\Users\\DELL\\Documents\\GitHub\\hris\\hris\\hris\\wwwroot\\assets\\scss\\layout\\breadcrumb.scss",
       "PackagePath": "staticwebassets\\assets\\scss\\layout\\breadcrumb.scss"
     },
     {
-      "Id": "D:\\git projects\\hris\\hris\\hris\\wwwroot\\assets\\scss\\layout\\content.scss",
+      "Id": "C:\\Users\\DELL\\Documents\\GitHub\\hris\\hris\\hris\\wwwroot\\assets\\scss\\layout\\content.scss",
       "PackagePath": "staticwebassets\\assets\\scss\\layout\\content.scss"
     },
     {
-      "Id": "D:\\git projects\\hris\\hris\\hris\\wwwroot\\assets\\scss\\layout\\footer.scss",
+      "Id": "C:\\Users\\DELL\\Documents\\GitHub\\hris\\hris\\hris\\wwwroot\\assets\\scss\\layout\\footer.scss",
       "PackagePath": "staticwebassets\\assets\\scss\\layout\\footer.scss"
     },
     {
-      "Id": "D:\\git projects\\hris\\hris\\hris\\wwwroot\\assets\\scss\\layout\\header.scss",
+      "Id": "C:\\Users\\DELL\\Documents\\GitHub\\hris\\hris\\hris\\wwwroot\\assets\\scss\\layout\\header.scss",
       "PackagePath": "staticwebassets\\assets\\scss\\layout\\header.scss"
     },
     {
-      "Id": "D:\\git projects\\hris\\hris\\hris\\wwwroot\\assets\\scss\\layout\\nav-tab.scss",
+      "Id": "C:\\Users\\DELL\\Documents\\GitHub\\hris\\hris\\hris\\wwwroot\\assets\\scss\\layout\\nav-tab.scss",
       "PackagePath": "staticwebassets\\assets\\scss\\layout\\nav-tab.scss"
     },
     {
-      "Id": "D:\\git projects\\hris\\hris\\hris\\wwwroot\\assets\\scss\\layout\\popup.scss",
+      "Id": "C:\\Users\\DELL\\Documents\\GitHub\\hris\\hris\\hris\\wwwroot\\assets\\scss\\layout\\popup.scss",
       "PackagePath": "staticwebassets\\assets\\scss\\layout\\popup.scss"
     },
     {
-      "Id": "D:\\git projects\\hris\\hris\\hris\\wwwroot\\assets\\scss\\layout\\select2.scss",
+      "Id": "C:\\Users\\DELL\\Documents\\GitHub\\hris\\hris\\hris\\wwwroot\\assets\\scss\\layout\\select2.scss",
       "PackagePath": "staticwebassets\\assets\\scss\\layout\\select2.scss"
     },
     {
-      "Id": "D:\\git projects\\hris\\hris\\hris\\wwwroot\\assets\\scss\\layout\\sidebar.scss",
+      "Id": "C:\\Users\\DELL\\Documents\\GitHub\\hris\\hris\\hris\\wwwroot\\assets\\scss\\layout\\sidebar.scss",
       "PackagePath": "staticwebassets\\assets\\scss\\layout\\sidebar.scss"
     },
     {
-      "Id": "D:\\git projects\\hris\\hris\\hris\\wwwroot\\assets\\scss\\layout\\table.scss",
+      "Id": "C:\\Users\\DELL\\Documents\\GitHub\\hris\\hris\\hris\\wwwroot\\assets\\scss\\layout\\table.scss",
       "PackagePath": "staticwebassets\\assets\\scss\\layout\\table.scss"
     },
     {
-      "Id": "D:\\git projects\\hris\\hris\\hris\\wwwroot\\assets\\scss\\layout\\theme-settings.scss",
+      "Id": "C:\\Users\\DELL\\Documents\\GitHub\\hris\\hris\\hris\\wwwroot\\assets\\scss\\layout\\theme-settings.scss",
       "PackagePath": "staticwebassets\\assets\\scss\\layout\\theme-settings.scss"
     },
     {
-      "Id": "D:\\git projects\\hris\\hris\\hris\\wwwroot\\assets\\scss\\main.scss",
+      "Id": "C:\\Users\\DELL\\Documents\\GitHub\\hris\\hris\\hris\\wwwroot\\assets\\scss\\main.scss",
       "PackagePath": "staticwebassets\\assets\\scss\\main.scss"
     },
     {
-      "Id": "D:\\git projects\\hris\\hris\\hris\\wwwroot\\assets\\scss\\pages\\activites.scss",
+      "Id": "C:\\Users\\DELL\\Documents\\GitHub\\hris\\hris\\hris\\wwwroot\\assets\\scss\\pages\\activites.scss",
       "PackagePath": "staticwebassets\\assets\\scss\\pages\\activites.scss"
     },
     {
-      "Id": "D:\\git projects\\hris\\hris\\hris\\wwwroot\\assets\\scss\\pages\\assets.scss",
+      "Id": "C:\\Users\\DELL\\Documents\\GitHub\\hris\\hris\\hris\\wwwroot\\assets\\scss\\pages\\assets.scss",
       "PackagePath": "staticwebassets\\assets\\scss\\pages\\assets.scss"
     },
     {
-      "Id": "D:\\git projects\\hris\\hris\\hris\\wwwroot\\assets\\scss\\pages\\attendance.scss",
+      "Id": "C:\\Users\\DELL\\Documents\\GitHub\\hris\\hris\\hris\\wwwroot\\assets\\scss\\pages\\attendance.scss",
       "PackagePath": "staticwebassets\\assets\\scss\\pages\\attendance.scss"
     },
     {
-      "Id": "D:\\git projects\\hris\\hris\\hris\\wwwroot\\assets\\scss\\pages\\calendar.scss",
+      "Id": "C:\\Users\\DELL\\Documents\\GitHub\\hris\\hris\\hris\\wwwroot\\assets\\scss\\pages\\calendar.scss",
       "PackagePath": "staticwebassets\\assets\\scss\\pages\\calendar.scss"
     },
     {
-      "Id": "D:\\git projects\\hris\\hris\\hris\\wwwroot\\assets\\scss\\pages\\call.scss",
+      "Id": "C:\\Users\\DELL\\Documents\\GitHub\\hris\\hris\\hris\\wwwroot\\assets\\scss\\pages\\call.scss",
       "PackagePath": "staticwebassets\\assets\\scss\\pages\\call.scss"
     },
     {
-      "Id": "D:\\git projects\\hris\\hris\\hris\\wwwroot\\assets\\scss\\pages\\chat.scss",
+      "Id": "C:\\Users\\DELL\\Documents\\GitHub\\hris\\hris\\hris\\wwwroot\\assets\\scss\\pages\\chat.scss",
       "PackagePath": "staticwebassets\\assets\\scss\\pages\\chat.scss"
     },
     {
-      "Id": "D:\\git projects\\hris\\hris\\hris\\wwwroot\\assets\\scss\\pages\\components.scss",
+      "Id": "C:\\Users\\DELL\\Documents\\GitHub\\hris\\hris\\hris\\wwwroot\\assets\\scss\\pages\\components.scss",
       "PackagePath": "staticwebassets\\assets\\scss\\pages\\components.scss"
     },
     {
-      "Id": "D:\\git projects\\hris\\hris\\hris\\wwwroot\\assets\\scss\\pages\\contact.scss",
+      "Id": "C:\\Users\\DELL\\Documents\\GitHub\\hris\\hris\\hris\\wwwroot\\assets\\scss\\pages\\contact.scss",
       "PackagePath": "staticwebassets\\assets\\scss\\pages\\contact.scss"
     },
     {
-      "Id": "D:\\git projects\\hris\\hris\\hris\\wwwroot\\assets\\scss\\pages\\dashboard.scss",
+      "Id": "C:\\Users\\DELL\\Documents\\GitHub\\hris\\hris\\hris\\wwwroot\\assets\\scss\\pages\\dashboard.scss",
       "PackagePath": "staticwebassets\\assets\\scss\\pages\\dashboard.scss"
     },
     {
-      "Id": "D:\\git projects\\hris\\hris\\hris\\wwwroot\\assets\\scss\\pages\\email.scss",
+      "Id": "C:\\Users\\DELL\\Documents\\GitHub\\hris\\hris\\hris\\wwwroot\\assets\\scss\\pages\\email.scss",
       "PackagePath": "staticwebassets\\assets\\scss\\pages\\email.scss"
     },
     {
-      "Id": "D:\\git projects\\hris\\hris\\hris\\wwwroot\\assets\\scss\\pages\\employee.scss",
+      "Id": "C:\\Users\\DELL\\Documents\\GitHub\\hris\\hris\\hris\\wwwroot\\assets\\scss\\pages\\employee.scss",
       "PackagePath": "staticwebassets\\assets\\scss\\pages\\employee.scss"
     },
     {
-      "Id": "D:\\git projects\\hris\\hris\\hris\\wwwroot\\assets\\scss\\pages\\error.scss",
+      "Id": "C:\\Users\\DELL\\Documents\\GitHub\\hris\\hris\\hris\\wwwroot\\assets\\scss\\pages\\error.scss",
       "PackagePath": "staticwebassets\\assets\\scss\\pages\\error.scss"
     },
     {
-      "Id": "D:\\git projects\\hris\\hris\\hris\\wwwroot\\assets\\scss\\pages\\faq.scss",
+      "Id": "C:\\Users\\DELL\\Documents\\GitHub\\hris\\hris\\hris\\wwwroot\\assets\\scss\\pages\\faq.scss",
       "PackagePath": "staticwebassets\\assets\\scss\\pages\\faq.scss"
     },
     {
-      "Id": "D:\\git projects\\hris\\hris\\hris\\wwwroot\\assets\\scss\\pages\\filemanager.scss",
+      "Id": "C:\\Users\\DELL\\Documents\\GitHub\\hris\\hris\\hris\\wwwroot\\assets\\scss\\pages\\filemanager.scss",
       "PackagePath": "staticwebassets\\assets\\scss\\pages\\filemanager.scss"
     },
     {
-      "Id": "D:\\git projects\\hris\\hris\\hris\\wwwroot\\assets\\scss\\pages\\knowledge.scss",
+      "Id": "C:\\Users\\DELL\\Documents\\GitHub\\hris\\hris\\hris\\wwwroot\\assets\\scss\\pages\\knowledge.scss",
       "PackagePath": "staticwebassets\\assets\\scss\\pages\\knowledge.scss"
     },
     {
-      "Id": "D:\\git projects\\hris\\hris\\hris\\wwwroot\\assets\\scss\\pages\\loader.scss",
+      "Id": "C:\\Users\\DELL\\Documents\\GitHub\\hris\\hris\\hris\\wwwroot\\assets\\scss\\pages\\loader.scss",
       "PackagePath": "staticwebassets\\assets\\scss\\pages\\loader.scss"
     },
     {
-      "Id": "D:\\git projects\\hris\\hris\\hris\\wwwroot\\assets\\scss\\pages\\login.scss",
+      "Id": "C:\\Users\\DELL\\Documents\\GitHub\\hris\\hris\\hris\\wwwroot\\assets\\scss\\pages\\login.scss",
       "PackagePath": "staticwebassets\\assets\\scss\\pages\\login.scss"
     },
     {
-      "Id": "D:\\git projects\\hris\\hris\\hris\\wwwroot\\assets\\scss\\pages\\notification.scss",
+      "Id": "C:\\Users\\DELL\\Documents\\GitHub\\hris\\hris\\hris\\wwwroot\\assets\\scss\\pages\\notification.scss",
       "PackagePath": "staticwebassets\\assets\\scss\\pages\\notification.scss"
     },
     {
-      "Id": "D:\\git projects\\hris\\hris\\hris\\wwwroot\\assets\\scss\\pages\\page.scss",
+      "Id": "C:\\Users\\DELL\\Documents\\GitHub\\hris\\hris\\hris\\wwwroot\\assets\\scss\\pages\\page.scss",
       "PackagePath": "staticwebassets\\assets\\scss\\pages\\page.scss"
     },
     {
-      "Id": "D:\\git projects\\hris\\hris\\hris\\wwwroot\\assets\\scss\\pages\\payroll.scss",
+      "Id": "C:\\Users\\DELL\\Documents\\GitHub\\hris\\hris\\hris\\wwwroot\\assets\\scss\\pages\\payroll.scss",
       "PackagePath": "staticwebassets\\assets\\scss\\pages\\payroll.scss"
     },
     {
-      "Id": "D:\\git projects\\hris\\hris\\hris\\wwwroot\\assets\\scss\\pages\\profile.scss",
+      "Id": "C:\\Users\\DELL\\Documents\\GitHub\\hris\\hris\\hris\\wwwroot\\assets\\scss\\pages\\profile.scss",
       "PackagePath": "staticwebassets\\assets\\scss\\pages\\profile.scss"
     },
     {
-      "Id": "D:\\git projects\\hris\\hris\\hris\\wwwroot\\assets\\scss\\pages\\project.scss",
+      "Id": "C:\\Users\\DELL\\Documents\\GitHub\\hris\\hris\\hris\\wwwroot\\assets\\scss\\pages\\project.scss",
       "PackagePath": "staticwebassets\\assets\\scss\\pages\\project.scss"
     },
     {
-      "Id": "D:\\git projects\\hris\\hris\\hris\\wwwroot\\assets\\scss\\pages\\subscriptions.scss",
+      "Id": "C:\\Users\\DELL\\Documents\\GitHub\\hris\\hris\\hris\\wwwroot\\assets\\scss\\pages\\subscriptions.scss",
       "PackagePath": "staticwebassets\\assets\\scss\\pages\\subscriptions.scss"
     },
     {
-      "Id": "D:\\git projects\\hris\\hris\\hris\\wwwroot\\assets\\scss\\pages\\task.scss",
+      "Id": "C:\\Users\\DELL\\Documents\\GitHub\\hris\\hris\\hris\\wwwroot\\assets\\scss\\pages\\task.scss",
       "PackagePath": "staticwebassets\\assets\\scss\\pages\\task.scss"
     },
     {
-      "Id": "D:\\git projects\\hris\\hris\\hris\\wwwroot\\assets\\scss\\utils\\mixins.scss",
+      "Id": "C:\\Users\\DELL\\Documents\\GitHub\\hris\\hris\\hris\\wwwroot\\assets\\scss\\utils\\mixins.scss",
       "PackagePath": "staticwebassets\\assets\\scss\\utils\\mixins.scss"
     },
     {
-      "Id": "D:\\git projects\\hris\\hris\\hris\\wwwroot\\assets\\scss\\utils\\variables.scss",
+      "Id": "C:\\Users\\DELL\\Documents\\GitHub\\hris\\hris\\hris\\wwwroot\\assets\\scss\\utils\\variables.scss",
       "PackagePath": "staticwebassets\\assets\\scss\\utils\\variables.scss"
     },
     {
-      "Id": "D:\\git projects\\hris\\hris\\hris\\wwwroot\\favicon.ico",
+      "Id": "C:\\Users\\DELL\\Documents\\GitHub\\hris\\hris\\hris\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
