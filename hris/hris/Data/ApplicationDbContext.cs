@@ -13,5 +13,7 @@ public class ApplicationDbContext : DbContext
 
     public DbSet<ExpenseDataModel> ExpenseData { get; set; }
 
+    public DbSet<NotificationDataModel> NotificationData { get; set; }
+
 
 }

@@ -9,117 +9,121 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = hris
 build_property.RootNamespace = hris
-build_property.ProjectDir = D:\git projects\hris\hris\hris\
+build_property.ProjectDir = C:\Users\DELL\Documents\GitHub\hris\hris\hris\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = true
-build_property.MSBuildProjectDirectory = D:\git projects\hris\hris\hris
+build_property.MSBuildProjectDirectory = C:\Users\DELL\Documents\GitHub\hris\hris\hris
 build_property._RazorSourceGeneratorDebug = 
 
-[D:/git projects/hris/hris/hris/Views/Employee/attendanceemployee.cshtml]
+[C:/Users/DELL/Documents/GitHub/hris/hris/hris/Views/Employee/attendanceemployee.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZWVcYXR0ZW5kYW5jZWVtcGxveWVlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/git projects/hris/hris/hris/Views/Employee/employeedashboard.cshtml]
+[C:/Users/DELL/Documents/GitHub/hris/hris/hris/Views/Employee/employeedashboard.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZWVcZW1wbG95ZWVkYXNoYm9hcmQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/git projects/hris/hris/hris/Views/Employee/employeesidebar.cshtml]
+[C:/Users/DELL/Documents/GitHub/hris/hris/hris/Views/Employee/employeesidebar.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZWVcZW1wbG95ZWVzaWRlYmFyLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/git projects/hris/hris/hris/Views/Employee/leavesemployee.cshtml]
+[C:/Users/DELL/Documents/GitHub/hris/hris/hris/Views/Employee/leavesemployee.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZWVcbGVhdmVzZW1wbG95ZWUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/git projects/hris/hris/hris/Views/Employee/profile.cshtml]
+[C:/Users/DELL/Documents/GitHub/hris/hris/hris/Views/Employee/profile.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZWVccHJvZmlsZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/git projects/hris/hris/hris/Views/Employee/tasks.cshtml]
+[C:/Users/DELL/Documents/GitHub/hris/hris/hris/Views/Employee/tasks.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZWVcdGFza3MuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/git projects/hris/hris/hris/Views/Home/Index.cshtml]
+[C:/Users/DELL/Documents/GitHub/hris/hris/hris/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/git projects/hris/hris/hris/Views/HR/addemployee.cshtml]
+[C:/Users/DELL/Documents/GitHub/hris/hris/hris/Views/HR/addemployee.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSFJcYWRkZW1wbG95ZWUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/git projects/hris/hris/hris/Views/HR/attendance.cshtml]
+[C:/Users/DELL/Documents/GitHub/hris/hris/hris/Views/HR/Add_Notification.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSFJcQWRkX05vdGlmaWNhdGlvbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/DELL/Documents/GitHub/hris/hris/hris/Views/HR/attendance.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSFJcYXR0ZW5kYW5jZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/git projects/hris/hris/hris/Views/HR/clientprofile.cshtml]
+[C:/Users/DELL/Documents/GitHub/hris/hris/hris/Views/HR/clientprofile.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSFJcY2xpZW50cHJvZmlsZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/git projects/hris/hris/hris/Views/HR/clients.cshtml]
+[C:/Users/DELL/Documents/GitHub/hris/hris/hris/Views/HR/clients.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSFJcY2xpZW50cy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/git projects/hris/hris/hris/Views/HR/clientslist.cshtml]
+[C:/Users/DELL/Documents/GitHub/hris/hris/hris/Views/HR/clientslist.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSFJcY2xpZW50c2xpc3QuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/git projects/hris/hris/hris/Views/HR/departments.cshtml]
+[C:/Users/DELL/Documents/GitHub/hris/hris/hris/Views/HR/departments.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSFJcZGVwYXJ0bWVudHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/git projects/hris/hris/hris/Views/HR/employees.cshtml]
+[C:/Users/DELL/Documents/GitHub/hris/hris/hris/Views/HR/employees.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSFJcZW1wbG95ZWVzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/git projects/hris/hris/hris/Views/HR/employeeslist.cshtml]
+[C:/Users/DELL/Documents/GitHub/hris/hris/hris/Views/HR/employeeslist.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSFJcZW1wbG95ZWVzbGlzdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/git projects/hris/hris/hris/Views/HR/expenses.cshtml]
+[C:/Users/DELL/Documents/GitHub/hris/hris/hris/Views/HR/expenses.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSFJcZXhwZW5zZXMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/git projects/hris/hris/hris/Views/HR/leaves.cshtml]
+[C:/Users/DELL/Documents/GitHub/hris/hris/hris/Views/HR/leaves.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSFJcbGVhdmVzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/git projects/hris/hris/hris/Views/HR/profile.cshtml]
+[C:/Users/DELL/Documents/GitHub/hris/hris/hris/Views/HR/profile.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSFJccHJvZmlsZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/git projects/hris/hris/hris/Views/HR/projects.cshtml]
+[C:/Users/DELL/Documents/GitHub/hris/hris/hris/Views/HR/projects.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSFJccHJvamVjdHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/git projects/hris/hris/hris/Views/HR/resignation.cshtml]
+[C:/Users/DELL/Documents/GitHub/hris/hris/hris/Views/HR/resignation.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSFJccmVzaWduYXRpb24uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/git projects/hris/hris/hris/Views/HR/salary.cshtml]
+[C:/Users/DELL/Documents/GitHub/hris/hris/hris/Views/HR/salary.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSFJcc2FsYXJ5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/git projects/hris/hris/hris/Views/HR/salaryview.cshtml]
+[C:/Users/DELL/Documents/GitHub/hris/hris/hris/Views/HR/salaryview.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSFJcc2FsYXJ5dmlldy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/git projects/hris/hris/hris/Views/Shared/Error.cshtml]
+[C:/Users/DELL/Documents/GitHub/hris/hris/hris/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/git projects/hris/hris/hris/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/DELL/Documents/GitHub/hris/hris/hris/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/git projects/hris/hris/hris/Views/_ViewImports.cshtml]
+[C:/Users/DELL/Documents/GitHub/hris/hris/hris/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/git projects/hris/hris/hris/Views/_ViewStart.cshtml]
+[C:/Users/DELL/Documents/GitHub/hris/hris/hris/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/git projects/hris/hris/hris/Views/Shared/_Layout.cshtml]
+[C:/Users/DELL/Documents/GitHub/hris/hris/hris/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-zymunqp7l4
